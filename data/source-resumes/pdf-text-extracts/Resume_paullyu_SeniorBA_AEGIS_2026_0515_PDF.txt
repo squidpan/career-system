@@ -1,0 +1,126 @@
+Paul Lyu
+551-200-0709 • paulchlyu@gmail.com • linkedin.com/in/paul-lyu-232719
+
+
+Senior Business Analyst | Application Support
+
+Senior Business Analyst / Application Support professional with insurance industry and financial systems
+experience supporting enterprise business applications, SDLC delivery, QA/UAT coordination, and
+production releases.
+
+
+WORK EXPERIENCE
+
+Gresham                                                                                04/2017 - 02/2026
+Senior Business Analyst / Application Support Specialist •              Federal Reserve Bank of New York
+Full-time                                                                                         on-site
+ • Supported streaming market data application operating across Linux, Oracle, and AWS cloud
+   infrastructure including release planning, and production readiness coordination.
+ • Developed actionable JIRA user stories with acceptance criteria from high-level Epics collaborating
+   with Product Owner and Scrum Master.
+ • Provided production application support and troubleshooting coordination for business-critical
+   financial market data systems across development, QA, and production environments.
+ • Streamlined QA, Production deployment processes in Linux client/server and Oracle environments.
+ • Coordinated software access, tooling, and infrastructure requests through ServiceNow change and
+   support workflows.
+ • Coordinated cross-functional deployment activities between business users, infrastructure, database,
+   and operations teams to ensure successful production releases.
+ • Prioritized functional, non-functional requirements from business, infrastructure, architecture into
+   releases.
+ • Deployed releases through environments (Dev, QA, Prod) in coordination with system, database and
+   operations support teams.
+ • Created and executed Pre-QA test plans for streaming price cleansing workflows and key functional
+   items.
+ • Maintained operational runbooks, troubleshooting procedures, deployment documentation and
+   support knowledge bases using Confluence and Visio.
+ • Executed deployment validation procedures, environment readiness testing, and post-release health
+   checks.
+ • Parsed and analyzed large log datasets using shell scripting and Excel Power Query/Pivot tools to
+   troubleshoot pricing and data load anomalies.
+ • Tested all deployment steps and scripts to ensure post-deployment environment readiness.
+ • Mapped legacy relational database pricing schema to REST API payload data format in JSON.
+ • Supported REST API integration efforts including JSON payload validation, API endpoint definition, and
+   OpenAPI/Swagger documentation.
+EmblemHealth / EPMO Operations                                                          03/2014 - 07/2016
+Senior Business Analyst • Full-time
+ • Documented Requirements, created and executed Test Plans for stakeholder sign off.
+ • Prepared PPM Resource Management module PPM RM rollout materials and provided training.
+ • Designed report metrics on performance, productivity and actual resource use.
+ • Developed use cases and test plans from requirements and lead UAT.
+ • Maintained portal web site with up-to-date Project Stage Gate templates.
+ • Key role in re-aligning funding workflows.
+AIG Property Casualty PMO                                                                05/2012 - 12/2013
+Business Systems Analyst • Full-time
+ • Developed Requirements for HP PPM and Business Objects (BO) enhancement requests.
+ • Facilitated weekly status meetings to communicate priorities and to monitor progress.
+ • Worked with home office, offshore software teams on requirements clarification and UAT test plans.
+ • Published BO Quick Reference Guide documentation for Self Service Training.
+AIG Travel Guard Worldwide                                                              06/2009 - 04/2012
+Senior Program Manager • Full-time                                                         Jersey City, NJ
+
+ • Developed UAT test plan template for all phases of the SDLC.
+ • Managed enhancement requests to minimize cost implications and risks to project deliverables.
+ • Oversaw body of work supporting e-business operations.
+ • Supported deployment of global travel insurance products through distribution channels and system
+   enhancements.
+ • Liaised between profit centers, operations and systems and distribution partners.
+ • Conducted project closures: stakeholder feedback, gaps (expected delivery dates) , lessons learned.
+Capgemini                                                                              10/2007 - 04/2009
+Lead Consultant • Full-time                                       Fidelity Investments Boston, MA on-site
+ • Upgraded client’s legacy Investment Reference Database, tools to a supported version of AC server.
+ • Processed vendor feeds: Standard & Poor, Moody’s, Reuters and internal fixed income data.
+Solomon Page                                                                           02/2006 - 10/2007
+Implementation Engineer • Full-time                                                Asset Control New York
+
+ • Re-designed the engineer’s foundation toolkit for post sales consultants.
+ • Assisted clients during initial implementation phase of Price Capture project at JP Morgan Chase, TX.
+ • Prototyped reference & price consolidation applications to Asset Control Solutions team.
+OpenPages, Inc                                                                          04/2004 - 12/2005
+Consulting Engineer • Full-time
+ • Collaborated on customer-specific Sarbanes-Oxley SO Section 302 and 404 certification processes.
+ • Used SOX Express: the best J2EE-based SO Compliance Solution platform.
+ • Launched financial control compliance notification solutions with SOX-specific alerts.
+ • Enabled planning for downstream action items.
+Thomson Reuters                                                                          06/2001 - 11/2002
+Senior Software Engineer • Full-time
+ • Upgraded entitlement JDBC/JSP/Servlet system to be J2EE 1.2 compliant.
+ • Re-engineered a set of FirstCall Research Host system functionality using Java, XML, and C#.
+PlanetCAD                                                                               02/1993 - 06/2001
+Senior Software / Consulting Engineer • Full-time                                             Boston, MA
+
+ • Project lead for C/C++/XML/Motif/Java-based CAD-quality assessment tool on four UNIX platforms.
+ • Training and distribution of tasks to contractors. Integrated third party deliverables.
+Dassault Systèmes                                                                      08/1989 - 08/1992
+Software Engineer • Full-time                                          Suresnes, France and Paramus, NJ
+
+ • Released the new Computer-Aided Design module (Sheet Metal Design) for IBM/Dassault.
+ • Developed software evaluation and testing procedures based on IBM quality software standards.
+ • Coordinated development tasks between teams in France and U.S. as an assignee in France.
+NBC Sports                                                                               05/1988 - 10/1988
+Interpreter for 1988 Seoul Summer Olympic games for NBC Sports                                Seoul, South
+broadcasting •                                                                                       Korea
+Freelancer
+
+EDUCATION
+
+MS, Mechanical/Manufacturing Engineering
+University of Massachusetts, Amherst                                                                09/1985 - 09/1988
+BS, Mechanical Engineering
+University of Massachusetts Amherst                                                                    01/1981 - 01/1985
+Baccalaureat D, mathematics and science
+Lycee Paul Eluard, France                                                                   France • 09/1978 - 08/1981
+
+PUBLICATIONS
+
+Rules for an Expert Fixturing System on a CAD Screen using Flexible Fixtures                                    03/1990
+Journal of Intelligent Manufacturing
+A Framework for a Rule-based Expert Fixturing System for Face Milling Surfaces on a                             03/1989
+CAD system using Flexible Fixtures
+Journal of Manufacturing Systems
+
+SKILLS
+
+Confluence, Databases, Drawio, Excel ​Power ​Query ​Pivot ​tables, git, Jira, Obsidian, Oracle, plantuml,
+Postman, Requirements ​Analysis, SDLC, ServiceNow, Sharepoint, Visio, Visual ​Studio ​Code
+Languages: English ​(​Native ​or ​Bilingual)​, French ​(​Professional ​Working)​, Korean ​(​Professional ​Working)​
+

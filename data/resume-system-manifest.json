@@ -1,0 +1,23 @@
+{
+  "overlay": "career-system-v0.2-resume-overlay",
+  "created": "2026-05-30",
+  "adds": [
+    "resume masters",
+    "role-specific resume versions",
+    "cover letter masters",
+    "cover letter versions",
+    "thank-you letter",
+    "resume templates",
+    "resume workflow docs",
+    "source PDF text extracts"
+  ],
+  "source_files": [
+    "resume_paullyu_BA_current_SVITLA.pdf",
+    "Resume_paullyu_SeniorBA_AEGIS_2026_0515_PDF.pdf",
+    "Resume_BA_Indeed_2026_may14_PDF.pdf",
+    "resume_paullyu_sre_current_PICO.pdf",
+    "CoverLetter_paullyu_Senior_BA_AEGIS_2026_0515_PDF.pdf",
+    "coverletter_paullyu_pico_sitereliableengineer_2026_0408_PDF.pdf",
+    "Thank you AEGIS 20260518_PDF.pdf"
+  ]
+}

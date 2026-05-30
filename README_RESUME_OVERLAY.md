@@ -1,4 +1,4 @@
-# Career System v0.2.1 Resume Overlay
+# Career System v0.2.2 Resume Overlay
 
 This overlay adds the first resume-management layer to the Career System project.
 
@@ -20,7 +20,7 @@ It includes:
 The zip contains a wrapper folder:
 
 ```text
-career-system-v0.2.1-resume-overlay/
+career-system-v0.2.2-resume-overlay/
 ```
 
 Do **not** keep that wrapper folder inside the repo as the final structure.
@@ -49,7 +49,7 @@ These steps assume you do **not** have a Career System git repo yet.
 Assuming the zip is in Downloads:
 
 ```bash
-ls -l ~/Downloads/career-system-v0.2.1-resume-overlay.zip
+ls -l ~/Downloads/career-system-v0.2.2-resume-overlay.zip
 ```
 
 If your downloaded file has a slightly different name, adjust the commands below.
@@ -84,7 +84,7 @@ This prevents the wrapper folder from accidentally becoming part of the repo str
 rm -rf /tmp/career-system-overlay
 mkdir -p /tmp/career-system-overlay
 
-unzip ~/Downloads/career-system-v0.2.1-resume-overlay.zip \
+unzip ~/Downloads/career-system-v0.2.2-resume-overlay.zip \
   -d /tmp/career-system-overlay
 ```
 
@@ -98,7 +98,7 @@ Expected:
 
 ```text
 /tmp/career-system-overlay
-└── career-system-v0.2.1-resume-overlay
+└── career-system-v0.2.2-resume-overlay
     ├── data
     ├── docs
     ├── obsidian
@@ -113,7 +113,7 @@ Expected:
 ```bash
 cd ~/pjs/repos/career-system
 
-cp -R /tmp/career-system-overlay/career-system-v0.2.1-resume-overlay/* .
+cp -R /tmp/career-system-overlay/career-system-v0.2.2-resume-overlay/* .
 ```
 
 Verify repo structure:
@@ -136,13 +136,13 @@ Expected top-level structure:
 The repo should **not** contain this:
 
 ```text
-career-system-v0.2.1-resume-overlay/
+career-system-v0.2.2-resume-overlay/
 ```
 
 If it does, remove it:
 
 ```bash
-rm -rf career-system-v0.2.1-resume-overlay
+rm -rf career-system-v0.2.2-resume-overlay
 ```
 
 ---
@@ -169,7 +169,7 @@ ls -l obsidian/Resumes/Versions
 ```bash
 git add .
 git status
-git commit -m "Initial Career System v0.2.1 resume foundation"
+git commit -m "Initial Career System v0.2.2 resume foundation"
 ```
 
 Verify:
@@ -252,7 +252,7 @@ If your tree looks like this:
 
 ```text
 career-system/
-└── career-system-v0.2.1-resume-overlay/
+└── career-system-v0.2.2-resume-overlay/
     ├── data
     ├── docs
     ├── obsidian
@@ -264,8 +264,8 @@ Fix it with:
 ```bash
 cd ~/pjs/repos/career-system
 
-cp -R career-system-v0.2.1-resume-overlay/* .
-rm -rf career-system-v0.2.1-resume-overlay
+cp -R career-system-v0.2.2-resume-overlay/* .
+rm -rf career-system-v0.2.2-resume-overlay
 
 tree -L 3
 ```
@@ -274,7 +274,7 @@ Then continue with:
 
 ```bash
 git add .
-git commit -m "Initial Career System v0.2.1 resume foundation"
+git commit -m "Initial Career System v0.2.2 resume foundation"
 ```
 
 ---

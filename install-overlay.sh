@@ -19,7 +19,7 @@ cp -R "$OVERLAY_DIR"/templates "$REPO_DIR"/
 cp "$OVERLAY_DIR"/README_RESUME_OVERLAY.md "$REPO_DIR"/
 cp "$OVERLAY_DIR"/INSTALL_FROM_ZIP.md "$REPO_DIR"/
 
-rm -rf "$REPO_DIR/career-system-v0.2.1-resume-overlay"
+rm -rf "$REPO_DIR/career-system-v0.2.2-resume-overlay"
 
 echo "Overlay installed into: $REPO_DIR"
-echo "Next: cd $REPO_DIR && git status && git add . && git commit -m 'Initial Career System v0.2.1 resume foundation'"
+echo "Next: cd $REPO_DIR && git status && git add . && git commit -m 'Initial Career System v0.2.2 resume foundation'"

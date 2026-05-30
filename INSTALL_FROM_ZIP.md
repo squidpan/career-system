@@ -1,4 +1,4 @@
-# Install Career System v0.2.1 Resume Overlay From Zip
+# Install Career System v0.2.2 Resume Overlay From Zip
 
 Use this exact flow when the repo does not exist yet.
 
@@ -12,17 +12,17 @@ git branch -M main
 rm -rf /tmp/career-system-overlay
 mkdir -p /tmp/career-system-overlay
 
-unzip ~/Downloads/career-system-v0.2.1-resume-overlay.zip \
+unzip ~/Downloads/career-system-v0.2.2-resume-overlay.zip \
   -d /tmp/career-system-overlay
 
-cp -R /tmp/career-system-overlay/career-system-v0.2.1-resume-overlay/* .
+cp -R /tmp/career-system-overlay/career-system-v0.2.2-resume-overlay/* .
 
-rm -rf career-system-v0.2.1-resume-overlay
+rm -rf career-system-v0.2.2-resume-overlay
 
 tree -L 3
 
 git add .
-git commit -m "Initial Career System v0.2.1 resume foundation"
+git commit -m "Initial Career System v0.2.2 resume foundation"
 
 git remote add origin git@github-squidpan:squidpan/career-system.git
 git push -u origin main

@@ -1,0 +1,91 @@
+{
+  "makai": {
+    "company_name": "Makai Labs",
+    "company_slug": "makai",
+    "company_aliases": [
+      "Makai",
+      "Makai Labs"
+    ],
+    "company_type": "startup",
+    "notes": "AI startup; initial source from Teal clipped JD."
+  },
+  "tata": {
+    "company_name": "Tata Consultancy Services",
+    "company_slug": "tata",
+    "company_aliases": [
+      "Tata",
+      "Tata Consultancy Services",
+      "TCS"
+    ],
+    "company_type": "consulting",
+    "notes": "Consulting/services company; initial source from Teal clipped JD."
+  },
+  "aegis": {
+    "company_name": "AEGIS Insurance Services",
+    "company_slug": "aegis",
+    "company_aliases": [
+      "AEGIS",
+      "AEGIS Insurance Services"
+    ],
+    "company_type": "insurance",
+    "notes": "Existing resume/cover-letter target."
+  },
+  "svitla": {
+    "company_name": "Svitla Systems",
+    "company_slug": "svitla",
+    "company_aliases": [
+      "Svitla",
+      "Svitla Systems"
+    ],
+    "company_type": "consulting",
+    "notes": "Existing resume target."
+  },
+  "pico": {
+    "company_name": "Pico",
+    "company_slug": "pico",
+    "company_aliases": [
+      "Pico"
+    ],
+    "company_type": "financial_technology",
+    "notes": "Existing SRE resume/cover-letter target."
+  },
+  "fitch": {
+    "company_name": "Fitch Ratings",
+    "company_slug": "fitch",
+    "company_aliases": [
+      "Fitch",
+      "Fitch Ratings"
+    ],
+    "company_type": "financial_services",
+    "notes": "Known job-search target."
+  },
+  "genesis10": {
+    "company_name": "Genesis10",
+    "company_slug": "genesis10",
+    "company_aliases": [
+      "Genesis10"
+    ],
+    "company_type": "staffing",
+    "notes": "Known JD/source company."
+  },
+  "judge": {
+    "company_name": "The Judge Group",
+    "company_slug": "judge",
+    "company_aliases": [
+      "Judge",
+      "Judge Group",
+      "The Judge Group"
+    ],
+    "company_type": "staffing",
+    "notes": "Known JD/source company."
+  },
+  "neoctera": {
+    "company_name": "Neoctera",
+    "company_slug": "neoctera",
+    "company_aliases": [
+      "Neoctera"
+    ],
+    "company_type": "unknown",
+    "notes": "Known JD/source company."
+  }
+}

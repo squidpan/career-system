@@ -1,0 +1,112 @@
+{
+  "ba": {
+    "role_family": "ba",
+    "role_level": "",
+    "role_qualifiers": [],
+    "description": "Business Analyst",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "sba": {
+    "role_family": "ba",
+    "role_level": "senior",
+    "role_qualifiers": [],
+    "description": "Senior Business Analyst",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "ba-ai": {
+    "role_family": "ba",
+    "role_level": "",
+    "role_qualifiers": [
+      "ai"
+    ],
+    "description": "Business Analyst focused on AI initiatives",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "sba-ai": {
+    "role_family": "ba",
+    "role_level": "senior",
+    "role_qualifiers": [
+      "ai"
+    ],
+    "description": "Senior Business Analyst focused on AI initiatives",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "ba-appsupport": {
+    "role_family": "ba",
+    "role_level": "",
+    "role_qualifiers": [
+      "appsupport"
+    ],
+    "description": "Business Analyst with application support focus",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "sba-appsupport": {
+    "role_family": "ba",
+    "role_level": "senior",
+    "role_qualifiers": [
+      "appsupport"
+    ],
+    "description": "Senior Business Analyst with application support focus",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "ba-pm": {
+    "role_family": "ba",
+    "role_level": "",
+    "role_qualifiers": [
+      "pm"
+    ],
+    "description": "Business Analyst / Project Manager hybrid",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "sba-pm": {
+    "role_family": "ba",
+    "role_level": "senior",
+    "role_qualifiers": [
+      "pm"
+    ],
+    "description": "Senior Business Analyst / Project Manager hybrid",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "bsa": {
+    "role_family": "bsa",
+    "role_level": "",
+    "role_qualifiers": [],
+    "description": "Business Systems Analyst",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "lead-bsa": {
+    "role_family": "bsa",
+    "role_level": "lead",
+    "role_qualifiers": [],
+    "description": "Lead Business Systems Analyst",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "sre": {
+    "role_family": "sre",
+    "role_level": "",
+    "role_qualifiers": [],
+    "description": "Site Reliability Engineer",
+    "recommended_resume_family": "sre",
+    "recommended_resume_master_id": "resume-master-sre-v1"
+  },
+  "appsupport": {
+    "role_family": "support",
+    "role_level": "",
+    "role_qualifiers": [
+      "appsupport"
+    ],
+    "description": "Application Support / Production Support role",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  }
+}

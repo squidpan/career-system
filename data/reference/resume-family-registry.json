@@ -1,0 +1,12 @@
+{
+  "ba": {
+    "description": "Business Analyst / Business Systems Analyst / Application Support BA resume family",
+    "master_resume_id": "resume-master-ba-v1",
+    "master_resume_file": "data/resume-masters/master-ba-resume.md"
+  },
+  "sre": {
+    "description": "SRE / production support / market data support resume family",
+    "master_resume_id": "resume-master-sre-v1",
+    "master_resume_file": "data/resume-masters/master-sre-resume.md"
+  }
+}

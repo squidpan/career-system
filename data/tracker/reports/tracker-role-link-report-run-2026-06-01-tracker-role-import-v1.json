@@ -1,0 +1,26 @@
+{
+  "run_id": "run-2026-06-01-tracker-role-import-v1",
+  "source_file": "jobtracker-roles-2026-06-01.csv",
+  "total_rows": 17,
+  "matched_role": 2,
+  "no_match": 15,
+  "generated_files": [
+    "tracker-role-cursor-support-operations-systems-lead-2026.md",
+    "tracker-role-mercer-advisors-infrastructure-operations-specialist-2026.md",
+    "tracker-role-makai-business-analyst-2026.md",
+    "tracker-role-figma-business-operations-2026.md",
+    "tracker-role-pico-site-reliability-engineer-2026.md",
+    "tracker-role-tata-business-analyst-artificial-intelligence-2026.md",
+    "tracker-role-fixify-senior-it-operations-analyst-2026.md",
+    "tracker-role-citi-application-and-production-support-lead-assistant-vice-president-2026.md",
+    "tracker-role-neuberger-senior-program-manager-business-analyst-asset-management-2026.md",
+    "tracker-role-atlas-search-business-system-analyst-2026.md",
+    "tracker-role-genesis10-senior-systems-specialist-business-development-platforms-hybrid-2026.md",
+    "tracker-role-pelham-berkeley-search-sr-systems-analyst-2026.md",
+    "tracker-role-deloitte-unqork-business-analyst-2026.md",
+    "tracker-role-pmo-partners-llc-business-analyst-2026.md",
+    "tracker-role-blee-business-operations-analyst-2026.md",
+    "tracker-role-the-depository-trust-and-clearing-corporation-dtcc-lead-business-systems-analyst-2026.md",
+    "tracker-role-fox-television-stations-support-specialist-operations-and-support-2026.md"
+  ]
+}

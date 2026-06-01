@@ -1,0 +1,82 @@
+{
+  "ai": {
+    "description": "Artificial Intelligence",
+    "patterns": [
+      "artificial intelligence",
+      "generative ai",
+      " ai ",
+      "ai startup",
+      "machine learning",
+      " ml "
+    ]
+  },
+  "appsupport": {
+    "description": "Application Support",
+    "patterns": [
+      "application support",
+      "production support",
+      "user support",
+      "support workflows"
+    ]
+  },
+  "pm": {
+    "description": "Project Management",
+    "patterns": [
+      "project manager",
+      "project management",
+      "program manager"
+    ]
+  },
+  "delivery": {
+    "description": "Enterprise Delivery",
+    "patterns": [
+      "delivery",
+      "release coordination",
+      "sdlc",
+      "software delivery"
+    ]
+  },
+  "ops": {
+    "description": "Operations",
+    "patterns": [
+      "operations",
+      "operational",
+      "runbook"
+    ]
+  },
+  "infra": {
+    "description": "Infrastructure",
+    "patterns": [
+      "infrastructure"
+    ]
+  },
+  "cloud": {
+    "description": "Cloud",
+    "patterns": [
+      "aws",
+      "cloud"
+    ]
+  },
+  "data": {
+    "description": "Data",
+    "patterns": [
+      "data analysis",
+      "data insights",
+      "data"
+    ]
+  },
+  "hybrid": {
+    "description": "Hybrid",
+    "patterns": [
+      "hybrid"
+    ]
+  },
+  "product": {
+    "description": "Product",
+    "patterns": [
+      "product manager",
+      "product lifecycle",
+      "product features"
+    ]
+  }
+}

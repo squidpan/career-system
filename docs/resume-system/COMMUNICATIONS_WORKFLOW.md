@@ -32,3 +32,4 @@ data/thank-you-letters/aegis/thank-you-aegis-2026-05-18.md
 ## Rule
 
 A communication becomes part of the job history once sent externally.
+[[RESUME_MASTER_STRATEGY]]

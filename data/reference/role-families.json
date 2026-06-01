@@ -1,0 +1,37 @@
+{
+  "ba": {
+    "description": "Business Analyst",
+    "patterns": [
+      "business analyst"
+    ]
+  },
+  "bsa": {
+    "description": "Business Systems Analyst",
+    "patterns": [
+      "business system analyst",
+      "business systems analyst"
+    ]
+  },
+  "sre": {
+    "description": "Site Reliability Engineer",
+    "patterns": [
+      "site reliability engineer",
+      "sre"
+    ]
+  },
+  "ops": {
+    "description": "Operations",
+    "patterns": [
+      "operations analyst",
+      "operations specialist"
+    ]
+  },
+  "support": {
+    "description": "Support",
+    "patterns": [
+      "support specialist",
+      "production support",
+      "application support"
+    ]
+  }
+}

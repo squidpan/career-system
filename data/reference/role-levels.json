@@ -1,0 +1,23 @@
+{
+  "senior": {
+    "description": "Senior",
+    "patterns": [
+      "senior ",
+      "sr "
+    ]
+  },
+  "lead": {
+    "description": "Lead",
+    "patterns": [
+      "lead "
+    ]
+  },
+  "manager": {
+    "description": "Manager",
+    "patterns": [
+      "manager",
+      "program manager",
+      "project manager"
+    ]
+  }
+}

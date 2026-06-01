@@ -20,7 +20,7 @@ source_system: career-system
 source_file: jd-makai-labs-ba-ai-2026-v1.md
 source_url: https://app.tealhq.com/job-tracker/3386b09b-462b-4f7f-84eb-da9f2ff526b3
 origin: generated
-run_id: run-2026-06-01-role-generate-v2
+run_id: run-2026-06-01-role-generate-v3
 source_title: Business Analyst
 normalized_title: Business Analyst for AI Startup
 role_family: ba

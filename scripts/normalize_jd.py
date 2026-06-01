@@ -78,7 +78,19 @@ def contains_any(text: str, patterns: list[str]) -> bool:
     low = f" {text.lower()} "
     return any(p.lower() in low for p in patterns)
 
+def selected_jd_section(body: str) -> str:
+    marker = "Original Job Description"
+    idx = body.find(marker)
+    if idx != -1:
+        return body[idx:]
+    marker = "Job Description"
+    idx = body.find(marker)
+    if idx != -1:
+        return body[idx:]
+    return body
+
 def extract_title_company(body: str) -> tuple[str, str]:
+    selected = selected_jd_section(body)
     headings = re.findall(r"^##\s+(.+?)\s*$", body, flags=re.MULTILINE)
     source_title = ""
     for h in headings:
@@ -94,14 +106,34 @@ def extract_title_company(body: str) -> tuple[str, str]:
             company = m.group(1).strip(" —-")
 
     if not company:
-        if "Makai Labs" in body:
+        if "Makai Labs" in selected:
             company = "Makai Labs"
             if not source_title:
                 source_title = "Business Analyst"
-        elif "Tata Consultancy Services" in body:
+        elif "Tata Consultancy Services" in selected:
             company = "Tata Consultancy Services"
             if not source_title:
                 source_title = "Business Analyst -Artificial Intelligence"
+        elif "Pico" in selected:
+            company = "Pico"
+            if not source_title:
+                source_title = "Site Reliability Engineer"
+        elif "Cursor" in selected:
+            company = "Cursor"
+            if not source_title:
+                source_title = "Support Operations Systems Lead"
+        elif "Mercer Advisors" in selected:
+            company = "Mercer Advisors"
+            if not source_title:
+                source_title = "Infrastructure Operations Specialist"
+        elif "Citi" in selected:
+            company = "Citi"
+            if not source_title:
+                source_title = "Application and Production Support Lead"
+        elif "Depository Trust" in selected or "DTCC" in selected:
+            company = "The Depository Trust & Clearing Corporation (DTCC)"
+            if not source_title:
+                source_title = "Lead Business Systems Analyst"
 
     return source_title, company
 
@@ -119,7 +151,9 @@ def infer_role(text: str, refs_dir: Path) -> tuple[str, str, list[str], str, str
     qualifiers = load_json(refs_dir / "role-qualifiers.json")
 
     role_family = ""
-    if contains_any(text, ["business analyst"]):
+    if contains_any(text, ["support operations systems lead"]):
+        role_family = "support"
+    elif contains_any(text, ["business analyst"]):
         role_family = "ba"
     else:
         for code, meta in families.items():
@@ -128,10 +162,13 @@ def infer_role(text: str, refs_dir: Path) -> tuple[str, str, list[str], str, str
                 break
 
     role_level = ""
-    for code, meta in levels.items():
-        if contains_any(text, meta.get("patterns", [])):
-            role_level = code
-            break
+    if contains_any(text, ["support operations systems lead"]):
+        role_level = "lead"
+    else:
+        for code, meta in levels.items():
+            if contains_any(text, meta.get("patterns", [])):
+                role_level = code
+                break
 
     role_qualifiers = []
     # Only identity-grade qualifiers belong in role_code.
@@ -149,7 +186,10 @@ def infer_role(text: str, refs_dir: Path) -> tuple[str, str, list[str], str, str
     else:
         base = "unknown"
 
-    role_code = "-".join([base] + [q for q in role_qualifiers if q != base])
+    if contains_any(text, ["support operations systems lead"]):
+        role_code = "support-ops-lead"
+    else:
+        role_code = "-".join([base] + [q for q in role_qualifiers if q != base])
     confidence = "high" if base != "unknown" else "low"
     return role_family, role_level, role_qualifiers, role_code, confidence
 
@@ -159,7 +199,8 @@ def normalize_file(path: Path, output_dir: Path, run_id: str, refs_dir: Path) ->
     fm = parse_simple_yaml(fm_text)
 
     source_title, company = extract_title_company(body)
-    normalized_title = infer_normalized_title(source_title, body)
+    selected = selected_jd_section(body)
+    normalized_title = infer_normalized_title(source_title, selected)
     company_slug = slugify(company) if company else "unknown-company"
 
     # Role identity must come from the selected JD title/header, not the full Teal page/body.

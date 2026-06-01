@@ -22,7 +22,7 @@ source_system: teal
 source_file: 
 source_url: https://app.tealhq.com/job-tracker/76ce596b-129f-407c-806b-e12c02177388
 origin: webclipper
-run_id: run-2026-06-01-jd-normalize-v1
+run_id: run-2026-06-01-jd-normalize-v2
 captured_date: 2026-06-01
 source_title: Business Analyst -Artificial Intelligence
 normalized_title: Senior Business Analyst with AI

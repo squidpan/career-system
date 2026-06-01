@@ -108,5 +108,33 @@
     "description": "Application Support / Production Support role",
     "recommended_resume_family": "ba",
     "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "support-appsupport": {
+    "role_family": "support",
+    "role_level": "",
+    "role_qualifiers": [
+      "appsupport"
+    ],
+    "description": "Support role with application or production support focus",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "support-ops-lead": {
+    "role_family": "support",
+    "role_level": "lead",
+    "role_qualifiers": [
+      "ops"
+    ],
+    "description": "Support Operations Lead role",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "ops": {
+    "role_family": "ops",
+    "role_level": "",
+    "role_qualifiers": [],
+    "description": "Operations, infrastructure operations, or production operations role",
+    "recommended_resume_family": "sre",
+    "recommended_resume_master_id": "resume-master-sre-v1"
   }
 }

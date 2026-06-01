@@ -1,8 +1,8 @@
 ---
-id: resume-makai-labs-ba-ai-2026-v1
-slug: makai-labs-ba-ai-2026-v1
+id: resume-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
+slug: the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
 type: resume_version
-title: Makai Labs ba-ai Resume v1
+title: The Depository Trust & Clearing Corporation (DTCC) bsa Resume v1
 categories:
   - [[Careers]]
   - [[Resumes]]
@@ -15,37 +15,36 @@ status: draft
 version: v1
 created: 2026-06-01
 last: 2026-06-01
-company: Makai Labs
-company_slug: makai-labs
+company: The Depository Trust & Clearing Corporation (DTCC)
+company_slug: the-depository-trust-and-clearing-corporation-dtcc
 source_system: career-system
-source_file: role-makai-labs-ba-ai-2026.md
-source_url: https://app.tealhq.com/job-tracker/3386b09b-462b-4f7f-84eb-da9f2ff526b3
+source_file: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026.md
+source_url: https://app.tealhq.com/job-tracker/f50c24ee-85bb-49d8-8df1-88e467c8a390
 origin: generated
 run_id: run-2026-06-01-resume-version-generate-v2
-role_id: role-makai-labs-ba-ai-2026
-jd_id: jd-makai-labs-ba-ai-2026-v1
+role_id: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
+jd_id: jd-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
 resume_master_id: resume-master-ba-v1
 resume_master_file: data/resume-masters/master-ba-resume.md
 resume_family: ba
-role_family: ba
-role_level: 
-role_qualifiers:
-  - ai
-role_code: ba-ai
+role_family: bsa
+role_level: lead
+role_qualifiers: 
+role_code: bsa
 submitted_date: 
 submitted_to: 
 ---
 
-# Makai Labs ba-ai Resume v1
+# The Depository Trust & Clearing Corporation (DTCC) bsa Resume v1
 
 ## Resume Version Summary
 
 Generated first-pass resume version for:
 
-- Role ID: role-makai-labs-ba-ai-2026
-- JD ID: jd-makai-labs-ba-ai-2026-v1
-- Company: Makai Labs
-- Role code: ba-ai
+- Role ID: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
+- JD ID: jd-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
+- Company: The Depository Trust & Clearing Corporation (DTCC)
+- Role code: bsa
 - Resume family: ba
 - Resume master: resume-master-ba-v1
 - Resume master file: data/resume-masters/master-ba-resume.md
@@ -116,5 +115,5 @@ Senior Business Analyst and Application Support professional with extensive expe
 ## Generated From
 
 ```text
-role-makai-labs-ba-ai-2026.md
+role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026.md
 ```

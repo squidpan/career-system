@@ -21,7 +21,7 @@ source_system: career-system
 source_file: role-cursor-support-ops-lead-2026.md
 source_url: https://app.tealhq.com/job-tracker/18f17858-a963-4668-906b-eeae6ae1f4dc
 origin: generated
-run_id: run-2026-06-01-resume-version-generate-v2
+run_id: run-2026-06-01-resume-version-generate-v3
 role_id: role-cursor-support-ops-lead-2026
 jd_id: jd-cursor-support-ops-lead-2026-v1
 resume_master_id: resume-master-ba-v1

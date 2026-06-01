@@ -136,5 +136,36 @@
     "description": "Operations, infrastructure operations, or production operations role",
     "recommended_resume_family": "sre",
     "recommended_resume_master_id": "resume-master-sre-v1"
+  },
+  "ba-it": {
+    "role_family": "ba",
+    "role_level": "",
+    "role_qualifiers": [
+      "it"
+    ],
+    "description": "IT Business Analyst",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "ba-requirements": {
+    "role_family": "ba",
+    "role_level": "",
+    "role_qualifiers": [
+      "requirements"
+    ],
+    "description": "Business or software requirements analyst",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
+  },
+  "support-workday": {
+    "role_family": "support",
+    "role_level": "",
+    "role_qualifiers": [
+      "appsupport",
+      "workday"
+    ],
+    "description": "Enterprise application support role focused on Workday or ERP systems",
+    "recommended_resume_family": "ba",
+    "recommended_resume_master_id": "resume-master-ba-v1"
   }
 }

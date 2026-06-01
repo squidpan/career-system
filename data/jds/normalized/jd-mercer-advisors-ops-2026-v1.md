@@ -2,7 +2,7 @@
 id: jd-mercer-advisors-ops-2026-v1
 slug: mercer-advisors-ops-2026
 type: jd
-title: **Why Work at Mercer Advisors? - Mercer Advisors
+title: Infrastructure Operations Specialist - Mercer Advisors
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -22,10 +22,10 @@ source_system: teal
 source_file: 
 source_url: https://app.tealhq.com/job-tracker/2f0fafd8-4531-40f1-8e38-69f4341c0f1f
 origin: webclipper
-run_id: run-2026-06-01-jd-normalize-v2
+run_id: run-2026-06-01-jd-normalize-v3
 captured_date: 2026-06-01
 source_title: Infrastructure Operations Specialist
-normalized_title: **Why Work at Mercer Advisors?
+normalized_title: Infrastructure Operations Specialist
 role_id: role-mercer-advisors-ops-2026
 role_family: ops
 role_level: 
@@ -41,7 +41,7 @@ normalization_status: normalized
 normalized_jd_id: jd-mercer-advisors-ops-2026-v1
 ---
 
-# **Why Work at Mercer Advisors? - Mercer Advisors
+# Infrastructure Operations Specialist - Mercer Advisors
 
 ## Capture Metadata
 

@@ -20,7 +20,7 @@ source_system: career-system
 source_file: jd-cursor-support-ops-lead-2026-v1.md
 source_url: https://app.tealhq.com/job-tracker/18f17858-a963-4668-906b-eeae6ae1f4dc
 origin: generated
-run_id: run-2026-06-01-role-generate-v3
+run_id: run-2026-06-01-role-generate-v4
 source_title: Support Operations Systems Lead
 normalized_title: Support Operations Systems Lead
 role_family: support

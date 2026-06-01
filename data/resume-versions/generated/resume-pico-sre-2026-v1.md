@@ -21,7 +21,7 @@ source_system: career-system
 source_file: role-pico-sre-2026.md
 source_url: https://app.tealhq.com/job-tracker/6153036c-160b-4595-8937-fddd14d60c6f
 origin: generated
-run_id: run-2026-06-01-resume-version-generate-v2
+run_id: run-2026-06-01-resume-version-generate-v3
 role_id: role-pico-sre-2026
 jd_id: jd-pico-sre-2026-v1
 resume_master_id: resume-master-sre-v1

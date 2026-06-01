@@ -20,7 +20,7 @@ source_system: career-system
 source_file: jd-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1.md
 source_url: https://app.tealhq.com/job-tracker/f50c24ee-85bb-49d8-8df1-88e467c8a390
 origin: generated
-run_id: run-2026-06-01-role-generate-v3
+run_id: run-2026-06-01-role-generate-v4
 source_title: Lead Business Systems Analyst
 normalized_title: Are you ready to make an impact at DTCC?
 role_family: bsa

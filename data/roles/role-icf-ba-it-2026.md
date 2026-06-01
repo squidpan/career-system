@@ -1,8 +1,8 @@
 ---
-id: role-makai-labs-ba-ai-2026
-slug: makai-labs-ba-ai-2026
+id: role-icf-ba-it-2026
+slug: icf-ba-it-2026
 type: role
-title: Business Analyst for AI Startup - Makai Labs
+title: IT Business Analyst - ICF
 categories:
   - [[Careers]]
   - [[Roles]]
@@ -14,28 +14,28 @@ status: active
 version: v1
 created: 2026-06-01
 last: 2026-06-01
-company: Makai Labs
-company_slug: makai-labs
+company: ICF
+company_slug: icf
 source_system: career-system
-source_file: jd-makai-labs-ba-ai-2026-v1.md
-source_url: https://app.tealhq.com/job-tracker/3386b09b-462b-4f7f-84eb-da9f2ff526b3
+source_file: jd-icf-ba-it-2026-v1.md
+source_url: https://app.tealhq.com/job-tracker/8eddd464-39a6-42a5-936b-bde02538d8ef
 origin: generated
 run_id: run-2026-06-01-role-generate-v4
-source_title: Business Analyst
-normalized_title: Business Analyst for AI Startup
+source_title: IT Business Analyst
+normalized_title: IT Business Analyst
 role_family: ba
 role_level: 
 role_qualifiers:
-  - ai
-role_code: ba-ai
+  - it
+role_code: ba-it
 role_code_confidence: high
-role_summary: Business Analyst for AI Startup role at Makai Labs classified as ba-ai; recommended resume family: ba.
+role_summary: IT Business Analyst role at ICF classified as ba-it; recommended resume family: ba.
 recommended_resume_family: ba
 recommended_resume_master_id: resume-master-ba-v1
 recommended_resume_file: data/resume-masters/master-ba-resume.md
 role_source_type: jd
 jd_ids:
-  - jd-makai-labs-ba-ai-2026-v1
+  - jd-icf-ba-it-2026-v1
 resume_ids:
 cover_letter_ids:
 event_ids:
@@ -43,15 +43,15 @@ tracker_scope:
 active_in_teal: 
 ---
 
-# Business Analyst for AI Startup - Makai Labs
+# IT Business Analyst - ICF
 
 ## Role Summary
 
-Business Analyst for AI Startup role at Makai Labs classified as ba-ai; recommended resume family: ba.
+IT Business Analyst role at ICF classified as ba-it; recommended resume family: ba.
 
 ## Linked Job Descriptions
 
-- jd-makai-labs-ba-ai-2026-v1
+- jd-icf-ba-it-2026-v1
 
 ## Resume Recommendation
 
@@ -68,5 +68,5 @@ TBD.
 Generated from normalized JD file:
 
 ```text
-jd-makai-labs-ba-ai-2026-v1.md
+jd-icf-ba-it-2026-v1.md
 ```

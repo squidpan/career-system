@@ -21,7 +21,7 @@ source_system: career-system
 source_file: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026.md
 source_url: https://app.tealhq.com/job-tracker/f50c24ee-85bb-49d8-8df1-88e467c8a390
 origin: generated
-run_id: run-2026-06-01-resume-version-generate-v2
+run_id: run-2026-06-01-resume-version-generate-v3
 role_id: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
 jd_id: jd-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
 resume_master_id: resume-master-ba-v1

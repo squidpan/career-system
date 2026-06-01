@@ -20,7 +20,7 @@ source_system: career-system
 source_file: jd-pico-sre-2026-v1.md
 source_url: https://app.tealhq.com/job-tracker/6153036c-160b-4595-8937-fddd14d60c6f
 origin: generated
-run_id: run-2026-06-01-role-generate-v3
+run_id: run-2026-06-01-role-generate-v4
 source_title: Site Reliability Engineer
 normalized_title: Site Reliability Engineer
 role_family: sre

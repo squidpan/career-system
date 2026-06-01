@@ -21,7 +21,7 @@ source_system: career-system
 source_file: role-mercer-advisors-ops-2026.md
 source_url: https://app.tealhq.com/job-tracker/2f0fafd8-4531-40f1-8e38-69f4341c0f1f
 origin: generated
-run_id: run-2026-06-01-resume-version-generate-v2
+run_id: run-2026-06-01-resume-version-generate-v3
 role_id: role-mercer-advisors-ops-2026
 jd_id: jd-mercer-advisors-ops-2026-v1
 resume_master_id: resume-master-sre-v1

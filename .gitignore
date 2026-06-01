@@ -1,0 +1,13 @@
+# Obsidian local settings
+.obsidian/
+
+# Runtime artifacts
+ops/runs/*
+!ops/runs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+
+# Linux temp files
+*~

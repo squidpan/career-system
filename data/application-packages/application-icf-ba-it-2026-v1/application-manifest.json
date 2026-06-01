@@ -1,0 +1,18 @@
+{
+  "application_package_id": "application-icf-ba-it-2026-v1",
+  "company": "ICF",
+  "company_slug": "icf",
+  "role_id": "role-icf-ba-it-2026",
+  "jd_id": "jd-icf-ba-it-2026-v1",
+  "resume_id": "resume-icf-ba-it-2026-v1",
+  "cover_letter_id": "cover-icf-ba-it-2026-v1",
+  "package_status": "draft",
+  "created": "2026-06-01",
+  "last": "2026-06-01",
+  "source_files": {
+    "role": "/home/pl/pjs/repos/career-system/ops/runs/run-2026-06-01-application-package-v1/input/role-icf-ba-it-2026.md",
+    "jd": "/home/pl/pjs/repos/career-system/data/jds/normalized/jd-icf-ba-it-2026-v1.md",
+    "resume": "/home/pl/pjs/repos/career-system/data/resume-versions/generated/resume-icf-ba-it-2026-v1.md",
+    "cover_letter": "/home/pl/pjs/repos/career-system/ops/runs/run-2026-06-01-application-package-v1/output/application-icf-ba-it-2026-v1/cover-letter.md"
+  }
+}

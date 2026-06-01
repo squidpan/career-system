@@ -1,0 +1,18 @@
+{
+  "application_package_id": "",
+  "company": "",
+  "company_slug": "",
+  "role_id": "",
+  "jd_id": "",
+  "resume_id": "",
+  "cover_letter_id": "",
+  "package_status": "draft",
+  "created": "",
+  "last": "",
+  "source_files": {
+    "jd": "",
+    "role": "",
+    "resume": "",
+    "cover_letter": ""
+  }
+}

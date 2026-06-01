@@ -1,0 +1,18 @@
+{
+  "application_package_id": "application-cursor-support-ops-lead-2026-v1",
+  "company": "Cursor",
+  "company_slug": "cursor",
+  "role_id": "role-cursor-support-ops-lead-2026",
+  "jd_id": "jd-cursor-support-ops-lead-2026-v1",
+  "resume_id": "resume-cursor-support-ops-lead-2026-v1",
+  "cover_letter_id": "cover-cursor-support-ops-lead-2026-v1",
+  "package_status": "draft",
+  "created": "2026-06-01",
+  "last": "2026-06-01",
+  "source_files": {
+    "role": "/home/pl/pjs/repos/career-system/ops/runs/run-2026-06-01-application-package-v1/input/role-cursor-support-ops-lead-2026.md",
+    "jd": "/home/pl/pjs/repos/career-system/data/jds/normalized/jd-cursor-support-ops-lead-2026-v1.md",
+    "resume": "/home/pl/pjs/repos/career-system/data/resume-versions/generated/resume-cursor-support-ops-lead-2026-v1.md",
+    "cover_letter": "/home/pl/pjs/repos/career-system/ops/runs/run-2026-06-01-application-package-v1/output/application-cursor-support-ops-lead-2026-v1/cover-letter.md"
+  }
+}

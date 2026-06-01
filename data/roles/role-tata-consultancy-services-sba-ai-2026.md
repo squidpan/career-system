@@ -20,7 +20,7 @@ source_system: career-system
 source_file: jd-tata-consultancy-services-sba-ai-2026-v1.md
 source_url: https://app.tealhq.com/job-tracker/76ce596b-129f-407c-806b-e12c02177388
 origin: generated
-run_id: run-2026-06-01-role-generate-v1
+run_id: run-2026-06-01-role-generate-v2
 source_title: Business Analyst -Artificial Intelligence
 normalized_title: Senior Business Analyst with AI
 role_family: ba
@@ -29,7 +29,10 @@ role_qualifiers:
   - ai
 role_code: sba-ai
 role_code_confidence: high
-role_summary: Senior Business Analyst with AI role at Tata Consultancy Services classified as sba-ai.
+role_summary: Senior Business Analyst with AI role at Tata Consultancy Services classified as sba-ai; recommended resume family: ba.
+recommended_resume_family: ba
+recommended_resume_master_id: resume-master-ba-v1
+recommended_resume_file: data/resume-masters/master-ba-resume.md
 role_source_type: jd
 jd_ids:
   - jd-tata-consultancy-services-sba-ai-2026-v1
@@ -44,11 +47,17 @@ active_in_teal:
 
 ## Role Summary
 
-Senior Business Analyst with AI role at Tata Consultancy Services classified as sba-ai.
+Senior Business Analyst with AI role at Tata Consultancy Services classified as sba-ai; recommended resume family: ba.
 
 ## Linked Job Descriptions
 
 - jd-tata-consultancy-services-sba-ai-2026-v1
+
+## Resume Recommendation
+
+- Resume family: ba
+- Resume master ID: resume-master-ba-v1
+- Resume master file: data/resume-masters/master-ba-resume.md
 
 ## Resume Strategy
 

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 from typing import Any
 
@@ -32,6 +33,11 @@ def parse_simple_yaml(frontmatter: str) -> dict[str, Any]:
             current_key = key.strip()
     return data
 
+def load_json(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
 def render_frontmatter(data: dict[str, Any]) -> str:
     order = [
         "id", "slug", "type", "title",
@@ -42,6 +48,7 @@ def render_frontmatter(data: dict[str, Any]) -> str:
         "origin", "run_id",
         "source_title", "normalized_title",
         "role_family", "role_level", "role_qualifiers", "role_code", "role_code_confidence", "role_summary",
+        "recommended_resume_family", "recommended_resume_master_id", "recommended_resume_file",
         "role_source_type",
         "jd_ids", "resume_ids", "cover_letter_ids", "event_ids",
         "tracker_scope", "active_in_teal"
@@ -60,13 +67,34 @@ def render_frontmatter(data: dict[str, Any]) -> str:
     lines.append("---")
     return "\n".join(lines) + "\n"
 
-def role_summary_from_jd(jd: dict[str, Any]) -> str:
+def get_resume_mapping(role_code: str, repo_root: Path) -> dict[str, str]:
+    ref_dir = repo_root / "data" / "reference"
+    role_code_registry = load_json(ref_dir / "role-code-registry.json")
+    resume_family_registry = load_json(ref_dir / "resume-family-registry.json")
+
+    role_entry = role_code_registry.get(role_code, {})
+    resume_family = role_entry.get("recommended_resume_family", "")
+    resume_master_id = role_entry.get("recommended_resume_master_id", "")
+
+    resume_family_entry = resume_family_registry.get(resume_family, {})
+    resume_file = resume_family_entry.get("master_resume_file", "")
+
+    return {
+        "recommended_resume_family": resume_family,
+        "recommended_resume_master_id": resume_master_id,
+        "recommended_resume_file": resume_file,
+    }
+
+def role_summary_from_jd(jd: dict[str, Any], mapping: dict[str, str]) -> str:
     company = jd.get("company", "")
     title = jd.get("normalized_title") or jd.get("source_title") or jd.get("title", "")
     code = jd.get("role_code", "")
+    resume_family = mapping.get("recommended_resume_family", "")
+    if resume_family:
+        return f"{title} role at {company} classified as {code}; recommended resume family: {resume_family}."
     return f"{title} role at {company} classified as {code}."
 
-def generate_role(jd_path: Path, output_dir: Path, run_id: str) -> Path:
+def generate_role(jd_path: Path, output_dir: Path, run_id: str, repo_root: Path) -> Path:
     text = jd_path.read_text(encoding="utf-8")
     fm_text, _body = split_frontmatter(text)
     jd = parse_simple_yaml(fm_text)
@@ -80,6 +108,9 @@ def generate_role(jd_path: Path, output_dir: Path, run_id: str) -> Path:
     company = jd.get("company", "")
     normalized_title = jd.get("normalized_title") or jd.get("source_title") or jd.get("title", "")
     title = f"{normalized_title} - {company}" if company else normalized_title
+    role_code = jd.get("role_code", "")
+
+    mapping = get_resume_mapping(role_code, repo_root)
 
     role = {
         "id": role_id,
@@ -104,9 +135,12 @@ def generate_role(jd_path: Path, output_dir: Path, run_id: str) -> Path:
         "role_family": jd.get("role_family", ""),
         "role_level": jd.get("role_level", ""),
         "role_qualifiers": jd.get("role_qualifiers", []),
-        "role_code": jd.get("role_code", ""),
+        "role_code": role_code,
         "role_code_confidence": jd.get("role_code_confidence", ""),
-        "role_summary": role_summary_from_jd(jd),
+        "role_summary": "",
+        "recommended_resume_family": mapping.get("recommended_resume_family", ""),
+        "recommended_resume_master_id": mapping.get("recommended_resume_master_id", ""),
+        "recommended_resume_file": mapping.get("recommended_resume_file", ""),
         "role_source_type": "jd",
         "jd_ids": [jd_id] if jd_id else [],
         "resume_ids": [],
@@ -115,6 +149,7 @@ def generate_role(jd_path: Path, output_dir: Path, run_id: str) -> Path:
         "tracker_scope": "",
         "active_in_teal": "",
     }
+    role["role_summary"] = role_summary_from_jd(jd, mapping)
 
     body = f"""# {title}
 
@@ -125,6 +160,12 @@ def generate_role(jd_path: Path, output_dir: Path, run_id: str) -> Path:
 ## Linked Job Descriptions
 
 - {jd_id}
+
+## Resume Recommendation
+
+- Resume family: {role["recommended_resume_family"] or "TBD"}
+- Resume master ID: {role["recommended_resume_master_id"] or "TBD"}
+- Resume master file: {role["recommended_resume_file"] or "TBD"}
 
 ## Resume Strategy
 
@@ -153,13 +194,15 @@ def main() -> int:
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    repo_root = Path(__file__).resolve().parents[1]
+
     files = sorted(input_dir.glob("*.md"))
     if not files:
         print(f"No normalized JD markdown files found in {input_dir}")
         return 1
 
     for f in files:
-        out = generate_role(f, output_dir, args.run_id)
+        out = generate_role(f, output_dir, args.run_id, repo_root)
         print(f"generated role: {f.name} -> {out.name}")
     return 0
 

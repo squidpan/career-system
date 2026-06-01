@@ -37,6 +37,10 @@ role_code:
 role_code_confidence:
 role_summary:
 
+recommended_resume_family:
+recommended_resume_master_id:
+recommended_resume_file:
+
 role_source_type: jd
 
 jd_ids: []

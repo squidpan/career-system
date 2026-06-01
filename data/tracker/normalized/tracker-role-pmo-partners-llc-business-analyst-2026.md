@@ -22,7 +22,7 @@ source_file: jobtracker-roles-2026-06-01.csv
 source_url: https://www.linkedin.com/jobs/view/4405105409
 source_role_id: efb2952d-4298-4f16-8858-6f94ec5443ab
 origin: import
-run_id: run-2026-06-01-tracker-role-import-v1
+run_id: run-2026-06-01-tracker-role-classify-v1
 source_title: Business Analyst
 normalized_title: Business Analyst
 location: Jericho, NY
@@ -30,6 +30,16 @@ tracker_source: ChromeExtension
 tracker_status: bookmarked
 tracker_scope: active
 active_in_tracker: true
+role_family: ba
+role_level: 
+role_qualifiers:
+role_code: ba
+role_code_confidence: high
+recommended_resume_family: ba
+recommended_resume_master_id: resume-master-ba-v1
+recommended_resume_file: data/resume-masters/master-ba-resume.md
+classification_status: classified
+classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-05-29T14:27:01Z
 applied_at: 
 posted_at: 
@@ -40,7 +50,7 @@ max_salary:
 salary_currency: 
 salary_pay_period: 
 existing_role_id: 
-existing_jd_ids:
+existing_jd_ids: 
 match_status: no_match
 match_notes: No existing generated role matched this Teal source_role_id.
 ---

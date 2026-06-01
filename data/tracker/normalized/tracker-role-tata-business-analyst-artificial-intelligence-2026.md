@@ -22,7 +22,7 @@ source_file: jobtracker-roles-2026-06-01.csv
 source_url: https://www.indeed.com/viewjob?jk=54d8e21c3a56bc21
 source_role_id: 76ce596b-129f-407c-806b-e12c02177388
 origin: import
-run_id: run-2026-06-01-tracker-role-import-v1
+run_id: run-2026-06-01-tracker-role-classify-v1
 source_title: Business Analyst -Artificial Intelligence
 normalized_title: Business Analyst -Artificial Intelligence
 location: 
@@ -30,6 +30,17 @@ tracker_source: ChromeExtension
 tracker_status: bookmarked
 tracker_scope: active
 active_in_tracker: true
+role_family: ba
+role_level: 
+role_qualifiers:
+  - ai
+role_code: ba-ai
+role_code_confidence: high
+recommended_resume_family: ba
+recommended_resume_master_id: resume-master-ba-v1
+recommended_resume_file: data/resume-masters/master-ba-resume.md
+classification_status: classified
+classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-05-30T17:03:03Z
 applied_at: 
 posted_at: 

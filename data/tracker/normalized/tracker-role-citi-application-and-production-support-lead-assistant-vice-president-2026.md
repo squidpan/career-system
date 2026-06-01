@@ -22,7 +22,7 @@ source_file: jobtracker-roles-2026-06-01.csv
 source_url: https://www.linkedin.com/jobs/view/4386883718
 source_role_id: b0b86130-ff36-48e0-a57f-e05155df9169
 origin: import
-run_id: run-2026-06-01-tracker-role-import-v1
+run_id: run-2026-06-01-tracker-role-classify-v1
 source_title: Application and Production Support Lead, Assistant Vice President
 normalized_title: Application and Production Support Lead, Assistant Vice President
 location: New York, NY
@@ -30,6 +30,17 @@ tracker_source: WebClient
 tracker_status: applied
 tracker_scope: active
 active_in_tracker: true
+role_family: support
+role_level: 
+role_qualifiers:
+  - appsupport
+role_code: support-appsupport
+role_code_confidence: high
+recommended_resume_family: ba
+recommended_resume_master_id: resume-master-ba-v1
+recommended_resume_file: data/resume-masters/master-ba-resume.md
+classification_status: classified
+classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-04-01T17:40:08Z
 applied_at: 2026-04-01T18:02:16Z
 posted_at: 
@@ -40,7 +51,7 @@ max_salary: 163680
 salary_currency: USD
 salary_pay_period: year
 existing_role_id: 
-existing_jd_ids:
+existing_jd_ids: 
 match_status: no_match
 match_notes: No existing generated role matched this Teal source_role_id.
 ---

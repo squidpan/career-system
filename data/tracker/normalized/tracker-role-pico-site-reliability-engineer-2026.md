@@ -22,7 +22,7 @@ source_file: jobtracker-roles-2026-06-01.csv
 source_url: https://job-boards.greenhouse.io/picoquantitativetrading/jobs/4664671006
 source_role_id: 6153036c-160b-4595-8937-fddd14d60c6f
 origin: import
-run_id: run-2026-06-01-tracker-role-import-v1
+run_id: run-2026-06-01-tracker-role-classify-v1
 source_title: Site Reliability Engineer
 normalized_title: Site Reliability Engineer
 location: New York City, NY
@@ -30,6 +30,16 @@ tracker_source: ChromeExtension
 tracker_status: bookmarked
 tracker_scope: active
 active_in_tracker: true
+role_family: sre
+role_level: 
+role_qualifiers:
+role_code: sre
+role_code_confidence: high
+recommended_resume_family: sre
+recommended_resume_master_id: resume-master-sre-v1
+recommended_resume_file: data/resume-masters/master-sre-resume.md
+classification_status: classified
+classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-04-07T13:56:44Z
 applied_at: 
 posted_at: 
@@ -40,7 +50,7 @@ max_salary: 125000
 salary_currency: USD
 salary_pay_period: year
 existing_role_id: 
-existing_jd_ids:
+existing_jd_ids: 
 match_status: no_match
 match_notes: No existing generated role matched this Teal source_role_id.
 ---

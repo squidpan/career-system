@@ -22,7 +22,7 @@ source_file: jobtracker-roles-2026-06-01.csv
 source_url: https://www.linkedin.com/jobs/view/4418188199
 source_role_id: efe8e5cc-9de0-4dd0-9683-0c8db3b122e2
 origin: import
-run_id: run-2026-06-01-tracker-role-import-v1
+run_id: run-2026-06-01-tracker-role-classify-v1
 source_title: Business Operations Analyst
 normalized_title: Business Operations Analyst
 location: New York, NY
@@ -30,6 +30,16 @@ tracker_source: ChromeExtension
 tracker_status: bookmarked
 tracker_scope: active
 active_in_tracker: true
+role_family: ops
+role_level: 
+role_qualifiers:
+role_code: ops
+role_code_confidence: medium
+recommended_resume_family: sre
+recommended_resume_master_id: resume-master-sre-v1
+recommended_resume_file: data/resume-masters/master-sre-resume.md
+classification_status: classified
+classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-05-24T14:03:23Z
 applied_at: 
 posted_at: 
@@ -40,7 +50,7 @@ max_salary:
 salary_currency: 
 salary_pay_period: 
 existing_role_id: 
-existing_jd_ids:
+existing_jd_ids: 
 match_status: no_match
 match_notes: No existing generated role matched this Teal source_role_id.
 ---

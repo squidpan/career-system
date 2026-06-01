@@ -1,0 +1,110 @@
+{
+  "run_id": "run-2026-06-01-tracker-role-classify-v1",
+  "total": 17,
+  "classified": 16,
+  "needs_review": 1,
+  "results": [
+    {
+      "file": "tracker-role-atlas-search-business-system-analyst-2026.md",
+      "role_code": "bsa",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-blee-business-operations-analyst-2026.md",
+      "role_code": "ops",
+      "classification_status": "classified",
+      "resume_master": "resume-master-sre-v1"
+    },
+    {
+      "file": "tracker-role-citi-application-and-production-support-lead-assistant-vice-president-2026.md",
+      "role_code": "support-appsupport",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-cursor-support-operations-systems-lead-2026.md",
+      "role_code": "support-ops-lead",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-deloitte-unqork-business-analyst-2026.md",
+      "role_code": "ba",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-figma-business-operations-2026.md",
+      "role_code": "ops",
+      "classification_status": "classified",
+      "resume_master": "resume-master-sre-v1"
+    },
+    {
+      "file": "tracker-role-fixify-senior-it-operations-analyst-2026.md",
+      "role_code": "ops",
+      "classification_status": "classified",
+      "resume_master": "resume-master-sre-v1"
+    },
+    {
+      "file": "tracker-role-fox-television-stations-support-specialist-operations-and-support-2026.md",
+      "role_code": "support-appsupport",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-genesis10-senior-systems-specialist-business-development-platforms-hybrid-2026.md",
+      "role_code": "unknown",
+      "classification_status": "needs_review",
+      "resume_master": ""
+    },
+    {
+      "file": "tracker-role-makai-business-analyst-2026.md",
+      "role_code": "ba-ai",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-mercer-advisors-infrastructure-operations-specialist-2026.md",
+      "role_code": "ops",
+      "classification_status": "classified",
+      "resume_master": "resume-master-sre-v1"
+    },
+    {
+      "file": "tracker-role-neuberger-senior-program-manager-business-analyst-asset-management-2026.md",
+      "role_code": "sba-pm",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-pelham-berkeley-search-sr-systems-analyst-2026.md",
+      "role_code": "bsa",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-pico-site-reliability-engineer-2026.md",
+      "role_code": "sre",
+      "classification_status": "classified",
+      "resume_master": "resume-master-sre-v1"
+    },
+    {
+      "file": "tracker-role-pmo-partners-llc-business-analyst-2026.md",
+      "role_code": "ba",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-tata-business-analyst-artificial-intelligence-2026.md",
+      "role_code": "ba-ai",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    },
+    {
+      "file": "tracker-role-the-depository-trust-and-clearing-corporation-dtcc-lead-business-systems-analyst-2026.md",
+      "role_code": "bsa",
+      "classification_status": "classified",
+      "resume_master": "resume-master-ba-v1"
+    }
+  ]
+}

@@ -22,7 +22,7 @@ source_file: jobtracker-roles-2026-06-01.csv
 source_url: https://www.monster.com/job-openings/senior-systems-specialist-business-development-platforms-hybrid-new-york-ny--6888f6a0-794d-4f1b-b266-4d38e9e7c163?sid=30ed0246-4174-4e58-a7dd-242bb1ad27ff&jvo=m.mco.s-svr.12&so=m.h.s&hidesmr=1
 source_role_id: d2525542-eb53-49cc-9e7e-3bde749886b1
 origin: import
-run_id: run-2026-06-01-tracker-role-import-v1
+run_id: run-2026-06-01-tracker-role-classify-v1
 source_title: Senior Systems Specialist, Business Development Platforms - Hybrid
 normalized_title: Senior Systems Specialist, Business Development Platforms - Hybrid
 location: New York, NY
@@ -30,6 +30,16 @@ tracker_source: ChromeExtension
 tracker_status: bookmarked
 tracker_scope: active
 active_in_tracker: true
+role_family: 
+role_level: 
+role_qualifiers:
+role_code: unknown
+role_code_confidence: low
+recommended_resume_family: 
+recommended_resume_master_id: 
+recommended_resume_file: 
+classification_status: needs_review
+classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-05-30T17:22:26Z
 applied_at: 
 posted_at: 
@@ -40,7 +50,7 @@ max_salary: 160000
 salary_currency: USD
 salary_pay_period: year
 existing_role_id: 
-existing_jd_ids:
+existing_jd_ids: 
 match_status: no_match
 match_notes: No existing generated role matched this Teal source_role_id.
 ---

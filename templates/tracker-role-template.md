@@ -38,6 +38,19 @@ tracker_status:
 tracker_scope:
 active_in_tracker:
 
+role_family:
+role_level:
+role_qualifiers: []
+role_code:
+role_code_confidence:
+
+recommended_resume_family:
+recommended_resume_master_id:
+recommended_resume_file:
+
+classification_status:
+classification_source:
+
 added_at:
 applied_at:
 posted_at:

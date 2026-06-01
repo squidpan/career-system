@@ -22,7 +22,7 @@ source_file: jobtracker-roles-2026-06-01.csv
 source_url: https://www.linkedin.com/jobs/view/4419984022
 source_role_id: 18f17858-a963-4668-906b-eeae6ae1f4dc
 origin: import
-run_id: run-2026-06-01-tracker-role-import-v1
+run_id: run-2026-06-01-tracker-role-classify-v1
 source_title: Support Operations Systems Lead
 normalized_title: Support Operations Systems Lead
 location: United States
@@ -30,6 +30,17 @@ tracker_source: ChromeExtension
 tracker_status: bookmarked
 tracker_scope: active
 active_in_tracker: true
+role_family: support
+role_level: lead
+role_qualifiers:
+  - ops
+role_code: support-ops-lead
+role_code_confidence: high
+recommended_resume_family: ba
+recommended_resume_master_id: resume-master-ba-v1
+recommended_resume_file: data/resume-masters/master-ba-resume.md
+classification_status: classified
+classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-05-29T14:17:42Z
 applied_at: 
 posted_at: 
@@ -40,7 +51,7 @@ max_salary:
 salary_currency: 
 salary_pay_period: 
 existing_role_id: 
-existing_jd_ids:
+existing_jd_ids: 
 match_status: no_match
 match_notes: No existing generated role matched this Teal source_role_id.
 ---

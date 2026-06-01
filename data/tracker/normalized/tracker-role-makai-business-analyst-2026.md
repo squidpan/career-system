@@ -22,7 +22,7 @@ source_file: jobtracker-roles-2026-06-01.csv
 source_url: https://jobs.ashbyhq.com/makai-labs/e170b3c0-42c9-4bab-8afb-69c3b2f714b6
 source_role_id: 3386b09b-462b-4f7f-84eb-da9f2ff526b3
 origin: import
-run_id: run-2026-06-01-tracker-role-import-v1
+run_id: run-2026-06-01-tracker-role-classify-v1
 source_title: Business Analyst
 normalized_title: Business Analyst
 location: New York, NY
@@ -30,6 +30,17 @@ tracker_source: WebClient
 tracker_status: bookmarked
 tracker_scope: active
 active_in_tracker: true
+role_family: ba
+role_level: 
+role_qualifiers:
+  - ai
+role_code: ba-ai
+role_code_confidence: high
+recommended_resume_family: ba
+recommended_resume_master_id: resume-master-ba-v1
+recommended_resume_file: data/resume-masters/master-ba-resume.md
+classification_status: classified
+classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-06-01T00:04:52Z
 applied_at: 
 posted_at: 2026-04-29T00:00:00Z

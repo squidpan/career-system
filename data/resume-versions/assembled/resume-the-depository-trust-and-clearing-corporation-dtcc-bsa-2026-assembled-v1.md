@@ -29,7 +29,7 @@ role_qualifiers:
 role_code: bsa
 application_package_id: application-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
 origin: generated
-run_id: run-2026-06-01-resume-assembly-v1
+run_id: run-2026-06-03-resume-assembly-v5
 ---
 
 # The Depository Trust & Clearing Corporation (DTCC) — Are you ready to make an impact at DTCC? — Assembled Resume v1
@@ -77,112 +77,73 @@ Paul Lyu
 
 ## Target Positioning
 
-Senior Business Analyst | Application Support | Enterprise Process & Software Delivery
+Senior Business Analyst | Application Support | Financial Services | Insurance Systems
 
 ## Professional Summary
 
-Senior Business Analyst and Application Support professional with extensive experience supporting enterprise financial systems, insurance business applications, software delivery initiatives, and regulated operational workflows across banking and insurance environments. Proven track record leading stakeholder discussions, documenting complex business processes, coordinating SDLC activities, supporting QA/UAT, validating production releases, and translating operational requirements into implementation-ready artifacts for distributed engineering teams. Experienced in workflow analysis, Agile delivery, release governance, operational documentation, runbooks, ServiceNow processes, and cross-functional collaboration across business, QA, infrastructure, DevOps, database, and production support teams.
+Senior Business Analyst and Application Support professional with experience supporting enterprise financial applications, fixed-income market data ecosystems, insurance business systems, financial data platforms, and regulated operational workflows. Proven track record gathering requirements, documenting workflows, coordinating SDLC activities, supporting QA/UAT, validating production releases, and partnering with business, operations, infrastructure, DevOps, database, and development teams. Experienced in enterprise application modernization, REST API validation, Oracle data mapping, release readiness, operational runbooks, ServiceNow workflows, and cross-functional delivery across financial services and insurance environments.
 
-## Core Strengths
+## Core Competencies
 
-- Business analysis and requirements gathering
-- Application support and production readiness
-- SDLC coordination and Agile delivery
-- JIRA user stories and acceptance criteria
-- QA/UAT planning, coordination, and validation
-- Release coordination across Dev, QA, and Production
-- Operational workflows, runbooks, and support procedures
-- Stakeholder management across business and technology teams
-- Financial systems, market data, and insurance operations
-- Linux, Oracle, AWS, REST API, JSON, OpenAPI/Swagger exposure
-- ServiceNow, Confluence, Visio, SharePoint, Excel Power Query/Pivot
+- Business Analysis: requirements gathering, functional requirements, user stories, acceptance criteria, workflow analysis, stakeholder management
+- Delivery & Support: SDLC, Agile, QA/UAT, release coordination, production readiness, runbooks, operational documentation
+- Financial Systems: fixed-income pricing, market data, reference data, security master, pricing data, data quality
+- Insurance Systems: HP PPM, portfolio management, approval workflows, PMO governance, premium/rating workflows
+- Technology: Linux, Oracle, AWS, OpenShift exposure, REST APIs, JSON, OpenAPI/Swagger, ServiceNow
+- Tools: Jira, Confluence, Visio, SharePoint, Excel Power Query, Pivot Tables, Git, Postman, Obsidian
 
-## Work Experience
+## Professional Experience
 
-### Gresham Technologies — Federal Reserve Bank of New York
+### Financial Services & Enterprise Financial Applications
+**Gresham Technologies — Federal Reserve Bank of New York**  
 **Senior Business Analyst / Application Support / DevOps Release Coordinator** | 04/2017 – 02/2026 | New York, NY / On-site
 
-- Supported enterprise streaming market data systems operating across Linux, Oracle, OpenShift, and AWS cloud infrastructure within a highly regulated financial environment.
-- Led stakeholder discussions across business, operations, QA, infrastructure, database, DevOps, and development teams to clarify workflow requirements, operational dependencies, release readiness criteria, and support procedures.
-- Documented current-state operational workflows, deployment procedures, exception handling processes, escalation paths, and environment dependencies for mission-critical financial systems.
-- Produced detailed operational documentation including deployment guides, troubleshooting procedures, validation checklists, process narratives, support runbooks, and knowledge base articles using Confluence and Visio.
-- Collaborated with Product Owners and Scrum Masters to decompose Epics into detailed JIRA user stories, acceptance criteria, and implementation-ready requirements.
-- Coordinated cross-functional SDLC activities between development, QA, infrastructure, database, operations, and business teams to support controlled production releases.
-- Facilitated requirements clarification and issue resolution between business stakeholders and technical teams to reduce ambiguity and minimize delivery rework.
-- Supported UAT readiness activities including test coordination, deployment validation, defect triage, release verification, and stakeholder signoff preparation.
-- Executed deployment validation procedures, environment readiness testing, and post-release operational health checks across Dev, QA, and Production environments.
-- Created workflow diagrams, operational process maps, deployment flow documentation, and support procedures using Visio and Confluence.
-- Maintained authoritative documentation sets that evolved continuously as operational processes and system integrations changed.
-- Coordinated software access requests, environment changes, and operational support workflows through ServiceNow governance processes.
-- Parsed and analyzed large log datasets using shell scripting and Excel Power Query/Pivot tools to troubleshoot pricing anomalies and operational issues.
-- Supported system integration and operational data validation efforts including JSON payload validation and endpoint documentation coordination.
-- Supported REST API integration efforts including JSON payload validation, API endpoint definition, and OpenAPI/Swagger documentation.
-- Mapped legacy relational database pricing schema to REST API payload data format in JSON.
+- Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data to downstream consumer platforms.
+- Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.
+- Coordinated release readiness activities across Development, QA, UAT, and Production environments.
+- Produced operational runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation for mission-critical financial systems.
+- Collaborated with Product Owners and Scrum Masters to decompose Epics into Jira user stories, acceptance criteria, and implementation-ready requirements.
+- Executed deployment validation procedures, environment readiness testing, and post-release operational health checks.
+- Partnered with enterprise architects and engineering teams to document cloud migration architecture supporting modernization of legacy AC Plus pricing services to AWS-hosted OPS360 microservices.
+- Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.
+- Worked closely with QA, DevOps, database, infrastructure, operations, and development teams throughout the SDLC lifecycle.
+- Supported modernization initiatives involving REST APIs, AWS infrastructure, distributed messaging, OpenShift exposure, and enterprise application integration.
 
-### EmblemHealth / EPMO Operations
-**Senior Business Analyst** | 03/2014 – 07/2016 | New York, NY
+### Insurance Portfolio & Business Systems
+**EmblemHealth • AIG Property Casualty • AIG Travel Guard**  
+**Senior Business Analyst / Program Manager** | 2009 – 2016 | New York, NY / Jersey City, NJ
 
-- Led requirements gathering, workflow analysis, and stakeholder validation activities for enterprise PMO operational initiatives.
-- Documented business requirements, operational procedures, and test plans supporting stakeholder review and formal signoff processes.
-- Facilitated UAT coordination, test execution, defect tracking, and business validation activities.
-- Developed process documentation, operational training materials, and PMO governance workflows.
-- Designed reporting metrics supporting resource planning, productivity tracking, and operational visibility.
-- Maintained enterprise project portal documentation including project lifecycle templates, governance standards, and process artifacts.
-- Supported workflow re-alignment initiatives to improve operational efficiency and funding approval processes.
+- Gathered and documented business requirements for HP PPM portfolio management, demand/intake, approval workflows, reporting, and PMO governance processes.
+- Configured and tested business-critical workflows including request creation, stage-gate approval, project generation, staffing profiles, allocation pools, and timesheet processes.
+- Created test data using representative users, roles, resource managers, executives, financial data, and cost centers to validate real-world workflow scenarios.
+- Supported Business Objects and Excel-based reporting for portfolio visibility, resource planning, productivity tracking, and operational decision-making.
+- Analyzed and tested insurance premium/rating workflows using parameters such as origin, destination, age, gender, duration, coverage limits, and university-mandated medical minimums.
+- Coordinated rollout of travel insurance product premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.
 
-### AIG Property Casualty PMO
-**Business Systems Analyst** | 05/2012 – 12/2013 | Jersey City, NJ / New York, NY
+### Financial Data Management Platforms
+**Asset Control / Solomon Page • Capgemini / Fidelity Investments**  
+**Lead Consultant / Implementation Engineer** | 2006 – 2009 | New York, NY / Boston, MA
 
-- Developed detailed business and functional requirements for HP PPM and Business Objects enhancement initiatives.
-- Facilitated stakeholder meetings to review priorities, clarify requirements, resolve ambiguities, and track delivery progress.
-- Collaborated with distributed onshore/offshore engineering teams on requirements clarification, workflow validation, UAT coordination, and delivery readiness activities.
-- Produced operational documentation and Business Objects Quick Reference Guides supporting self-service user training.
+- Supported ACPlus / Asset Control financial data platform implementations involving reference data, pricing data, time series data, security master creation, and golden-copy data management.
+- Assisted pre-sales and post-sales teams by building proof-of-concept solutions demonstrating normalization, consolidation, cleansing, and distribution of vendor data to downstream applications.
+- Processed and validated financial ratings and fixed-income data feeds from vendors including Standard & Poor’s, Moody’s, Reuters, and internal Fidelity sources.
+- Supported testing, documentation, client onboarding, data quality validation, and operational readiness for financial data distribution workflows.
 
-### AIG Travel Guard Worldwide
-**Senior Program Manager / Business Analyst** | 06/2009 – 04/2012 | Jersey City, NJ
+### Governance & Compliance Systems
+**OpenPages, Inc.**  
+**Consulting Engineer** | 2004 – 2005
 
-- Supported enterprise e-business operations and SDLC coordination activities for global travel insurance platforms.
-- Developed standardized UAT planning templates and operational testing procedures supporting enterprise delivery governance.
-- Managed enhancement requests, delivery coordination, and operational readiness activities to minimize implementation risk and delivery impacts.
-- Coordinated communication between business stakeholders, operations teams, technology groups, and external distribution partners.
-- Conducted project closure activities including lessons learned reviews, delivery gap analysis, and stakeholder feedback sessions.
+- Configured SOX Express to support Sarbanes-Oxley Section 302 and 404 documentation, testing, approval, and compliance workflow processes.
+- Supported compliance workflow implementation for clients including Becton Dickinson, helping streamline control documentation, approval notifications, and downstream action tracking.
 
-### Capgemini — Fidelity Investments
-**Lead Consultant** | 10/2007 – 04/2009 | Boston, MA / On-site
+### Engineering Software & CAD/CAM Solutions
+**PlanetCAD • Dassault Systèmes**  
+**Software Engineer / Consulting Engineer** | 1989 – 2001 | France / New Jersey / Boston
 
-- Supported enterprise investment data platform upgrade initiatives involving operational workflow coordination and vendor data integration processes.
-- Processed and validated financial vendor feeds including Standard & Poor’s, Moody’s, Reuters, and internal fixed income market data.
-
-### Solomon Page — Asset Control
-**Implementation Engineer** | 02/2006 – 10/2007 | New York, NY
-
-- Supported enterprise financial data implementation initiatives and operational onboarding activities for client delivery engagements.
-- Assisted financial clients during implementation and workflow transition activities for enterprise pricing and reference data systems.
-- Prototyped reference and pricing consolidation solutions supporting operational data integration efforts.
-
-### OpenPages, Inc.
-**Consulting Engineer** | 04/2004 – 12/2005
-
-- Supported Sarbanes-Oxley compliance workflow initiatives and financial controls process implementations for enterprise clients.
-- Coordinated operational notification workflows, compliance-related process activities, and downstream action tracking procedures.
-
-### Thomson Reuters
-**Senior Software Engineer** | 06/2001 – 11/2002
-
-- Supported financial research and entitlement platform modernization initiatives within enterprise publishing environments.
-- Re-engineered legacy system functionality using Java, XML, JSP/Servlet, and C# technologies.
-
-### PlanetCAD
-**Senior Software / Consulting Engineer** | 02/1993 – 06/2001 | Boston, MA
-
-- Led software development and customer implementation activities across multiple UNIX platform environments.
-- Coordinated development tasks, technical integration activities, and contractor deliverables across distributed teams.
-
-### Dassault Systèmes
-**Software Engineer** | 08/1989 – 08/1992 | Suresnes, France / Paramus, NJ
-
-- Coordinated development activities between engineering teams in France and the United States for enterprise CAD software releases.
-- Developed software evaluation and quality assurance procedures aligned with IBM software quality standards.
+- Developed and implemented CAD/CAM software solutions supporting manufacturing, aerospace, automotive, and defense customers.
+- Built CATIA-based engineering automation including a Hyundai Motor Company standard fastener application that generated and positioned 3D fastener components within vehicle models.
+- Supported 3D hydraulic and fluid-line routing workflows for General Dynamics Electric Boat, Sikorsky Aircraft, and Bell Helicopter, including modeling support and engineering drawing generation.
+- Worked across CATIA, StoneRule, FORTRAN, C/C++, UNIX, AIX, Sun, IBM mainframe, and DB2 environments.
 
 ## Education
 
@@ -190,14 +151,9 @@ Senior Business Analyst and Application Support professional with extensive expe
 **BS, Mechanical Engineering** — University of Massachusetts Amherst  
 **Baccalaureat D, Mathematics and Science** — Lycée Paul Éluard, France
 
-## Publications
-
-- Rules for an Expert Fixturing System on a CAD Screen using Flexible Fixtures, Journal of Intelligent Manufacturing, 1990.
-- A Framework for a Rule-based Expert Fixturing System for Face Milling Surfaces on a CAD System using Flexible Fixtures, Journal of Manufacturing Systems, 1989.
-
 ## Skills
 
-Business Analysis, Requirements Analysis, Workflow Analysis, SDLC, Agile, Jira, Confluence, Visio, UAT Coordination, Stakeholder Management, Process Documentation, ServiceNow, SharePoint, Oracle, Linux, AWS, REST API, JSON, OpenAPI/Swagger, Excel Power Query, Pivot Tables, Shell Scripting, Git, PlantUML, Obsidian, Postman
+Business Analysis, Application Support, Requirements Analysis, Workflow Analysis, SDLC, Agile, Jira, Confluence, UAT Coordination, Release Coordination, Production Readiness, ServiceNow, Visio, SharePoint, Oracle, Linux, AWS, REST API, JSON, OpenAPI/Swagger, Excel Power Query, Pivot Tables, Shell Scripting, Git, Postman, Financial Data, Market Data, Reference Data, Insurance Systems, HP PPM
 
 ## Languages
 

@@ -85,12 +85,14 @@ def validate(text: str, source: Path) -> None:
 
     required = [
         "## Professional Summary",
-        "## Work Experience",
         "## Skills",
     ]
     for item in required:
         if item not in text:
             print(f"WARNING: {source.name}: missing required section: {item}")
+
+    if "## Work Experience" not in text and "## Professional Experience" not in text:
+        print(f"WARNING: {source.name}: missing required section: ## Work Experience or ## Professional Experience")
 
 def generate_one(path: Path, output_dir: Path) -> Path:
     meta, body = read_md(path)

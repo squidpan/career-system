@@ -29,7 +29,7 @@ role_qualifiers:
 role_code: sre
 application_package_id: application-pico-sre-2026-v1
 origin: generated
-run_id: run-2026-06-01-resume-assembly-v1
+run_id: run-2026-06-03-resume-assembly-v5
 ---
 
 # Pico — Site Reliability Engineer — Assembled Resume v1
@@ -73,99 +73,67 @@ Review and tailor the full resume below before submitting.
 # Paul Lyu — Master SRE / Production Support Resume
 
 Paul Lyu  
-New Jersey, United States • paulchlyu@gmail.com • 551-200-0709 • linkedin.com/in/paul-lyu-232719
+551-200-0709 • paulchlyu@gmail.com • linkedin.com/in/paul-lyu-232719
 
 ## Target Positioning
 
-Site Reliability Engineer | Production Support | Market Data Application Support
+Application Support | Production Support | Financial Systems | Market Data Platforms
 
 ## Professional Summary
 
-Hands-on application support and release coordination professional with extensive experience supporting real-time streaming financial market data applications across Linux client/server, Oracle, on-premises, and AWS-connected environments. Experienced coordinating production readiness, deployment validation, health checks, troubleshooting, runbooks, log analysis, REST/JSON validation, and cross-functional issue resolution with DevOps, infrastructure, database, operations, QA, and business teams. Strong background in financial market data, regulated operations, stakeholder communication, and structured incident-oriented support practices.
+Hands-on application support and release coordination professional with experience supporting enterprise financial applications, fixed-income pricing platforms, streaming market data systems, and regulated production environments. Experienced coordinating production readiness, deployment validation, health checks, troubleshooting, runbooks, log analysis, REST/JSON validation, Oracle data comparison, and cross-functional issue resolution with DevOps, infrastructure, database, operations, QA, and development teams. Strong background in financial data platforms, application modernization, Linux-based environments, AWS-connected services, OpenShift exposure, and incident-oriented support practices.
 
-## Core Strengths
+## Core Competencies
 
-- Linux application support and operational troubleshooting
-- Market data systems and real-time streaming price applications
-- Deployment validation and production readiness
-- Health checks, runbooks, and support documentation
-- Bash/Korn shell scripting and log analysis
-- Oracle-backed application environments
-- AWS-connected system modernization exposure
-- REST API endpoint and JSON payload validation
-- OpenAPI/Swagger documentation coordination
-- Jira, Confluence, ServiceNow, Visio, Git
-- Cross-functional coordination with DevOps, infrastructure, QA, database, and business teams
+- Production Support: incident coordination, deployment validation, health checks, runbooks, operational readiness
+- Application Support: enterprise financial applications, fixed-income pricing, market data distribution, downstream consumers
+- Technical Operations: Linux, Oracle, AWS, OpenShift exposure, REST APIs, JSON, OpenAPI/Swagger, ServiceNow
+- Data Validation: Oracle comparison, pricing payload validation, reference data, security master, golden-copy workflows
+- Delivery Support: release coordination, Dev/QA/UAT/Production handoffs, Jira, Confluence, Visio, documentation
+- Collaboration: DevOps, QA, infrastructure, database, operations, development, product owners, enterprise architects
 
-## Work Experience
+## Professional Experience
 
-### Gresham Technologies — Federal Reserve Bank of New York
-**Senior Business Analyst / DevOps Release Coordinator / Application Support** | 04/2017 – 02/2026 | New York, NY / On-site
+### Financial Services Production Support & Application Modernization
+**Gresham Technologies — Federal Reserve Bank of New York**  
+**Application Support / DevOps Release Coordinator / Senior Business Analyst** | 04/2017 – 02/2026 | New York, NY / On-site
 
-- Supported real-time streaming financial market data applications operating across Linux client/server, Oracle, on-premises, and AWS-connected infrastructure.
-- Streamlined QA and Production deployment processes for a market data streaming price application in Linux and Oracle environments.
-- Supported DevOps and operations teams during deployment issues involving on-premises pricing servers, OpenShift4, and AWS-connected market data services.
-- Developed and used Bash/Korn shell scripts and Excel Power Query/Pivot tools to parse and analyze log files for data load and pricing anomalies.
-- Tested deployment steps and health-check scripts to validate post-deployment environment readiness.
-- Executed deployment validation procedures, environment readiness checks, and post-release operational health checks across Dev, QA, and Production environments.
-- Maintained deployment runbooks, troubleshooting procedures, implementation notes, and operational support documentation using Confluence and Visio.
-- Coordinated cross-functional deployment activities between business users, infrastructure, database, DevOps, QA, operations, and development teams.
-- Defined and validated REST API endpoints and JSON payload structures for fixed income market data pricing services using OpenAPI/Swagger documentation.
-- Mapped legacy relational database pricing schema to REST API payload formats in JSON.
-- Generated actionable Jira user stories from high-level Epics in collaboration with Product Owners and Scrum Masters.
-- Coordinated software access, tooling, and infrastructure requests through ServiceNow change and support workflows.
+- Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.
+- Validated REST API pricing payloads against Oracle data sources to support migration from legacy on-premise services to AWS-hosted microservices.
+- Coordinated deployment readiness and production validation across Development, QA, UAT, and Production environments.
+- Executed environment readiness testing, deployment validation, post-release health checks, and operational verification procedures.
+- Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, implementation notes, and support documentation.
+- Supported incident-oriented troubleshooting by coordinating log review, environment checks, data validation, escalation, and cross-team issue resolution.
+- Partnered with enterprise architects and engineering teams to document cloud migration architecture and resiliency patterns for legacy AC Plus and OPS360-based services.
+- Supported disaster recovery and resiliency readiness activities across primary, secondary, and cloud-connected service environments.
+- Worked with DevOps, infrastructure, database, QA, operations, and development teams to support release execution and production stability.
+- Coordinated software access, tooling, environment, and operational support requests through ServiceNow workflows.
 
-### EmblemHealth / EPMO Operations
-**Senior Business Analyst** | 03/2014 – 07/2016 | New York, NY
+### Enterprise Business Systems Support
+**EmblemHealth • AIG Property Casualty • AIG Travel Guard**  
+**Business Systems Analyst / Program Manager** | 2009 – 2016 | New York, NY / Jersey City, NJ
 
-- Documented requirements, created and executed test plans, and supported stakeholder signoff for enterprise PMO operational initiatives.
-- Developed use cases and test plans from requirements and led UAT coordination activities.
-- Maintained portal documentation and stage gate templates supporting operational governance.
-- Developed runbook-style documentation for PPM resource management processes.
+- Supported HP PPM, portfolio management, approval workflow, reporting, and insurance business systems used by PMO and operational stakeholders.
+- Coordinated UAT planning, test data setup, defect tracking, workflow validation, and signoff readiness for enterprise business applications.
+- Supported configuration and testing of staffing profiles, allocation pools, stage-gate approvals, project generation, timesheet workflows, and reporting processes.
+- Supported insurance premium/rating workflow validation and international travel product rollout activities.
 
-### AIG Property Casualty PMO
-**Business Systems Analyst** | 05/2012 – 12/2013 | Jersey City, NJ / New York, NY
+### Financial Data Platforms
+**Asset Control / Solomon Page • Capgemini / Fidelity Investments**  
+**Lead Consultant / Implementation Engineer** | 2006 – 2009 | New York, NY / Boston, MA
 
-- Developed requirements for HP PPM and Business Objects enhancement requests.
-- Worked with home office and offshore software teams on requirements clarification and UAT test planning.
-- Published Business Objects Quick Reference Guide documentation supporting self-service training.
+- Supported ACPlus / Asset Control financial data management platform implementations involving reference data, pricing data, time series data, security master, and golden-copy workflows.
+- Assisted pre-sales and post-sales teams by building proof-of-concept solutions demonstrating data normalization, consolidation, cleansing, and downstream distribution.
+- Processed and validated financial ratings and fixed-income data feeds from Standard & Poor’s, Moody’s, Reuters, and internal Fidelity sources.
 
-### AIG Travel Guard Worldwide
-**Senior Program Manager** | 06/2009 – 04/2012 | Jersey City, NJ
+### Software Engineering Foundation
+**OpenPages • Thomson Reuters • PlanetCAD • Dassault Systèmes**  
+**Consulting Engineer / Senior Software Engineer / Software Engineer** | 1989 – 2005
 
-- Managed enhancement requests and operational readiness activities for global travel insurance platforms.
-- Coordinated communication between profit centers, operations, technology groups, and distribution partners.
-- Supported deployment of global travel insurance products through distribution channels and system enhancements.
-
-### Solomon Page — Asset Control
-**Implementation Engineer** | 02/2006 – 10/2007 | New York, NY
-
-- Supported enterprise financial data implementation initiatives and client onboarding activities.
-- Assisted clients during implementation of price capture and market/reference data solutions.
-- Developed proof-of-concept reference and price data consolidation applications.
-
-### Capgemini — Fidelity Investments
-**Lead Consultant** | 10/2007 – 04/2009 | Boston, MA
-
-- Supported legacy investment reference database upgrade initiatives.
-- Processed vendor feeds including Standard & Poor’s, Moody’s, Reuters, and internal fixed income data.
-
-### Thomson Reuters
-**Senior Software Engineer** | 06/2001 – 11/2002 | Boston, MA
-
-- Supported entitlement and financial research platform modernization initiatives using Java, XML, JSP/Servlet, and C# technologies.
-
-### PlanetCAD
-**Senior Software / Consulting Engineer** | 02/1993 – 06/2001 | Boston, MA
-
-- Led C/C++/XML/Motif/Java-based development across UNIX platforms.
-- Coordinated development tasks, contractor deliverables, and customer implementation activities.
-
-### Dassault Systèmes
-**Software Engineer** | 08/1989 – 08/1992 | Suresnes, France / Paramus, NJ
-
-- Released CAD software modules and developed software evaluation/testing procedures based on IBM quality standards.
-- Coordinated development tasks between engineering teams in France and the United States.
+- Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
+- Supported financial research and entitlement platform modernization using Java, XML, JSP/Servlet, and C#.
+- Developed CAD/CAM and engineering automation solutions using CATIA, StoneRule, FORTRAN, C/C++, UNIX, AIX, Sun, IBM mainframe, and DB2.
+- Delivered manufacturing, aerospace, automotive, and defense engineering solutions for clients including Hyundai Motor Company, General Dynamics Electric Boat, Sikorsky Aircraft, and Bell Helicopter.
 
 ## Education
 
@@ -173,16 +141,11 @@ Hands-on application support and release coordination professional with extensiv
 **BS, Mechanical Engineering** — University of Massachusetts Amherst  
 **Baccalaureat D, Mathematics and Science** — Lycée Paul Éluard, France
 
-## Publications
-
-- Rules for an Expert Fixturing System on a CAD Screen using Flexible Fixtures, Journal of Intelligent Manufacturing, 1990.
-- A Framework for a Rule-based Expert Fixturing System for Face Milling Surfaces on a CAD System using Flexible Fixtures, Journal of Manufacturing Systems, 1989.
-
 ## Skills
 
-Linux, Bash, Korn Shell Scripting, RHEL, Ubuntu, Oracle, SQL, AWS, OpenShift exposure, REST API, JSON, OpenAPI/Swagger, Jira, Confluence, ServiceNow, Visio, Git, Postman, VS Code, Excel Power Query, Pivot Tables, PlantUML, Obsidian, Market Data, Runbooks, Deployment Validation, Health Checks, Application Support, Production Readiness
+Linux, Bash, Korn Shell Scripting, Oracle, SQL, AWS, OpenShift exposure, REST API, JSON, OpenAPI/Swagger, ServiceNow, Jira, Confluence, Visio, Git, Postman, Excel Power Query, Pivot Tables, Market Data, Financial Data, Reference Data, Production Readiness, Deployment Validation, Health Checks, Runbooks, Application Support, Incident Coordination
 
 ## Languages
 
-English, French, Korean
+English, Korean, French
 

@@ -11,12 +11,7 @@ Hands-on application support and release coordination professional with experien
 
 ## Core Competencies
 
-- Production Support: incident coordination, deployment validation, health checks, runbooks, operational readiness
-- Application Support: enterprise financial applications, fixed-income pricing, market data distribution, downstream consumers
-- Technical Operations: Linux, Oracle, AWS, OpenShift exposure, REST APIs, JSON, OpenAPI/Swagger, ServiceNow
-- Data Validation: Oracle comparison, pricing payload validation, reference data, security master, golden-copy workflows
-- Delivery Support: release coordination, Dev/QA/UAT/Production handoffs, Jira, Confluence, Visio, documentation
-- Collaboration: DevOps, QA, infrastructure, database, operations, development, product owners, enterprise architects
+Production Support | Application Support | Deployment Validation | Health Checks | Runbooks | Incident Coordination | Linux | Oracle | AWS | OpenShift Exposure | REST API Validation | Financial Data Platforms | ServiceNow
 
 ## Professional Experience
 
@@ -33,33 +28,30 @@ Hands-on application support and release coordination professional with experien
 - Partnered with enterprise architects and engineering teams to document cloud migration architecture and resiliency patterns for legacy AC Plus and OPS360-based services.
 - Supported disaster recovery and resiliency readiness activities across primary, secondary, and cloud-connected service environments.
 - Worked with DevOps, infrastructure, database, QA, operations, and development teams to support release execution and production stability.
-- Coordinated software access, tooling, environment, and operational support requests through ServiceNow workflows.
 
 ### Enterprise Business Systems Support
-**EmblemHealth • AIG Property Casualty • AIG Travel Guard**  
 **Business Systems Analyst / Program Manager** | 2009 – 2016 | New York, NY / Jersey City, NJ
 
+- Supported enterprise business systems across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.
 - Supported HP PPM, portfolio management, approval workflow, reporting, and insurance business systems used by PMO and operational stakeholders.
 - Coordinated UAT planning, test data setup, defect tracking, workflow validation, and signoff readiness for enterprise business applications.
-- Supported configuration and testing of staffing profiles, allocation pools, stage-gate approvals, project generation, timesheet workflows, and reporting processes.
 - Supported insurance premium/rating workflow validation and international travel product rollout activities.
 
 ### Financial Data Platforms
-**Asset Control / Solomon Page • Capgemini / Fidelity Investments**  
 **Lead Consultant / Implementation Engineer** | 2006 – 2009 | New York, NY / Boston, MA
 
+- Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.
 - Supported ACPlus / Asset Control financial data management platform implementations involving reference data, pricing data, time series data, security master, and golden-copy workflows.
-- Assisted pre-sales and post-sales teams by building proof-of-concept solutions demonstrating data normalization, consolidation, cleansing, and downstream distribution.
+- Built proof-of-concept solutions demonstrating data normalization, consolidation, cleansing, and downstream financial data distribution.
 - Processed and validated financial ratings and fixed-income data feeds from Standard & Poor’s, Moody’s, Reuters, and internal Fidelity sources.
 
 ### Software Engineering Foundation
-**OpenPages • Thomson Reuters • PlanetCAD • Dassault Systèmes**  
 **Consulting Engineer / Senior Software Engineer / Software Engineer** | 1989 – 2005
 
+- Supported software engineering and enterprise platform work across OpenPages, Thomson Reuters, PlanetCAD, and Dassault Systèmes.
 - Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
 - Supported financial research and entitlement platform modernization using Java, XML, JSP/Servlet, and C#.
-- Developed CAD/CAM and engineering automation solutions using CATIA, StoneRule, FORTRAN, C/C++, UNIX, AIX, Sun, IBM mainframe, and DB2.
-- Delivered manufacturing, aerospace, automotive, and defense engineering solutions for clients including Hyundai Motor Company, General Dynamics Electric Boat, Sikorsky Aircraft, and Bell Helicopter.
+- Delivered CAD/CAM and engineering automation solutions using CATIA, StoneRule, FORTRAN, C/C++, UNIX, AIX, Sun, IBM mainframe, and DB2 for manufacturing, aerospace, automotive, and defense clients.
 
 ## Education
 
@@ -69,7 +61,7 @@ Hands-on application support and release coordination professional with experien
 
 ## Skills
 
-Linux, Bash, Korn Shell Scripting, Oracle, SQL, AWS, OpenShift exposure, REST API, JSON, OpenAPI/Swagger, ServiceNow, Jira, Confluence, Visio, Git, Postman, Excel Power Query, Pivot Tables, Market Data, Financial Data, Reference Data, Production Readiness, Deployment Validation, Health Checks, Runbooks, Application Support, Incident Coordination
+Linux, Bash, Korn Shell, Oracle, SQL, AWS, OpenShift Exposure, REST API, JSON, OpenAPI/Swagger, ServiceNow, Jira, Confluence, Visio, Git, Postman, Excel Power Query, Market Data, Financial Data, Reference Data, Production Readiness, Deployment Validation, Health Checks, Runbooks, Application Support, Incident Coordination
 
 ## Languages
 

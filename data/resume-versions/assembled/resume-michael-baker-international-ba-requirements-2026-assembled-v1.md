@@ -30,7 +30,7 @@ role_qualifiers:
 role_code: ba-requirements
 application_package_id: application-michael-baker-international-ba-requirements-2026-v1
 origin: generated
-run_id: run-2026-06-03-resume-assembly-v5
+run_id: run-2026-06-03-resume-assembly-v8
 ---
 
 # Michael Baker International — Software Requirements Analyst (GIS) — Assembled Resume v1
@@ -88,16 +88,11 @@ Senior Business Analyst | Application Support | Financial Services | Insurance S
 
 ## Professional Summary
 
-Senior Business Analyst and Application Support professional with experience supporting enterprise financial applications, fixed-income market data ecosystems, insurance business systems, financial data platforms, and regulated operational workflows. Proven track record gathering requirements, documenting workflows, coordinating SDLC activities, supporting QA/UAT, validating production releases, and partnering with business, operations, infrastructure, DevOps, database, and development teams. Experienced in enterprise application modernization, REST API validation, Oracle data mapping, release readiness, operational runbooks, ServiceNow workflows, and cross-functional delivery across financial services and insurance environments.
+Senior Business Analyst and Application Support professional with experience supporting enterprise financial applications, fixed-income market data ecosystems, insurance systems, financial data platforms, and regulated operational workflows. Proven track record gathering requirements, documenting workflows, coordinating QA/UAT, validating production releases, and partnering with business, operations, infrastructure, DevOps, database, and development teams. Experienced in application modernization, REST API validation, Oracle data mapping, release readiness, operational runbooks, ServiceNow workflows, and cross-functional delivery across financial services and insurance environments.
 
 ## Core Competencies
 
-- Business Analysis: requirements gathering, functional requirements, user stories, acceptance criteria, workflow analysis, stakeholder management
-- Delivery & Support: SDLC, Agile, QA/UAT, release coordination, production readiness, runbooks, operational documentation
-- Financial Systems: fixed-income pricing, market data, reference data, security master, pricing data, data quality
-- Insurance Systems: HP PPM, portfolio management, approval workflows, PMO governance, premium/rating workflows
-- Technology: Linux, Oracle, AWS, OpenShift exposure, REST APIs, JSON, OpenAPI/Swagger, ServiceNow
-- Tools: Jira, Confluence, Visio, SharePoint, Excel Power Query, Pivot Tables, Git, Postman, Obsidian
+Business Analysis | Application Support | Production Readiness | QA/UAT | Release Coordination | Financial Systems | Insurance Systems | Financial Data Platforms | REST API Validation | Oracle Data Mapping | ServiceNow Workflows
 
 ## Professional Experience
 
@@ -107,50 +102,39 @@ Senior Business Analyst and Application Support professional with experience sup
 
 - Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data to downstream consumer platforms.
 - Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.
-- Coordinated release readiness activities across Development, QA, UAT, and Production environments.
+- Coordinated release readiness, deployment validation, and production cutover activities across Development, QA, UAT, and Production environments.
 - Produced operational runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation for mission-critical financial systems.
 - Collaborated with Product Owners and Scrum Masters to decompose Epics into Jira user stories, acceptance criteria, and implementation-ready requirements.
-- Executed deployment validation procedures, environment readiness testing, and post-release operational health checks.
-- Partnered with enterprise architects and engineering teams to document cloud migration architecture supporting modernization of legacy AC Plus pricing services to AWS-hosted OPS360 microservices.
+- Partnered with enterprise architects and engineering teams to document cloud migration architecture for legacy AC Plus pricing services and AWS-hosted OPS360 microservices.
 - Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.
-- Worked closely with QA, DevOps, database, infrastructure, operations, and development teams throughout the SDLC lifecycle.
-- Supported modernization initiatives involving REST APIs, AWS infrastructure, distributed messaging, OpenShift exposure, and enterprise application integration.
+- Worked closely with QA, DevOps, database, infrastructure, operations, and development teams to support SDLC delivery and production stability.
 
 ### Insurance Portfolio & Business Systems
-**EmblemHealth • AIG Property Casualty • AIG Travel Guard**  
 **Senior Business Analyst / Program Manager** | 2009 – 2016 | New York, NY / Jersey City, NJ
 
-- Gathered and documented business requirements for HP PPM portfolio management, demand/intake, approval workflows, reporting, and PMO governance processes.
-- Configured and tested business-critical workflows including request creation, stage-gate approval, project generation, staffing profiles, allocation pools, and timesheet processes.
-- Created test data using representative users, roles, resource managers, executives, financial data, and cost centers to validate real-world workflow scenarios.
+- Supported insurance systems and PMO workflows across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.
+- Gathered and documented requirements for HP PPM portfolio management, demand/intake, approval workflows, reporting, and PMO governance processes.
+- Configured and tested business-critical workflows including request creation, stage-gate approval, project generation, staffing profiles, allocation pools, timesheets, and approval notifications.
+- Created representative UAT data using users, roles, resource managers, executives, financial data, and cost centers to validate real-world workflow scenarios.
 - Supported Business Objects and Excel-based reporting for portfolio visibility, resource planning, productivity tracking, and operational decision-making.
-- Analyzed and tested insurance premium/rating workflows using parameters such as origin, destination, age, gender, duration, coverage limits, and university-mandated medical minimums.
-- Coordinated rollout of travel insurance product premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.
+- Analyzed and tested insurance premium/rating workflows using origin, destination, age, gender, duration, coverage limits, and university-mandated medical minimums.
+- Coordinated rollout of travel insurance premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.
 
 ### Financial Data Management Platforms
-**Asset Control / Solomon Page • Capgemini / Fidelity Investments**  
 **Lead Consultant / Implementation Engineer** | 2006 – 2009 | New York, NY / Boston, MA
 
+- Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.
 - Supported ACPlus / Asset Control financial data platform implementations involving reference data, pricing data, time series data, security master creation, and golden-copy data management.
-- Assisted pre-sales and post-sales teams by building proof-of-concept solutions demonstrating normalization, consolidation, cleansing, and distribution of vendor data to downstream applications.
+- Built proof-of-concept solutions demonstrating normalization, consolidation, cleansing, and distribution of vendor data to downstream trading, portfolio management, regulatory, and risk platforms.
 - Processed and validated financial ratings and fixed-income data feeds from vendors including Standard & Poor’s, Moody’s, Reuters, and internal Fidelity sources.
-- Supported testing, documentation, client onboarding, data quality validation, and operational readiness for financial data distribution workflows.
 
-### Governance & Compliance Systems
-**OpenPages, Inc.**  
-**Consulting Engineer** | 2004 – 2005
+### Governance, Engineering Software & CAD/CAM Solutions
+**Consulting Engineer / Software Engineer** | 1989 – 2005 | France / New Jersey / Boston
 
-- Configured SOX Express to support Sarbanes-Oxley Section 302 and 404 documentation, testing, approval, and compliance workflow processes.
-- Supported compliance workflow implementation for clients including Becton Dickinson, helping streamline control documentation, approval notifications, and downstream action tracking.
-
-### Engineering Software & CAD/CAM Solutions
-**PlanetCAD • Dassault Systèmes**  
-**Software Engineer / Consulting Engineer** | 1989 – 2001 | France / New Jersey / Boston
-
-- Developed and implemented CAD/CAM software solutions supporting manufacturing, aerospace, automotive, and defense customers.
-- Built CATIA-based engineering automation including a Hyundai Motor Company standard fastener application that generated and positioned 3D fastener components within vehicle models.
-- Supported 3D hydraulic and fluid-line routing workflows for General Dynamics Electric Boat, Sikorsky Aircraft, and Bell Helicopter, including modeling support and engineering drawing generation.
-- Worked across CATIA, StoneRule, FORTRAN, C/C++, UNIX, AIX, Sun, IBM mainframe, and DB2 environments.
+- Supported governance and engineering software work across OpenPages, PlanetCAD, and Dassault Systèmes.
+- Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
+- Developed and implemented CAD/CAM and engineering automation solutions using CATIA, StoneRule, FORTRAN, C/C++, UNIX, AIX, Sun, IBM mainframe, and DB2.
+- Delivered manufacturing, aerospace, automotive, and defense engineering solutions for Hyundai Motor Company, General Dynamics Electric Boat, Sikorsky Aircraft, and Bell Helicopter.
 
 ## Education
 
@@ -160,7 +144,7 @@ Senior Business Analyst and Application Support professional with experience sup
 
 ## Skills
 
-Business Analysis, Application Support, Requirements Analysis, Workflow Analysis, SDLC, Agile, Jira, Confluence, UAT Coordination, Release Coordination, Production Readiness, ServiceNow, Visio, SharePoint, Oracle, Linux, AWS, REST API, JSON, OpenAPI/Swagger, Excel Power Query, Pivot Tables, Shell Scripting, Git, Postman, Financial Data, Market Data, Reference Data, Insurance Systems, HP PPM
+Business Analysis, Application Support, Requirements Analysis, Workflow Analysis, SDLC, Agile, Jira, Confluence, UAT, Release Coordination, Production Readiness, ServiceNow, Visio, Oracle, Linux, AWS, REST API, JSON, OpenAPI/Swagger, Excel Power Query, Git, Postman, Financial Data, Market Data, Reference Data, Insurance Systems, HP PPM
 
 ## Languages
 

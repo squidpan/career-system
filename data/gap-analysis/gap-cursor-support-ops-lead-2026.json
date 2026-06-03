@@ -1,0 +1,39 @@
+{
+  "run_id": "run-2026-06-03-gap-analysis-v4",
+  "company": "Cursor",
+  "title": "Support Operations Systems Lead",
+  "role_code": "support-ops-lead",
+  "overall_match_score": 100,
+  "recommendation": "strong_apply",
+  "effort_level": "low",
+  "jd_file": "data/jds/normalized/jd-cursor-support-ops-lead-2026-v1.md",
+  "role_file": "data/roles/role-cursor-support-ops-lead-2026.md",
+  "resume_master_file": "data/resume-masters/master-ba-resume.md",
+  "scores": {
+    "skills": 100,
+    "tools": 100,
+    "domain": 100,
+    "role_alignment": 100
+  },
+  "matched": {
+    "skills": [
+      "application support",
+      "documentation",
+      "incident coordination",
+      "stakeholder management",
+      "workflow analysis"
+    ],
+    "tools": [
+      "excel"
+    ],
+    "domains": [],
+    "roles": []
+  },
+  "missing": {
+    "skills": [],
+    "tools": [],
+    "domains": [],
+    "roles": []
+  },
+  "estimated_learning_effort": {}
+}

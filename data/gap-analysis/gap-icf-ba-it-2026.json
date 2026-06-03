@@ -1,0 +1,46 @@
+{
+  "run_id": "run-2026-06-03-gap-analysis-v4",
+  "company": "ICF",
+  "title": "IT Business Analyst",
+  "role_code": "ba-it",
+  "overall_match_score": 100,
+  "recommendation": "strong_apply",
+  "effort_level": "low",
+  "jd_file": "data/jds/normalized/jd-icf-ba-it-2026-v1.md",
+  "role_file": "data/roles/role-icf-ba-it-2026.md",
+  "resume_master_file": "data/resume-masters/master-ba-resume.md",
+  "scores": {
+    "skills": 100,
+    "tools": 100,
+    "domain": 100,
+    "role_alignment": 100
+  },
+  "matched": {
+    "skills": [
+      "application support",
+      "business analysis",
+      "documentation",
+      "incident coordination",
+      "stakeholder management",
+      "uat",
+      "workflow analysis"
+    ],
+    "tools": [
+      "excel",
+      "jira"
+    ],
+    "domains": [
+      "insurance"
+    ],
+    "roles": [
+      "business analyst"
+    ]
+  },
+  "missing": {
+    "skills": [],
+    "tools": [],
+    "domains": [],
+    "roles": []
+  },
+  "estimated_learning_effort": {}
+}

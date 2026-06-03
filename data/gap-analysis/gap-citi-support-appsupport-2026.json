@@ -1,0 +1,35 @@
+{
+  "run_id": "run-2026-06-03-gap-analysis-v4",
+  "company": "Citi",
+  "title": "Application and Production Support Lead, Assistant Vice President",
+  "role_code": "support-appsupport",
+  "overall_match_score": 100,
+  "recommendation": "strong_apply",
+  "effort_level": "low",
+  "jd_file": "data/jds/normalized/jd-citi-support-appsupport-2026-v1.md",
+  "role_file": "data/roles/role-citi-support-appsupport-2026.md",
+  "resume_master_file": "data/resume-masters/master-ba-resume.md",
+  "scores": {
+    "skills": 100,
+    "tools": 100,
+    "domain": 100,
+    "role_alignment": 100
+  },
+  "matched": {
+    "skills": [
+      "application support"
+    ],
+    "tools": [],
+    "domains": [],
+    "roles": [
+      "application support"
+    ]
+  },
+  "missing": {
+    "skills": [],
+    "tools": [],
+    "domains": [],
+    "roles": []
+  },
+  "estimated_learning_effort": {}
+}

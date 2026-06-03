@@ -1,0 +1,37 @@
+{
+  "run_id": "run-2026-06-03-gap-analysis-v4",
+  "company": "The Depository Trust & Clearing Corporation (DTCC)",
+  "title": "Are you ready to make an impact at DTCC?",
+  "role_code": "bsa",
+  "overall_match_score": 90,
+  "recommendation": "strong_apply",
+  "effort_level": "low",
+  "jd_file": "data/jds/normalized/jd-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1.md",
+  "role_file": "data/roles/role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026.md",
+  "resume_master_file": "data/resume-masters/master-ba-resume.md",
+  "scores": {
+    "skills": 100,
+    "tools": 100,
+    "domain": 100,
+    "role_alignment": 50
+  },
+  "matched": {
+    "skills": [],
+    "tools": [],
+    "domains": [
+      "enterprise applications"
+    ],
+    "roles": [
+      "business analyst"
+    ]
+  },
+  "missing": {
+    "skills": [],
+    "tools": [],
+    "domains": [],
+    "roles": [
+      "systems analyst"
+    ]
+  },
+  "estimated_learning_effort": {}
+}

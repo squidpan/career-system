@@ -1,0 +1,36 @@
+{
+  "run_id": "run-2026-06-03-gap-analysis-v4",
+  "company": "Tata Consultancy Services",
+  "title": "Senior Business Analyst with AI",
+  "role_code": "sba-ai",
+  "overall_match_score": 100,
+  "recommendation": "strong_apply",
+  "effort_level": "low",
+  "jd_file": "data/jds/normalized/jd-tata-consultancy-services-sba-ai-2026-v1.md",
+  "role_file": "data/roles/role-tata-consultancy-services-sba-ai-2026.md",
+  "resume_master_file": "data/resume-masters/master-ba-resume.md",
+  "scores": {
+    "skills": 100,
+    "tools": 100,
+    "domain": 100,
+    "role_alignment": 100
+  },
+  "matched": {
+    "skills": [
+      "business analysis"
+    ],
+    "tools": [],
+    "domains": [],
+    "roles": [
+      "business analyst",
+      "senior business analyst"
+    ]
+  },
+  "missing": {
+    "skills": [],
+    "tools": [],
+    "domains": [],
+    "roles": []
+  },
+  "estimated_learning_effort": {}
+}

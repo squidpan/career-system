@@ -1,0 +1,50 @@
+{
+  "run_id": "run-2026-06-03-gap-analysis-v4",
+  "company": "Pico",
+  "title": "Site Reliability Engineer",
+  "role_code": "sre",
+  "overall_match_score": 93,
+  "recommendation": "strong_apply",
+  "effort_level": "low-medium",
+  "jd_file": "data/jds/normalized/jd-pico-sre-2026-v1.md",
+  "role_file": "data/roles/role-pico-sre-2026.md",
+  "resume_master_file": "data/resume-masters/master-sre-resume.md",
+  "scores": {
+    "skills": 100,
+    "tools": 67,
+    "domain": 100,
+    "role_alignment": 100
+  },
+  "matched": {
+    "skills": [
+      "application support",
+      "business analysis",
+      "documentation",
+      "incident coordination",
+      "release coordination",
+      "uat",
+      "workflow analysis"
+    ],
+    "tools": [
+      "excel",
+      "linux"
+    ],
+    "domains": [
+      "financial services"
+    ],
+    "roles": [
+      "sre"
+    ]
+  },
+  "missing": {
+    "skills": [],
+    "tools": [
+      "python"
+    ],
+    "domains": [],
+    "roles": []
+  },
+  "estimated_learning_effort": {
+    "python": "low-medium"
+  }
+}

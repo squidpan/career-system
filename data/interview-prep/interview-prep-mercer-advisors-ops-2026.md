@@ -1,7 +1,7 @@
 ---
 type: interview_prep
 status: draft
-run_id: run-2026-06-03-interview-prep-v2
+run_id: run-2026-06-03-interview-prep-v3
 source: career-system
 company: Mercer Advisors
 title: Infrastructure Operations Specialist
@@ -50,12 +50,18 @@ I am a Senior Business Analyst and Application Support professional with experie
 - government
 - healthcare
 - insurance
+- risk and controls
 
 ### JD-Specific Methodologies
 
+- data validation
+- documentation
 - incident management
 - monitoring
+- operational readiness
 - requirements analysis
+- risk assessment
+- stakeholder communication
 
 
 ## Strengths To Emphasize
@@ -90,16 +96,30 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 1. How would you support Workday workflows or integrations without being the primary Workday administrator?
 2. How would you gather requirements for an enterprise HRIS workflow?
+3. How do you create support documentation that is usable during incidents and releases?
+4. How do you define operational readiness for an application release?
+5. How do you improve stability, efficiency, and effectiveness in an application support function?
+6. How do you assess risk and business impact during a production issue?
+7. How do you evaluate production risk before or after an application release?
+8. How do you communicate technical issues to non-technical business users?
+9. How do you coordinate users, vendors, internal technology teams, and management during an escalation?
 
 ## Full Interview Question Set
 
 1. How would you support Workday workflows or integrations without being the primary Workday administrator?
 2. How would you gather requirements for an enterprise HRIS workflow?
-3. Tell me about a production issue you helped investigate or resolve.
-4. How do you validate that an application is healthy after a deployment?
-5. How do you use runbooks during release or support activities?
-6. How do you coordinate with DevOps, infrastructure, database, QA, and business teams during an incident?
-7. How do you distinguish application issues from data, infrastructure, or environment issues?
+3. How do you create support documentation that is usable during incidents and releases?
+4. How do you define operational readiness for an application release?
+5. How do you improve stability, efficiency, and effectiveness in an application support function?
+6. How do you assess risk and business impact during a production issue?
+7. How do you evaluate production risk before or after an application release?
+8. How do you communicate technical issues to non-technical business users?
+9. How do you coordinate users, vendors, internal technology teams, and management during an escalation?
+10. Tell me about a production issue you helped investigate or resolve.
+11. How do you validate that an application is healthy after a deployment?
+12. How do you use runbooks during release or support activities?
+13. How do you coordinate with DevOps, infrastructure, database, QA, and business teams during an incident?
+14. How do you distinguish application issues from data, infrastructure, or environment issues?
 
 ## Gap-Based Answer Strategy
 
@@ -107,7 +127,11 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 ## JD-to-Resume Story Mapping
 
+- documentation: Runbooks, support documentation, release procedures, and UAT evidence
 - incident management: Production support, log review, validation, and cross-team escalation
+- operational readiness: Deployment runbooks, health checks, production validation, and support readiness
+- risk assessment: Release readiness, impact analysis, production risk review, and escalation judgment
+- stakeholder communication: BA/application support communication across business users, DevOps, QA, and management
 - workday: Bridge from enterprise application support, workflow analysis, UAT, and rapid platform ramp-up
 
 ## Story Bank

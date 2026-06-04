@@ -1,7 +1,7 @@
 ---
 type: interview_prep
 status: draft
-run_id: run-2026-06-03-interview-prep-v2
+run_id: run-2026-06-03-interview-prep-v3
 source: career-system
 company: Michael Baker International
 title: Software Requirements Analyst (GIS)
@@ -56,7 +56,10 @@ I am a Senior Business Analyst and Application Support professional with experie
 ### JD-Specific Methodologies
 
 - agile
+- data validation
+- documentation
 - requirements analysis
+- stakeholder communication
 
 
 ## Strengths To Emphasize
@@ -93,6 +96,9 @@ I am a Senior Business Analyst and Application Support professional with experie
 2. How would you validate map-based or geospatial outputs with business users?
 3. How would you compare application output against Oracle data?
 4. How would you validate REST API output against a source system?
+5. How do you create support documentation that is usable during incidents and releases?
+6. How do you communicate technical issues to non-technical business users?
+7. How do you coordinate users, vendors, internal technology teams, and management during an escalation?
 
 ## Full Interview Question Set
 
@@ -100,13 +106,16 @@ I am a Senior Business Analyst and Application Support professional with experie
 2. How would you validate map-based or geospatial outputs with business users?
 3. How would you compare application output against Oracle data?
 4. How would you validate REST API output against a source system?
-5. How do you gather requirements from multiple stakeholders?
-6. How do you turn an Epic into user stories and acceptance criteria?
-7. How do you handle conflicting business requirements?
-8. How do you support UAT and ensure business signoff?
-9. Describe a time you documented a complex workflow or system process.
-10. What is your exposure to gis, and how would you ramp up quickly if this role requires it?
-11. How would you support a team using gis even if you are not the primary administrator?
+5. How do you create support documentation that is usable during incidents and releases?
+6. How do you communicate technical issues to non-technical business users?
+7. How do you coordinate users, vendors, internal technology teams, and management during an escalation?
+8. How do you gather requirements from multiple stakeholders?
+9. How do you turn an Epic into user stories and acceptance criteria?
+10. How do you handle conflicting business requirements?
+11. How do you support UAT and ensure business signoff?
+12. Describe a time you documented a complex workflow or system process.
+13. What is your exposure to gis, and how would you ramp up quickly if this role requires it?
+14. How would you support a team using gis even if you are not the primary administrator?
 
 ## Gap-Based Answer Strategy
 
@@ -114,9 +123,11 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 ## JD-to-Resume Story Mapping
 
+- documentation: Runbooks, support documentation, release procedures, and UAT evidence
 - gis: Bridge from requirements analysis, data validation, and stakeholder-driven UAT
 - oracle: REST API validation against Oracle/legacy data sources
 - rest api: REST API validation against Oracle/legacy data sources
+- stakeholder communication: BA/application support communication across business users, DevOps, QA, and management
 
 ## Story Bank
 

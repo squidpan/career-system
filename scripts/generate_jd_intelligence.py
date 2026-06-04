@@ -38,6 +38,8 @@ INTELLIGENCE_TERMS = {
         "hris platform": ["hris", "workday", "human resources"],
         "gis platform": ["gis", "arcgis", "geospatial"],
         "service management platform": ["servicenow", "incident", "ticket"],
+        "application support platform": ["application support", "production support", "application systems", "business applications"],
+        "production operations platform": ["production issues", "daily operations", "start of day", "regional handover", "operating environments"],
     },
     "products": {
         "redline": ["redline"],
@@ -58,16 +60,23 @@ INTELLIGENCE_TERMS = {
         "healthcare": ["healthcare", "health care", "patient", "clinical", "medical"],
         "government": ["government", "federal", "public sector", "municipal", "state agency"],
         "geospatial": ["gis", "arcgis", "geospatial", "mapping", "map"],
-        "enterprise application support": ["application support", "production support", "enterprise applications"],
+        "enterprise application support": ["application support", "production support", "enterprise applications", "business applications"],
+        "production operations": ["daily operations", "production issues", "operating environments", "start of day checks", "regional handover"],
+        "risk and controls": ["risk", "control issues", "vulnerabilities", "security issues", "regulations", "policy"],
     },
     "methodologies": {
         "agile": ["agile", "scrum", "sprint"],
         "requirements analysis": ["requirements", "user stories", "acceptance criteria"],
         "uat": ["uat", "user acceptance testing"],
-        "incident management": ["incident", "troubleshooting", "root cause"],
-        "release management": ["release", "deployment", "cutover"],
-        "monitoring": ["monitoring", "alert", "grafana", "prometheus"],
-        "data validation": ["data validation", "data quality", "reconciliation"],
+        "incident management": ["incident", "troubleshooting", "root cause", "production issues", "escalate", "escalation"],
+        "problem management": ["problem management", "problem resolution", "root cause", "bug fixes"],
+        "release management": ["release", "deployment", "cutover", "application releases", "post implementation"],
+        "monitoring": ["monitoring", "alert", "grafana", "prometheus", "start of day checks", "continuous monitoring"],
+        "data validation": ["data validation", "data quality", "reconciliation", "risk reconciliations", "validate"],
+        "risk assessment": ["risk", "impact", "risk assessment", "assess risk", "control issues", "vulnerabilities"],
+        "documentation": ["documentation", "technical support documentation", "operating standards", "procedures"],
+        "stakeholder communication": ["stakeholders", "users", "traders", "business users", "technology groups", "vendors", "communication"],
+        "operational readiness": ["stability", "efficiency", "effectiveness", "service level", "availability", "contingency planning"],
     },
 }
 
@@ -104,6 +113,37 @@ QUESTION_RULES = {
     "servicenow": [
         "How do you use ServiceNow or ticket data to manage operational work and stakeholder communication?",
     ],
+    "application support platform": [
+        "How do you support business applications after they move into daily production operations?",
+        "How do you balance user support, application stability, and enhancement requests?",
+    ],
+    "production operations platform": [
+        "How do you perform start-of-day checks and continuous monitoring for production applications?",
+        "How do you manage regional handover or continuity of support across teams?",
+    ],
+    "production operations": [
+        "How do you prioritize multiple production issues with different business impacts?",
+        "How do you confirm whether a production issue is resolved and stable?",
+    ],
+    "problem management": [
+        "How do you approach problem management after recurring production issues?",
+        "How do you work with development teams to prioritize bug fixes and support tooling?",
+    ],
+    "risk assessment": [
+        "How do you assess risk and business impact during a production issue?",
+        "How do you evaluate production risk before or after an application release?",
+    ],
+    "stakeholder communication": [
+        "How do you communicate technical issues to non-technical business users?",
+        "How do you coordinate users, vendors, internal technology teams, and management during an escalation?",
+    ],
+    "operational readiness": [
+        "How do you define operational readiness for an application release?",
+        "How do you improve stability, efficiency, and effectiveness in an application support function?",
+    ],
+    "documentation": [
+        "How do you create support documentation that is usable during incidents and releases?",
+    ],
     "rest api": [
         "How would you validate REST API output against a source system?",
     ],
@@ -119,6 +159,12 @@ STORY_MAPPING = {
     "oracle": "REST API validation against Oracle/legacy data sources",
     "release management": "Deployment runbooks, release validation, and health checks",
     "incident management": "Production support, log review, validation, and cross-team escalation",
+    "problem management": "Production support issue analysis, defect triage, and recurring issue follow-up",
+    "risk assessment": "Release readiness, impact analysis, production risk review, and escalation judgment",
+    "stakeholder communication": "BA/application support communication across business users, DevOps, QA, and management",
+    "operational readiness": "Deployment runbooks, health checks, production validation, and support readiness",
+    "documentation": "Runbooks, support documentation, release procedures, and UAT evidence",
+    "production operations": "FRBNY production readiness, application support, and post-release validation",
     "workday": "Bridge from enterprise application support, workflow analysis, UAT, and rapid platform ramp-up",
     "gis": "Bridge from requirements analysis, data validation, and stakeholder-driven UAT",
     "pega": "Bridge from HP PPM workflow analysis, insurance systems, and enterprise application modernization",

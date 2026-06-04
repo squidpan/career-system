@@ -1,7 +1,7 @@
 ---
 type: interview_prep
 status: draft
-run_id: run-2026-06-03-interview-prep-v2
+run_id: run-2026-06-03-interview-prep-v3
 source: career-system
 company: The Depository Trust & Clearing Corporation (DTCC)
 title: Are you ready to make an impact at DTCC?
@@ -45,11 +45,15 @@ I am a Senior Business Analyst and Application Support professional with experie
 ### JD-Specific Domains
 
 - insurance
+- risk and controls
 
 ### JD-Specific Methodologies
 
 - agile
+- documentation
 - requirements analysis
+- risk assessment
+- stakeholder communication
 - uat
 
 
@@ -83,20 +87,24 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 ## JD-Aware Interview Questions
 
-1. What are the most important systems or workflows this role supports?
-2. What would you do in the first 30 days to understand the platform?
-3. How would you validate requirements and confirm business readiness?
+1. How do you create support documentation that is usable during incidents and releases?
+2. How do you assess risk and business impact during a production issue?
+3. How do you evaluate production risk before or after an application release?
+4. How do you communicate technical issues to non-technical business users?
+5. How do you coordinate users, vendors, internal technology teams, and management during an escalation?
 
 ## Full Interview Question Set
 
-1. What are the most important systems or workflows this role supports?
-2. What would you do in the first 30 days to understand the platform?
-3. How would you validate requirements and confirm business readiness?
-4. How do you gather requirements from multiple stakeholders?
-5. How do you turn an Epic into user stories and acceptance criteria?
-6. How do you handle conflicting business requirements?
-7. How do you support UAT and ensure business signoff?
-8. Describe a time you documented a complex workflow or system process.
+1. How do you create support documentation that is usable during incidents and releases?
+2. How do you assess risk and business impact during a production issue?
+3. How do you evaluate production risk before or after an application release?
+4. How do you communicate technical issues to non-technical business users?
+5. How do you coordinate users, vendors, internal technology teams, and management during an escalation?
+6. How do you gather requirements from multiple stakeholders?
+7. How do you turn an Epic into user stories and acceptance criteria?
+8. How do you handle conflicting business requirements?
+9. How do you support UAT and ensure business signoff?
+10. Describe a time you documented a complex workflow or system process.
 
 ## Gap-Based Answer Strategy
 
@@ -104,7 +112,9 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 ## JD-to-Resume Story Mapping
 
-- Use FRBNY modernization, REST API validation, runbooks, UAT, and enterprise application support stories.
+- documentation: Runbooks, support documentation, release procedures, and UAT evidence
+- risk assessment: Release readiness, impact analysis, production risk review, and escalation judgment
+- stakeholder communication: BA/application support communication across business users, DevOps, QA, and management
 
 ## Story Bank
 

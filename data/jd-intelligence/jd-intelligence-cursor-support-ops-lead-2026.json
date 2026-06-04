@@ -1,5 +1,5 @@
 {
-  "run_id": "run-2026-06-03-jd-intelligence-v2",
+  "run_id": "run-2026-06-03-jd-intelligence-v3",
   "company": "Cursor",
   "title": "Support Operations Systems Lead",
   "role_code": "support-ops-lead",
@@ -12,17 +12,29 @@
       "service management platform"
     ],
     "products": [],
-    "domains": [],
+    "domains": [
+      "risk and controls"
+    ],
     "methodologies": [
-      "monitoring"
+      "data validation",
+      "documentation",
+      "incident management",
+      "monitoring",
+      "risk assessment",
+      "stakeholder communication"
     ]
   },
   "jd_aware_questions": [
-    "What are the most important systems or workflows this role supports?",
-    "What would you do in the first 30 days to understand the platform?",
-    "How would you validate requirements and confirm business readiness?"
+    "How do you create support documentation that is usable during incidents and releases?",
+    "How do you assess risk and business impact during a production issue?",
+    "How do you evaluate production risk before or after an application release?",
+    "How do you communicate technical issues to non-technical business users?",
+    "How do you coordinate users, vendors, internal technology teams, and management during an escalation?"
   ],
   "story_mapping": [
-    "Use FRBNY modernization, REST API validation, runbooks, UAT, and enterprise application support stories."
+    "documentation: Runbooks, support documentation, release procedures, and UAT evidence",
+    "incident management: Production support, log review, validation, and cross-team escalation",
+    "risk assessment: Release readiness, impact analysis, production risk review, and escalation judgment",
+    "stakeholder communication: BA/application support communication across business users, DevOps, QA, and management"
   ]
 }

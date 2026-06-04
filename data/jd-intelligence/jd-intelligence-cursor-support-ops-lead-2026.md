@@ -1,7 +1,7 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-03-jd-intelligence-v2
+run_id: run-2026-06-03-jd-intelligence-v3
 source: career-system
 company: Cursor
 title: Support Operations Systems Lead
@@ -25,21 +25,31 @@ source_file: data/jds/normalized/jd-cursor-support-ops-lead-2026-v1.md
 
 ## Extracted Domains
 
-- None identified
+- risk and controls
 
 ## Extracted Methodologies
 
+- data validation
+- documentation
+- incident management
 - monitoring
+- risk assessment
+- stakeholder communication
 
 ## JD-Aware Interview Questions
 
-- What are the most important systems or workflows this role supports?
-- What would you do in the first 30 days to understand the platform?
-- How would you validate requirements and confirm business readiness?
+- How do you create support documentation that is usable during incidents and releases?
+- How do you assess risk and business impact during a production issue?
+- How do you evaluate production risk before or after an application release?
+- How do you communicate technical issues to non-technical business users?
+- How do you coordinate users, vendors, internal technology teams, and management during an escalation?
 
 ## Resume Story Mapping
 
-- Use FRBNY modernization, REST API validation, runbooks, UAT, and enterprise application support stories.
+- documentation: Runbooks, support documentation, release procedures, and UAT evidence
+- incident management: Production support, log review, validation, and cross-team escalation
+- risk assessment: Release readiness, impact analysis, production risk review, and escalation judgment
+- stakeholder communication: BA/application support communication across business users, DevOps, QA, and management
 
 ## Notes
 

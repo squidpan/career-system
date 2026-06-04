@@ -1,7 +1,7 @@
 ---
 type: interview_prep
 status: draft
-run_id: run-2026-06-03-interview-prep-v2
+run_id: run-2026-06-03-interview-prep-v3
 source: career-system
 company: Pico
 title: Site Reliability Engineer
@@ -39,6 +39,7 @@ I am a Senior Business Analyst and Application Support professional with experie
 ### JD-Specific Platforms
 
 - market data platform
+- production operations platform
 
 ### JD-Specific Products
 
@@ -48,6 +49,7 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 - financial services
 - market data
+- production operations
 
 ### JD-Specific Methodologies
 
@@ -55,6 +57,8 @@ I am a Senior Business Analyst and Application Support professional with experie
 - monitoring
 - release management
 - requirements analysis
+- risk assessment
+- stakeholder communication
 
 
 ## Strengths To Emphasize
@@ -99,6 +103,12 @@ I am a Senior Business Analyst and Application Support professional with experie
 3. How would you troubleshoot delayed or missing market data?
 4. How would you validate feed integrity after a deployment?
 5. What signals would tell you a market data issue is source-side versus application-side?
+6. How do you prioritize multiple production issues with different business impacts?
+7. How do you confirm whether a production issue is resolved and stable?
+8. How do you assess risk and business impact during a production issue?
+9. How do you evaluate production risk before or after an application release?
+10. How do you communicate technical issues to non-technical business users?
+11. How do you coordinate users, vendors, internal technology teams, and management during an escalation?
 
 ## Full Interview Question Set
 
@@ -107,16 +117,22 @@ I am a Senior Business Analyst and Application Support professional with experie
 3. How would you troubleshoot delayed or missing market data?
 4. How would you validate feed integrity after a deployment?
 5. What signals would tell you a market data issue is source-side versus application-side?
-6. Tell me about a production issue you helped investigate or resolve.
-7. How do you validate that an application is healthy after a deployment?
-8. How do you use runbooks during release or support activities?
-9. How do you coordinate with DevOps, infrastructure, database, QA, and business teams during an incident?
-10. How do you distinguish application issues from data, infrastructure, or environment issues?
-11. What Linux commands would you use first when troubleshooting performance or connectivity?
-12. How would you approach monitoring and alert triage?
-13. How do you think about resiliency, failover, and disaster recovery readiness?
-14. What is your exposure to python, and how would you ramp up quickly if this role requires it?
-15. How would you support a team using python even if you are not the primary administrator?
+6. How do you prioritize multiple production issues with different business impacts?
+7. How do you confirm whether a production issue is resolved and stable?
+8. How do you assess risk and business impact during a production issue?
+9. How do you evaluate production risk before or after an application release?
+10. How do you communicate technical issues to non-technical business users?
+11. How do you coordinate users, vendors, internal technology teams, and management during an escalation?
+12. Tell me about a production issue you helped investigate or resolve.
+13. How do you validate that an application is healthy after a deployment?
+14. How do you use runbooks during release or support activities?
+15. How do you coordinate with DevOps, infrastructure, database, QA, and business teams during an incident?
+16. How do you distinguish application issues from data, infrastructure, or environment issues?
+17. What Linux commands would you use first when troubleshooting performance or connectivity?
+18. How would you approach monitoring and alert triage?
+19. How do you think about resiliency, failover, and disaster recovery readiness?
+20. What is your exposure to python, and how would you ramp up quickly if this role requires it?
+21. How would you support a team using python even if you are not the primary administrator?
 
 ## Gap-Based Answer Strategy
 
@@ -127,7 +143,10 @@ I am a Senior Business Analyst and Application Support professional with experie
 - financial services: FRBNY fixed-income pricing and financial application support
 - incident management: Production support, log review, validation, and cross-team escalation
 - market data: FRBNY market data modernization and streaming financial data support
+- production operations: FRBNY production readiness, application support, and post-release validation
 - release management: Deployment runbooks, release validation, and health checks
+- risk assessment: Release readiness, impact analysis, production risk review, and escalation judgment
+- stakeholder communication: BA/application support communication across business users, DevOps, QA, and management
 
 ## Story Bank
 

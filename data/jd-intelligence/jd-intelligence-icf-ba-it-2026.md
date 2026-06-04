@@ -1,7 +1,7 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-03-jd-intelligence-v2
+run_id: run-2026-06-03-jd-intelligence-v3
 source: career-system
 company: ICF
 title: IT Business Analyst
@@ -27,22 +27,31 @@ source_file: data/jds/normalized/jd-icf-ba-it-2026-v1.md
 ## Extracted Domains
 
 - insurance
+- risk and controls
 
 ## Extracted Methodologies
 
+- documentation
 - incident management
+- operational readiness
 - requirements analysis
+- stakeholder communication
 - uat
 
 ## JD-Aware Interview Questions
 
-- What are the most important systems or workflows this role supports?
-- What would you do in the first 30 days to understand the platform?
-- How would you validate requirements and confirm business readiness?
+- How do you create support documentation that is usable during incidents and releases?
+- How do you define operational readiness for an application release?
+- How do you improve stability, efficiency, and effectiveness in an application support function?
+- How do you communicate technical issues to non-technical business users?
+- How do you coordinate users, vendors, internal technology teams, and management during an escalation?
 
 ## Resume Story Mapping
 
+- documentation: Runbooks, support documentation, release procedures, and UAT evidence
 - incident management: Production support, log review, validation, and cross-team escalation
+- operational readiness: Deployment runbooks, health checks, production validation, and support readiness
+- stakeholder communication: BA/application support communication across business users, DevOps, QA, and management
 
 ## Notes
 

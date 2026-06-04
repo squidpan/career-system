@@ -1,5 +1,5 @@
 {
-  "run_id": "run-2026-06-03-jd-intelligence-v2",
+  "run_id": "run-2026-06-03-jd-intelligence-v3",
   "company": "Pico",
   "title": "Site Reliability Engineer",
   "role_code": "sre",
@@ -11,20 +11,24 @@
       "python"
     ],
     "platforms": [
-      "market data platform"
+      "market data platform",
+      "production operations platform"
     ],
     "products": [
       "redline"
     ],
     "domains": [
       "financial services",
-      "market data"
+      "market data",
+      "production operations"
     ],
     "methodologies": [
       "incident management",
       "monitoring",
       "release management",
-      "requirements analysis"
+      "requirements analysis",
+      "risk assessment",
+      "stakeholder communication"
     ]
   },
   "jd_aware_questions": [
@@ -32,12 +36,21 @@
     "How would you approach supporting a vendor platform you are still learning?",
     "How would you troubleshoot delayed or missing market data?",
     "How would you validate feed integrity after a deployment?",
-    "What signals would tell you a market data issue is source-side versus application-side?"
+    "What signals would tell you a market data issue is source-side versus application-side?",
+    "How do you prioritize multiple production issues with different business impacts?",
+    "How do you confirm whether a production issue is resolved and stable?",
+    "How do you assess risk and business impact during a production issue?",
+    "How do you evaluate production risk before or after an application release?",
+    "How do you communicate technical issues to non-technical business users?",
+    "How do you coordinate users, vendors, internal technology teams, and management during an escalation?"
   ],
   "story_mapping": [
     "financial services: FRBNY fixed-income pricing and financial application support",
     "incident management: Production support, log review, validation, and cross-team escalation",
     "market data: FRBNY market data modernization and streaming financial data support",
-    "release management: Deployment runbooks, release validation, and health checks"
+    "production operations: FRBNY production readiness, application support, and post-release validation",
+    "release management: Deployment runbooks, release validation, and health checks",
+    "risk assessment: Release readiness, impact analysis, production risk review, and escalation judgment",
+    "stakeholder communication: BA/application support communication across business users, DevOps, QA, and management"
   ]
 }

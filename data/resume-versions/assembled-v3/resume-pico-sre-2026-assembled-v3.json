@@ -1,0 +1,12 @@
+{
+  "run_id": "run-2026-06-05-resume-narrative-assembly-v1",
+  "slug": "pico-sre-2026",
+  "company": "Pico",
+  "title": "Site Reliability Engineer",
+  "role_code": "sre",
+  "source_assembled_v2": "data/resume-versions/assembled-v2/resume-pico-sre-2026-assembled-v2.md",
+  "enhancement_file": "data/resume-enhancement/resume-enhancement-pico-sre-2026.json",
+  "assembled_v3_file": "ops/runs/run-2026-06-05-resume-narrative-assembly-v1/output/resume-pico-sre-2026-assembled-v3.md",
+  "primary_bullets_count": 13,
+  "additional_bullets_count": 3
+}

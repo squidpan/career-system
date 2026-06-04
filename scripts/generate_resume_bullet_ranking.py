@@ -11,8 +11,16 @@ BOOSTS = {
   "risk":6,"validation":7,"validate":7,"workflow":6,"servicenow":6,
   "aws":6,"cloud":5,"financial":6,"workday":8,"gis":8,"geospatial":8,
   "documentation":5,"operational":5,"readiness":5,"escalation":6,
-  "problem":5,"health":4,"checks":4,"jira":5,"agile":4
+  "problem":5,"health":4,"checks":4,"jira":5,"agile":4,
+  "devops":6,"qa":4,"database":4,"infrastructure":5,"stability":6,
+  "resiliency":6,"troubleshooting":7,"environment":5
 }
+
+REMOVE_STRONG = [
+    "cad/cam", "catia", "stonerule", "fortran", "aix", "sun", "ibm mainframe",
+    "db2", "hyundai motor", "general dynamics", "sikorsky", "bell helicopter",
+    "manufacturing", "aerospace", "automotive", "defense engineering"
+]
 
 def split_frontmatter(text: str):
     if not text.startswith("---"): return {}, text
@@ -56,8 +64,7 @@ def norm(s: str) -> str:
 def extract_bullets(text: str):
     bullets, section, company = [], "unknown", ""
     for raw in text.splitlines():
-        line = raw.rstrip()
-        stripped = line.strip()
+        stripped = raw.strip()
         if stripped.startswith("## "):
             section = stripped.lstrip("#").strip()
             continue
@@ -82,6 +89,26 @@ def tokens_from_values(values):
                 toks.append(t)
     return sorted(set(toks))
 
+def classify_action(score: int, bullet: str, hits: list[str]):
+    b = norm(bullet)
+    if any(term in b for term in REMOVE_STRONG):
+        return "remove"
+    if score >= 45:
+        return "promote"
+    if score >= 25:
+        return "keep"
+    if score >= 10:
+        return "compress"
+    return "remove"
+
+def action_reason(action: str):
+    return {
+        "promote": "Strong match to JD/tailoring signals; candidate for top experience bullets.",
+        "keep": "Useful supporting bullet; keep if space allows or place after promoted bullets.",
+        "compress": "Some relevance, but should be shortened or merged with adjacent experience.",
+        "remove": "Low relevance for this target role; remove or move to highly compressed older-experience summary."
+    }.get(action, "")
+
 def score_bullet(bullet, positive_values, negative_values):
     b = norm(bullet)
     score, hits = 0, []
@@ -96,6 +123,8 @@ def score_bullet(bullet, positive_values, negative_values):
     for kw in tokens_from_values(negative_values):
         if kw in b:
             score -= 2
+    if any(term in b for term in REMOVE_STRONG):
+        score -= 20
     return score, sorted(set(hits))[:15]
 
 def md_ranked(items):
@@ -103,28 +132,39 @@ def md_ranked(items):
     out = ""
     for i, x in enumerate(items, 1):
         hits = ", ".join(x.get("matched_terms", [])) or "none"
-        out += f"{i}. **Score {x['score']}** — {x['bullet']}\n"
+        out += f"{i}. **Score {x['score']} — {x['action'].upper()}** — {x['bullet']}\n"
         out += f"   - Section: {x.get('section','')}\n"
         if x.get("company"):
             out += f"   - Company/context: {x.get('company')}\n"
         out += f"   - Matched terms: {hits}\n"
+        out += f"   - Rationale: {action_reason(x['action'])}\n"
     return out
+
+def action_counts(items):
+    counts = {"promote":0,"keep":0,"compress":0,"remove":0}
+    for x in items:
+        counts[x["action"]] += 1
+    return counts
 
 def rank_one(tailoring_json: Path, resume_path: Path):
     t = json_load(tailoring_json)
     resume = read_doc(resume_path)
-    positives = []
-    negatives = t.get("demote", []) or []
+    positives, negatives = [], t.get("demote", []) or []
     for key in ["jd_terms", "promote", "story_recommendations"]:
         positives += t.get(key, []) or []
     ranked = []
     for b in extract_bullets(resume["text"]):
         score, hits = score_bullet(b["bullet"], positives, negatives)
-        ranked.append({**b, "score": score, "matched_terms": hits})
+        action = classify_action(score, b["bullet"], hits)
+        ranked.append({**b, "score": score, "matched_terms": hits, "action": action})
     ranked.sort(key=lambda x: x["score"], reverse=True)
-    top = [x for x in ranked if x["score"] > 0][:15]
-    bottom = list(reversed(ranked[-12:]))
-    return t, top, bottom, ranked
+    buckets = {
+        "promote": [x for x in ranked if x["action"] == "promote"],
+        "keep": [x for x in ranked if x["action"] == "keep"],
+        "compress": [x for x in ranked if x["action"] == "compress"],
+        "remove": [x for x in ranked if x["action"] == "remove"],
+    }
+    return t, buckets, ranked
 
 def generate_one(tailoring_md: Path, resumes_dir: Path, output_dir: Path, run_id: str):
     slug = slug_from_filename(tailoring_md)
@@ -132,14 +172,17 @@ def generate_one(tailoring_md: Path, resumes_dir: Path, output_dir: Path, run_id
     resume_path = find_by_slug(resumes_dir, "resume-", slug)
     if not resume_path:
         raise FileNotFoundError(f"Could not find resume for {slug}")
-    t, top, bottom, ranked = rank_one(tailoring_json, resume_path)
+    t, buckets, ranked = rank_one(tailoring_json, resume_path)
     company = t.get("company", "unknown-company")
     title = t.get("title", slug)
     role_code = t.get("role_code", "")
+    counts = action_counts(ranked)
     data = {
         "run_id": run_id, "company": company, "title": title, "role_code": role_code,
         "tailoring_file": str(tailoring_md), "resume_file": str(resume_path),
-        "ranked_count": len(ranked), "top_bullets": top, "bottom_bullets": bottom
+        "ranked_count": len(ranked), "action_counts": counts,
+        "promote": buckets["promote"], "keep": buckets["keep"],
+        "compress": buckets["compress"], "remove": buckets["remove"]
     }
     md_path = output_dir / f"bullet-ranking-{slug}.md"
     json_path = output_dir / f"bullet-ranking-{slug}.json"
@@ -154,6 +197,10 @@ role_code: {role_code}
 tailoring_file: {tailoring_md}
 resume_file: {resume_path}
 ranked_count: {len(ranked)}
+promote_count: {counts['promote']}
+keep_count: {counts['keep']}
+compress_count: {counts['compress']}
+remove_count: {counts['remove']}
 ---
 
 # Resume Bullet Ranking — {company} — {title}
@@ -165,24 +212,34 @@ ranked_count: {len(ranked)}
 - Role Code: **{role_code}**
 - Resume File: `{resume_path}`
 - Ranked Bullet Count: **{len(ranked)}**
+- Promote: **{counts['promote']}**
+- Keep: **{counts['keep']}**
+- Compress: **{counts['compress']}**
+- Remove: **{counts['remove']}**
 
-## Top Resume Bullets To Promote
+## Promote — Move Up / Lead With These
 
-{md_ranked(top)}
-## Bottom Resume Bullets To De-Emphasize
+{md_ranked(buckets['promote'])}
+## Keep — Useful Supporting Bullets
 
-{md_ranked(bottom)}
+{md_ranked(buckets['keep'])}
+## Compress — Shorten Or Merge
+
+{md_ranked(buckets['compress'])}
+## Remove — De-Emphasize Strongly
+
+{md_ranked(buckets['remove'])}
 ## How To Use This
 
-1. Use the top bullets as candidates for the first 8-10 bullets in the tailored resume.
-2. Move lower-scoring bullets down, compress them, or remove them when space is limited.
-3. Do not copy this ranking blindly. Treat it as a decision aid and review for accuracy.
-4. Prefer truthful bullets that are supported by your actual experience.
-5. Use this with the matching resume-tailoring report and gap-analysis report.
+1. Use **Promote** bullets as candidates for the first 8-10 bullets in the tailored resume.
+2. Use **Keep** bullets as supporting evidence after the strongest recent-role bullets.
+3. Convert **Compress** bullets into shorter sector summaries or merge them into broader experience blocks.
+4. Remove or heavily compress **Remove** bullets when targeting this specific role.
+5. Do not copy this ranking blindly. Review for truthfulness, resume length, and role fit.
 
 ## Notes
 
-This v0.4.6.1 output ranks existing resume bullets based on JD intelligence and resume-tailoring signals. It does not rewrite bullets yet.
+This v0.4.6.2 output refines v0.4.6.1 by assigning each existing resume bullet to Promote, Keep, Compress, or Remove.
 """
     md_path.write_text(md, encoding="utf-8")
     json_path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")

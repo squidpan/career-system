@@ -1,17 +1,23 @@
 {
-  "run_id": "run-2026-06-04-resume-bullet-ranking-v1",
+  "run_id": "run-2026-06-04-resume-bullet-ranking-v2",
   "company": "Makai Labs",
   "title": "Business Analyst for AI Startup",
   "role_code": "ba-ai",
   "tailoring_file": "data/resume-tailoring/resume-tailoring-makai-labs-ba-ai-2026.md",
   "resume_file": "data/resume-versions/teal-export/resume-makai-labs-ba-ai-2026-teal-v1.md",
   "ranked_count": 23,
-  "top_bullets": [
+  "action_counts": {
+    "promote": 5,
+    "keep": 5,
+    "compress": 11,
+    "remove": 2
+  },
+  "promote": [
     {
       "section": "Professional Experience",
       "company": "Financial Services & Enterprise Financial Applications",
       "bullet": "Produced operational runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation for mission-critical financial systems.",
-      "score": 72,
+      "score": 79,
       "matched_terms": [
         "deployment",
         "documentation",
@@ -24,24 +30,47 @@
         "systems",
         "troubleshooting",
         "validation"
-      ]
+      ],
+      "action": "promote"
     },
     {
       "section": "Professional Experience",
       "company": "Financial Services & Enterprise Financial Applications",
       "bullet": "Coordinated release readiness, deployment validation, and production cutover activities across Development, QA, UAT, and Production environments.",
-      "score": 65,
+      "score": 74,
       "matched_terms": [
         "across",
         "deployment",
         "environment",
         "product",
         "production",
+        "qa",
         "readiness",
         "release",
         "uat",
         "validation"
-      ]
+      ],
+      "action": "promote"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Worked closely with QA, DevOps, database, infrastructure, operations, and development teams to support SDLC delivery and production stability.",
+      "score": 62,
+      "matched_terms": [
+        "data",
+        "database",
+        "devops",
+        "infrastructure",
+        "product",
+        "production",
+        "qa",
+        "stability",
+        "support",
+        "teams",
+        "with"
+      ],
+      "action": "promote"
     },
     {
       "section": "Professional Experience",
@@ -63,7 +92,8 @@
         "stories",
         "user",
         "with"
-      ]
+      ],
+      "action": "promote"
     },
     {
       "section": "Professional Experience",
@@ -78,24 +108,11 @@
         "oracle",
         "rest",
         "validate"
-      ]
-    },
-    {
-      "section": "Professional Experience",
-      "company": "Financial Services & Enterprise Financial Applications",
-      "bullet": "Worked closely with QA, DevOps, database, infrastructure, operations, and development teams to support SDLC delivery and production stability.",
-      "score": 37,
-      "matched_terms": [
-        "data",
-        "devops",
-        "infrastructure",
-        "product",
-        "production",
-        "support",
-        "teams",
-        "with"
-      ]
-    },
+      ],
+      "action": "promote"
+    }
+  ],
+  "keep": [
     {
       "section": "Professional Experience",
       "company": "Insurance Portfolio & Business Systems",
@@ -109,7 +126,22 @@
         "users",
         "validate",
         "workflow"
-      ]
+      ],
+      "action": "keep"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.",
+      "score": 34,
+      "matched_terms": [
+        "cloud",
+        "environment",
+        "readiness",
+        "resiliency",
+        "support"
+      ],
+      "action": "keep"
     },
     {
       "section": "Professional Experience",
@@ -123,7 +155,8 @@
         "support",
         "systems",
         "workflow"
-      ]
+      ],
+      "action": "keep"
     },
     {
       "section": "Professional Experience",
@@ -136,7 +169,8 @@
         "reporting",
         "requirements",
         "workflow"
-      ]
+      ],
+      "action": "keep"
     },
     {
       "section": "Professional Experience",
@@ -149,8 +183,11 @@
         "financial",
         "market",
         "support"
-      ]
-    },
+      ],
+      "action": "keep"
+    }
+  ],
+  "compress": [
     {
       "section": "Professional Experience",
       "company": "Insurance Portfolio & Business Systems",
@@ -163,7 +200,8 @@
         "product",
         "reporting",
         "support"
-      ]
+      ],
+      "action": "compress"
     },
     {
       "section": "Professional Experience",
@@ -177,19 +215,8 @@
         "ops360",
         "teams",
         "with"
-      ]
-    },
-    {
-      "section": "Professional Experience",
-      "company": "Financial Services & Enterprise Financial Applications",
-      "bullet": "Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.",
-      "score": 23,
-      "matched_terms": [
-        "cloud",
-        "environment",
-        "readiness",
-        "support"
-      ]
+      ],
+      "action": "compress"
     },
     {
       "section": "Professional Experience",
@@ -200,7 +227,8 @@
         "insurance",
         "market",
         "workflow"
-      ]
+      ],
+      "action": "compress"
     },
     {
       "section": "Professional Experience",
@@ -211,7 +239,8 @@
         "documentation",
         "process",
         "workflow"
-      ]
+      ],
+      "action": "compress"
     },
     {
       "section": "Professional Experience",
@@ -224,77 +253,8 @@
         "implementation",
         "management",
         "support"
-      ]
-    }
-  ],
-  "bottom_bullets": [
-    {
-      "section": "Professional Experience",
-      "company": "Governance, Engineering Software & CAD/CAM Solutions",
-      "bullet": "Delivered manufacturing, aerospace, automotive, and defense engineering solutions for Hyundai Motor Company, General Dynamics Electric Boat, Sikorsky Aircraft, and Bell Helicopter.",
-      "score": 0,
-      "matched_terms": []
-    },
-    {
-      "section": "Professional Experience",
-      "company": "Governance, Engineering Software & CAD/CAM Solutions",
-      "bullet": "Developed and implemented CAD/CAM and engineering automation solutions using CATIA, StoneRule, FORTRAN, C/C++, UNIX, AIX, Sun, IBM mainframe, and DB2.",
-      "score": 0,
-      "matched_terms": []
-    },
-    {
-      "section": "Professional Experience",
-      "company": "Governance, Engineering Software & CAD/CAM Solutions",
-      "bullet": "Supported governance and engineering software work across OpenPages, PlanetCAD, and Dassault Syst\u00e8mes.",
-      "score": 10,
-      "matched_terms": [
-        "across",
-        "support"
-      ]
-    },
-    {
-      "section": "Professional Experience",
-      "company": "Insurance Portfolio & Business Systems",
-      "bullet": "Analyzed and tested insurance premium/rating workflows using origin, destination, age, gender, duration, coverage limits, and university-mandated medical minimums.",
-      "score": 12,
-      "matched_terms": [
-        "insurance",
-        "workflow"
-      ]
-    },
-    {
-      "section": "Professional Experience",
-      "company": "Insurance Portfolio & Business Systems",
-      "bullet": "Configured and tested business-critical workflows including request creation, stage-gate approval, project generation, staffing profiles, allocation pools, timesheets, and approval notifications.",
-      "score": 12,
-      "matched_terms": [
-        "business",
-        "workflow"
-      ]
-    },
-    {
-      "section": "Professional Experience",
-      "company": "Financial Data Management Platforms",
-      "bullet": "Built proof-of-concept solutions demonstrating normalization, consolidation, cleansing, and distribution of vendor data to downstream trading, portfolio management, regulatory, and risk platforms.",
-      "score": 17,
-      "matched_terms": [
-        "data",
-        "distribution",
-        "management",
-        "risk"
-      ]
-    },
-    {
-      "section": "Professional Experience",
-      "company": "Financial Data Management Platforms",
-      "bullet": "Processed and validated financial ratings and fixed-income data feeds from vendors including Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
-      "score": 18,
-      "matched_terms": [
-        "data",
-        "financial",
-        "process",
-        "validate"
-      ]
+      ],
+      "action": "compress"
     },
     {
       "section": "Professional Experience",
@@ -306,54 +266,85 @@
         "data",
         "financial",
         "support"
-      ]
+      ],
+      "action": "compress"
     },
     {
       "section": "Professional Experience",
       "company": "Financial Data Management Platforms",
-      "bullet": "Supported ACPlus / Asset Control financial data platform implementations involving reference data, pricing data, time series data, security master creation, and golden-copy data management.",
-      "score": 19,
+      "bullet": "Processed and validated financial ratings and fixed-income data feeds from vendors including Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
+      "score": 18,
       "matched_terms": [
         "data",
         "financial",
-        "implementation",
-        "management",
-        "support"
-      ]
+        "process",
+        "validate"
+      ],
+      "action": "compress"
     },
     {
       "section": "Professional Experience",
-      "company": "Governance, Engineering Software & CAD/CAM Solutions",
-      "bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.",
-      "score": 20,
+      "company": "Financial Data Management Platforms",
+      "bullet": "Built proof-of-concept solutions demonstrating normalization, consolidation, cleansing, and distribution of vendor data to downstream trading, portfolio management, regulatory, and risk platforms.",
+      "score": 17,
       "matched_terms": [
-        "documentation",
-        "process",
-        "workflow"
-      ]
+        "data",
+        "distribution",
+        "management",
+        "risk"
+      ],
+      "action": "compress"
     },
     {
       "section": "Professional Experience",
       "company": "Insurance Portfolio & Business Systems",
-      "bullet": "Coordinated rollout of travel insurance premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.",
-      "score": 20,
+      "bullet": "Configured and tested business-critical workflows including request creation, stage-gate approval, project generation, staffing profiles, allocation pools, timesheets, and approval notifications.",
+      "score": 12,
       "matched_terms": [
-        "insurance",
-        "market",
+        "business",
         "workflow"
-      ]
+      ],
+      "action": "compress"
     },
     {
       "section": "Professional Experience",
-      "company": "Financial Services & Enterprise Financial Applications",
-      "bullet": "Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.",
-      "score": 23,
+      "company": "Insurance Portfolio & Business Systems",
+      "bullet": "Analyzed and tested insurance premium/rating workflows using origin, destination, age, gender, duration, coverage limits, and university-mandated medical minimums.",
+      "score": 12,
       "matched_terms": [
-        "cloud",
-        "environment",
-        "readiness",
+        "insurance",
+        "workflow"
+      ],
+      "action": "compress"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Governance, Engineering Software & CAD/CAM Solutions",
+      "bullet": "Supported governance and engineering software work across OpenPages, PlanetCAD, and Dassault Syst\u00e8mes.",
+      "score": 10,
+      "matched_terms": [
+        "across",
         "support"
-      ]
+      ],
+      "action": "compress"
+    }
+  ],
+  "remove": [
+    {
+      "section": "Professional Experience",
+      "company": "Governance, Engineering Software & CAD/CAM Solutions",
+      "bullet": "Developed and implemented CAD/CAM and engineering automation solutions using CATIA, StoneRule, FORTRAN, C/C++, UNIX, AIX, Sun, IBM mainframe, and DB2.",
+      "score": -20,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Governance, Engineering Software & CAD/CAM Solutions",
+      "bullet": "Delivered manufacturing, aerospace, automotive, and defense engineering solutions for Hyundai Motor Company, General Dynamics Electric Boat, Sikorsky Aircraft, and Bell Helicopter.",
+      "score": -20,
+      "matched_terms": [],
+      "action": "remove"
     }
   ]
 }

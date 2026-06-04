@@ -9,15 +9,23 @@ role_code:
 tailoring_file:
 resume_file:
 ranked_count:
+promote_count:
+keep_count:
+compress_count:
+remove_count:
 ---
 
 # Resume Bullet Ranking — {{ company }} — {{ title }}
 
 ## Summary
 
-## Top Resume Bullets To Promote
+## Promote — Move Up / Lead With These
 
-## Bottom Resume Bullets To De-Emphasize
+## Keep — Useful Supporting Bullets
+
+## Compress — Shorten Or Merge
+
+## Remove — De-Emphasize Strongly
 
 ## How To Use This
 

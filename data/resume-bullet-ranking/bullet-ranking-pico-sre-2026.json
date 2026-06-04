@@ -1,0 +1,442 @@
+{
+  "run_id": "run-2026-06-04-resume-bullet-ranking-v1",
+  "company": "Pico",
+  "title": "Site Reliability Engineer",
+  "role_code": "sre",
+  "tailoring_file": "data/resume-tailoring/resume-tailoring-pico-sre-2026.md",
+  "resume_file": "data/resume-versions/teal-export/resume-pico-sre-2026-teal-v1.md",
+  "ranked_count": 21,
+  "top_bullets": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+      "score": 87,
+      "matched_terms": [
+        "across",
+        "application",
+        "aws",
+        "cross",
+        "data",
+        "enterprise",
+        "financial",
+        "fixed",
+        "income",
+        "infrastructure",
+        "linux",
+        "market",
+        "oracle",
+        "pricing",
+        "streaming"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported incident-oriented troubleshooting by coordinating log review, environment checks, data validation, escalation, and cross-team issue resolution.",
+      "score": 67,
+      "matched_terms": [
+        "checks",
+        "cross",
+        "data",
+        "environment",
+        "escalation",
+        "incident",
+        "issue",
+        "review",
+        "support",
+        "team",
+        "troubleshooting",
+        "validation"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Executed environment readiness testing, deployment validation, post-release health checks, and operational verification procedures.",
+      "score": 66,
+      "matched_terms": [
+        "checks",
+        "deployment",
+        "environment",
+        "health",
+        "operational",
+        "post",
+        "readiness",
+        "release",
+        "validation"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Validated REST API pricing payloads against Oracle data sources to support migration from legacy on-premise services to AWS-hosted microservices.",
+      "score": 65,
+      "matched_terms": [
+        "api",
+        "aws",
+        "data",
+        "from",
+        "migration",
+        "oracle",
+        "pricing",
+        "rest",
+        "services",
+        "support",
+        "validate"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Coordinated deployment readiness and production validation across Development, QA, UAT, and Production environments.",
+      "score": 58,
+      "matched_terms": [
+        "across",
+        "cross",
+        "deployment",
+        "environment",
+        "product",
+        "production",
+        "readiness",
+        "uat",
+        "validation"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, implementation notes, and support documentation.",
+      "score": 55,
+      "matched_terms": [
+        "deployment",
+        "documentation",
+        "implementation",
+        "runbook",
+        "runbooks",
+        "support",
+        "troubleshooting",
+        "validation"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Worked with DevOps, infrastructure, database, QA, operations, and development teams to support release execution and production stability.",
+      "score": 55,
+      "matched_terms": [
+        "ability",
+        "data",
+        "devops",
+        "infrastructure",
+        "operations",
+        "product",
+        "production",
+        "release",
+        "stability",
+        "support",
+        "team"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Supported ACPlus / Asset Control financial data management platform implementations involving reference data, pricing data, time series data, security master, and golden-copy workflows.",
+      "score": 51,
+      "matched_terms": [
+        "asset",
+        "control",
+        "data",
+        "financial",
+        "implementation",
+        "management",
+        "platform",
+        "plus",
+        "pricing",
+        "support",
+        "workflow",
+        "workflows"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and signoff readiness for enterprise business applications.",
+      "score": 47,
+      "matched_terms": [
+        "application",
+        "business",
+        "data",
+        "enterprise",
+        "readiness",
+        "uat",
+        "validation",
+        "workflow"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Supported HP PPM, portfolio management, approval workflow, reporting, and insurance business systems used by PMO and operational stakeholders.",
+      "score": 42,
+      "matched_terms": [
+        "business",
+        "insurance",
+        "management",
+        "operational",
+        "reporting",
+        "stakeholder",
+        "support",
+        "systems",
+        "workflow"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.",
+      "score": 37,
+      "matched_terms": [
+        "across",
+        "asset",
+        "control",
+        "cross",
+        "data",
+        "financial",
+        "platform",
+        "support"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Processed and validated financial ratings and fixed-income data feeds from Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
+      "score": 37,
+      "matched_terms": [
+        "data",
+        "feed",
+        "financial",
+        "fixed",
+        "from",
+        "income",
+        "process",
+        "validate"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported disaster recovery and resiliency readiness activities across primary, secondary, and cloud-connected service environments.",
+      "score": 35,
+      "matched_terms": [
+        "across",
+        "cloud",
+        "cross",
+        "environment",
+        "primary",
+        "readiness",
+        "resiliency",
+        "support"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Supported enterprise business systems across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.",
+      "score": 29,
+      "matched_terms": [
+        "across",
+        "business",
+        "cross",
+        "enterprise",
+        "health",
+        "support",
+        "systems"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Supported insurance premium/rating workflow validation and international travel product rollout activities.",
+      "score": 28,
+      "matched_terms": [
+        "insurance",
+        "product",
+        "support",
+        "validation",
+        "workflow"
+      ]
+    }
+  ],
+  "bottom_bullets": [
+    {
+      "section": "Professional Experience",
+      "company": "Software Engineering Foundation",
+      "bullet": "Delivered CAD/CAM and engineering automation solutions using CATIA, StoneRule, FORTRAN, C/C++, UNIX, AIX, Sun, IBM mainframe, and DB2 for manufacturing, aerospace, automotive, and defense clients.",
+      "score": 9,
+      "matched_terms": [
+        "automation",
+        "client",
+        "using"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Software Engineering Foundation",
+      "bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.",
+      "score": 18,
+      "matched_terms": [
+        "documentation",
+        "process",
+        "workflow",
+        "workflows"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Built proof-of-concept solutions demonstrating data normalization, consolidation, cleansing, and downstream financial data distribution.",
+      "score": 18,
+      "matched_terms": [
+        "data",
+        "distribution",
+        "financial"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Software Engineering Foundation",
+      "bullet": "Supported software engineering and enterprise platform work across OpenPages, Thomson Reuters, PlanetCAD, and Dassault Syst\u00e8mes.",
+      "score": 19,
+      "matched_terms": [
+        "across",
+        "cross",
+        "enterprise",
+        "platform",
+        "support"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Software Engineering Foundation",
+      "bullet": "Supported financial research and entitlement platform modernization using Java, XML, JSP/Servlet, and C#.",
+      "score": 25,
+      "matched_terms": [
+        "financial",
+        "modernization",
+        "platform",
+        "support",
+        "using"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Partnered with enterprise architects and engineering teams to document cloud migration architecture and resiliency patterns for legacy AC Plus and OPS360-based services.",
+      "score": 26,
+      "matched_terms": [
+        "cloud",
+        "enterprise",
+        "migration",
+        "ops360",
+        "plus",
+        "resiliency",
+        "services",
+        "team"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Supported insurance premium/rating workflow validation and international travel product rollout activities.",
+      "score": 28,
+      "matched_terms": [
+        "insurance",
+        "product",
+        "support",
+        "validation",
+        "workflow"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Supported enterprise business systems across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.",
+      "score": 29,
+      "matched_terms": [
+        "across",
+        "business",
+        "cross",
+        "enterprise",
+        "health",
+        "support",
+        "systems"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported disaster recovery and resiliency readiness activities across primary, secondary, and cloud-connected service environments.",
+      "score": 35,
+      "matched_terms": [
+        "across",
+        "cloud",
+        "cross",
+        "environment",
+        "primary",
+        "readiness",
+        "resiliency",
+        "support"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Processed and validated financial ratings and fixed-income data feeds from Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
+      "score": 37,
+      "matched_terms": [
+        "data",
+        "feed",
+        "financial",
+        "fixed",
+        "from",
+        "income",
+        "process",
+        "validate"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.",
+      "score": 37,
+      "matched_terms": [
+        "across",
+        "asset",
+        "control",
+        "cross",
+        "data",
+        "financial",
+        "platform",
+        "support"
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Supported HP PPM, portfolio management, approval workflow, reporting, and insurance business systems used by PMO and operational stakeholders.",
+      "score": 42,
+      "matched_terms": [
+        "business",
+        "insurance",
+        "management",
+        "operational",
+        "reporting",
+        "stakeholder",
+        "support",
+        "systems",
+        "workflow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+Paul Lyu  
+551-200-0709 • paulchlyu@gmail.com • linkedin.com/in/paul-lyu-232719
+
+## Professional Summary
+
+Senior Business Analyst and Application Support professional with experience in Linux-based enterprise application support, production readiness, incident coordination, release validation, runbooks, and financial market data environments.
+
+## Core Skills
+
+- Linux application support
+- Python / scripting ramp-up
+- Market data / financial data systems
+- Vendor platform support mindset
+- Production operations
+- Incident coordination
+- Release coordination
+- Monitoring / health checks
+- Risk and impact assessment
+- Requirements analysis
+
+## Professional Experience
+
+### Federal Reserve Bank of New York / Gresham Technologies
+
+**Senior Business Analyst / DevOps Release Coordinator** | 04/2017 – 02/2026 | New York, NY
+
+- Supported enterprise financial applications that delivered fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.
+- Partnered with DevOps, infrastructure, database, QA, operations, and development teams to support release execution and production stability.
+- Coordinated production incident troubleshooting through log review, environment validation checks, data validation, escalation, and cross-team production issue resolution.
+- Executed environment readiness testing, deployment validation, post-release production health checks, and operational verification procedures.
+- Coordinated deployment readiness and production validation across Development, QA, UAT, and Production environments.
+- Validated REST API pricing payloads against Oracle data sources to support migration from legacy on-premise services to AWS-hosted microservices.
+- Maintained operational runbooks, deployment procedures, production troubleshooting guides, validation checklists, implementation notes, and support documentation.
+- Supported disaster recovery and resiliency readiness activities across primary, secondary, and cloud-connected service environments.
+
+### EmblemHealth / AIG Property Casualty / AIG Travel Guard
+
+**Senior Business Analyst / Program Manager** | 01/2009 – 01/2016 | New York, NY / Jersey City, NJ
+
+- Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness for enterprise business applications.
+- Supported HP PPM, portfolio management, approval workflow, reporting, and insurance business systems used by PMO and operational stakeholders.
+
+### Asset Control / Solomon Page / Capgemini / Fidelity Investments
+
+**Financial Data Management Consultant / Business Analyst** | Prior experience | New York, NY / Boston, MA
+
+- Supported ACPlus / Asset Control financial data management platform implementations involving reference data, pricing data, time series data, security master, and golden-copy workflows.
+- Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.
+- Processed and validated financial ratings and fixed-income data feeds from Standard & Poor’s, Moody’s, Reuters, and internal Fidelity sources.
+
+## Additional Relevant Experience
+
+### Asset Control / Solomon Page / Capgemini / Fidelity Investments
+
+**Financial Data Management Consultant / Business Analyst** | Prior experience | New York, NY / Boston, MA
+
+- Built proof-of-concept solutions demonstrating data normalization, consolidation, cleansing, and downstream financial data distribution.
+
+### OpenPages / Thomson Reuters / PlanetCAD / Dassault Systèmes
+
+**Software Engineer / Technical Consultant** | Prior experience | New York, NY / Various client sites
+
+- Supported software engineering and enterprise platform work across OpenPages, Thomson Reuters, PlanetCAD, and Dassault Systèmes.
+- Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.

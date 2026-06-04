@@ -1,0 +1,61 @@
+Paul Lyu  
+551-200-0709 • paulchlyu@gmail.com • linkedin.com/in/paul-lyu-232719
+
+## Professional Summary
+
+Senior Business Analyst and Application Support professional with experience in application and production support, operational runbooks, incident coordination, release validation, stakeholder communication, risk-aware escalation, and enterprise financial systems.
+
+## Core Skills
+
+- Application support
+- Production operations
+- Incident coordination
+- Problem management
+- Release coordination
+- Monitoring / health checks
+- Risk and impact assessment
+- Runbooks / support documentation
+- Requirements analysis
+- Stakeholder communication
+
+## Professional Experience
+
+### Federal Reserve Bank of New York / Gresham Technologies
+
+**Senior Business Analyst / DevOps Release Coordinator** | 04/2017 – 02/2026 | New York, NY
+
+- Produced operational runbooks, deployment procedures, production troubleshooting guides, validation checklists, and support documentation for mission-critical financial systems.
+- Coordinated release readiness, deployment validation, and production cutover activities across Development, QA, UAT, and Production environments.
+- Partnered with QA, DevOps, database, infrastructure, operations, and development teams to support SDLC delivery and production stability.
+- Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.
+- Collaborated with Product Owners and Scrum Masters to decompose Epics into Jira user stories, acceptance criteria, and implementation-ready requirements.
+- Supported enterprise financial applications that delivered fixed-income pricing, reference data, and streaming market data to downstream consumer platforms.
+- Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.
+
+### EmblemHealth / AIG Property Casualty / AIG Travel Guard
+
+**Senior Business Analyst / Program Manager** | 01/2009 – 01/2016 | New York, NY / Jersey City, NJ
+
+- Supported insurance systems and PMO workflows across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.
+- Created representative UAT data using users, roles, resource managers, executives, financial data, and cost centers to validate real-world workflow scenarios.
+
+## Additional Relevant Experience
+
+### EmblemHealth / AIG Property Casualty / AIG Travel Guard
+
+**Senior Business Analyst / Program Manager** | 01/2009 – 01/2016 | New York, NY / Jersey City, NJ
+
+- Supported Business Objects and Excel-based reporting for portfolio visibility, resource planning, productivity tracking, and operational decision-making.
+- Coordinated rollout of travel insurance premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.
+
+### Asset Control / Solomon Page / Capgemini / Fidelity Investments
+
+**Financial Data Management Consultant / Business Analyst** | Prior experience | New York, NY / Boston, MA
+
+- Built proof-of-concept solutions demonstrating normalization, consolidation, cleansing, and distribution of vendor data to downstream trading, portfolio management, regulatory, and risk platforms.
+
+### OpenPages / Thomson Reuters / PlanetCAD / Dassault Systèmes
+
+**Software Engineer / Technical Consultant** | Prior experience | New York, NY / Various client sites
+
+- Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.

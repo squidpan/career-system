@@ -1,7 +1,7 @@
 ---
 type: resume_enhancement
 status: draft
-run_id: run-2026-06-04-resume-enhancement-v1
+run_id: run-2026-06-05-resume-enhancement-v2
 source: career-system
 company: VNS Health
 title: Enterprise Applications Analyst (Workday & Enterprise Systems)
@@ -88,10 +88,10 @@ This report proposes conservative wording improvements for existing ranked resum
    - Change type: unchanged
    - Note: Conservative wording enhancement only; verify manually before use.
 8. **Original:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
-   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 support documentation, testing, approval, and compliance processes.
+   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
    - Action: keep
    - Score: 26
-   - Change type: jd_aligned
+   - Change type: unchanged
    - Note: Conservative wording enhancement only; verify manually before use.
 
 ## Compress Bullet Enhancements

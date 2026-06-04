@@ -84,8 +84,11 @@ def improve_bullet(original: str, context: str):
                 enhanced = enhanced.replace("troubleshooting", "production troubleshooting")
 
     if "runbook" in enhanced.lower() or "documentation" in enhanced.lower():
-        if "support documentation" not in enhanced.lower() and "documentation" in enhanced.lower():
-            enhanced = enhanced.replace("documentation", "support documentation")
+        # Do not rewrite SOX/compliance documentation as "support documentation";
+        # that changes the meaning.
+        if "sox" not in enhanced.lower() and "sarbanes-oxley" not in enhanced.lower():
+            if "support documentation" not in enhanced.lower() and "documentation" in enhanced.lower():
+                enhanced = enhanced.replace("documentation", "support documentation")
 
     if "release" in enhanced.lower() or "deployment" in enhanced.lower():
         if "production" not in enhanced.lower() and "production" in ctx:
@@ -97,6 +100,7 @@ def improve_bullet(original: str, context: str):
 
     # Avoid overlong doubled phrases.
     enhanced = enhanced.replace("support support documentation", "support documentation")
+    enhanced = enhanced.replace("post-production release health checks", "post-release production health checks")
     enhanced = enhanced.replace("production production", "production")
     enhanced = enhanced.replace("implementation-ready implementation-ready", "implementation-ready")
 

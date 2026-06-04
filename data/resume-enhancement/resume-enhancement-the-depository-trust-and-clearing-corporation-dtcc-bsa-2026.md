@@ -1,7 +1,7 @@
 ---
 type: resume_enhancement
 status: draft
-run_id: run-2026-06-04-resume-enhancement-v1
+run_id: run-2026-06-05-resume-enhancement-v2
 source: career-system
 company: The Depository Trust & Clearing Corporation (DTCC)
 title: Are you ready to make an impact at DTCC?
@@ -97,10 +97,10 @@ This report proposes conservative wording improvements for existing ranked resum
    - Change type: unchanged
    - Note: Conservative wording enhancement only; verify manually before use.
 2. **Original:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
-   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 support documentation, testing, approval, and compliance processes.
+   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
    - Action: compress
    - Score: 23
-   - Change type: jd_aligned
+   - Change type: unchanged
    - Note: Conservative wording enhancement only; verify manually before use.
 3. **Original:** Supported ACPlus / Asset Control financial data platform implementations involving reference data, pricing data, time series data, security master creation, and golden-copy data management.
    - **Enhanced:** Supported ACPlus / Asset Control financial data platform implementations involving reference data, pricing data, time series data, security master creation, and golden-copy data management.

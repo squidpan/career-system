@@ -1,7 +1,7 @@
 ---
 type: resume_enhancement
 status: draft
-run_id: run-2026-06-04-resume-enhancement-v1
+run_id: run-2026-06-05-resume-enhancement-v2
 source: career-system
 company: Cursor
 title: Support Operations Systems Lead
@@ -121,10 +121,10 @@ This report proposes conservative wording improvements for existing ranked resum
    - Change type: unchanged
    - Note: Conservative wording enhancement only; verify manually before use.
 6. **Original:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
-   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 support documentation, testing, approval, and compliance processes.
+   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
    - Action: compress
    - Score: 18
-   - Change type: jd_aligned
+   - Change type: unchanged
    - Note: Conservative wording enhancement only; verify manually before use.
 7. **Original:** Coordinated rollout of travel insurance premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.
    - **Enhanced:** Coordinated rollout of travel insurance premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.

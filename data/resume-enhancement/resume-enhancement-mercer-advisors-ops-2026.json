@@ -1,5 +1,5 @@
 {
-  "run_id": "run-2026-06-04-resume-enhancement-v1",
+  "run_id": "run-2026-06-05-resume-enhancement-v2",
   "company": "Mercer Advisors",
   "title": "Infrastructure Operations Specialist",
   "role_code": "ops",
@@ -51,7 +51,7 @@
       ],
       "action": "promote",
       "original_bullet": "Executed environment readiness testing, deployment validation, post-release health checks, and operational verification procedures.",
-      "enhanced_bullet": "Executed environment readiness testing, deployment validation, post-production release health checks, and operational verification procedures.",
+      "enhanced_bullet": "Executed environment readiness testing, deployment validation, post-release production health checks, and operational verification procedures.",
       "change_type": "jd_aligned",
       "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
     },
@@ -354,8 +354,8 @@
       ],
       "action": "compress",
       "original_bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.",
-      "enhanced_bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 support documentation, testing, approval, and compliance processes.",
-      "change_type": "jd_aligned",
+      "enhanced_bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.",
+      "change_type": "unchanged",
       "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
     },
     {

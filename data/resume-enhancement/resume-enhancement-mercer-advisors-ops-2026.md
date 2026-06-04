@@ -1,7 +1,7 @@
 ---
 type: resume_enhancement
 status: draft
-run_id: run-2026-06-04-resume-enhancement-v1
+run_id: run-2026-06-05-resume-enhancement-v2
 source: career-system
 company: Mercer Advisors
 title: Infrastructure Operations Specialist
@@ -25,7 +25,7 @@ This report proposes conservative wording improvements for existing ranked resum
    - Change type: jd_aligned
    - Note: Conservative wording enhancement only; verify manually before use.
 2. **Original:** Executed environment readiness testing, deployment validation, post-release health checks, and operational verification procedures.
-   - **Enhanced:** Executed environment readiness testing, deployment validation, post-production release health checks, and operational verification procedures.
+   - **Enhanced:** Executed environment readiness testing, deployment validation, post-release production health checks, and operational verification procedures.
    - Action: promote
    - Score: 74
    - Change type: jd_aligned
@@ -115,10 +115,10 @@ This report proposes conservative wording improvements for existing ranked resum
 ## Compress Bullet Enhancements
 
 1. **Original:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
-   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 support documentation, testing, approval, and compliance processes.
+   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
    - Action: compress
    - Score: 23
-   - Change type: jd_aligned
+   - Change type: unchanged
    - Note: Conservative wording enhancement only; verify manually before use.
 2. **Original:** Processed and validated financial ratings and fixed-income data feeds from Standard & Poor’s, Moody’s, Reuters, and internal Fidelity sources.
    - **Enhanced:** Processed and validated financial ratings and fixed-income data feeds from Standard & Poor’s, Moody’s, Reuters, and internal Fidelity sources.

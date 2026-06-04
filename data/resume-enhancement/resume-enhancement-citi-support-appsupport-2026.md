@@ -1,7 +1,7 @@
 ---
 type: resume_enhancement
 status: draft
-run_id: run-2026-06-04-resume-enhancement-v1
+run_id: run-2026-06-05-resume-enhancement-v2
 source: career-system
 company: Citi
 title: Application and Production Support Lead, Assistant Vice President
@@ -121,10 +121,10 @@ This report proposes conservative wording improvements for existing ranked resum
    - Change type: unchanged
    - Note: Conservative wording enhancement only; verify manually before use.
 4. **Original:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
-   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 support documentation, testing, approval, and compliance processes.
+   - **Enhanced:** Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.
    - Action: compress
    - Score: 20
-   - Change type: jd_aligned
+   - Change type: unchanged
    - Note: Conservative wording enhancement only; verify manually before use.
 5. **Original:** Processed and validated financial ratings and fixed-income data feeds from vendors including Standard & Poor’s, Moody’s, Reuters, and internal Fidelity sources.
    - **Enhanced:** Processed and validated financial ratings and fixed-income data feeds from vendors including Standard & Poor’s, Moody’s, Reuters, and internal Fidelity sources.

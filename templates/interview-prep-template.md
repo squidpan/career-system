@@ -10,6 +10,7 @@ gap_file:
 jd_file:
 role_file:
 resume_file:
+jd_intelligence_file:
 ---
 
 # Interview Prep — {{ company }} — {{ title }}
@@ -18,13 +19,19 @@ resume_file:
 
 ## Positioning Statement
 
+## JD Intelligence Summary
+
 ## Strengths To Emphasize
 
 ## Gaps To Prepare For
 
-## Likely Interview Questions
+## JD-Aware Interview Questions
+
+## Full Interview Question Set
 
 ## Gap-Based Answer Strategy
+
+## JD-to-Resume Story Mapping
 
 ## Story Bank
 

@@ -1,7 +1,7 @@
 ---
 type: interview_prep
 status: draft
-run_id: run-2026-06-03-interview-prep-v1
+run_id: run-2026-06-03-interview-prep-v2
 source: career-system
 company: ICF
 title: IT Business Analyst
@@ -10,6 +10,7 @@ gap_file: data/gap-analysis/gap-icf-ba-it-2026.md
 jd_file: data/jds/normalized/jd-icf-ba-it-2026-v1.md
 role_file: data/roles/role-icf-ba-it-2026.md
 resume_file: data/resume-versions/teal-export/resume-icf-ba-it-2026-teal-v1.md
+jd_intelligence_file: data/jd-intelligence/jd-intelligence-icf-ba-it-2026.json
 ---
 
 # Interview Prep — ICF — IT Business Analyst
@@ -26,6 +27,32 @@ resume_file: data/resume-versions/teal-export/resume-icf-ba-it-2026-teal-v1.md
 ## Positioning Statement
 
 I am a Senior Business Analyst and Application Support professional with experience supporting enterprise financial applications, production readiness, release coordination, requirements, UAT, runbooks, REST API validation, Oracle data comparison, and cross-functional delivery across financial services and insurance environments.
+
+## JD Intelligence Summary
+
+### JD-Specific Tools
+
+- excel
+- jira
+
+### JD-Specific Platforms
+
+- None identified
+
+### JD-Specific Products
+
+- None identified
+
+### JD-Specific Domains
+
+- insurance
+
+### JD-Specific Methodologies
+
+- incident management
+- requirements analysis
+- uat
+
 
 ## Strengths To Emphasize
 
@@ -62,17 +89,30 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 - None identified
 
-## Likely Interview Questions
+## JD-Aware Interview Questions
 
-1. How do you gather requirements from multiple stakeholders?
-2. How do you turn an Epic into user stories and acceptance criteria?
-3. How do you handle conflicting business requirements?
-4. How do you support UAT and ensure business signoff?
-5. Describe a time you documented a complex workflow or system process.
+1. What are the most important systems or workflows this role supports?
+2. What would you do in the first 30 days to understand the platform?
+3. How would you validate requirements and confirm business readiness?
+
+## Full Interview Question Set
+
+1. What are the most important systems or workflows this role supports?
+2. What would you do in the first 30 days to understand the platform?
+3. How would you validate requirements and confirm business readiness?
+4. How do you gather requirements from multiple stakeholders?
+5. How do you turn an Epic into user stories and acceptance criteria?
+6. How do you handle conflicting business requirements?
+7. How do you support UAT and ensure business signoff?
+8. Describe a time you documented a complex workflow or system process.
 
 ## Gap-Based Answer Strategy
 
 - None identified
+
+## JD-to-Resume Story Mapping
+
+- incident management: Production support, log review, validation, and cross-team escalation
 
 ## Story Bank
 
@@ -104,22 +144,22 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 ## 30-Minute Study Guide
 
-1. Re-read the JD and underline every tool, system, workflow, and stakeholder group.
+1. Re-read the JD intelligence summary and focus on extracted tools, products, domains, and methodologies.
 2. Review the gap analysis and prepare a short answer for each missing tool or domain.
 3. Practice the FRBNY modernization story in 90 seconds.
 4. Practice the REST API validation against Oracle story in 60 seconds.
 5. Practice the deployment runbook / health check story in 60 seconds.
-6. Prepare one question for the hiring manager about first-90-day priorities.
-7. Prepare one question about application support, production readiness, and team structure.
+6. Practice one JD-specific answer from the JD-Aware Interview Questions section.
+7. Prepare one question for the hiring manager about first-90-day priorities.
 
 ## Questions To Ask Them
 
 1. What are the most important systems or workflows this role supports?
 2. What are the most common production or business issues the team handles?
 3. What would success look like in the first 90 days?
-4. How does the team manage requirements, UAT, release readiness, and post-release support?
-5. Which tools or platforms should I prioritize learning before joining?
+4. Which tools, platforms, or products should I prioritize learning before joining?
+5. How does the team manage requirements, UAT, release readiness, and post-release support?
 
 ## Notes
 
-This v0.4.3 output is deterministic and based on JD, role, resume, and gap-analysis artifacts. It is intended as a first-pass interview prep note, not a final script.
+This v0.4.5 output integrates v0.4.3 interview prep with v0.4.4 JD intelligence. It is still deterministic, but now company-specific and JD-aware.

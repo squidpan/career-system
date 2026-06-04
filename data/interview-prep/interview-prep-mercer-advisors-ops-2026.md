@@ -1,7 +1,7 @@
 ---
 type: interview_prep
 status: draft
-run_id: run-2026-06-03-interview-prep-v1
+run_id: run-2026-06-03-interview-prep-v2
 source: career-system
 company: Mercer Advisors
 title: Infrastructure Operations Specialist
@@ -10,6 +10,7 @@ gap_file: data/gap-analysis/gap-mercer-advisors-ops-2026.md
 jd_file: data/jds/normalized/jd-mercer-advisors-ops-2026-v1.md
 role_file: data/roles/role-mercer-advisors-ops-2026.md
 resume_file: data/resume-versions/teal-export/resume-mercer-advisors-ops-2026-teal-v1.md
+jd_intelligence_file: data/jd-intelligence/jd-intelligence-mercer-advisors-ops-2026.json
 ---
 
 # Interview Prep — Mercer Advisors — Infrastructure Operations Specialist
@@ -26,6 +27,36 @@ resume_file: data/resume-versions/teal-export/resume-mercer-advisors-ops-2026-te
 ## Positioning Statement
 
 I am a Senior Business Analyst and Application Support professional with experience supporting enterprise financial applications, production readiness, release coordination, requirements, UAT, runbooks, REST API validation, Oracle data comparison, and cross-functional delivery across financial services and insurance environments.
+
+## JD Intelligence Summary
+
+### JD-Specific Tools
+
+- aws
+- workday
+
+### JD-Specific Platforms
+
+- cloud platform
+- hris platform
+- service management platform
+
+### JD-Specific Products
+
+- workday
+
+### JD-Specific Domains
+
+- government
+- healthcare
+- insurance
+
+### JD-Specific Methodologies
+
+- incident management
+- monitoring
+- requirements analysis
+
 
 ## Strengths To Emphasize
 
@@ -55,17 +86,29 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 - None identified
 
-## Likely Interview Questions
+## JD-Aware Interview Questions
 
-1. Tell me about a production issue you helped investigate or resolve.
-2. How do you validate that an application is healthy after a deployment?
-3. How do you use runbooks during release or support activities?
-4. How do you coordinate with DevOps, infrastructure, database, QA, and business teams during an incident?
-5. How do you distinguish application issues from data, infrastructure, or environment issues?
+1. How would you support Workday workflows or integrations without being the primary Workday administrator?
+2. How would you gather requirements for an enterprise HRIS workflow?
+
+## Full Interview Question Set
+
+1. How would you support Workday workflows or integrations without being the primary Workday administrator?
+2. How would you gather requirements for an enterprise HRIS workflow?
+3. Tell me about a production issue you helped investigate or resolve.
+4. How do you validate that an application is healthy after a deployment?
+5. How do you use runbooks during release or support activities?
+6. How do you coordinate with DevOps, infrastructure, database, QA, and business teams during an incident?
+7. How do you distinguish application issues from data, infrastructure, or environment issues?
 
 ## Gap-Based Answer Strategy
 
 - None identified
+
+## JD-to-Resume Story Mapping
+
+- incident management: Production support, log review, validation, and cross-team escalation
+- workday: Bridge from enterprise application support, workflow analysis, UAT, and rapid platform ramp-up
 
 ## Story Bank
 
@@ -97,22 +140,22 @@ I am a Senior Business Analyst and Application Support professional with experie
 
 ## 30-Minute Study Guide
 
-1. Re-read the JD and underline every tool, system, workflow, and stakeholder group.
+1. Re-read the JD intelligence summary and focus on extracted tools, products, domains, and methodologies.
 2. Review the gap analysis and prepare a short answer for each missing tool or domain.
 3. Practice the FRBNY modernization story in 90 seconds.
 4. Practice the REST API validation against Oracle story in 60 seconds.
 5. Practice the deployment runbook / health check story in 60 seconds.
-6. Prepare one question for the hiring manager about first-90-day priorities.
-7. Prepare one question about application support, production readiness, and team structure.
+6. Practice one JD-specific answer from the JD-Aware Interview Questions section.
+7. Prepare one question for the hiring manager about first-90-day priorities.
 
 ## Questions To Ask Them
 
 1. What are the most important systems or workflows this role supports?
 2. What are the most common production or business issues the team handles?
 3. What would success look like in the first 90 days?
-4. How does the team manage requirements, UAT, release readiness, and post-release support?
-5. Which tools or platforms should I prioritize learning before joining?
+4. Which tools, platforms, or products should I prioritize learning before joining?
+5. How does the team manage requirements, UAT, release readiness, and post-release support?
 
 ## Notes
 
-This v0.4.3 output is deterministic and based on JD, role, resume, and gap-analysis artifacts. It is intended as a first-pass interview prep note, not a final script.
+This v0.4.5 output integrates v0.4.3 interview prep with v0.4.4 JD intelligence. It is still deterministic, but now company-specific and JD-aware.

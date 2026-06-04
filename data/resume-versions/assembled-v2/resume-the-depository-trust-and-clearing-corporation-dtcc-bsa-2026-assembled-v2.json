@@ -1,0 +1,15 @@
+{
+  "run_id": "run-2026-06-04-employer-aware-resume-assembly-v1",
+  "company": "The Depository Trust & Clearing Corporation (DTCC)",
+  "title": "Are you ready to make an impact at DTCC?",
+  "role_code": "bsa",
+  "slug": "the-depository-trust-and-clearing-corporation-dtcc-bsa-2026",
+  "ranking_file": "data/resume-bullet-ranking/bullet-ranking-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026.json",
+  "tailoring_file": "data/resume-tailoring/resume-tailoring-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026.json",
+  "source_resume_file": "data/resume-versions/teal-export/resume-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-teal-v1.md",
+  "assembled_resume_file": "ops/runs/run-2026-06-04-employer-aware-resume-assembly-v1/output/resume-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-assembled-v2.md",
+  "employer_blocks_count": 2,
+  "primary_bullets_count": 5,
+  "supporting_bullets_count": 5,
+  "compressed_bullets_count": 4
+}

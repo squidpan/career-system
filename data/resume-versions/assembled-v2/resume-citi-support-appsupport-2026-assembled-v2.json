@@ -1,0 +1,15 @@
+{
+  "run_id": "run-2026-06-04-employer-aware-resume-assembly-v1",
+  "company": "Citi",
+  "title": "Application and Production Support Lead, Assistant Vice President",
+  "role_code": "support-appsupport",
+  "slug": "citi-support-appsupport-2026",
+  "ranking_file": "data/resume-bullet-ranking/bullet-ranking-citi-support-appsupport-2026.json",
+  "tailoring_file": "data/resume-tailoring/resume-tailoring-citi-support-appsupport-2026.json",
+  "source_resume_file": "data/resume-versions/teal-export/resume-citi-support-appsupport-2026-teal-v1.md",
+  "assembled_resume_file": "ops/runs/run-2026-06-04-employer-aware-resume-assembly-v1/output/resume-citi-support-appsupport-2026-assembled-v2.md",
+  "employer_blocks_count": 2,
+  "primary_bullets_count": 4,
+  "supporting_bullets_count": 5,
+  "compressed_bullets_count": 4
+}

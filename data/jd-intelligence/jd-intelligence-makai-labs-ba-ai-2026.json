@@ -1,0 +1,30 @@
+{
+  "run_id": "run-2026-06-03-jd-intelligence-v2",
+  "company": "Makai Labs",
+  "title": "Business Analyst for AI Startup",
+  "role_code": "ba-ai",
+  "source_file": "data/jds/normalized/jd-makai-labs-ba-ai-2026-v1.md",
+  "intelligence": {
+    "tools": [
+      "excel",
+      "jira"
+    ],
+    "platforms": [],
+    "products": [],
+    "domains": [
+      "insurance"
+    ],
+    "methodologies": [
+      "agile",
+      "requirements analysis"
+    ]
+  },
+  "jd_aware_questions": [
+    "What are the most important systems or workflows this role supports?",
+    "What would you do in the first 30 days to understand the platform?",
+    "How would you validate requirements and confirm business readiness?"
+  ],
+  "story_mapping": [
+    "Use FRBNY modernization, REST API validation, runbooks, UAT, and enterprise application support stories."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "run_id": "run-2026-06-03-jd-intelligence-v2",
+  "company": "VNS Health",
+  "title": "Enterprise Applications Analyst (Workday & Enterprise Systems)",
+  "role_code": "support-workday",
+  "source_file": "data/jds/normalized/jd-vns-health-support-workday-2026-v1.md",
+  "intelligence": {
+    "tools": [
+      "workday"
+    ],
+    "platforms": [
+      "enterprise applications",
+      "hris platform",
+      "service management platform"
+    ],
+    "products": [
+      "workday"
+    ],
+    "domains": [
+      "enterprise application support",
+      "healthcare",
+      "insurance"
+    ],
+    "methodologies": [
+      "incident management",
+      "release management",
+      "requirements analysis",
+      "uat"
+    ]
+  },
+  "jd_aware_questions": [
+    "How would you support Workday workflows or integrations without being the primary Workday administrator?",
+    "How would you gather requirements for an enterprise HRIS workflow?"
+  ],
+  "story_mapping": [
+    "incident management: Production support, log review, validation, and cross-team escalation",
+    "release management: Deployment runbooks, release validation, and health checks",
+    "workday: Bridge from enterprise application support, workflow analysis, UAT, and rapid platform ramp-up"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "run-2026-06-03-jd-intelligence-v2",
+  "company": "Tata Consultancy Services",
+  "title": "Senior Business Analyst with AI",
+  "role_code": "sba-ai",
+  "source_file": "data/jds/normalized/jd-tata-consultancy-services-sba-ai-2026-v1.md",
+  "intelligence": {
+    "tools": [
+      "confluence",
+      "excel",
+      "jira"
+    ],
+    "platforms": [],
+    "products": [],
+    "domains": [],
+    "methodologies": [
+      "agile",
+      "requirements analysis"
+    ]
+  },
+  "jd_aware_questions": [
+    "What are the most important systems or workflows this role supports?",
+    "What would you do in the first 30 days to understand the platform?",
+    "How would you validate requirements and confirm business readiness?"
+  ],
+  "story_mapping": [
+    "Use FRBNY modernization, REST API validation, runbooks, UAT, and enterprise application support stories."
+  ]
+}

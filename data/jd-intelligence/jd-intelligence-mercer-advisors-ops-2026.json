@@ -1,0 +1,39 @@
+{
+  "run_id": "run-2026-06-03-jd-intelligence-v2",
+  "company": "Mercer Advisors",
+  "title": "Infrastructure Operations Specialist",
+  "role_code": "ops",
+  "source_file": "data/jds/normalized/jd-mercer-advisors-ops-2026-v1.md",
+  "intelligence": {
+    "tools": [
+      "aws",
+      "workday"
+    ],
+    "platforms": [
+      "cloud platform",
+      "hris platform",
+      "service management platform"
+    ],
+    "products": [
+      "workday"
+    ],
+    "domains": [
+      "government",
+      "healthcare",
+      "insurance"
+    ],
+    "methodologies": [
+      "incident management",
+      "monitoring",
+      "requirements analysis"
+    ]
+  },
+  "jd_aware_questions": [
+    "How would you support Workday workflows or integrations without being the primary Workday administrator?",
+    "How would you gather requirements for an enterprise HRIS workflow?"
+  ],
+  "story_mapping": [
+    "incident management: Production support, log review, validation, and cross-team escalation",
+    "workday: Bridge from enterprise application support, workflow analysis, UAT, and rapid platform ramp-up"
+  ]
+}

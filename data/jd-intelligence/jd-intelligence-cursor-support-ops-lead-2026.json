@@ -1,0 +1,28 @@
+{
+  "run_id": "run-2026-06-03-jd-intelligence-v2",
+  "company": "Cursor",
+  "title": "Support Operations Systems Lead",
+  "role_code": "support-ops-lead",
+  "source_file": "data/jds/normalized/jd-cursor-support-ops-lead-2026-v1.md",
+  "intelligence": {
+    "tools": [
+      "excel"
+    ],
+    "platforms": [
+      "service management platform"
+    ],
+    "products": [],
+    "domains": [],
+    "methodologies": [
+      "monitoring"
+    ]
+  },
+  "jd_aware_questions": [
+    "What are the most important systems or workflows this role supports?",
+    "What would you do in the first 30 days to understand the platform?",
+    "How would you validate requirements and confirm business readiness?"
+  ],
+  "story_mapping": [
+    "Use FRBNY modernization, REST API validation, runbooks, UAT, and enterprise application support stories."
+  ]
+}

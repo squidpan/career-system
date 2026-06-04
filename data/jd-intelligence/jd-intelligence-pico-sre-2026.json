@@ -1,0 +1,43 @@
+{
+  "run_id": "run-2026-06-03-jd-intelligence-v2",
+  "company": "Pico",
+  "title": "Site Reliability Engineer",
+  "role_code": "sre",
+  "source_file": "data/jds/normalized/jd-pico-sre-2026-v1.md",
+  "intelligence": {
+    "tools": [
+      "excel",
+      "linux",
+      "python"
+    ],
+    "platforms": [
+      "market data platform"
+    ],
+    "products": [
+      "redline"
+    ],
+    "domains": [
+      "financial services",
+      "market data"
+    ],
+    "methodologies": [
+      "incident management",
+      "monitoring",
+      "release management",
+      "requirements analysis"
+    ]
+  },
+  "jd_aware_questions": [
+    "What do you understand about Redline or low-latency market data platforms?",
+    "How would you approach supporting a vendor platform you are still learning?",
+    "How would you troubleshoot delayed or missing market data?",
+    "How would you validate feed integrity after a deployment?",
+    "What signals would tell you a market data issue is source-side versus application-side?"
+  ],
+  "story_mapping": [
+    "financial services: FRBNY fixed-income pricing and financial application support",
+    "incident management: Production support, log review, validation, and cross-team escalation",
+    "market data: FRBNY market data modernization and streaming financial data support",
+    "release management: Deployment runbooks, release validation, and health checks"
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "run_id": "run-2026-06-04-resume-enhancement-v1",
+  "company": "Citi",
+  "title": "Application and Production Support Lead, Assistant Vice President",
+  "role_code": "support-appsupport",
+  "slug": "citi-support-appsupport-2026",
+  "ranking_file": "data/resume-bullet-ranking/bullet-ranking-citi-support-appsupport-2026.json",
+  "tailoring_file": "data/resume-tailoring/resume-tailoring-citi-support-appsupport-2026.json",
+  "promote": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Produced operational runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation for mission-critical financial systems.",
+      "score": 85,
+      "matched_terms": [
+        "checklists",
+        "deployment",
+        "documentation",
+        "financial",
+        "operational",
+        "procedures",
+        "runbook",
+        "runbooks",
+        "support",
+        "systems",
+        "troubleshooting",
+        "validation"
+      ],
+      "action": "promote",
+      "original_bullet": "Produced operational runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation for mission-critical financial systems.",
+      "enhanced_bullet": "Produced operational runbooks, deployment procedures, production troubleshooting guides, validation checklists, and support documentation for mission-critical financial systems.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Coordinated release readiness, deployment validation, and production cutover activities across Development, QA, UAT, and Production environments.",
+      "score": 77,
+      "matched_terms": [
+        "across",
+        "cross",
+        "deployment",
+        "development",
+        "environment",
+        "production",
+        "qa",
+        "readiness",
+        "release",
+        "uat",
+        "validation"
+      ],
+      "action": "promote",
+      "original_bullet": "Coordinated release readiness, deployment validation, and production cutover activities across Development, QA, UAT, and Production environments.",
+      "enhanced_bullet": "Coordinated release readiness, deployment validation, and production cutover activities across Development, QA, UAT, and Production environments.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Worked closely with QA, DevOps, database, infrastructure, operations, and development teams to support SDLC delivery and production stability.",
+      "score": 68,
+      "matched_terms": [
+        "data",
+        "database",
+        "development",
+        "devops",
+        "infrastructure",
+        "operations",
+        "production",
+        "qa",
+        "stability",
+        "support",
+        "team",
+        "teams"
+      ],
+      "action": "promote",
+      "original_bullet": "Worked closely with QA, DevOps, database, infrastructure, operations, and development teams to support SDLC delivery and production stability.",
+      "enhanced_bullet": "Partnered with QA, DevOps, database, infrastructure, operations, and development teams to support SDLC delivery and production stability.",
+      "change_type": "tightened",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+      "score": 53,
+      "matched_terms": [
+        "against",
+        "api",
+        "aws",
+        "data",
+        "during",
+        "migration",
+        "oracle",
+        "rest",
+        "validate"
+      ],
+      "action": "promote",
+      "original_bullet": "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+      "enhanced_bullet": "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    }
+  ],
+  "keep": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Collaborated with Product Owners and Scrum Masters to decompose Epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+      "score": 39,
+      "matched_terms": [
+        "acceptance",
+        "criteria",
+        "epics",
+        "implementation",
+        "jira",
+        "ready",
+        "requirements",
+        "stories",
+        "user"
+      ],
+      "action": "keep",
+      "original_bullet": "Collaborated with Product Owners and Scrum Masters to decompose Epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+      "enhanced_bullet": "Collaborated with Product Owners and Scrum Masters to decompose Epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data to downstream consumer platforms.",
+      "score": 35,
+      "matched_terms": [
+        "application",
+        "applications",
+        "data",
+        "enterprise",
+        "financial",
+        "market",
+        "platform",
+        "support"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data to downstream consumer platforms.",
+      "enhanced_bullet": "Supported enterprise financial applications that delivered fixed-income pricing, reference data, and streaming market data to downstream consumer platforms.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Insurance Portfolio & Business Systems",
+      "bullet": "Supported insurance systems and PMO workflows across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.",
+      "score": 35,
+      "matched_terms": [
+        "across",
+        "cross",
+        "health",
+        "insurance",
+        "support",
+        "systems",
+        "workflow"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported insurance systems and PMO workflows across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.",
+      "enhanced_bullet": "Supported insurance systems and PMO workflows across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Insurance Portfolio & Business Systems",
+      "bullet": "Created representative UAT data using users, roles, resource managers, executives, financial data, and cost centers to validate real-world workflow scenarios.",
+      "score": 35,
+      "matched_terms": [
+        "data",
+        "financial",
+        "uat",
+        "user",
+        "users",
+        "validate",
+        "workflow"
+      ],
+      "action": "keep",
+      "original_bullet": "Created representative UAT data using users, roles, resource managers, executives, financial data, and cost centers to validate real-world workflow scenarios.",
+      "enhanced_bullet": "Created representative UAT data using users, roles, resource managers, executives, financial data, and cost centers to validate real-world workflow scenarios.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.",
+      "score": 34,
+      "matched_terms": [
+        "cloud",
+        "environment",
+        "readiness",
+        "resiliency",
+        "support"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.",
+      "enhanced_bullet": "Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Insurance Portfolio & Business Systems",
+      "bullet": "Gathered and documented requirements for HP PPM portfolio management, demand/intake, approval workflows, reporting, and PMO governance processes.",
+      "score": 28,
+      "matched_terms": [
+        "management",
+        "process",
+        "reporting",
+        "requirements",
+        "workflow"
+      ],
+      "action": "keep",
+      "original_bullet": "Gathered and documented requirements for HP PPM portfolio management, demand/intake, approval workflows, reporting, and PMO governance processes.",
+      "enhanced_bullet": "Gathered and documented implementation-ready requirements for HP PPM portfolio management, demand/intake, approval workflows, reporting, and PMO governance processes.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Management Platforms",
+      "bullet": "Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.",
+      "score": 27,
+      "matched_terms": [
+        "across",
+        "control",
+        "cross",
+        "data",
+        "financial",
+        "platform",
+        "support"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.",
+      "enhanced_bullet": "Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Partnered with enterprise architects and engineering teams to document cloud migration architecture for legacy AC Plus pricing services and AWS-hosted OPS360 microservices.",
+      "score": 26,
+      "matched_terms": [
+        "aws",
+        "cloud",
+        "enterprise",
+        "migration",
+        "ops360",
+        "team",
+        "teams"
+      ],
+      "action": "keep",
+      "original_bullet": "Partnered with enterprise architects and engineering teams to document cloud migration architecture for legacy AC Plus pricing services and AWS-hosted OPS360 microservices.",
+      "enhanced_bullet": "Partnered with enterprise architects and engineering teams to document cloud migration architecture for legacy AC Plus pricing services and AWS-hosted OPS360 microservices.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Management Platforms",
+      "bullet": "Supported ACPlus / Asset Control financial data platform implementations involving reference data, pricing data, time series data, security master creation, and golden-copy data management.",
+      "score": 25,
+      "matched_terms": [
+        "control",
+        "data",
+        "financial",
+        "implementation",
+        "management",
+        "platform",
+        "support"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported ACPlus / Asset Control financial data platform implementations involving reference data, pricing data, time series data, security master creation, and golden-copy data management.",
+      "enhanced_bullet": "Supported ACPlus / Asset Control financial data platform implementations involving reference data, pricing data, time series data, security master creation, and golden-copy data management.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    }
+  ],
+  "compress": [
+    {
+      "section": "Professional Experience",
+      "company": "Insurance Portfolio & Business Systems",
+      "bullet": "Supported Business Objects and Excel-based reporting for portfolio visibility, resource planning, productivity tracking, and operational decision-making.",
+      "score": 21,
+      "matched_terms": [
+        "business",
+        "operational",
+        "reporting",
+        "support"
+      ],
+      "action": "compress",
+      "original_bullet": "Supported Business Objects and Excel-based reporting for portfolio visibility, resource planning, productivity tracking, and operational decision-making.",
+      "enhanced_bullet": "Supported Business Objects and Excel-based reporting for portfolio visibility, resource planning, productivity tracking, and operational decision-making.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Insurance Portfolio & Business Systems",
+      "bullet": "Coordinated rollout of travel insurance premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.",
+      "score": 20,
+      "matched_terms": [
+        "insurance",
+        "market",
+        "workflow"
+      ],
+      "action": "compress",
+      "original_bullet": "Coordinated rollout of travel insurance premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.",
+      "enhanced_bullet": "Coordinated rollout of travel insurance premium tables and certificate-of-insurance generation workflows for international markets including Korea, Australia, APAC, and the Middle East.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Management Platforms",
+      "bullet": "Built proof-of-concept solutions demonstrating normalization, consolidation, cleansing, and distribution of vendor data to downstream trading, portfolio management, regulatory, and risk platforms.",
+      "score": 20,
+      "matched_terms": [
+        "data",
+        "distribution",
+        "management",
+        "platform",
+        "risk"
+      ],
+      "action": "compress",
+      "original_bullet": "Built proof-of-concept solutions demonstrating normalization, consolidation, cleansing, and distribution of vendor data to downstream trading, portfolio management, regulatory, and risk platforms.",
+      "enhanced_bullet": "Built proof-of-concept solutions demonstrating normalization, consolidation, cleansing, and distribution of vendor data to downstream trading, portfolio management, regulatory, and risk platforms.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Governance, Engineering Software & CAD/CAM Solutions",
+      "bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.",
+      "score": 20,
+      "matched_terms": [
+        "documentation",
+        "process",
+        "workflow"
+      ],
+      "action": "compress",
+      "original_bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.",
+      "enhanced_bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 support documentation, testing, approval, and compliance processes.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Management Platforms",
+      "bullet": "Processed and validated financial ratings and fixed-income data feeds from vendors including Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
+      "score": 18,
+      "matched_terms": [
+        "data",
+        "financial",
+        "process",
+        "validate"
+      ],
+      "action": "compress",
+      "original_bullet": "Processed and validated financial ratings and fixed-income data feeds from vendors including Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
+      "enhanced_bullet": "Processed and validated financial ratings and fixed-income data feeds from vendors including Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Governance, Engineering Software & CAD/CAM Solutions",
+      "bullet": "Supported governance and engineering software work across OpenPages, PlanetCAD, and Dassault Syst\u00e8mes.",
+      "score": 13,
+      "matched_terms": [
+        "across",
+        "cross",
+        "support"
+      ],
+      "action": "compress",
+      "original_bullet": "Supported governance and engineering software work across OpenPages, PlanetCAD, and Dassault Syst\u00e8mes.",
+      "enhanced_bullet": "Supported governance and engineering software work across OpenPages, PlanetCAD, and Dassault Syst\u00e8mes.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Insurance Portfolio & Business Systems",
+      "bullet": "Configured and tested business-critical workflows including request creation, stage-gate approval, project generation, staffing profiles, allocation pools, timesheets, and approval notifications.",
+      "score": 12,
+      "matched_terms": [
+        "business",
+        "workflow"
+      ],
+      "action": "compress",
+      "original_bullet": "Configured and tested business-critical workflows including request creation, stage-gate approval, project generation, staffing profiles, allocation pools, timesheets, and approval notifications.",
+      "enhanced_bullet": "Configured and tested business-critical workflows including request creation, stage-gate approval, project generation, staffing profiles, allocation pools, timesheets, and approval notifications.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Insurance Portfolio & Business Systems",
+      "bullet": "Analyzed and tested insurance premium/rating workflows using origin, destination, age, gender, duration, coverage limits, and university-mandated medical minimums.",
+      "score": 12,
+      "matched_terms": [
+        "insurance",
+        "workflow"
+      ],
+      "action": "compress",
+      "original_bullet": "Analyzed and tested insurance premium/rating workflows using origin, destination, age, gender, duration, coverage limits, and university-mandated medical minimums.",
+      "enhanced_bullet": "Analyzed and tested insurance premium/rating workflows using origin, destination, age, gender, duration, coverage limits, and university-mandated medical minimums.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    }
+  ]
+}

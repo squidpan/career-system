@@ -1,0 +1,443 @@
+{
+  "run_id": "run-2026-06-04-resume-enhancement-v1",
+  "company": "Pico",
+  "title": "Site Reliability Engineer",
+  "role_code": "sre",
+  "slug": "pico-sre-2026",
+  "ranking_file": "data/resume-bullet-ranking/bullet-ranking-pico-sre-2026.json",
+  "tailoring_file": "data/resume-tailoring/resume-tailoring-pico-sre-2026.json",
+  "promote": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+      "score": 92,
+      "matched_terms": [
+        "across",
+        "application",
+        "aws",
+        "cross",
+        "data",
+        "enterprise",
+        "financial",
+        "fixed",
+        "income",
+        "infrastructure",
+        "linux",
+        "market",
+        "oracle",
+        "pricing",
+        "streaming"
+      ],
+      "action": "promote",
+      "original_bullet": "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+      "enhanced_bullet": "Supported enterprise financial applications that delivered fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Worked with DevOps, infrastructure, database, QA, operations, and development teams to support release execution and production stability.",
+      "score": 80,
+      "matched_terms": [
+        "ability",
+        "data",
+        "database",
+        "devops",
+        "infrastructure",
+        "operations",
+        "product",
+        "production",
+        "qa",
+        "release",
+        "stability",
+        "support",
+        "team"
+      ],
+      "action": "promote",
+      "original_bullet": "Worked with DevOps, infrastructure, database, QA, operations, and development teams to support release execution and production stability.",
+      "enhanced_bullet": "Partnered with DevOps, infrastructure, database, QA, operations, and development teams to support release execution and production stability.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported incident-oriented troubleshooting by coordinating log review, environment checks, data validation, escalation, and cross-team issue resolution.",
+      "score": 79,
+      "matched_terms": [
+        "checks",
+        "cross",
+        "data",
+        "environment",
+        "escalation",
+        "incident",
+        "issue",
+        "review",
+        "support",
+        "team",
+        "troubleshooting",
+        "validation"
+      ],
+      "action": "promote",
+      "original_bullet": "Supported incident-oriented troubleshooting by coordinating log review, environment checks, data validation, escalation, and cross-team issue resolution.",
+      "enhanced_bullet": "Coordinated production incident troubleshooting through log review, environment validation checks, data validation, escalation, and cross-team production issue resolution.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Executed environment readiness testing, deployment validation, post-release health checks, and operational verification procedures.",
+      "score": 71,
+      "matched_terms": [
+        "checks",
+        "deployment",
+        "environment",
+        "health",
+        "operational",
+        "post",
+        "readiness",
+        "release",
+        "validation"
+      ],
+      "action": "promote",
+      "original_bullet": "Executed environment readiness testing, deployment validation, post-release health checks, and operational verification procedures.",
+      "enhanced_bullet": "Executed environment readiness testing, deployment validation, post-production release health checks, and operational verification procedures.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Coordinated deployment readiness and production validation across Development, QA, UAT, and Production environments.",
+      "score": 67,
+      "matched_terms": [
+        "across",
+        "cross",
+        "deployment",
+        "environment",
+        "product",
+        "production",
+        "qa",
+        "readiness",
+        "uat",
+        "validation"
+      ],
+      "action": "promote",
+      "original_bullet": "Coordinated deployment readiness and production validation across Development, QA, UAT, and Production environments.",
+      "enhanced_bullet": "Coordinated deployment readiness and production validation across Development, QA, UAT, and Production environments.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Validated REST API pricing payloads against Oracle data sources to support migration from legacy on-premise services to AWS-hosted microservices.",
+      "score": 65,
+      "matched_terms": [
+        "api",
+        "aws",
+        "data",
+        "from",
+        "migration",
+        "oracle",
+        "pricing",
+        "rest",
+        "services",
+        "support",
+        "validate"
+      ],
+      "action": "promote",
+      "original_bullet": "Validated REST API pricing payloads against Oracle data sources to support migration from legacy on-premise services to AWS-hosted microservices.",
+      "enhanced_bullet": "Validated REST API pricing payloads against Oracle data sources to support migration from legacy on-premise services to AWS-hosted microservices.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, implementation notes, and support documentation.",
+      "score": 62,
+      "matched_terms": [
+        "deployment",
+        "documentation",
+        "implementation",
+        "runbook",
+        "runbooks",
+        "support",
+        "troubleshooting",
+        "validation"
+      ],
+      "action": "promote",
+      "original_bullet": "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, implementation notes, and support documentation.",
+      "enhanced_bullet": "Maintained operational runbooks, deployment procedures, production troubleshooting guides, validation checklists, implementation notes, and support documentation.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Supported ACPlus / Asset Control financial data management platform implementations involving reference data, pricing data, time series data, security master, and golden-copy workflows.",
+      "score": 51,
+      "matched_terms": [
+        "asset",
+        "control",
+        "data",
+        "financial",
+        "implementation",
+        "management",
+        "platform",
+        "plus",
+        "pricing",
+        "support",
+        "workflow",
+        "workflows"
+      ],
+      "action": "promote",
+      "original_bullet": "Supported ACPlus / Asset Control financial data management platform implementations involving reference data, pricing data, time series data, security master, and golden-copy workflows.",
+      "enhanced_bullet": "Supported ACPlus / Asset Control financial data management platform implementations involving reference data, pricing data, time series data, security master, and golden-copy workflows.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and signoff readiness for enterprise business applications.",
+      "score": 47,
+      "matched_terms": [
+        "application",
+        "business",
+        "data",
+        "enterprise",
+        "readiness",
+        "uat",
+        "validation",
+        "workflow"
+      ],
+      "action": "promote",
+      "original_bullet": "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and signoff readiness for enterprise business applications.",
+      "enhanced_bullet": "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness for enterprise business applications.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported disaster recovery and resiliency readiness activities across primary, secondary, and cloud-connected service environments.",
+      "score": 46,
+      "matched_terms": [
+        "across",
+        "cloud",
+        "cross",
+        "environment",
+        "primary",
+        "readiness",
+        "resiliency",
+        "support"
+      ],
+      "action": "promote",
+      "original_bullet": "Supported disaster recovery and resiliency readiness activities across primary, secondary, and cloud-connected service environments.",
+      "enhanced_bullet": "Supported disaster recovery and resiliency readiness activities across primary, secondary, and cloud-connected service environments.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    }
+  ],
+  "keep": [
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Supported HP PPM, portfolio management, approval workflow, reporting, and insurance business systems used by PMO and operational stakeholders.",
+      "score": 42,
+      "matched_terms": [
+        "business",
+        "insurance",
+        "management",
+        "operational",
+        "reporting",
+        "stakeholder",
+        "support",
+        "systems",
+        "workflow"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported HP PPM, portfolio management, approval workflow, reporting, and insurance business systems used by PMO and operational stakeholders.",
+      "enhanced_bullet": "Supported HP PPM, portfolio management, approval workflow, reporting, and insurance business systems used by PMO and operational stakeholders.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.",
+      "score": 37,
+      "matched_terms": [
+        "across",
+        "asset",
+        "control",
+        "cross",
+        "data",
+        "financial",
+        "platform",
+        "support"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.",
+      "enhanced_bullet": "Supported financial data platform work across Asset Control / Solomon Page and Capgemini / Fidelity Investments.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Processed and validated financial ratings and fixed-income data feeds from Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
+      "score": 37,
+      "matched_terms": [
+        "data",
+        "feed",
+        "financial",
+        "fixed",
+        "from",
+        "income",
+        "process",
+        "validate"
+      ],
+      "action": "keep",
+      "original_bullet": "Processed and validated financial ratings and fixed-income data feeds from Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
+      "enhanced_bullet": "Processed and validated financial ratings and fixed-income data feeds from Standard & Poor\u2019s, Moody\u2019s, Reuters, and internal Fidelity sources.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Partnered with enterprise architects and engineering teams to document cloud migration architecture and resiliency patterns for legacy AC Plus and OPS360-based services.",
+      "score": 32,
+      "matched_terms": [
+        "cloud",
+        "enterprise",
+        "migration",
+        "ops360",
+        "plus",
+        "resiliency",
+        "services",
+        "team"
+      ],
+      "action": "keep",
+      "original_bullet": "Partnered with enterprise architects and engineering teams to document cloud migration architecture and resiliency patterns for legacy AC Plus and OPS360-based services.",
+      "enhanced_bullet": "Partnered with enterprise architects and engineering teams to document cloud migration architecture and resiliency patterns for legacy AC Plus and OPS360-based services.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Supported enterprise business systems across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.",
+      "score": 29,
+      "matched_terms": [
+        "across",
+        "business",
+        "cross",
+        "enterprise",
+        "health",
+        "support",
+        "systems"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported enterprise business systems across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.",
+      "enhanced_bullet": "Supported enterprise business systems across EmblemHealth, AIG Property Casualty, and AIG Travel Guard.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Enterprise Business Systems Support",
+      "bullet": "Supported insurance premium/rating workflow validation and international travel product rollout activities.",
+      "score": 28,
+      "matched_terms": [
+        "insurance",
+        "product",
+        "support",
+        "validation",
+        "workflow"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported insurance premium/rating workflow validation and international travel product rollout activities.",
+      "enhanced_bullet": "Supported insurance premium/rating workflow validation and international travel product rollout activities.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Software Engineering Foundation",
+      "bullet": "Supported financial research and entitlement platform modernization using Java, XML, JSP/Servlet, and C#.",
+      "score": 25,
+      "matched_terms": [
+        "financial",
+        "modernization",
+        "platform",
+        "support",
+        "using"
+      ],
+      "action": "keep",
+      "original_bullet": "Supported financial research and entitlement platform modernization using Java, XML, JSP/Servlet, and C#.",
+      "enhanced_bullet": "Supported financial research and entitlement platform modernization using Java, XML, JSP/Servlet, and C#.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    }
+  ],
+  "compress": [
+    {
+      "section": "Professional Experience",
+      "company": "Software Engineering Foundation",
+      "bullet": "Supported software engineering and enterprise platform work across OpenPages, Thomson Reuters, PlanetCAD, and Dassault Syst\u00e8mes.",
+      "score": 19,
+      "matched_terms": [
+        "across",
+        "cross",
+        "enterprise",
+        "platform",
+        "support"
+      ],
+      "action": "compress",
+      "original_bullet": "Supported software engineering and enterprise platform work across OpenPages, Thomson Reuters, PlanetCAD, and Dassault Syst\u00e8mes.",
+      "enhanced_bullet": "Supported software engineering and enterprise platform work across OpenPages, Thomson Reuters, PlanetCAD, and Dassault Syst\u00e8mes.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Data Platforms",
+      "bullet": "Built proof-of-concept solutions demonstrating data normalization, consolidation, cleansing, and downstream financial data distribution.",
+      "score": 18,
+      "matched_terms": [
+        "data",
+        "distribution",
+        "financial"
+      ],
+      "action": "compress",
+      "original_bullet": "Built proof-of-concept solutions demonstrating data normalization, consolidation, cleansing, and downstream financial data distribution.",
+      "enhanced_bullet": "Built proof-of-concept solutions demonstrating data normalization, consolidation, cleansing, and downstream financial data distribution.",
+      "change_type": "unchanged",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Software Engineering Foundation",
+      "bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.",
+      "score": 18,
+      "matched_terms": [
+        "documentation",
+        "process",
+        "workflow",
+        "workflows"
+      ],
+      "action": "compress",
+      "original_bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 documentation, testing, approval, and compliance processes.",
+      "enhanced_bullet": "Configured SOX Express workflows for Sarbanes-Oxley Section 302/404 support documentation, testing, approval, and compliance processes.",
+      "change_type": "jd_aligned",
+      "truthfulness_note": "Conservative wording enhancement only; verify manually before use."
+    }
+  ]
+}

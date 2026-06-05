@@ -2,7 +2,7 @@
 id: jd-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
 slug: the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
 type: jd
-title: Are you ready to make an impact at DTCC? - The Depository Trust & Clearing Corporation (DTCC)
+title: Lead Business Systems Analyst - The Depository Trust & Clearing Corporation (DTCC)
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -22,10 +22,10 @@ source_system: teal
 source_file: 
 source_url: https://app.tealhq.com/job-tracker/f50c24ee-85bb-49d8-8df1-88e467c8a390
 origin: webclipper
-run_id: run-2026-06-01-jd-normalize-v3
+run_id: run-2026-06-05-jd-normalization-v5
 captured_date: 2026-06-01
 source_title: Lead Business Systems Analyst
-normalized_title: Are you ready to make an impact at DTCC?
+normalized_title: Lead Business Systems Analyst
 role_id: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
 role_family: bsa
 role_level: lead
@@ -41,7 +41,7 @@ normalization_status: normalized
 normalized_jd_id: jd-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
 ---
 
-# Are you ready to make an impact at DTCC? - The Depository Trust & Clearing Corporation (DTCC)
+# Lead Business Systems Analyst - The Depository Trust & Clearing Corporation (DTCC)
 
 ## Capture Metadata
 

@@ -18,11 +18,11 @@ last: 2026-05-29
 company: Atlas Search
 company_slug: atlas-search
 source_system: teal
-source_file: jobtracker-roles-2026-06-01.csv
+source_file: jobtracker-roles-2026-06-05.csv
 source_url: https://www.linkedin.com/jobs/view/4414347246
 source_role_id: d1b61554-41bb-41fa-9627-a27d8fdc8d46
 origin: import
-run_id: run-2026-06-01-tracker-role-classify-v1
+run_id: run-2026-06-05-tracker-role-classify-v2
 source_title: Business System Analyst
 normalized_title: Business System Analyst
 location: Greenwich, CT
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-01.csv
+- Source file: jobtracker-roles-2026-06-05.csv
 - Source URL: https://www.linkedin.com/jobs/view/4414347246
 
 ## Linkage

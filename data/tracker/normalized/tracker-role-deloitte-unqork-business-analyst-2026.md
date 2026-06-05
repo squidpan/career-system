@@ -18,11 +18,11 @@ last: 2026-05-29
 company: Deloitte
 company_slug: deloitte
 source_system: teal
-source_file: jobtracker-roles-2026-06-01.csv
+source_file: jobtracker-roles-2026-06-05.csv
 source_url: https://www.linkedin.com/jobs/view/4420402810
 source_role_id: d5676099-cab7-4441-8f76-2b4f58866154
 origin: import
-run_id: run-2026-06-01-tracker-role-classify-v1
+run_id: run-2026-06-05-tracker-role-classify-v2
 source_title: Unqork Business Analyst
 normalized_title: Unqork Business Analyst
 location: New York, NY
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-01.csv
+- Source file: jobtracker-roles-2026-06-05.csv
 - Source URL: https://www.linkedin.com/jobs/view/4420402810
 
 ## Linkage

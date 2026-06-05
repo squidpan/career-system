@@ -18,11 +18,11 @@ last: 2026-05-29
 company: Cursor
 company_slug: cursor
 source_system: teal
-source_file: jobtracker-roles-2026-06-01.csv
+source_file: jobtracker-roles-2026-06-05.csv
 source_url: https://www.linkedin.com/jobs/view/4419984022
 source_role_id: 18f17858-a963-4668-906b-eeae6ae1f4dc
 origin: import
-run_id: run-2026-06-01-tracker-role-classify-v1
+run_id: run-2026-06-05-tracker-role-classify-v2
 source_title: Support Operations Systems Lead
 normalized_title: Support Operations Systems Lead
 location: United States
@@ -50,10 +50,11 @@ min_salary:
 max_salary: 
 salary_currency: 
 salary_pay_period: 
-existing_role_id: 
-existing_jd_ids: 
-match_status: no_match
-match_notes: No existing generated role matched this Teal source_role_id.
+existing_role_id: role-cursor-support-ops-lead-2026
+existing_jd_ids:
+  - jd-cursor-support-ops-lead-2026-v1
+match_status: matched_role
+match_notes: Matched existing role role-cursor-support-ops-lead-2026
 ---
 
 # Support Operations Systems Lead - Cursor
@@ -65,19 +66,19 @@ match_notes: No existing generated role matched this Teal source_role_id.
 - Tracker status: bookmarked
 - Tracker scope: active
 - Source role ID: 18f17858-a963-4668-906b-eeae6ae1f4dc
-- Existing Career role match: None
+- Existing Career role match: role-cursor-support-ops-lead-2026
 
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-01.csv
+- Source file: jobtracker-roles-2026-06-05.csv
 - Source URL: https://www.linkedin.com/jobs/view/4419984022
 
 ## Linkage
 
-- Existing role ID: TBD
-- Existing JD IDs: TBD
+- Existing role ID: role-cursor-support-ops-lead-2026
+- Existing JD IDs: jd-cursor-support-ops-lead-2026-v1
 
 ## Notes
 
-No existing generated role matched this Teal source_role_id.
+Matched existing role role-cursor-support-ops-lead-2026

@@ -14,15 +14,15 @@ tags:
 status: bookmarked
 version: v1
 created: 2026-05-29
-last: 2026-05-29
+last: 2026-06-01
 company: The Depository Trust & Clearing Corporation (DTCC)
 company_slug: the-depository-trust-and-clearing-corporation-dtcc
 source_system: teal
-source_file: jobtracker-roles-2026-06-01.csv
+source_file: jobtracker-roles-2026-06-05.csv
 source_url: https://www.linkedin.com/jobs/view/4343464713
 source_role_id: f50c24ee-85bb-49d8-8df1-88e467c8a390
 origin: import
-run_id: run-2026-06-01-tracker-role-classify-v1
+run_id: run-2026-06-05-tracker-role-classify-v2
 source_title: Lead Business Systems Analyst
 normalized_title: Lead Business Systems Analyst
 location: Jersey City, NJ
@@ -43,16 +43,17 @@ classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-05-29T14:24:32Z
 applied_at: 
 posted_at: 
-updated_at: 2026-05-29T14:24:55Z
+updated_at: 2026-06-01T17:05:21Z
 archived_at: 
 min_salary: 
 max_salary: 
 salary_currency: 
 salary_pay_period: 
-existing_role_id: 
-existing_jd_ids: 
-match_status: no_match
-match_notes: No existing generated role matched this Teal source_role_id.
+existing_role_id: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
+existing_jd_ids:
+  - jd-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
+match_status: matched_role
+match_notes: Matched existing role role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
 ---
 
 # Lead Business Systems Analyst - The Depository Trust & Clearing Corporation (DTCC)
@@ -64,19 +65,19 @@ match_notes: No existing generated role matched this Teal source_role_id.
 - Tracker status: bookmarked
 - Tracker scope: active
 - Source role ID: f50c24ee-85bb-49d8-8df1-88e467c8a390
-- Existing Career role match: None
+- Existing Career role match: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
 
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-01.csv
+- Source file: jobtracker-roles-2026-06-05.csv
 - Source URL: https://www.linkedin.com/jobs/view/4343464713
 
 ## Linkage
 
-- Existing role ID: TBD
-- Existing JD IDs: TBD
+- Existing role ID: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
+- Existing JD IDs: jd-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
 
 ## Notes
 
-No existing generated role matched this Teal source_role_id.
+Matched existing role role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026

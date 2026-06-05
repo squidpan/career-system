@@ -1,0 +1,23 @@
+{
+  "run_id": "run-2026-06-05-jd-intelligence-v5",
+  "company": "Citi",
+  "title": "IT Business Senior Analyst",
+  "role_code": "ba-it",
+  "source_file": "data/jds/normalized/jd-citi-ba-it-2026-v1.md",
+  "intelligence": {
+    "tools": [],
+    "platforms": [],
+    "products": [],
+    "domains": [],
+    "methodologies": [
+      "stakeholder communication"
+    ]
+  },
+  "jd_aware_questions": [
+    "How do you communicate technical issues to non-technical business users?",
+    "How do you coordinate users, vendors, internal technology teams, and management during an escalation?"
+  ],
+  "story_mapping": [
+    "stakeholder communication: BA/application support communication across business users, DevOps, QA, and management"
+  ]
+}

@@ -204,20 +204,49 @@ def normalize_file(path: Path, output_dir: Path, run_id: str, refs_dir: Path) ->
     selected_lc = selected.lower()
     forced_role_code = ""
 
-    known_pairs = [
-        ("ICF", "IT Business Analyst", "ba-it"),
-        ("Michael Baker International", "Software Requirements Analyst (GIS)", "ba-requirements"),
-        ("VNS Health", "Enterprise Applications Analyst (Workday & Enterprise Systems)", "support-workday"),
-        ("Mercer Advisors", "Infrastructure Operations Specialist", "ops"),
-        ("The Depository Trust & Clearing Corporation (DTCC)", "Lead Business Systems Analyst", "bsa"),
-    ]
+    # Prefer filename-derived identity for Teal/WebClipper pages because the
+    # clipped body often includes a full Jobs sidebar/table containing many
+    # unrelated companies and titles.
+    file_key = path.stem.lower()
+    filename_pairs = {
+        "jd-raw-airops-techsupport-ai": ("AirOps", "Technical Support Lead", "support-appsupport"),
+        "jd-raw-amtex-hybrid-bapm-masterdata": ("Amtex Systems Inc", "Business Analyst / Project Manager with financial benchmark data Experience", "ba-pm"),
+        "jd-raw-atlas-ba": ("Atlas Search", "Business Analyst", "ba"),
+        "jd-raw-barclays-appsupport-api": ("Barclays", "Application Support Analyst", "support-appsupport"),
+        "jd-raw-citi-it-ba": ("Citi", "IT Business Senior Analyst", "ba-it"),
+        "jd-raw-finbourne-appsupport-api": ("FINBOURNE Technology", "Senior Application Support Analyst", "support-appsupport"),
+        "jd-raw-infotrack-techsupport-specialist-t2": ("InfoTrack US", "Technical Support Specialist", "support-appsupport"),
+        "jd-raw-payabli-operational-specialist": ("Payabli", "Operational Specialist", "ops"),
+        "jd-raw-watg-itsupport-specialist": ("WATG and Wimberly Interiors", "Senior IT Support Specialist", "support-appsupport"),
+        "jd-raw-icf-it-ba": ("ICF", "IT Business Analyst", "ba-it"),
+        "jd-raw-mbi-sw-rq-analyst": ("Michael Baker International", "Software Requirements Analyst (GIS)", "ba-requirements"),
+        "jd-raw-vnsh-ba-wrkd-entsupport-2026": ("VNS Health", "Enterprise Applications Analyst (Workday & Enterprise Systems)", "support-workday"),
+        "jd-raw-mercer-infra-ops": ("Mercer Advisors", "Infrastructure Operations Specialist", "ops"),
+        "jd-raw-dtcc-lead-bsa": ("The Depository Trust & Clearing Corporation (DTCC)", "Lead Business Systems Analyst", "bsa"),
+        "jd-raw-citi-appsupport-lead": ("Citi", "Application and Production Support Lead", "support-appsupport"),
+        "jd-raw-cursor-support-ops": ("Cursor", "Support Operations Systems Lead", "support-ops-lead"),
+        "jd-raw-makai-ba-ai": ("Makai Labs", "Business Analyst", "ba-ai"),
+        "jd-raw-pico-sre": ("Pico", "Site Reliability Engineer", "sre"),
+        "jd-raw-tata-ba-ai": ("Tata Consultancy Services", "Business Analyst -Artificial Intelligence", "ba-ai"),
+    }
 
-    for known_company, known_title, known_code in known_pairs:
-        if known_company.lower() in selected_lc or known_title.lower() in selected_lc:
-            company = known_company
-            source_title = known_title
-            forced_role_code = known_code
-            break
+    if file_key in filename_pairs:
+        company, source_title, forced_role_code = filename_pairs[file_key]
+    else:
+        known_pairs = [
+            ("ICF", "IT Business Analyst", "ba-it"),
+            ("Michael Baker International", "Software Requirements Analyst (GIS)", "ba-requirements"),
+            ("VNS Health", "Enterprise Applications Analyst (Workday & Enterprise Systems)", "support-workday"),
+            ("Mercer Advisors", "Infrastructure Operations Specialist", "ops"),
+            ("The Depository Trust & Clearing Corporation (DTCC)", "Lead Business Systems Analyst", "bsa"),
+        ]
+
+        for known_company, known_title, known_code in known_pairs:
+            if known_title.lower() in selected_lc:
+                company = known_company
+                source_title = known_title
+                forced_role_code = known_code
+                break
 
     normalized_title = infer_normalized_title(source_title, selected)
 

@@ -1,18 +1,19 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-03-jd-intelligence-v3
+run_id: run-2026-06-05-jd-intelligence-v5
 source: career-system
-company: Makai Labs
-title: Business Analyst for AI Startup
+company: Tata Consultancy Services
+title: Business Analyst -Artificial Intelligence
 role_code: ba-ai
-source_file: data/jds/normalized/jd-makai-labs-ba-ai-2026-v1.md
+source_file: data/jds/normalized/jd-tata-consultancy-services-ba-ai-2026-v1.md
 ---
 
-# JD Intelligence — Makai Labs — Business Analyst for AI Startup
+# JD Intelligence — Tata Consultancy Services — Business Analyst -Artificial Intelligence
 
 ## Extracted Tools
 
+- confluence
 - excel
 - jira
 
@@ -26,28 +27,28 @@ source_file: data/jds/normalized/jd-makai-labs-ba-ai-2026-v1.md
 
 ## Extracted Domains
 
-- insurance
+- None identified
 
 ## Extracted Methodologies
 
 - agile
 - documentation
+- operational readiness
 - requirements analysis
-- risk assessment
 - stakeholder communication
 
 ## JD-Aware Interview Questions
 
 - How do you create support documentation that is usable during incidents and releases?
-- How do you assess risk and business impact during a production issue?
-- How do you evaluate production risk before or after an application release?
+- How do you define operational readiness for an application release?
+- How do you improve stability, efficiency, and effectiveness in an application support function?
 - How do you communicate technical issues to non-technical business users?
 - How do you coordinate users, vendors, internal technology teams, and management during an escalation?
 
 ## Resume Story Mapping
 
 - documentation: Runbooks, support documentation, release procedures, and UAT evidence
-- risk assessment: Release readiness, impact analysis, production risk review, and escalation judgment
+- operational readiness: Deployment runbooks, health checks, production validation, and support readiness
 - stakeholder communication: BA/application support communication across business users, DevOps, QA, and management
 
 ## Notes

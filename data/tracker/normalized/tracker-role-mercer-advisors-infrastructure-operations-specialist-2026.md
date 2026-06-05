@@ -18,11 +18,11 @@ last: 2026-05-29
 company: Mercer Advisors
 company_slug: mercer-advisors
 source_system: teal
-source_file: jobtracker-roles-2026-06-01.csv
+source_file: jobtracker-roles-2026-06-05.csv
 source_url: https://www.linkedin.com/jobs/view/4409221261
 source_role_id: 2f0fafd8-4531-40f1-8e38-69f4341c0f1f
 origin: import
-run_id: run-2026-06-01-tracker-role-classify-v1
+run_id: run-2026-06-05-tracker-role-classify-v2
 source_title: Infrastructure Operations Specialist
 normalized_title: Infrastructure Operations Specialist
 location: United States
@@ -49,10 +49,11 @@ min_salary: 32
 max_salary: 38
 salary_currency: USD
 salary_pay_period: hour
-existing_role_id: 
-existing_jd_ids: 
-match_status: no_match
-match_notes: No existing generated role matched this Teal source_role_id.
+existing_role_id: role-mercer-advisors-ops-2026
+existing_jd_ids:
+  - jd-mercer-advisors-ops-2026-v1
+match_status: matched_role
+match_notes: Matched existing role role-mercer-advisors-ops-2026
 ---
 
 # Infrastructure Operations Specialist - Mercer Advisors
@@ -64,19 +65,19 @@ match_notes: No existing generated role matched this Teal source_role_id.
 - Tracker status: bookmarked
 - Tracker scope: active
 - Source role ID: 2f0fafd8-4531-40f1-8e38-69f4341c0f1f
-- Existing Career role match: None
+- Existing Career role match: role-mercer-advisors-ops-2026
 
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-01.csv
+- Source file: jobtracker-roles-2026-06-05.csv
 - Source URL: https://www.linkedin.com/jobs/view/4409221261
 
 ## Linkage
 
-- Existing role ID: TBD
-- Existing JD IDs: TBD
+- Existing role ID: role-mercer-advisors-ops-2026
+- Existing JD IDs: jd-mercer-advisors-ops-2026-v1
 
 ## Notes
 
-No existing generated role matched this Teal source_role_id.
+Matched existing role role-mercer-advisors-ops-2026

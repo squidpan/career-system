@@ -18,11 +18,11 @@ last: 2026-05-31
 company: Neuberger
 company_slug: neuberger
 source_system: teal
-source_file: jobtracker-roles-2026-06-01.csv
+source_file: jobtracker-roles-2026-06-05.csv
 source_url: https://www.linkedin.com/jobs/view/4397663312
 source_role_id: bbac7ef5-6085-4804-9401-9c21ccba2382
 origin: import
-run_id: run-2026-06-01-tracker-role-classify-v1
+run_id: run-2026-06-05-tracker-role-classify-v2
 source_title: Senior Program Manager / Business Analyst (Asset Management)
 normalized_title: Senior Program Manager / Business Analyst (Asset Management)
 location: New York, NY
@@ -70,7 +70,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-01.csv
+- Source file: jobtracker-roles-2026-06-05.csv
 - Source URL: https://www.linkedin.com/jobs/view/4397663312
 
 ## Linkage

@@ -1,15 +1,15 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-03-jd-intelligence-v3
+run_id: run-2026-06-05-jd-intelligence-v5
 source: career-system
 company: Citi
-title: Application and Production Support Lead, Assistant Vice President
+title: Application and Production Support Lead
 role_code: support-appsupport
 source_file: data/jds/normalized/jd-citi-support-appsupport-2026-v1.md
 ---
 
-# JD Intelligence — Citi — Application and Production Support Lead, Assistant Vice President
+# JD Intelligence — Citi — Application and Production Support Lead
 
 ## Extracted Tools
 

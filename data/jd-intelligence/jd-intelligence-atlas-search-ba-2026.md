@@ -1,21 +1,19 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-03-jd-intelligence-v3
+run_id: run-2026-06-05-jd-intelligence-v5
 source: career-system
-company: Tata Consultancy Services
-title: Senior Business Analyst with AI
-role_code: sba-ai
-source_file: data/jds/normalized/jd-tata-consultancy-services-sba-ai-2026-v1.md
+company: Atlas Search
+title: Business Analyst
+role_code: ba
+source_file: data/jds/normalized/jd-atlas-search-ba-2026-v1.md
 ---
 
-# JD Intelligence — Tata Consultancy Services — Senior Business Analyst with AI
+# JD Intelligence — Atlas Search — Business Analyst
 
 ## Extracted Tools
 
-- confluence
 - excel
-- jira
 
 ## Extracted Platforms
 
@@ -27,19 +25,17 @@ source_file: data/jds/normalized/jd-tata-consultancy-services-sba-ai-2026-v1.md
 
 ## Extracted Domains
 
-- None identified
+- financial services
 
 ## Extracted Methodologies
 
-- agile
-- documentation
+- data validation
 - operational readiness
 - requirements analysis
 - stakeholder communication
 
 ## JD-Aware Interview Questions
 
-- How do you create support documentation that is usable during incidents and releases?
 - How do you define operational readiness for an application release?
 - How do you improve stability, efficiency, and effectiveness in an application support function?
 - How do you communicate technical issues to non-technical business users?
@@ -47,7 +43,7 @@ source_file: data/jds/normalized/jd-tata-consultancy-services-sba-ai-2026-v1.md
 
 ## Resume Story Mapping
 
-- documentation: Runbooks, support documentation, release procedures, and UAT evidence
+- financial services: FRBNY fixed-income pricing and financial application support
 - operational readiness: Deployment runbooks, health checks, production validation, and support readiness
 - stakeholder communication: BA/application support communication across business users, DevOps, QA, and management
 

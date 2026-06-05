@@ -1,0 +1,34 @@
+{
+  "run_id": "run-2026-06-05-jd-intelligence-v5",
+  "company": "Atlas Search",
+  "title": "Business Analyst",
+  "role_code": "ba",
+  "source_file": "data/jds/normalized/jd-atlas-search-ba-2026-v1.md",
+  "intelligence": {
+    "tools": [
+      "excel"
+    ],
+    "platforms": [],
+    "products": [],
+    "domains": [
+      "financial services"
+    ],
+    "methodologies": [
+      "data validation",
+      "operational readiness",
+      "requirements analysis",
+      "stakeholder communication"
+    ]
+  },
+  "jd_aware_questions": [
+    "How do you define operational readiness for an application release?",
+    "How do you improve stability, efficiency, and effectiveness in an application support function?",
+    "How do you communicate technical issues to non-technical business users?",
+    "How do you coordinate users, vendors, internal technology teams, and management during an escalation?"
+  ],
+  "story_mapping": [
+    "financial services: FRBNY fixed-income pricing and financial application support",
+    "operational readiness: Deployment runbooks, health checks, production validation, and support readiness",
+    "stakeholder communication: BA/application support communication across business users, DevOps, QA, and management"
+  ]
+}

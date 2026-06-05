@@ -1,7 +1,7 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-03-jd-intelligence-v3
+run_id: run-2026-06-05-jd-intelligence-v5
 source: career-system
 company: Pico
 title: Site Reliability Engineer

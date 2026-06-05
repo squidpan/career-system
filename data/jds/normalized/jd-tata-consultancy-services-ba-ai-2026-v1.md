@@ -1,8 +1,8 @@
 ---
-id: jd-tata-consultancy-services-sba-ai-2026-v1
-slug: tata-consultancy-services-sba-ai-2026
+id: jd-tata-consultancy-services-ba-ai-2026-v1
+slug: tata-consultancy-services-ba-ai-2026
 type: jd
-title: Senior Business Analyst with AI - Tata Consultancy Services
+title: Business Analyst -Artificial Intelligence - Tata Consultancy Services
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -22,27 +22,27 @@ source_system: teal
 source_file: 
 source_url: https://app.tealhq.com/job-tracker/76ce596b-129f-407c-806b-e12c02177388
 origin: webclipper
-run_id: run-2026-06-01-jd-normalize-v3
+run_id: run-2026-06-05-jd-normalization-v5
 captured_date: 2026-06-01
 source_title: Business Analyst -Artificial Intelligence
-normalized_title: Senior Business Analyst with AI
-role_id: role-tata-consultancy-services-sba-ai-2026
+normalized_title: Business Analyst -Artificial Intelligence
+role_id: role-tata-consultancy-services-ba-ai-2026
 role_family: ba
-role_level: senior
+role_level: 
 role_qualifiers:
   - ai
-role_code: sba-ai
+role_code: ba-ai
 role_code_confidence: high
 role_summary: 
-jd_file_name: jd-tata-consultancy-services-sba-ai-2026-v1.md
+jd_file_name: jd-tata-consultancy-services-ba-ai-2026-v1.md
 jd_source_type: clipped
 jd_text_status: normalized
 role_source_type: jd
 normalization_status: normalized
-normalized_jd_id: jd-tata-consultancy-services-sba-ai-2026-v1
+normalized_jd_id: jd-tata-consultancy-services-ba-ai-2026-v1
 ---
 
-# Senior Business Analyst with AI - Tata Consultancy Services
+# Business Analyst -Artificial Intelligence - Tata Consultancy Services
 
 ## Capture Metadata
 

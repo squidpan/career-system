@@ -18,11 +18,11 @@ last: 2026-05-29
 company: Fox Television Stations
 company_slug: fox-television-stations
 source_system: teal
-source_file: jobtracker-roles-2026-06-01.csv
+source_file: jobtracker-roles-2026-06-05.csv
 source_url: https://www.linkedin.com/jobs/view/4402658366
 source_role_id: fba47af6-c9f0-4588-8654-b0c6d45cbc03
 origin: import
-run_id: run-2026-06-01-tracker-role-classify-v1
+run_id: run-2026-06-05-tracker-role-classify-v2
 source_title: Support Specialist, Operations & Support
 normalized_title: Support Specialist, Operations & Support
 location: United States
@@ -70,7 +70,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-01.csv
+- Source file: jobtracker-roles-2026-06-05.csv
 - Source URL: https://www.linkedin.com/jobs/view/4402658366
 
 ## Linkage

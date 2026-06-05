@@ -2,7 +2,7 @@
 id: jd-citi-support-appsupport-2026-v1
 slug: citi-support-appsupport-2026
 type: jd
-title: Application and Production Support Lead, Assistant Vice President - Citi
+title: Application and Production Support Lead - Citi
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -22,10 +22,10 @@ source_system: teal
 source_file: 
 source_url: https://app.tealhq.com/job-tracker/b0b86130-ff36-48e0-a57f-e05155df9169
 origin: webclipper
-run_id: run-2026-06-01-jd-normalize-v3
+run_id: run-2026-06-05-jd-normalization-v5
 captured_date: 2026-06-01
-source_title: Application and Production Support Lead, Assistant Vice President
-normalized_title: Application and Production Support Lead, Assistant Vice President
+source_title: Application and Production Support Lead
+normalized_title: Application and Production Support Lead
 role_id: role-citi-support-appsupport-2026
 role_family: support
 role_level: 
@@ -42,7 +42,7 @@ normalization_status: normalized
 normalized_jd_id: jd-citi-support-appsupport-2026-v1
 ---
 
-# Application and Production Support Lead, Assistant Vice President - Citi
+# Application and Production Support Lead - Citi
 
 ## Capture Metadata
 

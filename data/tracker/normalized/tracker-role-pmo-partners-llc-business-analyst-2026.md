@@ -18,11 +18,11 @@ last: 2026-05-29
 company: PMO Partners, LLC
 company_slug: pmo-partners-llc
 source_system: teal
-source_file: jobtracker-roles-2026-06-01.csv
+source_file: jobtracker-roles-2026-06-05.csv
 source_url: https://www.linkedin.com/jobs/view/4405105409
 source_role_id: efb2952d-4298-4f16-8858-6f94ec5443ab
 origin: import
-run_id: run-2026-06-01-tracker-role-classify-v1
+run_id: run-2026-06-05-tracker-role-classify-v2
 source_title: Business Analyst
 normalized_title: Business Analyst
 location: Jericho, NY
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-01.csv
+- Source file: jobtracker-roles-2026-06-05.csv
 - Source URL: https://www.linkedin.com/jobs/view/4405105409
 
 ## Linkage

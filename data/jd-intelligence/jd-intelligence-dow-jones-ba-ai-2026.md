@@ -1,15 +1,15 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-08-jd-intelligence-v5
+run_id: run-2026-06-08-jd-intelligence-v6
 source: career-system
 company: Dow Jones
-title: **About The Team
+title: AI Enablement Business Analyst, Senior
 role_code: ba-ai
 source_file: data/jds/normalized/jd-dow-jones-ba-ai-2026-v1.md
 ---
 
-# JD Intelligence — Dow Jones — **About The Team
+# JD Intelligence — Dow Jones — AI Enablement Business Analyst, Senior
 
 ## Extracted Tools
 

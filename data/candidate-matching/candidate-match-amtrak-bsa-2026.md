@@ -1,17 +1,17 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v3
+run_id: run-2026-06-08-candidate-matching-v4
 source: career-system
 company: Amtrak
-title: **Your success is a train ride away!
+title: Lead Business Systems Analyst - Integrated Control Systems
 role_code: bsa
 resume_family: ba
 score: 96
 recommendation: apply_now
 ---
 
-# Candidate Match — Amtrak — **Your success is a train ride away!
+# Candidate Match — Amtrak — Lead Business Systems Analyst - Integrated Control Systems
 
 ## Summary
 

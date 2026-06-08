@@ -1,15 +1,15 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-08-jd-intelligence-v5
+run_id: run-2026-06-08-jd-intelligence-v6
 source: career-system
 company: Premera Blue Cross
-title: Workforce Classification: Telecommuter
+title: Business Analyst III
 role_code: ba
 source_file: data/jds/normalized/jd-premera-blue-cross-ba-2026-v1.md
 ---
 
-# JD Intelligence — Premera Blue Cross — Workforce Classification: Telecommuter
+# JD Intelligence — Premera Blue Cross — Business Analyst III
 
 ## Extracted Tools
 

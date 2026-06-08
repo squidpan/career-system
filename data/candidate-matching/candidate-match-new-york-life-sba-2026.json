@@ -1,11 +1,11 @@
 {
   "type": "candidate_match",
   "status": "draft",
-  "run_id": "run-2026-06-08-candidate-matching-v3",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
   "source": "career-system",
   "company": "New York Life",
-  "title": "**Location Designation:** Hybrid - 3 days per week",
-  "source_title": "**Location Designation:** Hybrid - 3 days per week",
+  "title": "Senior Associate - Technical Business Analyst",
+  "source_title": "Senior Associate - Technical Business Analyst",
   "role_code": "sba",
   "resume_family": "ba",
   "score": 96,
@@ -13,14 +13,14 @@
   "strengths": [
     "application support",
     "aws",
+    "business analyst",
     "deployment",
     "devops",
     "incident",
     "jira",
     "release",
     "requirements",
-    "runbook",
-    "stakeholder"
+    "runbook"
   ],
   "gaps": [
     "salesforce"

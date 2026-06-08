@@ -1,7 +1,7 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-08-jd-intelligence-v5
+run_id: run-2026-06-08-jd-intelligence-v6
 source: career-system
 company: Tata Consultancy Services
 title: Business Analyst -Artificial Intelligence

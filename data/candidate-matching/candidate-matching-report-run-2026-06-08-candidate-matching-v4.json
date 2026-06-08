@@ -1,17 +1,17 @@
 {
   "type": "candidate_matching_report",
   "status": "draft",
-  "run_id": "run-2026-06-08-candidate-matching-v3",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
   "candidate_count": 27,
   "candidates": [
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Amtrak",
-      "title": "**Your success is a train ride away!",
-      "source_title": "**Your success is a train ride away!",
+      "title": "Lead Business Systems Analyst - Integrated Control Systems",
+      "source_title": "Lead Business Systems Analyst - Integrated Control Systems",
       "role_code": "bsa",
       "resume_family": "ba",
       "score": 96,
@@ -34,7 +34,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Atlas Search",
       "title": "Business Analyst",
@@ -61,7 +61,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Barclays",
       "title": "Application Support Analyst",
@@ -92,7 +92,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Citi",
       "title": "Application and Production Support Lead",
@@ -119,7 +119,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Citi",
       "title": "IT Business Senior Analyst",
@@ -139,7 +139,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Cursor",
       "title": "Support Operations Systems Lead",
@@ -166,17 +166,18 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Dow Jones",
-      "title": "**About The Team",
-      "source_title": "**About The Team",
+      "title": "AI Enablement Business Analyst, Senior",
+      "source_title": "AI Enablement Business Analyst, Senior",
       "role_code": "ba-ai",
       "resume_family": "ba",
       "score": 96,
       "recommendation": "apply_now",
       "strengths": [
         "application support",
+        "business analyst",
         "deployment",
         "devops",
         "financial",
@@ -184,8 +185,7 @@
         "jira",
         "market data",
         "release",
-        "requirements",
-        "runbook"
+        "requirements"
       ],
       "gaps": [],
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-dow-jones-ba-ai-2026.json"
@@ -193,7 +193,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "FINBOURNE Technology",
       "title": "Senior Application Support Analyst",
@@ -224,7 +224,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "ICF",
       "title": "IT Business Analyst",
@@ -251,7 +251,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Makai Labs",
       "title": "Business Analyst",
@@ -278,11 +278,11 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "New York Life",
-      "title": "**Location Designation:** Hybrid - 3 days per week",
-      "source_title": "**Location Designation:** Hybrid - 3 days per week",
+      "title": "Senior Associate - Technical Business Analyst",
+      "source_title": "Senior Associate - Technical Business Analyst",
       "role_code": "sba",
       "resume_family": "ba",
       "score": 96,
@@ -290,14 +290,14 @@
       "strengths": [
         "application support",
         "aws",
+        "business analyst",
         "deployment",
         "devops",
         "incident",
         "jira",
         "release",
         "requirements",
-        "runbook",
-        "stakeholder"
+        "runbook"
       ],
       "gaps": [
         "salesforce"
@@ -307,7 +307,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Pico",
       "title": "Site Reliability Engineer",
@@ -334,7 +334,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Tata Consultancy Services",
       "title": "Business Analyst -Artificial Intelligence",
@@ -361,7 +361,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "The Depository Trust & Clearing Corporation (DTCC)",
       "title": "Lead Business Systems Analyst",
@@ -386,7 +386,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Valon",
       "title": "Product Operations Senior Associate",
@@ -413,7 +413,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "NBCUniversal",
       "title": "Associate AI Solutions & Programs Lead",
@@ -438,7 +438,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Michael Baker International",
       "title": "Software Requirements Analyst (GIS)",
@@ -467,7 +467,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Payabli",
       "title": "Operational Specialist",
@@ -494,26 +494,26 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Premera Blue Cross",
-      "title": "Workforce Classification: Telecommuter",
-      "source_title": "Workforce Classification: Telecommuter",
+      "title": "Business Analyst III",
+      "source_title": "Business Analyst III",
       "role_code": "ba",
       "resume_family": "ba",
-      "score": 91,
+      "score": 92,
       "recommendation": "apply_now",
       "strengths": [
         "api",
         "application support",
+        "business analyst",
         "devops",
         "incident",
         "release",
         "requirements",
         "runbook",
         "stakeholder",
-        "uat",
-        "workflow"
+        "uat"
       ],
       "gaps": [
         "hris",
@@ -524,7 +524,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Con Edison",
       "title": "Senior Technical Analyst",
@@ -554,7 +554,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "AirOps",
       "title": "Technical Support Lead",
@@ -585,7 +585,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Mercer Advisors",
       "title": "Infrastructure Operations Specialist",
@@ -615,7 +615,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "InfoTrack US",
       "title": "Technical Support Specialist",
@@ -647,7 +647,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Amtex Systems Inc",
       "title": "Business Analyst / Project Manager with financial benchmark data Experience",
@@ -678,7 +678,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "WATG and Wimberly Interiors",
       "title": "Senior IT Support Specialist",
@@ -709,7 +709,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "Grapevine Technologies Inc",
       "title": "Sr. Operations Analyst",
@@ -740,7 +740,7 @@
     {
       "type": "candidate_match",
       "status": "draft",
-      "run_id": "run-2026-06-08-candidate-matching-v3",
+      "run_id": "run-2026-06-08-candidate-matching-v4",
       "source": "career-system",
       "company": "VNS Health",
       "title": "Enterprise Applications Analyst (Workday & Enterprise Systems)",

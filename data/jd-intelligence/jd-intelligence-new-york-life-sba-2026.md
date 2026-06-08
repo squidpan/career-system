@@ -1,15 +1,15 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-08-jd-intelligence-v5
+run_id: run-2026-06-08-jd-intelligence-v6
 source: career-system
 company: New York Life
-title: **Location Designation:** Hybrid - 3 days per week
+title: Senior Associate - Technical Business Analyst
 role_code: sba
 source_file: data/jds/normalized/jd-new-york-life-sba-2026-v1.md
 ---
 
-# JD Intelligence — New York Life — **Location Designation:** Hybrid - 3 days per week
+# JD Intelligence — New York Life — Senior Associate - Technical Business Analyst
 
 ## Extracted Tools
 

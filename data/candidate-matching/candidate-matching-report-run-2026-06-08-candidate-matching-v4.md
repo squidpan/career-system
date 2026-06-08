@@ -1,12 +1,12 @@
 ---
 type: candidate_matching_report
 status: draft
-run_id: run-2026-06-08-candidate-matching-v3
+run_id: run-2026-06-08-candidate-matching-v4
 source: career-system
 candidate_count: 27
 ---
 
-# Candidate Matching Report — run-2026-06-08-candidate-matching-v3
+# Candidate Matching Report — run-2026-06-08-candidate-matching-v4
 
 ## Summary
 
@@ -18,17 +18,17 @@ candidate_count: 27
 
 | Rank | Score | Recommendation | Company | Role | Resume Family | Role Code |
 |---:|---:|---|---|---|---|---|
-| 1 | 96 | apply_now | Amtrak | **Your success is a train ride away! | ba | bsa |
+| 1 | 96 | apply_now | Amtrak | Lead Business Systems Analyst - Integrated Control Systems | ba | bsa |
 | 2 | 96 | apply_now | Atlas Search | Business Analyst | ba | ba |
 | 3 | 96 | apply_now | Barclays | Application Support Analyst | support | support-appsupport |
 | 4 | 96 | apply_now | Citi | Application and Production Support Lead | support | support-appsupport |
 | 5 | 96 | apply_now | Citi | IT Business Senior Analyst | ba | ba-it |
 | 6 | 96 | apply_now | Cursor | Support Operations Systems Lead | support | support-ops-lead |
-| 7 | 96 | apply_now | Dow Jones | **About The Team | ba | ba-ai |
+| 7 | 96 | apply_now | Dow Jones | AI Enablement Business Analyst, Senior | ba | ba-ai |
 | 8 | 96 | apply_now | FINBOURNE Technology | Senior Application Support Analyst | support | support-appsupport |
 | 9 | 96 | apply_now | ICF | IT Business Analyst | ba | ba-it |
 | 10 | 96 | apply_now | Makai Labs | Business Analyst | ba | ba-ai |
-| 11 | 96 | apply_now | New York Life | **Location Designation:** Hybrid - 3 days per week | ba | sba |
+| 11 | 96 | apply_now | New York Life | Senior Associate - Technical Business Analyst | ba | sba |
 | 12 | 96 | apply_now | Pico | Site Reliability Engineer | sre | sre |
 | 13 | 96 | apply_now | Tata Consultancy Services | Business Analyst -Artificial Intelligence | ba | ba-ai |
 | 14 | 96 | apply_now | The Depository Trust & Clearing Corporation (DTCC) | Lead Business Systems Analyst | ba | bsa |
@@ -36,7 +36,7 @@ candidate_count: 27
 | 16 | 94 | apply_now | NBCUniversal | Associate AI Solutions & Programs Lead | ops | ops |
 | 17 | 93 | apply_now | Michael Baker International | Software Requirements Analyst (GIS) | ba | ba-requirements |
 | 18 | 93 | apply_now | Payabli | Operational Specialist | ops | ops |
-| 19 | 91 | apply_now | Premera Blue Cross | Workforce Classification: Telecommuter | ba | ba |
+| 19 | 92 | apply_now | Premera Blue Cross | Business Analyst III | ba | ba |
 | 20 | 89 | apply_now | Con Edison | Senior Technical Analyst | ba | ba |
 | 21 | 86 | apply_selectively | AirOps | Technical Support Lead | support | support-appsupport |
 | 22 | 86 | apply_selectively | Mercer Advisors | Infrastructure Operations Specialist | ops | ops |

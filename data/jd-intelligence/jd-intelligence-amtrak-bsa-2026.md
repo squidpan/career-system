@@ -1,15 +1,15 @@
 ---
 type: jd_intelligence
 status: draft
-run_id: run-2026-06-08-jd-intelligence-v5
+run_id: run-2026-06-08-jd-intelligence-v6
 source: career-system
 company: Amtrak
-title: **Your success is a train ride away!
+title: Lead Business Systems Analyst - Integrated Control Systems
 role_code: bsa
 source_file: data/jds/normalized/jd-amtrak-bsa-2026-v1.md
 ---
 
-# JD Intelligence — Amtrak — **Your success is a train ride away!
+# JD Intelligence — Amtrak — Lead Business Systems Analyst - Integrated Control Systems
 
 ## Extracted Tools
 

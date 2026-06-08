@@ -1,17 +1,17 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v3
+run_id: run-2026-06-08-candidate-matching-v4
 source: career-system
 company: Dow Jones
-title: **About The Team
+title: AI Enablement Business Analyst, Senior
 role_code: ba-ai
 resume_family: ba
 score: 96
 recommendation: apply_now
 ---
 
-# Candidate Match — Dow Jones — **About The Team
+# Candidate Match — Dow Jones — AI Enablement Business Analyst, Senior
 
 ## Summary
 
@@ -23,6 +23,7 @@ recommendation: apply_now
 ## Strengths To Emphasize
 
 - application support
+- business analyst
 - deployment
 - devops
 - financial
@@ -31,7 +32,6 @@ recommendation: apply_now
 - market data
 - release
 - requirements
-- runbook
 
 ## Gaps / Cautions
 

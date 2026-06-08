@@ -296,7 +296,14 @@ def generate_one(jd_path: Path, output_dir: Path, run_id: str):
 
     fm = doc["frontmatter"]
     company = fm.get("company") or fm.get("company_name") or "unknown-company"
-    title = fm.get("normalized_title") or fm.get("title") or jd_path.stem
+    # v0.5.1.3: prefer source_title because normalized_title can contain
+    # body-derived headings for some web-clipped JDs.
+    title = (
+        fm.get("source_title")
+        or fm.get("normalized_title")
+        or fm.get("title")
+        or jd_path.stem
+    )
     role_code = fm.get("role_code", "")
     slug = slug_from_filename(jd_path)
 

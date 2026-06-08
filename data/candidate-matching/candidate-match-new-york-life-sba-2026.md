@@ -1,17 +1,17 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v3
+run_id: run-2026-06-08-candidate-matching-v4
 source: career-system
 company: New York Life
-title: **Location Designation:** Hybrid - 3 days per week
+title: Senior Associate - Technical Business Analyst
 role_code: sba
 resume_family: ba
 score: 96
 recommendation: apply_now
 ---
 
-# Candidate Match — New York Life — **Location Designation:** Hybrid - 3 days per week
+# Candidate Match — New York Life — Senior Associate - Technical Business Analyst
 
 ## Summary
 
@@ -24,6 +24,7 @@ recommendation: apply_now
 
 - application support
 - aws
+- business analyst
 - deployment
 - devops
 - incident
@@ -31,7 +32,6 @@ recommendation: apply_now
 - release
 - requirements
 - runbook
-- stakeholder
 
 ## Gaps / Cautions
 

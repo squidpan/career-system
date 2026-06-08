@@ -1,9 +1,9 @@
 {
-  "run_id": "run-2026-06-08-candidate-matching-v1",
+  "run_id": "run-2026-06-08-candidate-matching-v2",
   "candidate_count": 28,
   "ranked_candidates": [
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-airops-support-appsupport-2026.json",
       "slug": "airops-support-appsupport-2026",
       "company": "AirOps",
@@ -30,7 +30,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-amtex-systems-inc-ba-pm-2026.json",
       "slug": "amtex-systems-inc-ba-pm-2026",
       "company": "Amtex Systems Inc",
@@ -57,7 +57,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-amtrak-bsa-2026.json",
       "slug": "amtrak-bsa-2026",
       "company": "Amtrak",
@@ -83,7 +83,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-atlas-search-ba-2026.json",
       "slug": "atlas-search-ba-2026",
       "company": "Atlas Search",
@@ -109,7 +109,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-barclays-support-appsupport-2026.json",
       "slug": "barclays-support-appsupport-2026",
       "company": "Barclays",
@@ -136,7 +136,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-citi-support-appsupport-2026.json",
       "slug": "citi-support-appsupport-2026",
       "company": "Citi",
@@ -162,7 +162,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-con-edison-ba-2026.json",
       "slug": "con-edison-ba-2026",
       "company": "Con Edison",
@@ -189,7 +189,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-cursor-support-ops-lead-2026.json",
       "slug": "cursor-support-ops-lead-2026",
       "company": "Cursor",
@@ -215,7 +215,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-dow-jones-ba-ai-2026.json",
       "slug": "dow-jones-ba-ai-2026",
       "company": "Dow Jones",
@@ -241,7 +241,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-finbourne-technology-support-appsupport-2026.json",
       "slug": "finbourne-technology-support-appsupport-2026",
       "company": "FINBOURNE Technology",
@@ -268,7 +268,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-grapevine-technologies-inc-ops-2026.json",
       "slug": "grapevine-technologies-inc-ops-2026",
       "company": "Grapevine Technologies Inc",
@@ -296,7 +296,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-icf-ba-it-2026.json",
       "slug": "icf-ba-it-2026",
       "company": "ICF",
@@ -322,7 +322,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-infotrack-us-support-appsupport-2026.json",
       "slug": "infotrack-us-support-appsupport-2026",
       "company": "InfoTrack US",
@@ -349,7 +349,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-makai-labs-ba-ai-2026.json",
       "slug": "makai-labs-ba-ai-2026",
       "company": "Makai Labs",
@@ -375,7 +375,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-mercer-advisors-ops-2026.json",
       "slug": "mercer-advisors-ops-2026",
       "company": "Mercer Advisors",
@@ -403,7 +403,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-michael-baker-international-ba-requirements-2026.json",
       "slug": "michael-baker-international-ba-requirements-2026",
       "company": "Michael Baker International",
@@ -429,7 +429,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-nbcuniversal-ops-2026.json",
       "slug": "nbcuniversal-ops-2026",
       "company": "NBCUniversal",
@@ -456,7 +456,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-new-york-life-sba-2026.json",
       "slug": "new-york-life-sba-2026",
       "company": "New York Life",
@@ -483,7 +483,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-payabli-ops-2026.json",
       "slug": "payabli-ops-2026",
       "company": "Payabli",
@@ -510,7 +510,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-pico-sre-2026.json",
       "slug": "pico-sre-2026",
       "company": "Pico",
@@ -536,7 +536,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-premera-blue-cross-ba-2026.json",
       "slug": "premera-blue-cross-ba-2026",
       "company": "Premera Blue Cross",
@@ -563,7 +563,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-tata-consultancy-services-ba-ai-2026.json",
       "slug": "tata-consultancy-services-ba-ai-2026",
       "company": "Tata Consultancy Services",
@@ -589,7 +589,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026.json",
       "slug": "the-depository-trust-clearing-corporation-dtcc-bsa-2026",
       "company": "The Depository Trust & Clearing Corporation (DTCC)",
@@ -615,7 +615,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-vns-health-support-workday-2026.json",
       "slug": "vns-health-support-workday-2026",
       "company": "VNS Health",
@@ -642,7 +642,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-valon-ops-2026.json",
       "slug": "valon-ops-2026",
       "company": "Valon",
@@ -669,7 +669,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-watg-and-wimberly-interiors-support-appsupport-2026.json",
       "slug": "watg-and-wimberly-interiors-support-appsupport-2026",
       "company": "WATG and Wimberly Interiors",
@@ -696,7 +696,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-citi-ba-it-2026.json",
       "slug": "citi-ba-it-2026",
       "company": "Citi",
@@ -722,7 +722,7 @@
       "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
     },
     {
-      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "run_id": "run-2026-06-08-candidate-matching-v2",
       "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-report-run-2026-06-08-jd-intelligence-v5.json",
       "slug": "report-run-2026-06-08-jd-intelligence-v5-unknown-2026",
       "company": "Report Run 2026 06 08 Jd Intelligence V5",

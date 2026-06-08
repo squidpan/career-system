@@ -1,12 +1,12 @@
 ---
 type: candidate_matching_report
 status: draft
-run_id: run-2026-06-08-candidate-matching-v1
+run_id: run-2026-06-08-candidate-matching-v2
 source: career-system
 candidate_count: 28
 ---
 
-# Candidate Matching Report — run-2026-06-08-candidate-matching-v1
+# Candidate Matching Report — run-2026-06-08-candidate-matching-v2
 
 ## Summary
 

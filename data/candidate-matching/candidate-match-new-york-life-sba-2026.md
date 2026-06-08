@@ -1,7 +1,7 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v1
+run_id: run-2026-06-08-candidate-matching-v2
 source: career-system
 company: New York Life
 title: **Location Designation:** Hybrid - 3 days per week

@@ -1,7 +1,7 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v1
+run_id: run-2026-06-08-candidate-matching-v2
 source: career-system
 company: Report Run 2026 06 08 Jd Intelligence V5
 title: Unknown

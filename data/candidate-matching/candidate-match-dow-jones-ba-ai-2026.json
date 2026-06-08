@@ -1,0 +1,26 @@
+{
+  "run_id": "run-2026-06-08-candidate-matching-v1",
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-dow-jones-ba-ai-2026.json",
+  "slug": "dow-jones-ba-ai-2026",
+  "company": "Dow Jones",
+  "title": "**About The Team",
+  "role_code": "ba-ai",
+  "resume_family": "ba",
+  "match_score": 100,
+  "recommendation": "apply_now",
+  "strengths": [
+    "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+    "Matched keywords: ai, application support, data, deployment, financial, healthcare, insurance, jira, market data, release, requirements, stakeholder, uat."
+  ],
+  "gaps": [
+    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+  ],
+  "tailoring_focus": [
+    "requirements analysis",
+    "UAT",
+    "stakeholder communication",
+    "Jira/user stories",
+    "data/API validation"
+  ],
+  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+}

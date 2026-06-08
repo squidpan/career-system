@@ -1,0 +1,752 @@
+{
+  "run_id": "run-2026-06-08-candidate-matching-v1",
+  "candidate_count": 28,
+  "ranked_candidates": [
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-airops-support-appsupport-2026.json",
+      "slug": "airops-support-appsupport-2026",
+      "company": "AirOps",
+      "title": "Technical Support Lead",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
+        "Matched keywords: api, application support, data, incident, insurance, oracle, production support, release, requirements, rest, stakeholder, technical support, uat, workflow."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "production support",
+        "incident troubleshooting",
+        "runbooks",
+        "release validation",
+        "Linux/API/data support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-amtex-systems-inc-ba-pm-2026.json",
+      "slug": "amtex-systems-inc-ba-pm-2026",
+      "company": "Amtex Systems Inc",
+      "title": "Business Analyst / Project Manager with financial benchmark data Experience",
+      "role_code": "ba-pm",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: application support, business analyst, confluence, data, deployment, financial, incident, jira, production support, release, requirements, service management, sql, stakeholder, uat, workflow."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-amtrak-bsa-2026.json",
+      "slug": "amtrak-bsa-2026",
+      "company": "Amtrak",
+      "title": "**Your success is a train ride away!",
+      "role_code": "bsa",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: application support, confluence, data, deployment, healthcare, insurance, jira, release, requirements, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-atlas-search-ba-2026.json",
+      "slug": "atlas-search-ba-2026",
+      "company": "Atlas Search",
+      "title": "Business Analyst",
+      "role_code": "ba",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: application support, business analyst, data, deployment, financial, release, requirements, stakeholder."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-barclays-support-appsupport-2026.json",
+      "slug": "barclays-support-appsupport-2026",
+      "company": "Barclays",
+      "title": "Application Support Analyst",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
+        "Matched keywords: api, application support, data, deployment, financial, healthcare, incident, insurance, monitoring, oracle, production support, release, requirements, rest, service management, sql, stakeholder, uat."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "production support",
+        "incident troubleshooting",
+        "runbooks",
+        "release validation",
+        "Linux/API/data support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-citi-support-appsupport-2026.json",
+      "slug": "citi-support-appsupport-2026",
+      "company": "Citi",
+      "title": "Application and Production Support Lead",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
+        "Matched keywords: application support, data, deployment, healthcare, incident, insurance, monitoring, operations, production support, release, requirements, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "production support",
+        "incident troubleshooting",
+        "runbooks",
+        "release validation",
+        "Linux/API/data support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-con-edison-ba-2026.json",
+      "slug": "con-edison-ba-2026",
+      "company": "Con Edison",
+      "title": "Senior Technical Analyst",
+      "role_code": "ba",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: application support, data, deployment, incident, monitoring, production support, release, requirements, service management, stakeholder, uat, workflow."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-cursor-support-ops-lead-2026.json",
+      "slug": "cursor-support-ops-lead-2026",
+      "company": "Cursor",
+      "title": "Support Operations Systems Lead",
+      "role_code": "support-ops-lead",
+      "resume_family": "support",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
+        "Matched keywords: application support, data, incident, monitoring, operations, production support, release, service management, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "production support",
+        "incident troubleshooting",
+        "runbooks",
+        "release validation",
+        "Linux/API/data support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-dow-jones-ba-ai-2026.json",
+      "slug": "dow-jones-ba-ai-2026",
+      "company": "Dow Jones",
+      "title": "**About The Team",
+      "role_code": "ba-ai",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: ai, application support, data, deployment, financial, healthcare, insurance, jira, market data, release, requirements, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-finbourne-technology-support-appsupport-2026.json",
+      "slug": "finbourne-technology-support-appsupport-2026",
+      "company": "FINBOURNE Technology",
+      "title": "Senior Application Support Analyst",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
+        "Matched keywords: api, application support, data, deployment, financial, healthcare, incident, insurance, jira, market data, monitoring, oracle, production support, release, requirements, rest, service management, sql."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "production support",
+        "incident troubleshooting",
+        "runbooks",
+        "release validation",
+        "Linux/API/data support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-grapevine-technologies-inc-ops-2026.json",
+      "slug": "grapevine-technologies-inc-ops-2026",
+      "company": "Grapevine Technologies Inc",
+      "title": "Sr. Operations Analyst",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Operations alignment with process, workflow, data, and cross-functional coordination experience.",
+        "Matched keywords: application support, data, financial, healthcare, insurance, operations, release, requirements, stakeholder, uat, workflow."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.",
+        "Ops roles may require stronger evidence of direct operational ownership; tailor around workflow, data validation, and cross-functional execution."
+      ],
+      "tailoring_focus": [
+        "operations coordination",
+        "workflow execution",
+        "data quality",
+        "process improvement",
+        "cross-functional support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-icf-ba-it-2026.json",
+      "slug": "icf-ba-it-2026",
+      "company": "ICF",
+      "title": "IT Business Analyst",
+      "role_code": "ba-it",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: application support, business analyst, data, deployment, incident, insurance, jira, production support, release, requirements, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-infotrack-us-support-appsupport-2026.json",
+      "slug": "infotrack-us-support-appsupport-2026",
+      "company": "InfoTrack US",
+      "title": "Technical Support Specialist",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
+        "Matched keywords: api, application support, data, deployment, healthcare, incident, insurance, jira, monitoring, oracle, production support, release, requirements, rest, service management, sql, stakeholder, technical support."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, salesforce, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "production support",
+        "incident troubleshooting",
+        "runbooks",
+        "release validation",
+        "Linux/API/data support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-makai-labs-ba-ai-2026.json",
+      "slug": "makai-labs-ba-ai-2026",
+      "company": "Makai Labs",
+      "title": "Business Analyst",
+      "role_code": "ba-ai",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: ai, application support, business analyst, data, insurance, jira, release, requirements, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-mercer-advisors-ops-2026.json",
+      "slug": "mercer-advisors-ops-2026",
+      "company": "Mercer Advisors",
+      "title": "Infrastructure Operations Specialist",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Operations alignment with process, workflow, data, and cross-functional coordination experience.",
+        "Matched keywords: application support, data, deployment, healthcare, incident, insurance, monitoring, operations, production support, release, requirements, service management, stakeholder, uat, workflow."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.",
+        "Ops roles may require stronger evidence of direct operational ownership; tailor around workflow, data validation, and cross-functional execution."
+      ],
+      "tailoring_focus": [
+        "operations coordination",
+        "workflow execution",
+        "data quality",
+        "process improvement",
+        "cross-functional support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-michael-baker-international-ba-requirements-2026.json",
+      "slug": "michael-baker-international-ba-requirements-2026",
+      "company": "Michael Baker International",
+      "title": "Software Requirements Analyst (GIS)",
+      "role_code": "ba-requirements",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: api, application support, data, healthcare, insurance, jira, oracle, release, requirements, rest, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-nbcuniversal-ops-2026.json",
+      "slug": "nbcuniversal-ops-2026",
+      "company": "NBCUniversal",
+      "title": "Associate AI Solutions & Programs Lead",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Operations alignment with process, workflow, data, and cross-functional coordination experience.",
+        "Matched keywords: ai, application support, data, healthcare, incident, insurance, production support, release, requirements, stakeholder."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.",
+        "Ops roles may require stronger evidence of direct operational ownership; tailor around workflow, data validation, and cross-functional execution."
+      ],
+      "tailoring_focus": [
+        "operations coordination",
+        "workflow execution",
+        "data quality",
+        "process improvement",
+        "cross-functional support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-new-york-life-sba-2026.json",
+      "slug": "new-york-life-sba-2026",
+      "company": "New York Life",
+      "title": "**Location Designation:** Hybrid - 3 days per week",
+      "role_code": "sba",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: application support, confluence, data, deployment, insurance, jira, release, requirements, stakeholder, uat."
+      ],
+      "gaps": [
+        "Potential gap keywords: salesforce.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-payabli-ops-2026.json",
+      "slug": "payabli-ops-2026",
+      "company": "Payabli",
+      "title": "Operational Specialist",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Operations alignment with process, workflow, data, and cross-functional coordination experience.",
+        "Matched keywords: api, application support, data, incident, jira, oracle, production support, release, rest, service management, sql, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.",
+        "Ops roles may require stronger evidence of direct operational ownership; tailor around workflow, data validation, and cross-functional execution."
+      ],
+      "tailoring_focus": [
+        "operations coordination",
+        "workflow execution",
+        "data quality",
+        "process improvement",
+        "cross-functional support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-pico-sre-2026.json",
+      "slug": "pico-sre-2026",
+      "company": "Pico",
+      "title": "Site Reliability Engineer",
+      "role_code": "sre",
+      "resume_family": "sre",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "SRE-adjacent alignment with Linux, monitoring, incident response, release validation, and market-data operations.",
+        "Matched keywords: application support, data, deployment, financial, incident, linux, market data, monitoring, operations, production support, release, requirements, stakeholder."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "Linux operations",
+        "monitoring",
+        "incident response",
+        "release readiness",
+        "financial market data"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-premera-blue-cross-ba-2026.json",
+      "slug": "premera-blue-cross-ba-2026",
+      "company": "Premera Blue Cross",
+      "title": "Workforce Classification: Telecommuter",
+      "role_code": "ba",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: application support, data, healthcare, insurance, release, requirements, sql, stakeholder, uat, workflow."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-tata-consultancy-services-ba-ai-2026.json",
+      "slug": "tata-consultancy-services-ba-ai-2026",
+      "company": "Tata Consultancy Services",
+      "title": "Business Analyst -Artificial Intelligence",
+      "role_code": "ba-ai",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: ai, application support, business analyst, confluence, data, deployment, jira, release, requirements, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026.json",
+      "slug": "the-depository-trust-clearing-corporation-dtcc-bsa-2026",
+      "company": "The Depository Trust & Clearing Corporation (DTCC)",
+      "title": "Lead Business Systems Analyst",
+      "role_code": "bsa",
+      "resume_family": "ba",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: application support, business systems analyst, data, insurance, release, requirements, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-vns-health-support-workday-2026.json",
+      "slug": "vns-health-support-workday-2026",
+      "company": "VNS Health",
+      "title": "Enterprise Applications Analyst (Workday & Enterprise Systems)",
+      "role_code": "support-workday",
+      "resume_family": "support",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
+        "Matched keywords: application support, data, deployment, healthcare, incident, insurance, production support, release, requirements, service management, stakeholder, uat, workflow."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "production support",
+        "incident troubleshooting",
+        "runbooks",
+        "release validation",
+        "Linux/API/data support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-valon-ops-2026.json",
+      "slug": "valon-ops-2026",
+      "company": "Valon",
+      "title": "Product Operations Senior Associate",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Operations alignment with process, workflow, data, and cross-functional coordination experience.",
+        "Matched keywords: application support, data, deployment, financial, healthcare, incident, operations, production support, release, requirements, service management, sql, stakeholder, uat."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.",
+        "Ops roles may require stronger evidence of direct operational ownership; tailor around workflow, data validation, and cross-functional execution."
+      ],
+      "tailoring_focus": [
+        "operations coordination",
+        "workflow execution",
+        "data quality",
+        "process improvement",
+        "cross-functional support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-watg-and-wimberly-interiors-support-appsupport-2026.json",
+      "slug": "watg-and-wimberly-interiors-support-appsupport-2026",
+      "company": "WATG and Wimberly Interiors",
+      "title": "Senior IT Support Specialist",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "match_score": 100,
+      "recommendation": "apply_now",
+      "strengths": [
+        "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
+        "Matched keywords: application support, data, deployment, incident, production support, release, requirements, service management, stakeholder, uat, workflow."
+      ],
+      "gaps": [
+        "Potential gap keywords: hris, workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "production support",
+        "incident troubleshooting",
+        "runbooks",
+        "release validation",
+        "Linux/API/data support"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-citi-ba-it-2026.json",
+      "slug": "citi-ba-it-2026",
+      "company": "Citi",
+      "title": "IT Business Senior Analyst",
+      "role_code": "ba-it",
+      "resume_family": "ba",
+      "match_score": 85,
+      "recommendation": "apply_now",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: application support, data, stakeholder."
+      ],
+      "gaps": [
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+    },
+    {
+      "run_id": "run-2026-06-08-candidate-matching-v1",
+      "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-report-run-2026-06-08-jd-intelligence-v5.json",
+      "slug": "report-run-2026-06-08-jd-intelligence-v5-unknown-2026",
+      "company": "Report Run 2026 06 08 Jd Intelligence V5",
+      "title": "Unknown",
+      "role_code": "unknown",
+      "resume_family": "ba",
+      "match_score": 65,
+      "recommendation": "possible_but_tailor_carefully",
+      "strengths": [
+        "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+        "Matched keywords: ai, requirements."
+      ],
+      "gaps": [
+        "Potential gap keywords: workday.",
+        "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+      ],
+      "tailoring_focus": [
+        "requirements analysis",
+        "UAT",
+        "stakeholder communication",
+        "Jira/user stories",
+        "data/API validation"
+      ],
+      "next_action": "Review gaps carefully before applying; use only if role is attractive or strategically useful."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "run_id": "run-2026-06-08-candidate-matching-v1",
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-finbourne-technology-support-appsupport-2026.json",
+  "slug": "finbourne-technology-support-appsupport-2026",
+  "company": "FINBOURNE Technology",
+  "title": "Senior Application Support Analyst",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "match_score": 100,
+  "recommendation": "apply_now",
+  "strengths": [
+    "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
+    "Matched keywords: api, application support, data, deployment, financial, healthcare, incident, insurance, jira, market data, monitoring, oracle, production support, release, requirements, rest, service management, sql."
+  ],
+  "gaps": [
+    "Potential gap keywords: hris, workday.",
+    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+  ],
+  "tailoring_focus": [
+    "production support",
+    "incident troubleshooting",
+    "runbooks",
+    "release validation",
+    "Linux/API/data support"
+  ],
+  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "run-2026-06-08-candidate-matching-v1",
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-atlas-search-ba-2026.json",
+  "slug": "atlas-search-ba-2026",
+  "company": "Atlas Search",
+  "title": "Business Analyst",
+  "role_code": "ba",
+  "resume_family": "ba",
+  "match_score": 100,
+  "recommendation": "apply_now",
+  "strengths": [
+    "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
+    "Matched keywords: application support, business analyst, data, deployment, financial, release, requirements, stakeholder."
+  ],
+  "gaps": [
+    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+  ],
+  "tailoring_focus": [
+    "requirements analysis",
+    "UAT",
+    "stakeholder communication",
+    "Jira/user stories",
+    "data/API validation"
+  ],
+  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+}

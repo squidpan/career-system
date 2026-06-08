@@ -1,0 +1,19 @@
+{
+  "company": "Tata Consultancy Services",
+  "role": "Business Analyst -Artificial Intelligence",
+  "role_code": "ba-ai",
+  "resume_family": "ba",
+  "technical_match_score": 96,
+  "personal_strategy_score": 81,
+  "combined_strategy_score": 89,
+  "pursuit_recommendation": "apply_this_week",
+  "resume_strategy": "Use BA/BSA resume variant.",
+  "reasons": [
+    "BA/BSA role family aligns with strongest recent positioning.",
+    "AI appears as an interest/learning signal; position as BA/support workflow exposure, not AI engineering."
+  ],
+  "risk_flags": [
+    "No major deterministic risk flags detected; review manually before applying."
+  ],
+  "next_action": "Apply this week after tailoring the summary and top bullets."
+}

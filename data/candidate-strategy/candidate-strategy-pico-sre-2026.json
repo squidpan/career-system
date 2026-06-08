@@ -1,0 +1,19 @@
+{
+  "company": "Pico",
+  "role": "Site Reliability Engineer",
+  "role_code": "sre",
+  "resume_family": "sre",
+  "technical_match_score": 96,
+  "personal_strategy_score": 81,
+  "combined_strategy_score": 89,
+  "pursuit_recommendation": "apply_this_week",
+  "resume_strategy": "Use SRE-adjacent support resume variant.",
+  "reasons": [
+    "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+    "SRE is adjacent to production support and Linux/application operations, but may require deeper hands-on infrastructure depth."
+  ],
+  "risk_flags": [
+    "No major deterministic risk flags detected; review manually before applying."
+  ],
+  "next_action": "Apply this week after tailoring the summary and top bullets."
+}

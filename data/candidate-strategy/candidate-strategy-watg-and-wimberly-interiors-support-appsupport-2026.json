@@ -1,0 +1,19 @@
+{
+  "company": "WATG and Wimberly Interiors",
+  "role": "Senior IT Support Specialist",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "technical_match_score": 81,
+  "personal_strategy_score": 69,
+  "combined_strategy_score": 76,
+  "pursuit_recommendation": "network_or_research_first",
+  "resume_strategy": "Use application-support / production-support resume variant.",
+  "reasons": [
+    "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+  ],
+  "risk_flags": [
+    "Smaller/niche employer or less direct domain fit; verify stability, benefits, and role expectations.",
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "next_action": "Research employer/role before spending time on full tailoring."
+}

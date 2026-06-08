@@ -1,0 +1,18 @@
+{
+  "company": "Mercer Advisors",
+  "role": "Infrastructure Operations Specialist",
+  "role_code": "ops",
+  "resume_family": "ops",
+  "technical_match_score": 86,
+  "personal_strategy_score": 69,
+  "combined_strategy_score": 78,
+  "pursuit_recommendation": "network_or_research_first",
+  "resume_strategy": "Use operations/support hybrid resume variant.",
+  "reasons": [
+    "Operations role is adjacent to BA/support experience, but may need careful resume positioning."
+  ],
+  "risk_flags": [
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "next_action": "Research employer/role before spending time on full tailoring."
+}

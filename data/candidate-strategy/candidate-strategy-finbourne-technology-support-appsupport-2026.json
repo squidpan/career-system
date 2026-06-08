@@ -1,0 +1,20 @@
+{
+  "company": "FINBOURNE Technology",
+  "role": "Senior Application Support Analyst",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "technical_match_score": 96,
+  "personal_strategy_score": 92,
+  "combined_strategy_score": 94,
+  "pursuit_recommendation": "pursue_first",
+  "resume_strategy": "Use application-support / production-support resume variant.",
+  "reasons": [
+    "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+    "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+    "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+  ],
+  "risk_flags": [
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+}

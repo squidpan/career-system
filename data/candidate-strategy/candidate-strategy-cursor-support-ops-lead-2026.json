@@ -1,0 +1,18 @@
+{
+  "company": "Cursor",
+  "role": "Support Operations Systems Lead",
+  "role_code": "support-ops-lead",
+  "resume_family": "support",
+  "technical_match_score": 96,
+  "personal_strategy_score": 79,
+  "combined_strategy_score": 88,
+  "pursuit_recommendation": "apply_this_week",
+  "resume_strategy": "Use application-support / production-support resume variant.",
+  "reasons": [
+    "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+  ],
+  "risk_flags": [
+    "No major deterministic risk flags detected; review manually before applying."
+  ],
+  "next_action": "Apply this week after tailoring the summary and top bullets."
+}

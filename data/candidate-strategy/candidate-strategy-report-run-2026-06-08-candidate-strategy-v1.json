@@ -1,0 +1,527 @@
+{
+  "type": "candidate_strategy_report",
+  "run_id": "run-2026-06-08-candidate-strategy-v1",
+  "candidate_count": 27,
+  "strategies": [
+    {
+      "company": "Dow Jones",
+      "role": "AI Enablement Business Analyst, Senior",
+      "role_code": "ba-ai",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 99,
+      "combined_strategy_score": 97,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "AI appears as an interest/learning signal; position as BA/support workflow exposure, not AI engineering."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "Barclays",
+      "role": "Application Support Analyst",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "technical_match_score": 96,
+      "personal_strategy_score": 98,
+      "combined_strategy_score": 97,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use application-support / production-support resume variant.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "Application/production support role family aligns with FRBNY runbook, incident, release, and support background.",
+        "Employer type is more likely to offer structured benefits; verify directly before applying."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "Citi",
+      "role": "Application and Production Support Lead",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "technical_match_score": 96,
+      "personal_strategy_score": 95,
+      "combined_strategy_score": 96,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use application-support / production-support resume variant.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "Application/production support role family aligns with FRBNY runbook, incident, release, and support background.",
+        "Employer type is more likely to offer structured benefits; verify directly before applying."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "Amtrak",
+      "role": "Lead Business Systems Analyst - Integrated Control Systems",
+      "role_code": "bsa",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 94,
+      "combined_strategy_score": 95,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "Employer type is more likely to offer structured benefits; verify directly before applying."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "Citi",
+      "role": "IT Business Senior Analyst",
+      "role_code": "ba-it",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 94,
+      "combined_strategy_score": 95,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "Employer type is more likely to offer structured benefits; verify directly before applying."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "The Depository Trust & Clearing Corporation (DTCC)",
+      "role": "Lead Business Systems Analyst",
+      "role_code": "bsa",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 94,
+      "combined_strategy_score": 95,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "Employer type is more likely to offer structured benefits; verify directly before applying."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "FINBOURNE Technology",
+      "role": "Senior Application Support Analyst",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "technical_match_score": 96,
+      "personal_strategy_score": 92,
+      "combined_strategy_score": 94,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use application-support / production-support resume variant.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "Atlas Search",
+      "role": "Business Analyst",
+      "role_code": "ba",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 86,
+      "combined_strategy_score": 92,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "BA/BSA role family aligns with strongest recent positioning."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "Premera Blue Cross",
+      "role": "Business Analyst III",
+      "role_code": "ba",
+      "resume_family": "ba",
+      "technical_match_score": 92,
+      "personal_strategy_score": 89,
+      "combined_strategy_score": 91,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "Employer type is more likely to offer structured benefits; verify directly before applying."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "Makai Labs",
+      "role": "Business Analyst",
+      "role_code": "ba-ai",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 81,
+      "combined_strategy_score": 89,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "AI appears as an interest/learning signal; position as BA/support workflow exposure, not AI engineering."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "New York Life",
+      "role": "Senior Associate - Technical Business Analyst",
+      "role_code": "sba",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 81,
+      "combined_strategy_score": 89,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use BA/application-support general resume variant and tailor manually.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "Employer type is more likely to offer structured benefits; verify directly before applying."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "Pico",
+      "role": "Site Reliability Engineer",
+      "role_code": "sre",
+      "resume_family": "sre",
+      "technical_match_score": 96,
+      "personal_strategy_score": 81,
+      "combined_strategy_score": 89,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use SRE-adjacent support resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "SRE is adjacent to production support and Linux/application operations, but may require deeper hands-on infrastructure depth."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "role": "Business Analyst -Artificial Intelligence",
+      "role_code": "ba-ai",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 81,
+      "combined_strategy_score": 89,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "AI appears as an interest/learning signal; position as BA/support workflow exposure, not AI engineering."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "Con Edison",
+      "role": "Senior Technical Analyst",
+      "role_code": "ba",
+      "resume_family": "ba",
+      "technical_match_score": 89,
+      "personal_strategy_score": 89,
+      "combined_strategy_score": 89,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "Employer type is more likely to offer structured benefits; verify directly before applying."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "Cursor",
+      "role": "Support Operations Systems Lead",
+      "role_code": "support-ops-lead",
+      "resume_family": "support",
+      "technical_match_score": 96,
+      "personal_strategy_score": 79,
+      "combined_strategy_score": 88,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use application-support / production-support resume variant.",
+      "reasons": [
+        "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "ICF",
+      "role": "IT Business Analyst",
+      "role_code": "ba-it",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 78,
+      "combined_strategy_score": 88,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "BA/BSA role family aligns with strongest recent positioning."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "Valon",
+      "role": "Product Operations Senior Associate",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "technical_match_score": 96,
+      "personal_strategy_score": 77,
+      "combined_strategy_score": 87,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use operations/support hybrid resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "Operations role is adjacent to BA/support experience, but may need careful resume positioning."
+      ],
+      "risk_flags": [
+        "Smaller/niche employer or less direct domain fit; verify stability, benefits, and role expectations."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "NBCUniversal",
+      "role": "Associate AI Solutions & Programs Lead",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "technical_match_score": 94,
+      "personal_strategy_score": 74,
+      "combined_strategy_score": 85,
+      "pursuit_recommendation": "apply_selectively",
+      "resume_strategy": "Use operations/support hybrid resume variant.",
+      "reasons": [
+        "Operations role is adjacent to BA/support experience, but may need careful resume positioning."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Apply if benefits, commute, and fit remain attractive."
+    },
+    {
+      "company": "Michael Baker International",
+      "role": "Software Requirements Analyst (GIS)",
+      "role_code": "ba-requirements",
+      "resume_family": "ba",
+      "technical_match_score": 93,
+      "personal_strategy_score": 73,
+      "combined_strategy_score": 84,
+      "pursuit_recommendation": "apply_selectively",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "BA/BSA role family aligns with strongest recent positioning."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Apply if benefits, commute, and fit remain attractive."
+    },
+    {
+      "company": "Payabli",
+      "role": "Operational Specialist",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "technical_match_score": 93,
+      "personal_strategy_score": 69,
+      "combined_strategy_score": 82,
+      "pursuit_recommendation": "apply_selectively",
+      "resume_strategy": "Use operations/support hybrid resume variant.",
+      "reasons": [
+        "Operations role is adjacent to BA/support experience, but may need careful resume positioning."
+      ],
+      "risk_flags": [
+        "Smaller/niche employer or less direct domain fit; verify stability, benefits, and role expectations."
+      ],
+      "next_action": "Apply if benefits, commute, and fit remain attractive."
+    },
+    {
+      "company": "Amtex Systems Inc",
+      "role": "Business Analyst / Project Manager with financial benchmark data Experience",
+      "role_code": "ba-pm",
+      "resume_family": "ba",
+      "technical_match_score": 83,
+      "personal_strategy_score": 81,
+      "combined_strategy_score": 82,
+      "pursuit_recommendation": "apply_selectively",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "BA/BSA role family aligns with strongest recent positioning."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Apply if benefits, commute, and fit remain attractive."
+    },
+    {
+      "company": "AirOps",
+      "role": "Technical Support Lead",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "technical_match_score": 86,
+      "personal_strategy_score": 69,
+      "combined_strategy_score": 78,
+      "pursuit_recommendation": "network_or_research_first",
+      "resume_strategy": "Use application-support / production-support resume variant.",
+      "reasons": [
+        "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+      ],
+      "risk_flags": [
+        "Smaller/niche employer or less direct domain fit; verify stability, benefits, and role expectations.",
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Research employer/role before spending time on full tailoring."
+    },
+    {
+      "company": "Mercer Advisors",
+      "role": "Infrastructure Operations Specialist",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "technical_match_score": 86,
+      "personal_strategy_score": 69,
+      "combined_strategy_score": 78,
+      "pursuit_recommendation": "network_or_research_first",
+      "resume_strategy": "Use operations/support hybrid resume variant.",
+      "reasons": [
+        "Operations role is adjacent to BA/support experience, but may need careful resume positioning."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Research employer/role before spending time on full tailoring."
+    },
+    {
+      "company": "InfoTrack US",
+      "role": "Technical Support Specialist",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "technical_match_score": 84,
+      "personal_strategy_score": 69,
+      "combined_strategy_score": 77,
+      "pursuit_recommendation": "network_or_research_first",
+      "resume_strategy": "Use application-support / production-support resume variant.",
+      "reasons": [
+        "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+      ],
+      "risk_flags": [
+        "Smaller/niche employer or less direct domain fit; verify stability, benefits, and role expectations.",
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Research employer/role before spending time on full tailoring."
+    },
+    {
+      "company": "WATG and Wimberly Interiors",
+      "role": "Senior IT Support Specialist",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "technical_match_score": 81,
+      "personal_strategy_score": 69,
+      "combined_strategy_score": 76,
+      "pursuit_recommendation": "network_or_research_first",
+      "resume_strategy": "Use application-support / production-support resume variant.",
+      "reasons": [
+        "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+      ],
+      "risk_flags": [
+        "Smaller/niche employer or less direct domain fit; verify stability, benefits, and role expectations.",
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Research employer/role before spending time on full tailoring."
+    },
+    {
+      "company": "Grapevine Technologies Inc",
+      "role": "Sr. Operations Analyst",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "technical_match_score": 77,
+      "personal_strategy_score": 72,
+      "combined_strategy_score": 75,
+      "pursuit_recommendation": "network_or_research_first",
+      "resume_strategy": "Use operations/support hybrid resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "Operations role is adjacent to BA/support experience, but may need careful resume positioning."
+      ],
+      "risk_flags": [
+        "Smaller/niche employer or less direct domain fit; verify stability, benefits, and role expectations.",
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Research employer/role before spending time on full tailoring."
+    },
+    {
+      "company": "VNS Health",
+      "role": "Enterprise Applications Analyst (Workday & Enterprise Systems)",
+      "role_code": "support-workday",
+      "resume_family": "support",
+      "technical_match_score": 76,
+      "personal_strategy_score": 74,
+      "combined_strategy_score": 75,
+      "pursuit_recommendation": "network_or_research_first",
+      "resume_strategy": "Use application-support / production-support resume variant.",
+      "reasons": [
+        "Application/production support role family aligns with FRBNY runbook, incident, release, and support background.",
+        "Employer type is more likely to offer structured benefits; verify directly before applying."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience.",
+        "Workday-specific role may require ramp-up framing from enterprise application support rather than direct Workday administration."
+      ],
+      "next_action": "Research employer/role before spending time on full tailoring."
+    }
+  ]
+}

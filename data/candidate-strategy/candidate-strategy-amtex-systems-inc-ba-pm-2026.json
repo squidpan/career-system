@@ -1,0 +1,19 @@
+{
+  "company": "Amtex Systems Inc",
+  "role": "Business Analyst / Project Manager with financial benchmark data Experience",
+  "role_code": "ba-pm",
+  "resume_family": "ba",
+  "technical_match_score": 83,
+  "personal_strategy_score": 81,
+  "combined_strategy_score": 82,
+  "pursuit_recommendation": "apply_selectively",
+  "resume_strategy": "Use BA/BSA resume variant.",
+  "reasons": [
+    "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+    "BA/BSA role family aligns with strongest recent positioning."
+  ],
+  "risk_flags": [
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "next_action": "Apply if benefits, commute, and fit remain attractive."
+}

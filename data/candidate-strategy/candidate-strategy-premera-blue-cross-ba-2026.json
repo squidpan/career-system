@@ -1,0 +1,20 @@
+{
+  "company": "Premera Blue Cross",
+  "role": "Business Analyst III",
+  "role_code": "ba",
+  "resume_family": "ba",
+  "technical_match_score": 92,
+  "personal_strategy_score": 89,
+  "combined_strategy_score": 91,
+  "pursuit_recommendation": "apply_this_week",
+  "resume_strategy": "Use BA/BSA resume variant.",
+  "reasons": [
+    "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+    "BA/BSA role family aligns with strongest recent positioning.",
+    "Employer type is more likely to offer structured benefits; verify directly before applying."
+  ],
+  "risk_flags": [
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "next_action": "Apply this week after tailoring the summary and top bullets."
+}

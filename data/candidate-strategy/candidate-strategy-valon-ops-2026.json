@@ -1,0 +1,19 @@
+{
+  "company": "Valon",
+  "role": "Product Operations Senior Associate",
+  "role_code": "ops",
+  "resume_family": "ops",
+  "technical_match_score": 96,
+  "personal_strategy_score": 77,
+  "combined_strategy_score": 87,
+  "pursuit_recommendation": "apply_this_week",
+  "resume_strategy": "Use operations/support hybrid resume variant.",
+  "reasons": [
+    "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+    "Operations role is adjacent to BA/support experience, but may need careful resume positioning."
+  ],
+  "risk_flags": [
+    "Smaller/niche employer or less direct domain fit; verify stability, benefits, and role expectations."
+  ],
+  "next_action": "Apply this week after tailoring the summary and top bullets."
+}

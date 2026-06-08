@@ -1,26 +1,27 @@
 {
-  "run_id": "run-2026-06-08-candidate-matching-v2",
-  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-cursor-support-ops-lead-2026.json",
-  "slug": "cursor-support-ops-lead-2026",
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v3",
+  "source": "career-system",
   "company": "Cursor",
   "title": "Support Operations Systems Lead",
+  "source_title": "Support Operations Systems Lead",
   "role_code": "support-ops-lead",
   "resume_family": "support",
-  "match_score": 100,
+  "score": 96,
   "recommendation": "apply_now",
   "strengths": [
-    "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
-    "Matched keywords: application support, data, incident, monitoring, operations, production support, release, service management, stakeholder, uat."
-  ],
-  "gaps": [
-    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
-  ],
-  "tailoring_focus": [
+    "application support",
+    "data validation",
+    "devops",
+    "incident",
+    "monitoring",
+    "operations",
     "production support",
-    "incident troubleshooting",
-    "runbooks",
-    "release validation",
-    "Linux/API/data support"
+    "release",
+    "runbook",
+    "stakeholder"
   ],
-  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-cursor-support-ops-lead-2026.json"
 }

@@ -1,45 +1,44 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v2
+run_id: run-2026-06-08-candidate-matching-v3
 source: career-system
 company: WATG and Wimberly Interiors
 title: Senior IT Support Specialist
 role_code: support-appsupport
-match_score: 100
-recommendation: apply_now
 resume_family: support
+score: 81
+recommendation: apply_selectively
 ---
 
 # Candidate Match — WATG and Wimberly Interiors — Senior IT Support Specialist
 
 ## Summary
 
-- Company: **WATG and Wimberly Interiors**
-- Role: **Senior IT Support Specialist**
-- Role Code: **support-appsupport**
-- Match Score: **100**
-- Recommendation: **apply_now**
-- Resume Family: **support**
+- Score: **81**
+- Recommendation: **apply_selectively**
+- Resume family: **support**
+- Role code: **support-appsupport**
 
-## Strengths
+## Strengths To Emphasize
 
-- Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.
-- Matched keywords: application support, data, deployment, incident, production support, release, requirements, service management, stakeholder, uat, workflow.
-
-## Gaps / Risks
-
-- Potential gap keywords: hris, workday.
-- AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.
-
-## Tailoring Focus
-
+- api
+- application support
+- data validation
+- deployment
+- devops
+- incident
 - production support
-- incident troubleshooting
-- runbooks
-- release validation
-- Linux/API/data support
+- release
+- requirements
+- runbook
 
-## Suggested Next Action
+## Gaps / Cautions
 
-Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note.
+- gis
+- hris
+- workday
+
+## Resume Strategy
+
+Use the **support** resume path first. Tailor the professional summary and top 6 bullets toward the role code `support-appsupport`.

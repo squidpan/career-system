@@ -1,44 +1,35 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v2
+run_id: run-2026-06-08-candidate-matching-v3
 source: career-system
 company: Citi
 title: IT Business Senior Analyst
 role_code: ba-it
-match_score: 85
-recommendation: apply_now
 resume_family: ba
+score: 96
+recommendation: apply_now
 ---
 
 # Candidate Match — Citi — IT Business Senior Analyst
 
 ## Summary
 
-- Company: **Citi**
-- Role: **IT Business Senior Analyst**
-- Role Code: **ba-it**
-- Match Score: **85**
+- Score: **96**
 - Recommendation: **apply_now**
-- Resume Family: **ba**
+- Resume family: **ba**
+- Role code: **ba-it**
 
-## Strengths
+## Strengths To Emphasize
 
-- BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.
-- Matched keywords: application support, data, stakeholder.
+- application support
+- devops
+- stakeholder
 
-## Gaps / Risks
+## Gaps / Cautions
 
-- AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.
+- No major deterministic gaps identified
 
-## Tailoring Focus
+## Resume Strategy
 
-- requirements analysis
-- UAT
-- stakeholder communication
-- Jira/user stories
-- data/API validation
-
-## Suggested Next Action
-
-Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note.
+Use the **ba** resume path first. Tailor the professional summary and top 6 bullets toward the role code `ba-it`.

@@ -1,27 +1,31 @@
 {
-  "run_id": "run-2026-06-08-candidate-matching-v2",
-  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-watg-and-wimberly-interiors-support-appsupport-2026.json",
-  "slug": "watg-and-wimberly-interiors-support-appsupport-2026",
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v3",
+  "source": "career-system",
   "company": "WATG and Wimberly Interiors",
   "title": "Senior IT Support Specialist",
+  "source_title": "Senior IT Support Specialist",
   "role_code": "support-appsupport",
   "resume_family": "support",
-  "match_score": 100,
-  "recommendation": "apply_now",
+  "score": 81,
+  "recommendation": "apply_selectively",
   "strengths": [
-    "Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.",
-    "Matched keywords: application support, data, deployment, incident, production support, release, requirements, service management, stakeholder, uat, workflow."
+    "api",
+    "application support",
+    "data validation",
+    "deployment",
+    "devops",
+    "incident",
+    "production support",
+    "release",
+    "requirements",
+    "runbook"
   ],
   "gaps": [
-    "Potential gap keywords: hris, workday.",
-    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+    "gis",
+    "hris",
+    "workday"
   ],
-  "tailoring_focus": [
-    "production support",
-    "incident troubleshooting",
-    "runbooks",
-    "release validation",
-    "Linux/API/data support"
-  ],
-  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-watg-and-wimberly-interiors-support-appsupport-2026.json"
 }

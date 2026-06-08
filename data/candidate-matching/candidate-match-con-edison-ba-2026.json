@@ -1,27 +1,30 @@
 {
-  "run_id": "run-2026-06-08-candidate-matching-v2",
-  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-con-edison-ba-2026.json",
-  "slug": "con-edison-ba-2026",
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v3",
+  "source": "career-system",
   "company": "Con Edison",
   "title": "Senior Technical Analyst",
+  "source_title": "Senior Technical Analyst",
   "role_code": "ba",
   "resume_family": "ba",
-  "match_score": 100,
+  "score": 89,
   "recommendation": "apply_now",
   "strengths": [
-    "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
-    "Matched keywords: application support, data, deployment, incident, monitoring, production support, release, requirements, service management, stakeholder, uat, workflow."
+    "api",
+    "application support",
+    "data validation",
+    "deployment",
+    "devops",
+    "incident",
+    "monitoring",
+    "production support",
+    "release",
+    "requirements"
   ],
   "gaps": [
-    "Potential gap keywords: hris, workday.",
-    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+    "hris",
+    "workday"
   ],
-  "tailoring_focus": [
-    "requirements analysis",
-    "UAT",
-    "stakeholder communication",
-    "Jira/user stories",
-    "data/API validation"
-  ],
-  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-con-edison-ba-2026.json"
 }

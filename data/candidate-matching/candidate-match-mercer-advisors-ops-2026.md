@@ -1,46 +1,43 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v2
+run_id: run-2026-06-08-candidate-matching-v3
 source: career-system
 company: Mercer Advisors
 title: Infrastructure Operations Specialist
 role_code: ops
-match_score: 100
-recommendation: apply_now
 resume_family: ops
+score: 86
+recommendation: apply_selectively
 ---
 
 # Candidate Match — Mercer Advisors — Infrastructure Operations Specialist
 
 ## Summary
 
-- Company: **Mercer Advisors**
-- Role: **Infrastructure Operations Specialist**
-- Role Code: **ops**
-- Match Score: **100**
-- Recommendation: **apply_now**
-- Resume Family: **ops**
+- Score: **86**
+- Recommendation: **apply_selectively**
+- Resume family: **ops**
+- Role code: **ops**
 
-## Strengths
+## Strengths To Emphasize
 
-- Operations alignment with process, workflow, data, and cross-functional coordination experience.
-- Matched keywords: application support, data, deployment, healthcare, incident, insurance, monitoring, operations, production support, release, requirements, service management, stakeholder, uat, workflow.
+- api
+- application support
+- aws
+- data validation
+- deployment
+- devops
+- incident
+- monitoring
+- operations
+- production support
 
-## Gaps / Risks
+## Gaps / Cautions
 
-- Potential gap keywords: hris, workday.
-- AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.
-- Ops roles may require stronger evidence of direct operational ownership; tailor around workflow, data validation, and cross-functional execution.
+- hris
+- workday
 
-## Tailoring Focus
+## Resume Strategy
 
-- operations coordination
-- workflow execution
-- data quality
-- process improvement
-- cross-functional support
-
-## Suggested Next Action
-
-Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note.
+Use the **ops** resume path first. Tailor the professional summary and top 6 bullets toward the role code `ops`.

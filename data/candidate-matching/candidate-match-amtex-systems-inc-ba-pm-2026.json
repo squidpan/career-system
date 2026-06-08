@@ -1,27 +1,31 @@
 {
-  "run_id": "run-2026-06-08-candidate-matching-v2",
-  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-amtex-systems-inc-ba-pm-2026.json",
-  "slug": "amtex-systems-inc-ba-pm-2026",
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v3",
+  "source": "career-system",
   "company": "Amtex Systems Inc",
   "title": "Business Analyst / Project Manager with financial benchmark data Experience",
+  "source_title": "Business Analyst / Project Manager with financial benchmark data Experience",
   "role_code": "ba-pm",
   "resume_family": "ba",
-  "match_score": 100,
-  "recommendation": "apply_now",
+  "score": 83,
+  "recommendation": "apply_selectively",
   "strengths": [
-    "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
-    "Matched keywords: application support, business analyst, confluence, data, deployment, financial, incident, jira, production support, release, requirements, service management, sql, stakeholder, uat, workflow."
+    "api",
+    "application support",
+    "business analyst",
+    "data validation",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "jira",
+    "production support"
   ],
   "gaps": [
-    "Potential gap keywords: hris, workday.",
-    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+    "gis",
+    "hris",
+    "workday"
   ],
-  "tailoring_focus": [
-    "requirements analysis",
-    "UAT",
-    "stakeholder communication",
-    "Jira/user stories",
-    "data/API validation"
-  ],
-  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-amtex-systems-inc-ba-pm-2026.json"
 }

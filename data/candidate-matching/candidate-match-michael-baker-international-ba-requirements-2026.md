@@ -1,44 +1,42 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v2
+run_id: run-2026-06-08-candidate-matching-v3
 source: career-system
 company: Michael Baker International
 title: Software Requirements Analyst (GIS)
 role_code: ba-requirements
-match_score: 100
-recommendation: apply_now
 resume_family: ba
+score: 93
+recommendation: apply_now
 ---
 
 # Candidate Match — Michael Baker International — Software Requirements Analyst (GIS)
 
 ## Summary
 
-- Company: **Michael Baker International**
-- Role: **Software Requirements Analyst (GIS)**
-- Role Code: **ba-requirements**
-- Match Score: **100**
+- Score: **93**
 - Recommendation: **apply_now**
-- Resume Family: **ba**
+- Resume family: **ba**
+- Role code: **ba-requirements**
 
-## Strengths
+## Strengths To Emphasize
 
-- BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.
-- Matched keywords: api, application support, data, healthcare, insurance, jira, oracle, release, requirements, rest, stakeholder, uat.
+- api
+- application support
+- data validation
+- devops
+- incident
+- jira
+- oracle
+- release
+- requirements
+- rest
 
-## Gaps / Risks
+## Gaps / Cautions
 
-- AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.
+- gis
 
-## Tailoring Focus
+## Resume Strategy
 
-- requirements analysis
-- UAT
-- stakeholder communication
-- Jira/user stories
-- data/API validation
-
-## Suggested Next Action
-
-Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note.
+Use the **ba** resume path first. Tailor the professional summary and top 6 bullets toward the role code `ba-requirements`.

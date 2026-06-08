@@ -1,45 +1,44 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v2
+run_id: run-2026-06-08-candidate-matching-v3
 source: career-system
 company: FINBOURNE Technology
 title: Senior Application Support Analyst
 role_code: support-appsupport
-match_score: 100
-recommendation: apply_now
 resume_family: support
+score: 96
+recommendation: apply_now
 ---
 
 # Candidate Match — FINBOURNE Technology — Senior Application Support Analyst
 
 ## Summary
 
-- Company: **FINBOURNE Technology**
-- Role: **Senior Application Support Analyst**
-- Role Code: **support-appsupport**
-- Match Score: **100**
+- Score: **96**
 - Recommendation: **apply_now**
-- Resume Family: **support**
+- Resume family: **support**
+- Role code: **support-appsupport**
 
-## Strengths
+## Strengths To Emphasize
 
-- Application/production support alignment with FRBNY release coordination, validation, and troubleshooting experience.
-- Matched keywords: api, application support, data, deployment, financial, healthcare, incident, insurance, jira, market data, monitoring, oracle, production support, release, requirements, rest, service management, sql.
+- api
+- application support
+- aws
+- data validation
+- deployment
+- devops
+- financial
+- incident
+- jira
+- market data
 
-## Gaps / Risks
+## Gaps / Cautions
 
-- Potential gap keywords: hris, workday.
-- AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.
+- gis
+- hris
+- workday
 
-## Tailoring Focus
+## Resume Strategy
 
-- production support
-- incident troubleshooting
-- runbooks
-- release validation
-- Linux/API/data support
-
-## Suggested Next Action
-
-Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note.
+Use the **support** resume path first. Tailor the professional summary and top 6 bullets toward the role code `support-appsupport`.

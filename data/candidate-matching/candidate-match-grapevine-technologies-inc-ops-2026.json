@@ -1,28 +1,31 @@
 {
-  "run_id": "run-2026-06-08-candidate-matching-v2",
-  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-grapevine-technologies-inc-ops-2026.json",
-  "slug": "grapevine-technologies-inc-ops-2026",
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v3",
+  "source": "career-system",
   "company": "Grapevine Technologies Inc",
   "title": "Sr. Operations Analyst",
+  "source_title": "Sr. Operations Analyst",
   "role_code": "ops",
   "resume_family": "ops",
-  "match_score": 100,
-  "recommendation": "apply_now",
+  "score": 77,
+  "recommendation": "possible_but_tailor_carefully",
   "strengths": [
-    "Operations alignment with process, workflow, data, and cross-functional coordination experience.",
-    "Matched keywords: application support, data, financial, healthcare, insurance, operations, release, requirements, stakeholder, uat, workflow."
+    "api",
+    "application support",
+    "data validation",
+    "financial",
+    "operations",
+    "release",
+    "requirements",
+    "stakeholder",
+    "uat",
+    "workflow"
   ],
   "gaps": [
-    "Potential gap keywords: hris, workday.",
-    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.",
-    "Ops roles may require stronger evidence of direct operational ownership; tailor around workflow, data validation, and cross-functional execution."
+    "gis",
+    "hris",
+    "workday"
   ],
-  "tailoring_focus": [
-    "operations coordination",
-    "workflow execution",
-    "data quality",
-    "process improvement",
-    "cross-functional support"
-  ],
-  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-grapevine-technologies-inc-ops-2026.json"
 }

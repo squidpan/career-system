@@ -1,26 +1,29 @@
 {
-  "run_id": "run-2026-06-08-candidate-matching-v2",
-  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-michael-baker-international-ba-requirements-2026.json",
-  "slug": "michael-baker-international-ba-requirements-2026",
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v3",
+  "source": "career-system",
   "company": "Michael Baker International",
   "title": "Software Requirements Analyst (GIS)",
+  "source_title": "Software Requirements Analyst (GIS)",
   "role_code": "ba-requirements",
   "resume_family": "ba",
-  "match_score": 100,
+  "score": 93,
   "recommendation": "apply_now",
   "strengths": [
-    "BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.",
-    "Matched keywords: api, application support, data, healthcare, insurance, jira, oracle, release, requirements, rest, stakeholder, uat."
+    "api",
+    "application support",
+    "data validation",
+    "devops",
+    "incident",
+    "jira",
+    "oracle",
+    "release",
+    "requirements",
+    "rest"
   ],
   "gaps": [
-    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
+    "gis"
   ],
-  "tailoring_focus": [
-    "requirements analysis",
-    "UAT",
-    "stakeholder communication",
-    "Jira/user stories",
-    "data/API validation"
-  ],
-  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-michael-baker-international-ba-requirements-2026.json"
 }

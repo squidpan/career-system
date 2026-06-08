@@ -1,44 +1,42 @@
 ---
 type: candidate_match
 status: draft
-run_id: run-2026-06-08-candidate-matching-v2
+run_id: run-2026-06-08-candidate-matching-v3
 source: career-system
 company: Makai Labs
 title: Business Analyst
 role_code: ba-ai
-match_score: 100
-recommendation: apply_now
 resume_family: ba
+score: 96
+recommendation: apply_now
 ---
 
 # Candidate Match — Makai Labs — Business Analyst
 
 ## Summary
 
-- Company: **Makai Labs**
-- Role: **Business Analyst**
-- Role Code: **ba-ai**
-- Match Score: **100**
+- Score: **96**
 - Recommendation: **apply_now**
-- Resume Family: **ba**
+- Resume family: **ba**
+- Role code: **ba-ai**
 
-## Strengths
+## Strengths To Emphasize
 
-- BA/BSA alignment with requirements, stakeholder communication, UAT, and workflow experience.
-- Matched keywords: ai, application support, business analyst, data, insurance, jira, release, requirements, stakeholder, uat.
+- application support
+- business analyst
+- devops
+- incident
+- jira
+- release
+- requirements
+- runbook
+- stakeholder
+- uat
 
-## Gaps / Risks
+## Gaps / Cautions
 
-- AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing.
+- No major deterministic gaps identified
 
-## Tailoring Focus
+## Resume Strategy
 
-- requirements analysis
-- UAT
-- stakeholder communication
-- Jira/user stories
-- data/API validation
-
-## Suggested Next Action
-
-Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note.
+Use the **ba** resume path first. Tailor the professional summary and top 6 bullets toward the role code `ba-ai`.

@@ -1,26 +1,27 @@
 {
-  "run_id": "run-2026-06-08-candidate-matching-v2",
-  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-pico-sre-2026.json",
-  "slug": "pico-sre-2026",
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v3",
+  "source": "career-system",
   "company": "Pico",
   "title": "Site Reliability Engineer",
+  "source_title": "Site Reliability Engineer",
   "role_code": "sre",
   "resume_family": "sre",
-  "match_score": 100,
+  "score": 96,
   "recommendation": "apply_now",
   "strengths": [
-    "SRE-adjacent alignment with Linux, monitoring, incident response, release validation, and market-data operations.",
-    "Matched keywords: application support, data, deployment, financial, incident, linux, market data, monitoring, operations, production support, release, requirements, stakeholder."
-  ],
-  "gaps": [
-    "AI should be positioned as AI-assisted BA/knowledge workflow experience, not AI engineering, unless the JD is non-technical/user-facing."
-  ],
-  "tailoring_focus": [
-    "Linux operations",
+    "application support",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "linux",
+    "market data",
     "monitoring",
-    "incident response",
-    "release readiness",
-    "financial market data"
+    "operations",
+    "production support"
   ],
-  "next_action": "Prioritize this role. Tailor resume immediately and prepare a short cover/recruiter note."
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-pico-sre-2026.json"
 }

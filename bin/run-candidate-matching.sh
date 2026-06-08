@@ -1,25 +1,29 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-RUN_ID="${1:?usage: run-candidate-matching.sh <run-id> <jd-intelligence-dir>}"
-JD_INTEL_DIR="${2:?usage: run-candidate-matching.sh <run-id> <jd-intelligence-dir>}"
+RUN_ID="${1:-}"
+INPUT_DIR="${2:-data/jd-intelligence}"
+
+if [[ -z "$RUN_ID" ]]; then
+  echo "Usage: $0 <run-id> [jd-intelligence-dir]" >&2
+  exit 1
+fi
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-RUN_DIR="$REPO_ROOT/ops/runs/$RUN_ID"
-OUT_DIR="$RUN_DIR/output/candidate-matching"
-DATA_OUT="$REPO_ROOT/data/candidate-matching"
+OUTPUT_DIR="$REPO_ROOT/ops/runs/$RUN_ID/output/candidate-matching"
+FINAL_DIR="$REPO_ROOT/data/candidate-matching"
 
-mkdir -p "$OUT_DIR"
+mkdir -p "$OUTPUT_DIR"
 
 python3 "$REPO_ROOT/scripts/generate_candidate_matching.py" \
   --run-id "$RUN_ID" \
-  --input-dir "$REPO_ROOT/$JD_INTEL_DIR" \
-  --output-dir "$OUT_DIR"
+  --input-dir "$REPO_ROOT/$INPUT_DIR" \
+  --output-dir "$OUTPUT_DIR"
 
-rm -rf "$DATA_OUT"
-mkdir -p "$(dirname "$DATA_OUT")"
-cp -R "$OUT_DIR" "$DATA_OUT"
+rm -rf "$FINAL_DIR"
+mkdir -p "$FINAL_DIR"
+cp -R "$OUTPUT_DIR"/* "$FINAL_DIR"/
 
 echo "Done."
-echo "Run output: $OUT_DIR"
-echo "Candidate matching copied to: $DATA_OUT"
+echo "Run output: $OUTPUT_DIR"
+echo "Candidate matching copied to: $FINAL_DIR"

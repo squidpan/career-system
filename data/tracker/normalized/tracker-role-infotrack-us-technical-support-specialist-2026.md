@@ -18,11 +18,11 @@ last: 2026-06-05
 company: InfoTrack US
 company_slug: infotrack-us
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4404481876
 source_role_id: 585785be-9fff-4f3e-8a49-5d752a6f5e9b
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Technical Support Specialist
 normalized_title: Technical Support Specialist
 location: New York, NY
@@ -44,7 +44,7 @@ classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-06-05T17:54:36Z
 applied_at: 
 posted_at: 
-updated_at: 2026-06-05T17:54:49Z
+updated_at: 2026-06-05T18:19:31Z
 archived_at: 
 min_salary: 70000
 max_salary: 95000
@@ -70,7 +70,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4404481876
 
 ## Linkage

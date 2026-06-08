@@ -18,11 +18,11 @@ last: 2026-04-07
 company: Pico
 company_slug: pico
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://job-boards.greenhouse.io/picoquantitativetrading/jobs/4664671006
 source_role_id: 6153036c-160b-4595-8937-fddd14d60c6f
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Site Reliability Engineer
 normalized_title: Site Reliability Engineer
 location: New York City, NY
@@ -70,7 +70,7 @@ match_notes: Matched existing role role-pico-sre-2026
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://job-boards.greenhouse.io/picoquantitativetrading/jobs/4664671006
 
 ## Linkage

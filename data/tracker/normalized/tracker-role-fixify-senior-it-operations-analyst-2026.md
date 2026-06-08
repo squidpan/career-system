@@ -18,11 +18,11 @@ last: 2026-05-29
 company: Fixify
 company_slug: fixify
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4419876735
 source_role_id: a4d9a97a-abf5-48b6-a1f6-f09bf8aa683b
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Senior IT Operations Analyst
 normalized_title: Senior IT Operations Analyst
 location: United States
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4419876735
 
 ## Linkage

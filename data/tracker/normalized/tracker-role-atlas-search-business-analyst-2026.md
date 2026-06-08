@@ -18,11 +18,11 @@ last: 2026-06-05
 company: Atlas Search
 company_slug: atlas-search
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4420113571
 source_role_id: 86e9b25b-becd-4787-8545-21493f98b102
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Business Analyst
 normalized_title: Business Analyst
 location: New York City Metropolitan Area
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4420113571
 
 ## Linkage

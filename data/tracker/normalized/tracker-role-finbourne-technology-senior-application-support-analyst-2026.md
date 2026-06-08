@@ -18,11 +18,11 @@ last: 2026-06-05
 company: FINBOURNE Technology
 company_slug: finbourne-technology
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4424076357
 source_role_id: 33d51735-b39a-49f2-a327-cbffca33dfc7
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Senior Application Support Analyst
 normalized_title: Senior Application Support Analyst
 location: New York, NY
@@ -43,7 +43,7 @@ classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-06-05T17:47:40Z
 applied_at: 
 posted_at: 
-updated_at: 2026-06-05T17:48:00Z
+updated_at: 2026-06-05T18:25:36Z
 archived_at: 
 min_salary: 
 max_salary: 
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4424076357
 
 ## Linkage

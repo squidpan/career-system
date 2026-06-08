@@ -1,0 +1,63 @@
+---
+id: tracker-role-classification-report-run-2026-06-08-tracker-role-classify-v1
+type: tracker_report
+title: Tracker Role Classification Report run-2026-06-08-tracker-role-classify-v1
+categories:
+  - [[Careers]]
+  - [[Tracker]]
+tags:
+  - career
+  - tracker
+  - classification
+---
+
+# Tracker Role Classification Report - run-2026-06-08-tracker-role-classify-v1
+
+- Total tracker roles: 40
+- Classified: 29
+- Needs review: 11
+
+## Results
+
+| File | Role Code | Status | Resume Master |
+|---|---|---|---|
+| tracker-role-airops-technical-support-lead-2026.md | unknown | needs_review |  |
+| tracker-role-amtex-systems-inc-business-analyst-project-manager-with-financial-benchmark-data-experience-2026.md | ba-pm | classified | resume-master-ba-v1 |
+| tracker-role-amtrak-lead-business-systems-analyst-integrated-control-systems-2026.md | bsa | classified | resume-master-ba-v1 |
+| tracker-role-atlas-search-business-analyst-2026.md | ba | classified | resume-master-ba-v1 |
+| tracker-role-atlas-search-business-system-analyst-2026.md | bsa | classified | resume-master-ba-v1 |
+| tracker-role-barclays-application-support-analyst-2026.md | unknown | needs_review |  |
+| tracker-role-blee-business-operations-analyst-2026.md | ops | classified | resume-master-sre-v1 |
+| tracker-role-citi-application-and-production-support-lead-assistant-vice-president-2026.md | support-appsupport | classified | resume-master-ba-v1 |
+| tracker-role-citi-it-business-senior-analyst-2026.md | unknown | needs_review |  |
+| tracker-role-con-edison-senior-technical-analyst-2026.md | unknown | needs_review |  |
+| tracker-role-cursor-support-operations-systems-lead-2026.md | support-ops-lead | classified | resume-master-ba-v1 |
+| tracker-role-deloitte-unqork-business-analyst-2026.md | ba | classified | resume-master-ba-v1 |
+| tracker-role-dow-jones-ai-enablement-business-analyst-senior-2026.md | sba-ai | classified | resume-master-ba-v1 |
+| tracker-role-figma-business-operations-2026.md | ops | classified | resume-master-sre-v1 |
+| tracker-role-finbourne-technology-senior-application-support-analyst-2026.md | unknown | needs_review |  |
+| tracker-role-fixify-senior-it-operations-analyst-2026.md | ops | classified | resume-master-sre-v1 |
+| tracker-role-fox-television-stations-support-specialist-operations-and-support-2026.md | support-appsupport | classified | resume-master-ba-v1 |
+| tracker-role-genesis10-senior-systems-specialist-business-development-platforms-hybrid-2026.md | unknown | needs_review |  |
+| tracker-role-grapevine-technologies-inc-sr-operations-analyst-2026.md | ops | classified | resume-master-sre-v1 |
+| tracker-role-icf-it-business-analyst-2026.md | ba | classified | resume-master-ba-v1 |
+| tracker-role-incedo-inc-senior-business-systems-analyst-2026.md | bsa | classified | resume-master-ba-v1 |
+| tracker-role-infotrack-us-technical-support-specialist-2026.md | support-appsupport | classified | resume-master-ba-v1 |
+| tracker-role-makai-business-analyst-2026.md | ba-ai | classified | resume-master-ba-v1 |
+| tracker-role-mercer-advisors-infrastructure-operations-specialist-2026.md | ops | classified | resume-master-sre-v1 |
+| tracker-role-michael-baker-international-software-requirements-analyst-gis-2026.md | unknown | needs_review |  |
+| tracker-role-nbcuniversal-associate-ai-solutions-and-programs-lead-2026.md | unknown | needs_review |  |
+| tracker-role-neuberger-berman-senior-business-analyst-client-data-strategy-2026.md | sba | classified | resume-master-ba-v1 |
+| tracker-role-neuberger-senior-program-manager-business-analyst-asset-management-2026.md | sba-pm | classified | resume-master-ba-v1 |
+| tracker-role-new-york-life-senior-associate-technical-business-analyst-2026.md | sba | classified | resume-master-ba-v1 |
+| tracker-role-nj-transit-principal-technical-business-analyst-2026.md | ba | classified | resume-master-ba-v1 |
+| tracker-role-payabli-operational-specialist-2026.md | unknown | needs_review |  |
+| tracker-role-pelham-berkeley-search-sr-systems-analyst-2026.md | bsa | classified | resume-master-ba-v1 |
+| tracker-role-pico-site-reliability-engineer-2026.md | sre | classified | resume-master-sre-v1 |
+| tracker-role-pmo-partners-llc-business-analyst-2026.md | ba | classified | resume-master-ba-v1 |
+| tracker-role-premera-blue-cross-business-analyst-iii-2026.md | ba | classified | resume-master-ba-v1 |
+| tracker-role-tata-business-analyst-artificial-intelligence-2026.md | ba-ai | classified | resume-master-ba-v1 |
+| tracker-role-the-depository-trust-and-clearing-corporation-dtcc-lead-business-systems-analyst-2026.md | bsa | classified | resume-master-ba-v1 |
+| tracker-role-valon-product-operations-senior-associate-2026.md | unknown | needs_review |  |
+| tracker-role-vns-health-enterprise-applications-analyst-workday-and-enterprise-systems-2026.md | unknown | needs_review |  |
+| tracker-role-watg-and-wimberly-interiors-senior-it-support-specialist-2026.md | support-appsupport | classified | resume-master-ba-v1 |

@@ -18,11 +18,11 @@ last: 2026-06-01
 company: Makai Labs
 company_slug: makai
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://jobs.ashbyhq.com/makai-labs/e170b3c0-42c9-4bab-8afb-69c3b2f714b6
 source_role_id: 3386b09b-462b-4f7f-84eb-da9f2ff526b3
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Business Analyst
 normalized_title: Business Analyst
 location: New York, NY
@@ -71,7 +71,7 @@ match_notes: Matched existing role role-makai-labs-ba-ai-2026
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://jobs.ashbyhq.com/makai-labs/e170b3c0-42c9-4bab-8afb-69c3b2f714b6
 
 ## Linkage

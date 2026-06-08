@@ -18,11 +18,11 @@ last: 2026-05-30
 company: Tata Consultancy Services
 company_slug: tata
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.indeed.com/viewjob?jk=54d8e21c3a56bc21
 source_role_id: 76ce596b-129f-407c-806b-e12c02177388
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Business Analyst -Artificial Intelligence
 normalized_title: Business Analyst -Artificial Intelligence
 location: 
@@ -71,7 +71,7 @@ match_notes: Matched existing role role-tata-consultancy-services-sba-ai-2026
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.indeed.com/viewjob?jk=54d8e21c3a56bc21
 
 ## Linkage

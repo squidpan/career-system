@@ -18,11 +18,11 @@ last: 2026-06-03
 company: NJ TRANSIT
 company_slug: nj-transit
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4418232754
 source_role_id: 6ff2a810-c11a-48a0-9ae3-b963d866aa58
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Principal Technical Business Analyst
 normalized_title: Principal Technical Business Analyst
 location: Newark, NJ
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4418232754
 
 ## Linkage

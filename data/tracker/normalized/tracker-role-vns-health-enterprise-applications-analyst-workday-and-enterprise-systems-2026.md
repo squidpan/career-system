@@ -18,11 +18,11 @@ last: 2026-06-01
 company: VNS Health
 company_slug: vns-health
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4391198571
 source_role_id: 246ec556-3d16-4453-84f7-c0fb13c5f142
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Enterprise Applications Analyst (Workday & Enterprise Systems)
 normalized_title: Enterprise Applications Analyst (Workday & Enterprise Systems)
 location: New York, NY
@@ -70,7 +70,7 @@ match_notes: Matched existing role role-vns-health-support-workday-2026
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4391198571
 
 ## Linkage

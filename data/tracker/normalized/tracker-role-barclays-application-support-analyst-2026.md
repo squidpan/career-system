@@ -18,11 +18,11 @@ last: 2026-06-05
 company: Barclays
 company_slug: barclays
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4419685476
 source_role_id: 8f001f7e-12a8-41a6-8957-95e937491b2d
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Application Support Analyst
 normalized_title: Application Support Analyst
 location: Whippany, NJ
@@ -43,7 +43,7 @@ classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-06-05T17:49:47Z
 applied_at: 
 posted_at: 
-updated_at: 2026-06-05T17:49:59Z
+updated_at: 2026-06-05T18:24:10Z
 archived_at: 
 min_salary: 80000
 max_salary: 120000
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4419685476
 
 ## Linkage

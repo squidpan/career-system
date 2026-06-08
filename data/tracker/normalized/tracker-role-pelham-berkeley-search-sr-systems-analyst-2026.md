@@ -18,11 +18,11 @@ last: 2026-05-29
 company: Pelham Berkeley Search
 company_slug: pelham-berkeley-search
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4404903044
 source_role_id: d3cad636-0516-4ea6-a39a-6241238a747a
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Sr Systems Analyst
 normalized_title: Sr Systems Analyst
 location: New York, NY
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4404903044
 
 ## Linkage

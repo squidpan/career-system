@@ -18,11 +18,11 @@ last: 2026-06-05
 company: AirOps
 company_slug: airops
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4364796179
 source_role_id: a503f1fa-e252-46dd-b9ce-3f77ecc4ef82
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Technical Support Lead
 normalized_title: Technical Support Lead
 location: New York City Metropolitan Area
@@ -43,7 +43,7 @@ classification_source: tracker_title_rules_v0.3.7
 added_at: 2026-06-05T17:53:23Z
 applied_at: 
 posted_at: 
-updated_at: 2026-06-05T17:53:36Z
+updated_at: 2026-06-05T18:22:49Z
 archived_at: 
 min_salary: 
 max_salary: 
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4364796179
 
 ## Linkage

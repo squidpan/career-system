@@ -18,11 +18,11 @@ last: 2026-06-05
 company: Amtex Systems Inc
 company_slug: amtex-systems-inc
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4422953465
 source_role_id: 6d32cbbb-c967-4cd4-82c3-6134ef90efc8
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Business Analyst / Project Manager with financial benchmark data Experience
 normalized_title: Business Analyst / Project Manager with financial benchmark data Experience
 location: New York, NY
@@ -70,7 +70,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4422953465
 
 ## Linkage

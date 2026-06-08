@@ -218,6 +218,9 @@ def normalize_file(path: Path, output_dir: Path, run_id: str, refs_dir: Path) ->
         "jd-raw-infotrack-techsupport-specialist-t2": ("InfoTrack US", "Technical Support Specialist", "support-appsupport"),
         "jd-raw-payabli-operational-specialist": ("Payabli", "Operational Specialist", "ops"),
         "jd-raw-watg-itsupport-specialist": ("WATG and Wimberly Interiors", "Senior IT Support Specialist", "support-appsupport"),
+        "jd-raw-valon-product-operations-senior-associate": ("Valon", "Product Operations Senior Associate", "ops"),
+        "jd-raw-nbcuniversal-associate-ai-solutions-and-programs-lead": ("NBCUniversal", "Associate AI Solutions & Programs Lead", "ops"),
+        "jd-raw-con-edison-senior-technical-analyst": ("Con Edison", "Senior Technical Analyst", "ba"),
         "jd-raw-icf-it-ba": ("ICF", "IT Business Analyst", "ba-it"),
         "jd-raw-mbi-sw-rq-analyst": ("Michael Baker International", "Software Requirements Analyst (GIS)", "ba-requirements"),
         "jd-raw-vnsh-ba-wrkd-entsupport-2026": ("VNS Health", "Enterprise Applications Analyst (Workday & Enterprise Systems)", "support-workday"),
@@ -263,12 +266,33 @@ def normalize_file(path: Path, output_dir: Path, run_id: str, refs_dir: Path) ->
         role_identity_text, refs_dir
     )
 
-    if forced_role_code == "ba-it":
-        role_family, role_level, role_qualifiers, role_code, confidence = "ba", "", ["it"], "ba-it", "high"
-    elif forced_role_code == "ba-requirements":
-        role_family, role_level, role_qualifiers, role_code, confidence = "ba", "", ["requirements"], "ba-requirements", "high"
-    elif forced_role_code == "support-workday":
-        role_family, role_level, role_qualifiers, role_code, confidence = "support", "", ["appsupport", "workday"], "support-workday", "high"
+    if forced_role_code:
+        role_code = forced_role_code
+        confidence = "high"
+
+        if forced_role_code.startswith("support"):
+            role_family = "support"
+        elif forced_role_code.startswith("ba"):
+            role_family = "ba"
+        elif forced_role_code.startswith("bsa"):
+            role_family = "ba"
+        elif forced_role_code.startswith("sre"):
+            role_family = "sre"
+        elif forced_role_code.startswith("ops"):
+            role_family = "ops"
+        else:
+            role_family = forced_role_code.split("-")[0]
+
+        qualifiers = [q for q in forced_role_code.split("-")[1:] if q]
+        if forced_role_code == "ba-it":
+            qualifiers = ["it"]
+        elif forced_role_code == "ba-requirements":
+            qualifiers = ["requirements"]
+        elif forced_role_code == "support-workday":
+            qualifiers = ["appsupport", "workday"]
+
+        role_qualifiers = qualifiers
+        role_level = role_level or ""
 
     year = str(fm.get("captured_date") or fm.get("created") or "2026")[:4]
     slug = f"{company_slug}-{role_code}-{year}"

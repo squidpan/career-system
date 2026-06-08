@@ -22,7 +22,7 @@ source_system: teal
 source_file: 
 source_url: https://app.tealhq.com/job-tracker/18f17858-a963-4668-906b-eeae6ae1f4dc
 origin: webclipper
-run_id: run-2026-06-05-jd-normalization-v5
+run_id: run-2026-06-08-jd-normalization-v5
 captured_date: 2026-06-01
 source_title: Support Operations Systems Lead
 normalized_title: Support Operations Systems Lead
@@ -30,6 +30,8 @@ role_id: role-cursor-support-ops-lead-2026
 role_family: support
 role_level: lead
 role_qualifiers:
+  - ops
+  - lead
 role_code: support-ops-lead
 role_code_confidence: high
 role_summary: 

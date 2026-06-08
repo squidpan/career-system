@@ -18,11 +18,11 @@ last: 2026-06-05
 company: Payabli
 company_slug: payabli
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4423086569
 source_role_id: fad82554-7f8f-4a79-8ffb-05e69fb43cd2
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Operational Specialist
 normalized_title: Operational Specialist
 location: United States
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4423086569
 
 ## Linkage

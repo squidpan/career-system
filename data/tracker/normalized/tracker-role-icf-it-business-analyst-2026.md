@@ -18,11 +18,11 @@ last: 2026-06-01
 company: ICF
 company_slug: icf
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Portland-OR/IT-Business-Analyst_R2601942
 source_role_id: 8eddd464-39a6-42a5-936b-bde02538d8ef
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: IT Business Analyst
 normalized_title: IT Business Analyst
 location: Portland, OR
@@ -70,7 +70,7 @@ match_notes: Matched existing role role-icf-ba-it-2026
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Portland-OR/IT-Business-Analyst_R2601942
 
 ## Linkage

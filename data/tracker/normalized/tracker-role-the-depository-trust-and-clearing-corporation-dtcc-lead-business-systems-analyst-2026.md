@@ -18,11 +18,11 @@ last: 2026-06-01
 company: The Depository Trust & Clearing Corporation (DTCC)
 company_slug: the-depository-trust-and-clearing-corporation-dtcc
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4343464713
 source_role_id: f50c24ee-85bb-49d8-8df1-88e467c8a390
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Lead Business Systems Analyst
 normalized_title: Lead Business Systems Analyst
 location: Jersey City, NJ
@@ -70,7 +70,7 @@ match_notes: Matched existing role role-the-depository-trust-and-clearing-corpor
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4343464713
 
 ## Linkage

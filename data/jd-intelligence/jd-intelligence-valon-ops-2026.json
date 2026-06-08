@@ -1,0 +1,52 @@
+{
+  "run_id": "run-2026-06-08-jd-intelligence-v5",
+  "company": "Valon",
+  "title": "Product Operations Senior Associate",
+  "role_code": "ops",
+  "source_file": "data/jds/normalized/jd-valon-ops-2026-v1.md",
+  "intelligence": {
+    "tools": [
+      "sql"
+    ],
+    "platforms": [
+      "application support platform",
+      "enterprise applications",
+      "service management platform"
+    ],
+    "products": [],
+    "domains": [
+      "enterprise application support",
+      "financial services",
+      "government",
+      "healthcare"
+    ],
+    "methodologies": [
+      "data validation",
+      "documentation",
+      "incident management",
+      "problem management",
+      "release management",
+      "requirements analysis",
+      "risk assessment",
+      "stakeholder communication"
+    ]
+  },
+  "jd_aware_questions": [
+    "How do you create support documentation that is usable during incidents and releases?",
+    "How do you approach problem management after recurring production issues?",
+    "How do you work with development teams to prioritize bug fixes and support tooling?",
+    "How do you assess risk and business impact during a production issue?",
+    "How do you evaluate production risk before or after an application release?",
+    "How do you communicate technical issues to non-technical business users?",
+    "How do you coordinate users, vendors, internal technology teams, and management during an escalation?"
+  ],
+  "story_mapping": [
+    "documentation: Runbooks, support documentation, release procedures, and UAT evidence",
+    "financial services: FRBNY fixed-income pricing and financial application support",
+    "incident management: Production support, log review, validation, and cross-team escalation",
+    "problem management: Production support issue analysis, defect triage, and recurring issue follow-up",
+    "release management: Deployment runbooks, release validation, and health checks",
+    "risk assessment: Release readiness, impact analysis, production risk review, and escalation judgment",
+    "stakeholder communication: BA/application support communication across business users, DevOps, QA, and management"
+  ]
+}

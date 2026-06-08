@@ -18,11 +18,11 @@ last: 2026-06-03
 company: Incedo Inc.
 company_slug: incedo-inc
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4418434182
 source_role_id: f4916476-8cad-494c-ba2d-550e207b530c
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Senior Business Systems Analyst
 normalized_title: Senior Business Systems Analyst
 location: New York, NY
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4418434182
 
 ## Linkage

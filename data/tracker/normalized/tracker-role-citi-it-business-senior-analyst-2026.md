@@ -18,11 +18,11 @@ last: 2026-06-05
 company: Citi
 company_slug: citi
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4424092139
 source_role_id: 90e0b80b-24a9-4234-a707-8c7d1f4d50eb
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: IT Business Senior Analyst
 normalized_title: IT Business Senior Analyst
 location: New York, NY
@@ -69,7 +69,7 @@ match_notes: No existing generated role matched this Teal source_role_id.
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4424092139
 
 ## Linkage

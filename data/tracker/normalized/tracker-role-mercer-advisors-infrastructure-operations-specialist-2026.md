@@ -18,11 +18,11 @@ last: 2026-05-29
 company: Mercer Advisors
 company_slug: mercer-advisors
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4409221261
 source_role_id: 2f0fafd8-4531-40f1-8e38-69f4341c0f1f
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Infrastructure Operations Specialist
 normalized_title: Infrastructure Operations Specialist
 location: United States
@@ -70,7 +70,7 @@ match_notes: Matched existing role role-mercer-advisors-ops-2026
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4409221261
 
 ## Linkage

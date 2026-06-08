@@ -18,11 +18,11 @@ last: 2026-04-01
 company: Citi
 company_slug: citi
 source_system: teal
-source_file: jobtracker-roles-2026-06-05.csv
+source_file: jobtracker-roles-2026-06-08.csv
 source_url: https://www.linkedin.com/jobs/view/4386883718
 source_role_id: b0b86130-ff36-48e0-a57f-e05155df9169
 origin: import
-run_id: run-2026-06-05-tracker-role-classify-v2
+run_id: run-2026-06-08-tracker-role-classify-v2
 source_title: Application and Production Support Lead, Assistant Vice President
 normalized_title: Application and Production Support Lead, Assistant Vice President
 location: New York, NY
@@ -71,7 +71,7 @@ match_notes: Matched existing role role-citi-support-appsupport-2026
 ## Source
 
 - Source system: Teal
-- Source file: jobtracker-roles-2026-06-05.csv
+- Source file: jobtracker-roles-2026-06-08.csv
 - Source URL: https://www.linkedin.com/jobs/view/4386883718
 
 ## Linkage

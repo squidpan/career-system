@@ -1,0 +1,30 @@
+{
+  "company": "NBCUniversal",
+  "role": "Associate AI Solutions & Programs Lead",
+  "role_code": "ops",
+  "resume_family": "ops",
+  "technical_match_score": 94,
+  "personal_strategy_score": 74,
+  "combined_strategy_score": 85,
+  "pursuit_recommendation": "apply_selectively",
+  "explanation": "NBCUniversal — Associate AI Solutions & Programs Lead is marked `apply_selectively` because it combines a technical match score of 94 with a personal strategy score of 74, producing a combined score of 85. The role code `ops` maps to Paul's current positioning around BA/BSA, application support, production readiness, regulated enterprise environments, and practical AI-assisted workflow interest where relevant.",
+  "why_attractive": [
+    "Operations role is adjacent to BA/support experience, but may need careful resume positioning."
+  ],
+  "risk_flags": [
+    "No major deterministic risk flags detected; review manually before applying."
+  ],
+  "resume_focus": [
+    "Operations support, process discipline, issue coordination, and cross-functional execution.",
+    "Data validation, workflow analysis, reporting, and operational readiness.",
+    "Bridge BA/application support experience into business operations language.",
+    "AI as business/process enablement: position Career System and ChatGPT workflow as practical AI-assisted analysis and documentation, not AI engineering."
+  ],
+  "interview_story_focus": [
+    "Operational readiness story: process discipline, handoffs, validation, and issue follow-through.",
+    "Reporting/data story: Excel/Power Query, data quality, and operational decision support.",
+    "Career System story: using AI as a structured assistant to normalize JDs, compare roles, generate notes, and improve job-search operations."
+  ],
+  "application_priority": "Selective: apply if benefits, commute, and role details remain attractive.",
+  "next_action": "Apply if benefits, commute, and fit remain attractive."
+}

@@ -1,0 +1,30 @@
+{
+  "company": "InfoTrack US",
+  "role": "Technical Support Specialist",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "technical_match_score": 84,
+  "personal_strategy_score": 69,
+  "combined_strategy_score": 77,
+  "pursuit_recommendation": "network_or_research_first",
+  "explanation": "InfoTrack US — Technical Support Specialist is marked `network_or_research_first` because it combines a technical match score of 84 with a personal strategy score of 69, producing a combined score of 77. The role code `support-appsupport` maps to Paul's current positioning around BA/BSA, application support, production readiness, regulated enterprise environments, and practical AI-assisted workflow interest where relevant.",
+  "why_attractive": [
+    "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+  ],
+  "risk_flags": [
+    "Smaller/niche employer or less direct domain fit; verify stability, benefits, and role expectations.",
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "resume_focus": [
+    "FRBNY application support and production support experience.",
+    "Release validation, deployment readiness, runbooks, and post-release health checks.",
+    "Incident coordination across DevOps, QA, database, infrastructure, operations, and business stakeholders.",
+    "Linux, Oracle, AWS-connected services, ServiceNow, and monitoring/readiness language where truthful."
+  ],
+  "interview_story_focus": [
+    "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+    "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+  ],
+  "application_priority": "Research/network first before investing in full tailoring.",
+  "next_action": "Research employer/role before spending time on full tailoring."
+}

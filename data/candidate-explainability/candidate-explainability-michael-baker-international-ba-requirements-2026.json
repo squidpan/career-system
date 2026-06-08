@@ -1,0 +1,30 @@
+{
+  "company": "Michael Baker International",
+  "role": "Software Requirements Analyst (GIS)",
+  "role_code": "ba-requirements",
+  "resume_family": "ba",
+  "technical_match_score": 93,
+  "personal_strategy_score": 73,
+  "combined_strategy_score": 84,
+  "pursuit_recommendation": "apply_selectively",
+  "explanation": "Michael Baker International — Software Requirements Analyst (GIS) is marked `apply_selectively` because it combines a technical match score of 93 with a personal strategy score of 73, producing a combined score of 84. The role code `ba-requirements` maps to Paul's current positioning around BA/BSA, application support, production readiness, regulated enterprise environments, and practical AI-assisted workflow interest where relevant.",
+  "why_attractive": [
+    "BA/BSA role family aligns with strongest recent positioning."
+  ],
+  "risk_flags": [
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "resume_focus": [
+    "BA/BSA requirements analysis, stakeholder communication, Jira stories, and acceptance criteria.",
+    "UAT planning, data validation, defect tracking, and business signoff readiness.",
+    "FRBNY modernization, REST API validation, Oracle data comparison, and enterprise system migration context.",
+    "Requirements, data validation, and UAT transferability into GIS context; avoid overstating direct GIS hands-on experience."
+  ],
+  "interview_story_focus": [
+    "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+    "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+    "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+  ],
+  "application_priority": "Selective: apply if benefits, commute, and role details remain attractive.",
+  "next_action": "Apply if benefits, commute, and fit remain attractive."
+}

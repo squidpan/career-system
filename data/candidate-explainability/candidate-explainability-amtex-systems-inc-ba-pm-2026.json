@@ -1,0 +1,31 @@
+{
+  "company": "Amtex Systems Inc",
+  "role": "Business Analyst / Project Manager with financial benchmark data Experience",
+  "role_code": "ba-pm",
+  "resume_family": "ba",
+  "technical_match_score": 83,
+  "personal_strategy_score": 81,
+  "combined_strategy_score": 82,
+  "pursuit_recommendation": "apply_selectively",
+  "explanation": "Amtex Systems Inc — Business Analyst / Project Manager with financial benchmark data Experience is marked `apply_selectively` because it combines a technical match score of 83 with a personal strategy score of 81, producing a combined score of 82. The role code `ba-pm` maps to Paul's current positioning around BA/BSA, application support, production readiness, regulated enterprise environments, and practical AI-assisted workflow interest where relevant.",
+  "why_attractive": [
+    "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+    "BA/BSA role family aligns with strongest recent positioning."
+  ],
+  "risk_flags": [
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "resume_focus": [
+    "BA/BSA requirements analysis, stakeholder communication, Jira stories, and acceptance criteria.",
+    "UAT planning, data validation, defect tracking, and business signoff readiness.",
+    "FRBNY modernization, REST API validation, Oracle data comparison, and enterprise system migration context.",
+    "Financial services, regulated environment, data quality, and operational risk awareness."
+  ],
+  "interview_story_focus": [
+    "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+    "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+    "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+  ],
+  "application_priority": "Selective: apply if benefits, commute, and role details remain attractive.",
+  "next_action": "Apply if benefits, commute, and fit remain attractive."
+}

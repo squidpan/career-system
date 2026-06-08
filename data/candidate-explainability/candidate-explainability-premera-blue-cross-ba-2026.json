@@ -1,0 +1,31 @@
+{
+  "company": "Premera Blue Cross",
+  "role": "Business Analyst III",
+  "role_code": "ba",
+  "resume_family": "ba",
+  "technical_match_score": 92,
+  "personal_strategy_score": 89,
+  "combined_strategy_score": 91,
+  "pursuit_recommendation": "apply_this_week",
+  "explanation": "Premera Blue Cross — Business Analyst III is marked `apply_this_week` because it combines a technical match score of 92 with a personal strategy score of 89, producing a combined score of 91. The role code `ba` maps to Paul's current positioning around BA/BSA, application support, production readiness, regulated enterprise environments, and practical AI-assisted workflow interest where relevant.",
+  "why_attractive": [
+    "Large/regulated/enterprise employer signal; likely stronger stability and benefits fit.",
+    "BA/BSA role family aligns with strongest recent positioning.",
+    "Employer type is more likely to offer structured benefits; verify directly before applying."
+  ],
+  "risk_flags": [
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "resume_focus": [
+    "BA/BSA requirements analysis, stakeholder communication, Jira stories, and acceptance criteria.",
+    "UAT planning, data validation, defect tracking, and business signoff readiness.",
+    "FRBNY modernization, REST API validation, Oracle data comparison, and enterprise system migration context."
+  ],
+  "interview_story_focus": [
+    "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+    "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+    "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+  ],
+  "application_priority": "Strong priority: apply this week after normal tailoring.",
+  "next_action": "Apply this week after tailoring the summary and top bullets."
+}

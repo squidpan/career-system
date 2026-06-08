@@ -1,371 +1,377 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import json
-import sys
+import re
 from pathlib import Path
+from typing import Any
 
-def split_frontmatter(text: str):
-    if not text.startswith("---"):
-        return {}, text
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return {}, text
-    fm = {}
-    for line in parts[1].splitlines():
-        if ":" in line and not line.lstrip().startswith("-"):
-            k, v = line.split(":", 1)
-            fm[k.strip()] = v.strip().strip('"').strip("'")
-    return fm, parts[2]
+def slugify(text: str) -> str:
+    text = text.lower().replace("&", "and")
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-") or "unknown"
 
-def read_doc(path: Path):
-    text = path.read_text(encoding="utf-8")
-    fm, body = split_frontmatter(text)
-    return {"path": path, "frontmatter": fm, "body": body, "text": text}
+def load_json(path: Path) -> dict[str, Any]:
+    return json.loads(path.read_text(encoding="utf-8"))
 
-def slug_from_filename(path: Path) -> str:
-    name = path.stem
-    for prefix in ["jd-", "role-", "resume-", "gap-", "jd-intelligence-", "resume-tailoring-"]:
-        if name.startswith(prefix):
-            name = name[len(prefix):]
-    for suffix in ["-v1", "-teal-v1", "-assembled-v1"]:
-        if name.endswith(suffix):
-            name = name[:-len(suffix)]
-    return name
+def write_json(path: Path, data: dict[str, Any]) -> None:
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-def find_by_slug(folder: Path, prefix: str, slug: str, ext: str = ".md") -> Path | None:
-    direct = folder / f"{prefix}{slug}{ext}"
-    if direct.exists():
-        return direct
-    slug_tokens = set(slug.split("-"))
-    best, best_score = None, 0
-    for p in folder.glob(f"*{ext}"):
-        ptokens = set(slug_from_filename(p).split("-"))
-        score = len(slug_tokens & ptokens)
-        if score > best_score:
-            best, best_score = p, score
-    return best if best_score >= 2 else None
+def to_list(x: Any) -> list[str]:
+    if isinstance(x, list):
+        return [str(v) for v in x if str(v).strip()]
+    if x:
+        return [str(x)]
+    return []
 
-def read_json_for_md(md_path: Path) -> dict:
-    js = md_path.with_suffix(".json")
-    if js.exists():
-        return json.loads(js.read_text(encoding="utf-8"))
-    doc = read_doc(md_path)
-    return {"frontmatter": doc["frontmatter"]}
+def md_list(items: list[str]) -> str:
+    return "\n".join(f"- {x}" for x in items) if items else "- None"
 
-def md_list(items):
-    if not items:
-        return "- None identified\n"
-    return "".join(f"- {x}\n" for x in items)
+def resume_family_for(role_code: str) -> str:
+    code = role_code.lower()
+    if code.startswith("support"):
+        return "application-support / production-support"
+    if code == "sre":
+        return "sre-adjacent production support"
+    if code.startswith("ba") or code == "bsa":
+        return "business analyst / business systems analyst"
+    if code == "ops":
+        return "operations / application-support hybrid"
+    return "general BA / application-support"
 
-def dedupe(items):
-    seen, out = set(), []
-    for item in items:
-        if item and item not in seen:
-            seen.add(item)
-            out.append(item)
-    return out
+def summary_direction(company: str, role: str, role_code: str) -> str:
+    code = role_code.lower()
+    if code.startswith("support"):
+        return (
+            "Position Paul as a senior BA/application support professional with strong production support, "
+            "release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience."
+        )
+    if code == "sre":
+        return (
+            "Position Paul as SRE-adjacent: production support, Linux, monitoring/readiness, incident coordination, "
+            "runbooks, and financial market data stability; avoid overstating deep platform engineering."
+        )
+    if code.startswith("ba") or code == "bsa":
+        return (
+            "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, "
+            "Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience."
+        )
+    if code == "ops":
+        return (
+            "Position Paul as an operations/application-support hybrid with process discipline, data validation, "
+            "stakeholder coordination, production readiness, and enterprise systems support."
+        )
+    return (
+        "Position Paul around BA, application support, requirements, UAT, production readiness, and enterprise systems."
+    )
 
-def collect_intel_terms(intel: dict):
-    data = intel.get("intelligence", {}) or {}
-    terms = []
-    for key in ["tools", "platforms", "products", "domains", "methodologies"]:
-        terms.extend(data.get(key, []) or [])
-    return dedupe(terms)
+def themes_for(role_code: str, company: str, role: str) -> list[str]:
+    code = role_code.lower()
+    role_l = role.lower()
+    themes: list[str] = []
 
-def promote_from_terms(terms, gap, role_code):
-    promote = []
-    rc = (role_code or "").lower()
+    if code.startswith("support"):
+        themes += [
+            "Application and production support",
+            "Incident coordination and escalation",
+            "Release readiness and post-release validation",
+            "Runbooks and operational documentation",
+            "Linux / Oracle / AWS-connected enterprise systems",
+        ]
+    elif code == "sre":
+        themes += [
+            "Linux-based production support",
+            "Operational readiness and incident response",
+            "Monitoring and health checks",
+            "Market data / financial data stability",
+            "Runbook-driven support discipline",
+        ]
+    elif code.startswith("ba") or code == "bsa":
+        themes += [
+            "Requirements analysis and stakeholder communication",
+            "Jira stories and acceptance criteria",
+            "UAT planning and business validation",
+            "Data validation and Oracle/API comparison",
+            "Enterprise modernization and SDLC coordination",
+        ]
+    elif code == "ops":
+        themes += [
+            "Operations support and process execution",
+            "Cross-functional coordination",
+            "Data quality and reporting",
+            "Workflow analysis",
+            "Operational readiness",
+        ]
 
-    mapping = {
-        "market data": [
-            "Market data application support and financial data validation",
-            "FRBNY fixed-income pricing and streaming market data experience",
-            "Production support across financial services systems",
-        ],
-        "market data platform": [
-            "Ticker plant / feed-processing concepts through FRBNY market data modernization",
-            "Runbooks and validation for market-data distribution workflows",
-        ],
-        "redline": [
-            "Vendor-platform support mindset using AC Plus / Asset Control / OPS360 experience",
-            "Customer-facing production issue triage and vendor/product support approach",
-        ],
-        "linux": [
-            "Linux client/server application support exposure",
-            "Operational troubleshooting, health checks, and environment validation",
-        ],
-        "python": [
-            "Current Python learning path and ability to ramp quickly",
-            "Scripting/automation mindset from Korn shell, Bash, and deployment runbooks",
-        ],
-        "workday": [
-            "Enterprise application support experience applicable to Workday workflows",
-            "Requirements, UAT, workflow analysis, and service-management transferability",
-        ],
-        "hris platform": [
-            "Enterprise workflow support and business-user requirements gathering",
-            "Application support and UAT practices transferable to HR systems",
-        ],
-        "gis": [
-            "Requirements analysis and UAT for domain-specific platforms",
-            "REST API and Oracle validation experience transferable to GIS systems",
-        ],
-        "geospatial": [
-            "Data validation and stakeholder-driven UAT approach",
-            "Requirements translation between business users and technical teams",
-        ],
-        "rest api": [
-            "REST API validation against Oracle and legacy source outputs",
-            "Data reconciliation and acceptance criteria for API migration",
-        ],
-        "oracle": [
-            "Oracle data comparison and validation experience",
-            "Source-to-target validation and reconciliation discipline",
-        ],
-        "application support platform": [
-            "Application and production support experience",
-            "Support for business applications after development and through daily operations",
-        ],
-        "production operations platform": [
-            "Start-of-day checks, monitoring, handoff, and operational readiness",
-            "Production validation, release support, and post-release health checks",
-        ],
-        "production operations": [
-            "Production issue triage and business-impact prioritization",
-            "Operational support, release validation, and post-implementation stability",
-        ],
-        "risk and controls": [
-            "Risk/impact assessment during releases and production incidents",
-            "Control-minded production support and escalation discipline",
-        ],
-        "incident management": [
-            "Incident triage, escalation, and cross-team coordination",
-            "Production troubleshooting and support communication",
-        ],
-        "problem management": [
-            "Recurring issue follow-up, defect triage, and bug-fix prioritization",
-            "Root-cause-oriented support documentation and process improvement",
-        ],
-        "release management": [
-            "Release coordination, deployment validation, and runbooks",
-            "Dev/QA/UAT/Production readiness and post-release health checks",
-        ],
-        "monitoring": [
-            "Monitoring dashboards, operational checks, and stability validation",
-            "Grafana/Prometheus exposure through FRBNY dashboard collaboration",
-        ],
-        "documentation": [
-            "Runbooks, technical support documentation, and release procedures",
-            "Clear operating procedures for support and implementation teams",
-        ],
-        "stakeholder communication": [
-            "Business-user, DevOps, QA, infrastructure, and management coordination",
-            "Clear translation between technical issues and business impact",
-        ],
-        "operational readiness": [
-            "Release readiness, validation checklists, and post-release support readiness",
-            "Stability, efficiency, and effectiveness improvement mindset",
-        ],
-        "requirements analysis": [
-            "Epics, user stories, acceptance criteria, and implementation-ready requirements",
-            "Business analysis and stakeholder requirements elicitation",
-        ],
-        "uat": [
-            "UAT planning, business validation, and signoff support",
-            "Acceptance criteria and test evidence discipline",
-        ],
-        "agile": [
-            "Agile collaboration with Product Owners, Scrum Masters, QA, and DevOps",
-            "Jira story decomposition and acceptance criteria practices",
-        ],
-    }
+    if "ai" in code or " ai " in f" {role_l} ":
+        themes.append("AI-assisted business analysis and documentation workflow")
+    if "workday" in code or "workday" in role_l:
+        themes.append("Enterprise application workflow support / Workday transferability")
+    if "gis" in code or "gis" in role_l:
+        themes.append("Requirements and validation transferability for GIS/geospatial workflows")
+    if any(x in company.lower() for x in ["citi", "barclays", "dtcc", "finbourne", "dow jones"]):
+        themes.append("Financial services / regulated enterprise environment")
 
-    for term in terms:
-        promote.extend(mapping.get(term, []))
+    return themes
 
-    missing = gap.get("missing", {}) or {}
-    for tool in missing.get("tools", []) or []:
-        promote.append(f"Bridge {tool} gap honestly through adjacent enterprise application support and fast ramp-up")
-    if "sre" in rc:
-        promote.append("SRE-adjacent production support, monitoring, resiliency, and Linux troubleshooting")
-    if "support" in rc:
-        promote.append("Application support, production operations, incident triage, and risk-aware escalation")
-    if "ba" in rc or "bsa" in rc or "analyst" in rc:
-        promote.append("Requirements, UAT, workflow analysis, stakeholder communication, and documentation")
-    return dedupe(promote)
-
-def demote_from_terms(terms, role_code):
-    rc = (role_code or "").lower()
-    demote = [
-        "Older CAD/CAM implementation details unless directly relevant",
-        "Long historical employer detail that does not support the target JD",
+def bullets_to_emphasize(role_code: str) -> list[str]:
+    code = role_code.lower()
+    if code.startswith("support"):
+        return [
+            "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+            "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+            "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+            "Executed release readiness testing, deployment validation, post-release health checks, and operational verification.",
+        ]
+    if code == "sre":
+        return [
+            "Supported Linux-based enterprise financial applications requiring production readiness and operational validation.",
+            "Coordinated incident troubleshooting, health checks, escalation, and release validation across technical teams.",
+            "Supported market data / pricing systems where timeliness, data quality, and availability were business critical.",
+        ]
+    if code.startswith("ba") or code == "bsa":
+        return [
+            "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+            "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+            "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+            "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials.",
+        ]
+    if code == "ops":
+        return [
+            "Coordinated operational readiness, validation, issue follow-up, and cross-functional execution across enterprise systems teams.",
+            "Supported reporting, workflow validation, data quality, and stakeholder communication for business and technology operations.",
+            "Used Excel/Power Query-style analysis and structured documentation to support operational decisions.",
+        ]
+    return [
+        "Emphasize FRBNY BA/application support experience.",
+        "Emphasize enterprise systems, requirements, UAT, release readiness, and stakeholder communication.",
     ]
-    if "workday" not in terms and "hris platform" not in terms:
-        demote.append("HRIS/Workday-specific language unless the JD requires it")
-    if "gis" not in terms and "geospatial" not in terms:
-        demote.append("GIS/geospatial language unless the JD requires it")
-    if "market data" not in terms and "market data platform" not in terms:
-        demote.append("Deep market-data terminology unless the JD is financial-data or trading focused")
-    if "insurance" not in terms:
-        demote.append("Detailed insurance workflow language unless domain fit is important")
-    if "sre" not in rc:
-        demote.append("Heavy SRE/Linux/networking detail unless the role is support/SRE-oriented")
-    return dedupe(demote)
 
-def story_recommendations(terms, story_mapping):
-    stories = []
-    for row in story_mapping or []:
-        stories.append(row)
-    defaults = [
-        "FRBNY modernization: market data application migration, AWS/OPS360 distribution, REST API validation, Oracle comparison",
-        "Deployment runbooks: release coordination, environment readiness, post-release health checks",
-        "Application support: production troubleshooting, escalation, and stakeholder communication",
-        "HP PPM / insurance systems: workflow analysis, UAT, reporting, and business process support",
+def bullets_to_rewrite(role_code: str, role: str) -> list[str]:
+    code = role_code.lower()
+    role_l = role.lower()
+    items = []
+    if code.startswith("support"):
+        items += [
+            "Rewrite summary to lead with application/production support before generic BA language.",
+            "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+            "Use production stability, operational readiness, and support documentation language."
+        ]
+    elif code.startswith("ba") or code == "bsa":
+        items += [
+            "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+            "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+            "Use Jira, acceptance criteria, traceability, and business validation language."
+        ]
+    elif code == "sre":
+        items += [
+            "Rewrite summary to say SRE-adjacent production support, not pure SRE.",
+            "Add one bullet connecting Linux, health checks, incident coordination, and market data stability.",
+            "Avoid implying direct ownership of Kubernetes/OpenShift platform engineering."
+        ]
+    elif code == "ops":
+        items += [
+            "Rewrite summary to bridge BA/application support into operations execution.",
+            "Add one bullet emphasizing process discipline, data validation, and cross-functional follow-through."
+        ]
+
+    if "ai" in code or " ai " in f" {role_l} ":
+        items.append("Add a carefully worded AI-assisted workflow bullet: used AI tools to structure JD analysis, documentation, and decision support; do not claim production AI engineering.")
+
+    if "workday" in code or "workday" in role_l:
+        items.append("Add transferability language for Workday: enterprise application support, workflow analysis, UAT, and rapid platform ramp-up.")
+
+    if "gis" in code or "gis" in role_l:
+        items.append("Add transferability language for GIS: requirements gathering, data validation, user workflows, and UAT for domain-specific applications.")
+
+    return items or ["Review role-specific keywords and adjust summary/top bullets manually."]
+
+def keywords(role_code: str, company: str, role: str) -> list[str]:
+    code = role_code.lower()
+    role_l = role.lower()
+    words = ["requirements", "UAT", "stakeholder communication", "documentation", "data validation"]
+
+    if code.startswith("support"):
+        words += ["application support", "production support", "incident management", "runbooks", "release validation", "ServiceNow", "Linux", "Oracle"]
+    if code == "sre":
+        words += ["Linux", "monitoring", "incident response", "operational readiness", "health checks", "market data"]
+    if code.startswith("ba") or code == "bsa":
+        words += ["business analysis", "Jira", "user stories", "acceptance criteria", "SDLC", "Agile", "REST API", "Oracle"]
+    if code == "ops":
+        words += ["operations", "process improvement", "workflow", "reporting", "cross-functional coordination"]
+    if "ai" in code or " ai " in f" {role_l} ":
+        words += ["AI enablement", "AI-assisted analysis", "workflow automation", "documentation"]
+    if "workday" in code or "workday" in role_l:
+        words += ["Workday", "HRIS", "enterprise applications", "workflow support"]
+    if "gis" in code or "gis" in role_l:
+        words += ["GIS", "geospatial", "requirements validation", "user workflows"]
+    if any(x in company.lower() for x in ["citi", "barclays", "dtcc", "finbourne", "dow jones"]):
+        words += ["financial services", "regulated environment", "risk", "controls"]
+
+    seen = []
+    for w in words:
+        if w not in seen:
+            seen.append(w)
+    return seen
+
+def claims_to_avoid(role_code: str, role: str) -> list[str]:
+    code = role_code.lower()
+    role_l = role.lower()
+    avoid = [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used.",
     ]
-    if any(t in terms for t in ["market data", "market data platform", "redline"]):
-        stories.insert(0, "Use FRBNY market data modernization as the primary story")
-    if any(t in terms for t in ["rest api", "oracle", "data validation"]):
-        stories.insert(0, "Use REST API validation against Oracle as a technical validation story")
-    if any(t in terms for t in ["production operations", "incident management", "release management"]):
-        stories.insert(0, "Use deployment runbooks and production readiness as the operations story")
-    return dedupe(stories + defaults)
+    if "ai" in code or " ai " in f" {role_l} ":
+        avoid.append("Do not claim AI engineering, model training, or production AI ownership; position AI as analysis/documentation/workflow enablement.")
+    if "workday" in code or "workday" in role_l:
+        avoid.append("Do not claim direct Workday administration if experience is transferable rather than hands-on.")
+    if "gis" in code or "gis" in role_l:
+        avoid.append("Do not claim direct GIS development/administration unless supported elsewhere.")
+    if code == "sre":
+        avoid.append("Do not position as a deep infrastructure/SRE engineer; use SRE-adjacent production support framing.")
+    return avoid
 
-def confidence_score(gap, intel_terms):
-    score = int(gap.get("overall_match_score") or 0)
-    if len(intel_terms) >= 8:
-        score += 5
-    elif len(intel_terms) <= 2:
-        score -= 5
-    return max(0, min(100, score))
+def cover_angle(company: str, role: str, role_code: str) -> str:
+    code = role_code.lower()
+    if code.startswith("support"):
+        return f"Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for {role} at {company}."
+    if code == "sre":
+        return f"Open with production support and market data stability, framing SRE fit as operational readiness, Linux support, monitoring awareness, and incident coordination for {company}."
+    if code.startswith("ba") or code == "bsa":
+        return f"Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to {role} at {company}."
+    if code == "ops":
+        return f"Open with operations/support hybrid fit: workflow execution, data quality, operational readiness, and cross-functional coordination for {role} at {company}."
+    return f"Open with BA/application support fit for {role} at {company}."
 
-def generate_one(gap_path: Path, intel_dir: Path, roles_dir: Path, resumes_dir: Path, output_dir: Path, run_id: str):
-    slug = slug_from_filename(gap_path)
-    gap = read_json_for_md(gap_path)
-    intel_path = find_by_slug(intel_dir, "jd-intelligence-", slug, ".json")
-    intel = json.loads(intel_path.read_text(encoding="utf-8")) if intel_path else {}
-    role_path = find_by_slug(roles_dir, "role-", slug)
-    resume_path = find_by_slug(resumes_dir, "resume-", slug)
+def generate_tailoring(e: dict[str, Any]) -> dict[str, Any]:
+    company = str(e.get("company") or "Unknown")
+    role = str(e.get("role") or "Unknown")
+    role_code = str(e.get("role_code") or "unknown")
+    rec = str(e.get("pursuit_recommendation") or "apply_selectively")
+    score = int(e.get("combined_strategy_score") or 0)
 
-    company = gap.get("company") or intel.get("company") or "unknown-company"
-    title = gap.get("title") or intel.get("title") or slug
-    role_code = gap.get("role_code") or intel.get("role_code") or ""
-
-    terms = collect_intel_terms(intel)
-    promote = promote_from_terms(terms, gap, role_code)
-    demote = demote_from_terms(terms, role_code)
-    story_map = story_recommendations(terms, intel.get("story_mapping", []) or [])
-    confidence = confidence_score(gap, terms)
-
-    output_dir.mkdir(parents=True, exist_ok=True)
-    md_path = output_dir / f"resume-tailoring-{slug}.md"
-    json_path = output_dir / f"resume-tailoring-{slug}.json"
-
-    data = {
-        "run_id": run_id,
+    return {
         "company": company,
-        "title": title,
+        "role": role,
         "role_code": role_code,
-        "gap_file": str(gap_path),
-        "jd_intelligence_file": str(intel_path or ""),
-        "role_file": str(role_path or ""),
-        "resume_file": str(resume_path or ""),
-        "confidence_score": confidence,
-        "promote": promote,
-        "demote": demote,
-        "story_recommendations": story_map,
-        "jd_terms": terms,
+        "pursuit_recommendation": rec,
+        "combined_strategy_score": score,
+        "recommended_resume_family": resume_family_for(role_code),
+        "summary_direction": summary_direction(company, role, role_code),
+        "top_resume_themes": themes_for(role_code, company, role),
+        "bullets_to_emphasize": bullets_to_emphasize(role_code),
+        "bullets_to_rewrite_or_add": bullets_to_rewrite(role_code, role),
+        "keywords_to_include": keywords(role_code, company, role),
+        "claims_to_avoid": claims_to_avoid(role_code, role),
+        "cover_letter_angle": cover_angle(company, role, role_code),
+        "interview_story_focus": to_list(e.get("interview_story_focus")) or [],
+        "next_action": f"Use this tailoring guidance to update the resume for {company} — {role}.",
     }
 
-    md = f"""---
+def render_one(run_id: str, t: dict[str, Any]) -> str:
+    return f"""---
 type: resume_tailoring
 status: draft
 run_id: {run_id}
 source: career-system
-company: {company}
-title: {title}
-role_code: {role_code}
-confidence_score: {confidence}
-gap_file: {gap_path}
-jd_intelligence_file: {intel_path or ""}
-role_file: {role_path or ""}
-resume_file: {resume_path or ""}
+company: {t['company']}
+role: {t['role']}
+role_code: {t['role_code']}
+pursuit_recommendation: {t['pursuit_recommendation']}
+combined_strategy_score: {t['combined_strategy_score']}
+recommended_resume_family: {t['recommended_resume_family']}
 ---
 
-# Resume Tailoring — {company} — {title}
+# Resume Tailoring — {t['company']} — {t['role']}
 
-## Summary
+## Recommended Resume Family
 
-- Company: **{company}**
-- Role: **{title}**
-- Role Code: **{role_code}**
-- Tailoring Confidence: **{confidence}**
+{t['recommended_resume_family']}
 
-## JD Signals Used
+## Summary Direction
 
-{md_list(terms)}
-## Promote These Themes
+{t['summary_direction']}
 
-{md_list(promote)}
-## De-Emphasize These Themes
+## Top Resume Themes
 
-{md_list(demote)}
-## Resume Story Recommendations
+{md_list(t['top_resume_themes'])}
 
-{md_list(story_map)}
-## Suggested Resume Strategy
+## Bullets To Emphasize
 
-### Opening Summary
+{md_list(t['bullets_to_emphasize'])}
 
-Emphasize the strongest overlap between the JD and your background. Lead with enterprise application support, business analysis, production readiness, release coordination, UAT, data validation, and domain-specific experience when relevant.
+## Bullets To Rewrite / Add
 
-### Most Recent Role
+{md_list(t['bullets_to_rewrite_or_add'])}
 
-Prioritize FRBNY/Gresham bullets that match the JD intelligence signals. Use the strongest 8-10 bullets rather than trying to cover every responsibility.
+## Keywords To Include
 
-### Older Experience
+{md_list(t['keywords_to_include'])}
 
-Compress older experience into sector or platform narratives unless the JD specifically asks for that domain.
+## Claims To Avoid
 
-## Notes
+{md_list(t['claims_to_avoid'])}
 
-This v0.4.6 output is a deterministic tailoring recommendation report. It does not rewrite the resume directly yet. It prepares the logic that a future resume generator can consume.
+## Cover Letter Angle
+
+{t['cover_letter_angle']}
+
+## Interview Story Focus
+
+{md_list(t['interview_story_focus'])}
+
+## Next Action
+
+{t['next_action']}
 """
-    md_path.write_text(md, encoding="utf-8")
-    json_path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
-    return md_path, json_path
 
-def main(argv):
-    if len(argv) < 3:
-        print("Usage: generate_resume_tailoring.py <run_id> <gap_analysis_dir> [jd_intelligence_dir] [roles_dir] [resumes_dir]", file=sys.stderr)
-        return 2
-    run_id = argv[1]
-    gap_dir = Path(argv[2])
-    intel_dir = Path(argv[3]) if len(argv) > 3 else Path("data/jd-intelligence")
-    roles_dir = Path(argv[4]) if len(argv) > 4 else Path("data/roles")
-    resumes_dir = Path(argv[5]) if len(argv) > 5 else Path("data/resume-versions/teal-export")
+def render_report(run_id: str, items: list[dict[str, Any]]) -> str:
+    lines = [
+        "---", "type: resume_tailoring_report", "status: draft", f"run_id: {run_id}",
+        "source: career-system", f"candidate_count: {len(items)}", "---", "",
+        f"# Resume Tailoring Report — {run_id}", "",
+        "## Summary", "", f"- Candidate count: **{len(items)}**",
+        "- Scoring model: deterministic v0.8.0",
+        "- Purpose: convert candidate explainability into role-specific resume tailoring guidance.",
+        "", "## Tailoring Index", "",
+        "| Rank | Score | Recommendation | Company | Role | Resume Family | Role Code |",
+        "|---:|---:|---|---|---|---|---|",
+    ]
+    for i, t in enumerate(items, 1):
+        lines.append(f"| {i} | {t['combined_strategy_score']} | {t['pursuit_recommendation']} | {t['company']} | {t['role']} | {t['recommended_resume_family']} | {t['role_code']} |")
+    lines += ["", "## How To Use This", "", "1. Start with top `pursue_first` roles.", "2. Use each file's Summary Direction and Bullets To Emphasize sections to tailor the resume.", "3. Use Claims To Avoid to prevent overstating experience.", "4. Use Cover Letter Angle and Interview Story Focus for application package prep."]
+    return "\n".join(lines) + "\n"
 
-    run_out = Path("ops/runs") / run_id / "output"
-    data_out = Path("data/resume-tailoring")
-    run_out.mkdir(parents=True, exist_ok=True)
-    data_out.mkdir(parents=True, exist_ok=True)
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--run-id", required=True)
+    ap.add_argument("--input-dir", required=True)
+    ap.add_argument("--output-dir", required=True)
+    args = ap.parse_args()
 
-    generated = []
-    for gap_path in sorted(gap_dir.glob("gap-*.md")):
-        md_path, json_path = generate_one(gap_path, intel_dir, roles_dir, resumes_dir, run_out, run_id)
-        generated.append(md_path.name)
-        for src in [md_path, json_path]:
-            (data_out / src.name).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
-        print(f"generated resume tailoring: {gap_path.name} -> {md_path.name}")
+    input_dir = Path(args.input_dir)
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    report = {"run_id": run_id, "count": len(generated), "generated": generated}
-    for folder in [run_out, data_out]:
-        (folder / f"resume-tailoring-report-{run_id}.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    items = []
+    for path in sorted(input_dir.glob("candidate-explainability-*.json")):
+        if path.name.startswith("candidate-explainability-report-"):
+            continue
+        tailoring = generate_tailoring(load_json(path))
+        items.append(tailoring)
+        slug = slugify(f"{tailoring['company']}-{tailoring['role_code']}-2026")
+        write_json(output_dir / f"resume-tailor-{slug}.json", tailoring)
+        (output_dir / f"resume-tailor-{slug}.md").write_text(render_one(args.run_id, tailoring), encoding="utf-8")
+        print(f"generated resume tailoring: {path.name} -> resume-tailor-{slug}.md")
 
-    print("Done.")
-    print(f"Run output: {run_out.resolve()}")
-    print(f"Resume tailoring copied to: {data_out.resolve()}")
+    items.sort(key=lambda x: (x["combined_strategy_score"], x["pursuit_recommendation"]), reverse=True)
+
+    report_base = f"resume-tailoring-report-{args.run_id}"
+    write_json(output_dir / f"{report_base}.json", {"type": "resume_tailoring_report", "run_id": args.run_id, "candidate_count": len(items), "items": items})
+    (output_dir / f"{report_base}.md").write_text(render_report(args.run_id, items), encoding="utf-8")
+    print(f"generated resume tailoring report: {report_base}.md")
     return 0
 
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv))
+    raise SystemExit(main())

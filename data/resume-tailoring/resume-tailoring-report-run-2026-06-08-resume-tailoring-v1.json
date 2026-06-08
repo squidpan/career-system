@@ -1,0 +1,1449 @@
+{
+  "type": "resume_tailoring_report",
+  "run_id": "run-2026-06-08-resume-tailoring-v1",
+  "candidate_count": 27,
+  "items": [
+    {
+      "company": "Barclays",
+      "role": "Application Support Analyst",
+      "role_code": "support-appsupport",
+      "pursuit_recommendation": "pursue_first",
+      "combined_strategy_score": 97,
+      "recommended_resume_family": "application-support / production-support",
+      "summary_direction": "Position Paul as a senior BA/application support professional with strong production support, release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience.",
+      "top_resume_themes": [
+        "Application and production support",
+        "Incident coordination and escalation",
+        "Release readiness and post-release validation",
+        "Runbooks and operational documentation",
+        "Linux / Oracle / AWS-connected enterprise systems",
+        "Financial services / regulated enterprise environment"
+      ],
+      "bullets_to_emphasize": [
+        "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+        "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+        "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+        "Executed release readiness testing, deployment validation, post-release health checks, and operational verification."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with application/production support before generic BA language.",
+        "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+        "Use production stability, operational readiness, and support documentation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "application support",
+        "production support",
+        "incident management",
+        "runbooks",
+        "release validation",
+        "ServiceNow",
+        "Linux",
+        "Oracle",
+        "financial services",
+        "regulated environment",
+        "risk",
+        "controls"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for Application Support Analyst at Barclays.",
+      "interview_story_focus": [
+        "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+        "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Barclays — Application Support Analyst."
+    },
+    {
+      "company": "Dow Jones",
+      "role": "AI Enablement Business Analyst, Senior",
+      "role_code": "ba-ai",
+      "pursuit_recommendation": "pursue_first",
+      "combined_strategy_score": 97,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination",
+        "AI-assisted business analysis and documentation workflow",
+        "Financial services / regulated enterprise environment"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language.",
+        "Add a carefully worded AI-assisted workflow bullet: used AI tools to structure JD analysis, documentation, and decision support; do not claim production AI engineering."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle",
+        "AI enablement",
+        "AI-assisted analysis",
+        "workflow automation",
+        "financial services",
+        "regulated environment",
+        "risk",
+        "controls"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used.",
+        "Do not claim AI engineering, model training, or production AI ownership; position AI as analysis/documentation/workflow enablement."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to AI Enablement Business Analyst, Senior at Dow Jones.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management.",
+        "Career System story: using AI as a structured assistant to normalize JDs, compare roles, generate notes, and improve job-search operations."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Dow Jones — AI Enablement Business Analyst, Senior."
+    },
+    {
+      "company": "Citi",
+      "role": "Application and Production Support Lead",
+      "role_code": "support-appsupport",
+      "pursuit_recommendation": "pursue_first",
+      "combined_strategy_score": 96,
+      "recommended_resume_family": "application-support / production-support",
+      "summary_direction": "Position Paul as a senior BA/application support professional with strong production support, release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience.",
+      "top_resume_themes": [
+        "Application and production support",
+        "Incident coordination and escalation",
+        "Release readiness and post-release validation",
+        "Runbooks and operational documentation",
+        "Linux / Oracle / AWS-connected enterprise systems",
+        "Financial services / regulated enterprise environment"
+      ],
+      "bullets_to_emphasize": [
+        "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+        "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+        "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+        "Executed release readiness testing, deployment validation, post-release health checks, and operational verification."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with application/production support before generic BA language.",
+        "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+        "Use production stability, operational readiness, and support documentation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "application support",
+        "production support",
+        "incident management",
+        "runbooks",
+        "release validation",
+        "ServiceNow",
+        "Linux",
+        "Oracle",
+        "financial services",
+        "regulated environment",
+        "risk",
+        "controls"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for Application and Production Support Lead at Citi.",
+      "interview_story_focus": [
+        "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+        "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Citi — Application and Production Support Lead."
+    },
+    {
+      "company": "Amtrak",
+      "role": "Lead Business Systems Analyst - Integrated Control Systems",
+      "role_code": "bsa",
+      "pursuit_recommendation": "pursue_first",
+      "combined_strategy_score": 95,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to Lead Business Systems Analyst - Integrated Control Systems at Amtrak.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Amtrak — Lead Business Systems Analyst - Integrated Control Systems."
+    },
+    {
+      "company": "Citi",
+      "role": "IT Business Senior Analyst",
+      "role_code": "ba-it",
+      "pursuit_recommendation": "pursue_first",
+      "combined_strategy_score": 95,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination",
+        "Financial services / regulated enterprise environment"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle",
+        "financial services",
+        "regulated environment",
+        "risk",
+        "controls"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to IT Business Senior Analyst at Citi.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Citi — IT Business Senior Analyst."
+    },
+    {
+      "company": "The Depository Trust & Clearing Corporation (DTCC)",
+      "role": "Lead Business Systems Analyst",
+      "role_code": "bsa",
+      "pursuit_recommendation": "pursue_first",
+      "combined_strategy_score": 95,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination",
+        "Financial services / regulated enterprise environment"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle",
+        "financial services",
+        "regulated environment",
+        "risk",
+        "controls"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to Lead Business Systems Analyst at The Depository Trust & Clearing Corporation (DTCC).",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for The Depository Trust & Clearing Corporation (DTCC) — Lead Business Systems Analyst."
+    },
+    {
+      "company": "FINBOURNE Technology",
+      "role": "Senior Application Support Analyst",
+      "role_code": "support-appsupport",
+      "pursuit_recommendation": "pursue_first",
+      "combined_strategy_score": 94,
+      "recommended_resume_family": "application-support / production-support",
+      "summary_direction": "Position Paul as a senior BA/application support professional with strong production support, release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience.",
+      "top_resume_themes": [
+        "Application and production support",
+        "Incident coordination and escalation",
+        "Release readiness and post-release validation",
+        "Runbooks and operational documentation",
+        "Linux / Oracle / AWS-connected enterprise systems",
+        "Financial services / regulated enterprise environment"
+      ],
+      "bullets_to_emphasize": [
+        "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+        "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+        "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+        "Executed release readiness testing, deployment validation, post-release health checks, and operational verification."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with application/production support before generic BA language.",
+        "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+        "Use production stability, operational readiness, and support documentation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "application support",
+        "production support",
+        "incident management",
+        "runbooks",
+        "release validation",
+        "ServiceNow",
+        "Linux",
+        "Oracle",
+        "financial services",
+        "regulated environment",
+        "risk",
+        "controls"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for Senior Application Support Analyst at FINBOURNE Technology.",
+      "interview_story_focus": [
+        "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+        "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for FINBOURNE Technology — Senior Application Support Analyst."
+    },
+    {
+      "company": "Atlas Search",
+      "role": "Business Analyst",
+      "role_code": "ba",
+      "pursuit_recommendation": "pursue_first",
+      "combined_strategy_score": 92,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to Business Analyst at Atlas Search.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Atlas Search — Business Analyst."
+    },
+    {
+      "company": "Premera Blue Cross",
+      "role": "Business Analyst III",
+      "role_code": "ba",
+      "pursuit_recommendation": "apply_this_week",
+      "combined_strategy_score": 91,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to Business Analyst III at Premera Blue Cross.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Premera Blue Cross — Business Analyst III."
+    },
+    {
+      "company": "Con Edison",
+      "role": "Senior Technical Analyst",
+      "role_code": "ba",
+      "pursuit_recommendation": "apply_this_week",
+      "combined_strategy_score": 89,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to Senior Technical Analyst at Con Edison.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Con Edison — Senior Technical Analyst."
+    },
+    {
+      "company": "Makai Labs",
+      "role": "Business Analyst",
+      "role_code": "ba-ai",
+      "pursuit_recommendation": "apply_this_week",
+      "combined_strategy_score": 89,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination",
+        "AI-assisted business analysis and documentation workflow"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language.",
+        "Add a carefully worded AI-assisted workflow bullet: used AI tools to structure JD analysis, documentation, and decision support; do not claim production AI engineering."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle",
+        "AI enablement",
+        "AI-assisted analysis",
+        "workflow automation"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used.",
+        "Do not claim AI engineering, model training, or production AI ownership; position AI as analysis/documentation/workflow enablement."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to Business Analyst at Makai Labs.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management.",
+        "Career System story: using AI as a structured assistant to normalize JDs, compare roles, generate notes, and improve job-search operations."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Makai Labs — Business Analyst."
+    },
+    {
+      "company": "New York Life",
+      "role": "Senior Associate - Technical Business Analyst",
+      "role_code": "sba",
+      "pursuit_recommendation": "apply_this_week",
+      "combined_strategy_score": 89,
+      "recommended_resume_family": "general BA / application-support",
+      "summary_direction": "Position Paul around BA, application support, requirements, UAT, production readiness, and enterprise systems.",
+      "top_resume_themes": [],
+      "bullets_to_emphasize": [
+        "Emphasize FRBNY BA/application support experience.",
+        "Emphasize enterprise systems, requirements, UAT, release readiness, and stakeholder communication."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Review role-specific keywords and adjust summary/top bullets manually."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with BA/application support fit for Senior Associate - Technical Business Analyst at New York Life.",
+      "interview_story_focus": [
+        "Use a concise enterprise application support / BA story grounded in FRBNY and prior consulting experience."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for New York Life — Senior Associate - Technical Business Analyst."
+    },
+    {
+      "company": "Pico",
+      "role": "Site Reliability Engineer",
+      "role_code": "sre",
+      "pursuit_recommendation": "apply_this_week",
+      "combined_strategy_score": 89,
+      "recommended_resume_family": "sre-adjacent production support",
+      "summary_direction": "Position Paul as SRE-adjacent: production support, Linux, monitoring/readiness, incident coordination, runbooks, and financial market data stability; avoid overstating deep platform engineering.",
+      "top_resume_themes": [
+        "Linux-based production support",
+        "Operational readiness and incident response",
+        "Monitoring and health checks",
+        "Market data / financial data stability",
+        "Runbook-driven support discipline"
+      ],
+      "bullets_to_emphasize": [
+        "Supported Linux-based enterprise financial applications requiring production readiness and operational validation.",
+        "Coordinated incident troubleshooting, health checks, escalation, and release validation across technical teams.",
+        "Supported market data / pricing systems where timeliness, data quality, and availability were business critical."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to say SRE-adjacent production support, not pure SRE.",
+        "Add one bullet connecting Linux, health checks, incident coordination, and market data stability.",
+        "Avoid implying direct ownership of Kubernetes/OpenShift platform engineering."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "Linux",
+        "monitoring",
+        "incident response",
+        "operational readiness",
+        "health checks",
+        "market data"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used.",
+        "Do not position as a deep infrastructure/SRE engineer; use SRE-adjacent production support framing."
+      ],
+      "cover_letter_angle": "Open with production support and market data stability, framing SRE fit as operational readiness, Linux support, monitoring awareness, and incident coordination for Pico.",
+      "interview_story_focus": [
+        "Linux/application operations story: supporting production systems, checking health, and coordinating incidents.",
+        "Market data stability story: timeliness, data quality, and escalation discipline."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Pico — Site Reliability Engineer."
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "role": "Business Analyst -Artificial Intelligence",
+      "role_code": "ba-ai",
+      "pursuit_recommendation": "apply_this_week",
+      "combined_strategy_score": 89,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination",
+        "AI-assisted business analysis and documentation workflow"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language.",
+        "Add a carefully worded AI-assisted workflow bullet: used AI tools to structure JD analysis, documentation, and decision support; do not claim production AI engineering."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle",
+        "AI enablement",
+        "AI-assisted analysis",
+        "workflow automation"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used.",
+        "Do not claim AI engineering, model training, or production AI ownership; position AI as analysis/documentation/workflow enablement."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to Business Analyst -Artificial Intelligence at Tata Consultancy Services.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management.",
+        "Career System story: using AI as a structured assistant to normalize JDs, compare roles, generate notes, and improve job-search operations."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Tata Consultancy Services — Business Analyst -Artificial Intelligence."
+    },
+    {
+      "company": "Cursor",
+      "role": "Support Operations Systems Lead",
+      "role_code": "support-ops-lead",
+      "pursuit_recommendation": "apply_this_week",
+      "combined_strategy_score": 88,
+      "recommended_resume_family": "application-support / production-support",
+      "summary_direction": "Position Paul as a senior BA/application support professional with strong production support, release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience.",
+      "top_resume_themes": [
+        "Application and production support",
+        "Incident coordination and escalation",
+        "Release readiness and post-release validation",
+        "Runbooks and operational documentation",
+        "Linux / Oracle / AWS-connected enterprise systems"
+      ],
+      "bullets_to_emphasize": [
+        "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+        "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+        "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+        "Executed release readiness testing, deployment validation, post-release health checks, and operational verification."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with application/production support before generic BA language.",
+        "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+        "Use production stability, operational readiness, and support documentation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "application support",
+        "production support",
+        "incident management",
+        "runbooks",
+        "release validation",
+        "ServiceNow",
+        "Linux",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for Support Operations Systems Lead at Cursor.",
+      "interview_story_focus": [
+        "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+        "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Cursor — Support Operations Systems Lead."
+    },
+    {
+      "company": "ICF",
+      "role": "IT Business Analyst",
+      "role_code": "ba-it",
+      "pursuit_recommendation": "apply_this_week",
+      "combined_strategy_score": 88,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to IT Business Analyst at ICF.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for ICF — IT Business Analyst."
+    },
+    {
+      "company": "Valon",
+      "role": "Product Operations Senior Associate",
+      "role_code": "ops",
+      "pursuit_recommendation": "apply_this_week",
+      "combined_strategy_score": 87,
+      "recommended_resume_family": "operations / application-support hybrid",
+      "summary_direction": "Position Paul as an operations/application-support hybrid with process discipline, data validation, stakeholder coordination, production readiness, and enterprise systems support.",
+      "top_resume_themes": [
+        "Operations support and process execution",
+        "Cross-functional coordination",
+        "Data quality and reporting",
+        "Workflow analysis",
+        "Operational readiness"
+      ],
+      "bullets_to_emphasize": [
+        "Coordinated operational readiness, validation, issue follow-up, and cross-functional execution across enterprise systems teams.",
+        "Supported reporting, workflow validation, data quality, and stakeholder communication for business and technology operations.",
+        "Used Excel/Power Query-style analysis and structured documentation to support operational decisions."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to bridge BA/application support into operations execution.",
+        "Add one bullet emphasizing process discipline, data validation, and cross-functional follow-through."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "operations",
+        "process improvement",
+        "workflow",
+        "reporting",
+        "cross-functional coordination"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with operations/support hybrid fit: workflow execution, data quality, operational readiness, and cross-functional coordination for Product Operations Senior Associate at Valon.",
+      "interview_story_focus": [
+        "Operational readiness story: process discipline, handoffs, validation, and issue follow-through.",
+        "Reporting/data story: Excel/Power Query, data quality, and operational decision support."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Valon — Product Operations Senior Associate."
+    },
+    {
+      "company": "NBCUniversal",
+      "role": "Associate AI Solutions & Programs Lead",
+      "role_code": "ops",
+      "pursuit_recommendation": "apply_selectively",
+      "combined_strategy_score": 85,
+      "recommended_resume_family": "operations / application-support hybrid",
+      "summary_direction": "Position Paul as an operations/application-support hybrid with process discipline, data validation, stakeholder coordination, production readiness, and enterprise systems support.",
+      "top_resume_themes": [
+        "Operations support and process execution",
+        "Cross-functional coordination",
+        "Data quality and reporting",
+        "Workflow analysis",
+        "Operational readiness",
+        "AI-assisted business analysis and documentation workflow"
+      ],
+      "bullets_to_emphasize": [
+        "Coordinated operational readiness, validation, issue follow-up, and cross-functional execution across enterprise systems teams.",
+        "Supported reporting, workflow validation, data quality, and stakeholder communication for business and technology operations.",
+        "Used Excel/Power Query-style analysis and structured documentation to support operational decisions."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to bridge BA/application support into operations execution.",
+        "Add one bullet emphasizing process discipline, data validation, and cross-functional follow-through.",
+        "Add a carefully worded AI-assisted workflow bullet: used AI tools to structure JD analysis, documentation, and decision support; do not claim production AI engineering."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "operations",
+        "process improvement",
+        "workflow",
+        "reporting",
+        "cross-functional coordination",
+        "AI enablement",
+        "AI-assisted analysis",
+        "workflow automation"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used.",
+        "Do not claim AI engineering, model training, or production AI ownership; position AI as analysis/documentation/workflow enablement."
+      ],
+      "cover_letter_angle": "Open with operations/support hybrid fit: workflow execution, data quality, operational readiness, and cross-functional coordination for Associate AI Solutions & Programs Lead at NBCUniversal.",
+      "interview_story_focus": [
+        "Operational readiness story: process discipline, handoffs, validation, and issue follow-through.",
+        "Reporting/data story: Excel/Power Query, data quality, and operational decision support.",
+        "Career System story: using AI as a structured assistant to normalize JDs, compare roles, generate notes, and improve job-search operations."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for NBCUniversal — Associate AI Solutions & Programs Lead."
+    },
+    {
+      "company": "Michael Baker International",
+      "role": "Software Requirements Analyst (GIS)",
+      "role_code": "ba-requirements",
+      "pursuit_recommendation": "apply_selectively",
+      "combined_strategy_score": 84,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination",
+        "Requirements and validation transferability for GIS/geospatial workflows"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language.",
+        "Add transferability language for GIS: requirements gathering, data validation, user workflows, and UAT for domain-specific applications."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle",
+        "GIS",
+        "geospatial",
+        "requirements validation",
+        "user workflows"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used.",
+        "Do not claim direct GIS development/administration unless supported elsewhere."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to Software Requirements Analyst (GIS) at Michael Baker International.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Michael Baker International — Software Requirements Analyst (GIS)."
+    },
+    {
+      "company": "Amtex Systems Inc",
+      "role": "Business Analyst / Project Manager with financial benchmark data Experience",
+      "role_code": "ba-pm",
+      "pursuit_recommendation": "apply_selectively",
+      "combined_strategy_score": 82,
+      "recommended_resume_family": "business analyst / business systems analyst",
+      "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+      "top_resume_themes": [
+        "Requirements analysis and stakeholder communication",
+        "Jira stories and acceptance criteria",
+        "UAT planning and business validation",
+        "Data validation and Oracle/API comparison",
+        "Enterprise modernization and SDLC coordination"
+      ],
+      "bullets_to_emphasize": [
+        "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+        "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+        "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+        "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+        "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+        "Use Jira, acceptance criteria, traceability, and business validation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "business analysis",
+        "Jira",
+        "user stories",
+        "acceptance criteria",
+        "SDLC",
+        "Agile",
+        "REST API",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to Business Analyst / Project Manager with financial benchmark data Experience at Amtex Systems Inc.",
+      "interview_story_focus": [
+        "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+        "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+        "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Amtex Systems Inc — Business Analyst / Project Manager with financial benchmark data Experience."
+    },
+    {
+      "company": "Payabli",
+      "role": "Operational Specialist",
+      "role_code": "ops",
+      "pursuit_recommendation": "apply_selectively",
+      "combined_strategy_score": 82,
+      "recommended_resume_family": "operations / application-support hybrid",
+      "summary_direction": "Position Paul as an operations/application-support hybrid with process discipline, data validation, stakeholder coordination, production readiness, and enterprise systems support.",
+      "top_resume_themes": [
+        "Operations support and process execution",
+        "Cross-functional coordination",
+        "Data quality and reporting",
+        "Workflow analysis",
+        "Operational readiness"
+      ],
+      "bullets_to_emphasize": [
+        "Coordinated operational readiness, validation, issue follow-up, and cross-functional execution across enterprise systems teams.",
+        "Supported reporting, workflow validation, data quality, and stakeholder communication for business and technology operations.",
+        "Used Excel/Power Query-style analysis and structured documentation to support operational decisions."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to bridge BA/application support into operations execution.",
+        "Add one bullet emphasizing process discipline, data validation, and cross-functional follow-through."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "operations",
+        "process improvement",
+        "workflow",
+        "reporting",
+        "cross-functional coordination"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with operations/support hybrid fit: workflow execution, data quality, operational readiness, and cross-functional coordination for Operational Specialist at Payabli.",
+      "interview_story_focus": [
+        "Operational readiness story: process discipline, handoffs, validation, and issue follow-through.",
+        "Reporting/data story: Excel/Power Query, data quality, and operational decision support."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Payabli — Operational Specialist."
+    },
+    {
+      "company": "AirOps",
+      "role": "Technical Support Lead",
+      "role_code": "support-appsupport",
+      "pursuit_recommendation": "network_or_research_first",
+      "combined_strategy_score": 78,
+      "recommended_resume_family": "application-support / production-support",
+      "summary_direction": "Position Paul as a senior BA/application support professional with strong production support, release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience.",
+      "top_resume_themes": [
+        "Application and production support",
+        "Incident coordination and escalation",
+        "Release readiness and post-release validation",
+        "Runbooks and operational documentation",
+        "Linux / Oracle / AWS-connected enterprise systems"
+      ],
+      "bullets_to_emphasize": [
+        "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+        "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+        "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+        "Executed release readiness testing, deployment validation, post-release health checks, and operational verification."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with application/production support before generic BA language.",
+        "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+        "Use production stability, operational readiness, and support documentation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "application support",
+        "production support",
+        "incident management",
+        "runbooks",
+        "release validation",
+        "ServiceNow",
+        "Linux",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for Technical Support Lead at AirOps.",
+      "interview_story_focus": [
+        "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+        "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for AirOps — Technical Support Lead."
+    },
+    {
+      "company": "Mercer Advisors",
+      "role": "Infrastructure Operations Specialist",
+      "role_code": "ops",
+      "pursuit_recommendation": "network_or_research_first",
+      "combined_strategy_score": 78,
+      "recommended_resume_family": "operations / application-support hybrid",
+      "summary_direction": "Position Paul as an operations/application-support hybrid with process discipline, data validation, stakeholder coordination, production readiness, and enterprise systems support.",
+      "top_resume_themes": [
+        "Operations support and process execution",
+        "Cross-functional coordination",
+        "Data quality and reporting",
+        "Workflow analysis",
+        "Operational readiness"
+      ],
+      "bullets_to_emphasize": [
+        "Coordinated operational readiness, validation, issue follow-up, and cross-functional execution across enterprise systems teams.",
+        "Supported reporting, workflow validation, data quality, and stakeholder communication for business and technology operations.",
+        "Used Excel/Power Query-style analysis and structured documentation to support operational decisions."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to bridge BA/application support into operations execution.",
+        "Add one bullet emphasizing process discipline, data validation, and cross-functional follow-through."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "operations",
+        "process improvement",
+        "workflow",
+        "reporting",
+        "cross-functional coordination"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with operations/support hybrid fit: workflow execution, data quality, operational readiness, and cross-functional coordination for Infrastructure Operations Specialist at Mercer Advisors.",
+      "interview_story_focus": [
+        "Operational readiness story: process discipline, handoffs, validation, and issue follow-through.",
+        "Reporting/data story: Excel/Power Query, data quality, and operational decision support."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Mercer Advisors — Infrastructure Operations Specialist."
+    },
+    {
+      "company": "InfoTrack US",
+      "role": "Technical Support Specialist",
+      "role_code": "support-appsupport",
+      "pursuit_recommendation": "network_or_research_first",
+      "combined_strategy_score": 77,
+      "recommended_resume_family": "application-support / production-support",
+      "summary_direction": "Position Paul as a senior BA/application support professional with strong production support, release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience.",
+      "top_resume_themes": [
+        "Application and production support",
+        "Incident coordination and escalation",
+        "Release readiness and post-release validation",
+        "Runbooks and operational documentation",
+        "Linux / Oracle / AWS-connected enterprise systems"
+      ],
+      "bullets_to_emphasize": [
+        "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+        "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+        "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+        "Executed release readiness testing, deployment validation, post-release health checks, and operational verification."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with application/production support before generic BA language.",
+        "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+        "Use production stability, operational readiness, and support documentation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "application support",
+        "production support",
+        "incident management",
+        "runbooks",
+        "release validation",
+        "ServiceNow",
+        "Linux",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for Technical Support Specialist at InfoTrack US.",
+      "interview_story_focus": [
+        "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+        "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for InfoTrack US — Technical Support Specialist."
+    },
+    {
+      "company": "WATG and Wimberly Interiors",
+      "role": "Senior IT Support Specialist",
+      "role_code": "support-appsupport",
+      "pursuit_recommendation": "network_or_research_first",
+      "combined_strategy_score": 76,
+      "recommended_resume_family": "application-support / production-support",
+      "summary_direction": "Position Paul as a senior BA/application support professional with strong production support, release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience.",
+      "top_resume_themes": [
+        "Application and production support",
+        "Incident coordination and escalation",
+        "Release readiness and post-release validation",
+        "Runbooks and operational documentation",
+        "Linux / Oracle / AWS-connected enterprise systems"
+      ],
+      "bullets_to_emphasize": [
+        "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+        "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+        "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+        "Executed release readiness testing, deployment validation, post-release health checks, and operational verification."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with application/production support before generic BA language.",
+        "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+        "Use production stability, operational readiness, and support documentation language."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "application support",
+        "production support",
+        "incident management",
+        "runbooks",
+        "release validation",
+        "ServiceNow",
+        "Linux",
+        "Oracle"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for Senior IT Support Specialist at WATG and Wimberly Interiors.",
+      "interview_story_focus": [
+        "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+        "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for WATG and Wimberly Interiors — Senior IT Support Specialist."
+    },
+    {
+      "company": "Grapevine Technologies Inc",
+      "role": "Sr. Operations Analyst",
+      "role_code": "ops",
+      "pursuit_recommendation": "network_or_research_first",
+      "combined_strategy_score": 75,
+      "recommended_resume_family": "operations / application-support hybrid",
+      "summary_direction": "Position Paul as an operations/application-support hybrid with process discipline, data validation, stakeholder coordination, production readiness, and enterprise systems support.",
+      "top_resume_themes": [
+        "Operations support and process execution",
+        "Cross-functional coordination",
+        "Data quality and reporting",
+        "Workflow analysis",
+        "Operational readiness"
+      ],
+      "bullets_to_emphasize": [
+        "Coordinated operational readiness, validation, issue follow-up, and cross-functional execution across enterprise systems teams.",
+        "Supported reporting, workflow validation, data quality, and stakeholder communication for business and technology operations.",
+        "Used Excel/Power Query-style analysis and structured documentation to support operational decisions."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to bridge BA/application support into operations execution.",
+        "Add one bullet emphasizing process discipline, data validation, and cross-functional follow-through."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "operations",
+        "process improvement",
+        "workflow",
+        "reporting",
+        "cross-functional coordination"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used."
+      ],
+      "cover_letter_angle": "Open with operations/support hybrid fit: workflow execution, data quality, operational readiness, and cross-functional coordination for Sr. Operations Analyst at Grapevine Technologies Inc.",
+      "interview_story_focus": [
+        "Operational readiness story: process discipline, handoffs, validation, and issue follow-through.",
+        "Reporting/data story: Excel/Power Query, data quality, and operational decision support."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for Grapevine Technologies Inc — Sr. Operations Analyst."
+    },
+    {
+      "company": "VNS Health",
+      "role": "Enterprise Applications Analyst (Workday & Enterprise Systems)",
+      "role_code": "support-workday",
+      "pursuit_recommendation": "network_or_research_first",
+      "combined_strategy_score": 75,
+      "recommended_resume_family": "application-support / production-support",
+      "summary_direction": "Position Paul as a senior BA/application support professional with strong production support, release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience.",
+      "top_resume_themes": [
+        "Application and production support",
+        "Incident coordination and escalation",
+        "Release readiness and post-release validation",
+        "Runbooks and operational documentation",
+        "Linux / Oracle / AWS-connected enterprise systems",
+        "Enterprise application workflow support / Workday transferability"
+      ],
+      "bullets_to_emphasize": [
+        "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+        "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+        "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+        "Executed release readiness testing, deployment validation, post-release health checks, and operational verification."
+      ],
+      "bullets_to_rewrite_or_add": [
+        "Rewrite summary to lead with application/production support before generic BA language.",
+        "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+        "Use production stability, operational readiness, and support documentation language.",
+        "Add transferability language for Workday: enterprise application support, workflow analysis, UAT, and rapid platform ramp-up."
+      ],
+      "keywords_to_include": [
+        "requirements",
+        "UAT",
+        "stakeholder communication",
+        "documentation",
+        "data validation",
+        "application support",
+        "production support",
+        "incident management",
+        "runbooks",
+        "release validation",
+        "ServiceNow",
+        "Linux",
+        "Oracle",
+        "Workday",
+        "HRIS",
+        "enterprise applications",
+        "workflow support"
+      ],
+      "claims_to_avoid": [
+        "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+        "Do not claim direct ownership of tools/platforms not actually used.",
+        "Do not claim direct Workday administration if experience is transferable rather than hands-on."
+      ],
+      "cover_letter_angle": "Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for Enterprise Applications Analyst (Workday & Enterprise Systems) at VNS Health.",
+      "interview_story_focus": [
+        "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+        "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+      ],
+      "next_action": "Use this tailoring guidance to update the resume for VNS Health — Enterprise Applications Analyst (Workday & Enterprise Systems)."
+    }
+  ]
+}

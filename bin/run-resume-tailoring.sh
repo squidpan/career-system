@@ -1,18 +1,24 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ $# -lt 2 ]]; then
-  echo "Usage: $0 <run_id> <gap_analysis_dir> [jd_intelligence_dir] [roles_dir] [resumes_dir]" >&2
-  exit 2
-fi
+RUN_ID="${1:?run id required}"
+INPUT_DIR="${2:?input dir required}"
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-cd "$ROOT_DIR"
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+OUT_DIR="$REPO_ROOT/ops/runs/$RUN_ID/output/resume-tailoring"
+DATA_DIR="$REPO_ROOT/data/resume-tailoring"
 
-RUN_ID="$1"
-GAP_DIR="$2"
-JD_INTEL_DIR="${3:-data/jd-intelligence}"
-ROLES_DIR="${4:-data/roles}"
-RESUMES_DIR="${5:-data/resume-versions/teal-export}"
+mkdir -p "$OUT_DIR"
 
-python3 scripts/generate_resume_tailoring.py "$RUN_ID" "$GAP_DIR" "$JD_INTEL_DIR" "$ROLES_DIR" "$RESUMES_DIR"
+python3 "$REPO_ROOT/scripts/generate_resume_tailoring.py" \
+  --run-id "$RUN_ID" \
+  --input-dir "$REPO_ROOT/$INPUT_DIR" \
+  --output-dir "$OUT_DIR"
+
+rm -rf "$DATA_DIR"
+mkdir -p "$DATA_DIR"
+cp -R "$OUT_DIR"/* "$DATA_DIR"/
+
+echo "Done."
+echo "Run output: $OUT_DIR"
+echo "Resume tailoring copied to: $DATA_DIR"

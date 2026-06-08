@@ -1,0 +1,50 @@
+{
+  "company": "Pico",
+  "role": "Site Reliability Engineer",
+  "role_code": "sre",
+  "pursuit_recommendation": "apply_this_week",
+  "combined_strategy_score": 89,
+  "recommended_resume_family": "sre-adjacent production support",
+  "summary_direction": "Position Paul as SRE-adjacent: production support, Linux, monitoring/readiness, incident coordination, runbooks, and financial market data stability; avoid overstating deep platform engineering.",
+  "top_resume_themes": [
+    "Linux-based production support",
+    "Operational readiness and incident response",
+    "Monitoring and health checks",
+    "Market data / financial data stability",
+    "Runbook-driven support discipline"
+  ],
+  "bullets_to_emphasize": [
+    "Supported Linux-based enterprise financial applications requiring production readiness and operational validation.",
+    "Coordinated incident troubleshooting, health checks, escalation, and release validation across technical teams.",
+    "Supported market data / pricing systems where timeliness, data quality, and availability were business critical."
+  ],
+  "bullets_to_rewrite_or_add": [
+    "Rewrite summary to say SRE-adjacent production support, not pure SRE.",
+    "Add one bullet connecting Linux, health checks, incident coordination, and market data stability.",
+    "Avoid implying direct ownership of Kubernetes/OpenShift platform engineering."
+  ],
+  "keywords_to_include": [
+    "requirements",
+    "UAT",
+    "stakeholder communication",
+    "documentation",
+    "data validation",
+    "Linux",
+    "monitoring",
+    "incident response",
+    "operational readiness",
+    "health checks",
+    "market data"
+  ],
+  "claims_to_avoid": [
+    "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+    "Do not claim direct ownership of tools/platforms not actually used.",
+    "Do not position as a deep infrastructure/SRE engineer; use SRE-adjacent production support framing."
+  ],
+  "cover_letter_angle": "Open with production support and market data stability, framing SRE fit as operational readiness, Linux support, monitoring awareness, and incident coordination for Pico.",
+  "interview_story_focus": [
+    "Linux/application operations story: supporting production systems, checking health, and coordinating incidents.",
+    "Market data stability story: timeliness, data quality, and escalation discipline."
+  ],
+  "next_action": "Use this tailoring guidance to update the resume for Pico — Site Reliability Engineer."
+}

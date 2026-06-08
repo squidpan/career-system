@@ -1,0 +1,52 @@
+{
+  "company": "Cursor",
+  "role": "Support Operations Systems Lead",
+  "role_code": "support-ops-lead",
+  "pursuit_recommendation": "apply_this_week",
+  "combined_strategy_score": 88,
+  "recommended_resume_family": "application-support / production-support",
+  "summary_direction": "Position Paul as a senior BA/application support professional with strong production support, release validation, incident coordination, runbook, Linux, Oracle, and financial enterprise systems experience.",
+  "top_resume_themes": [
+    "Application and production support",
+    "Incident coordination and escalation",
+    "Release readiness and post-release validation",
+    "Runbooks and operational documentation",
+    "Linux / Oracle / AWS-connected enterprise systems"
+  ],
+  "bullets_to_emphasize": [
+    "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+    "Coordinated production incident troubleshooting through log review, environment validation, data validation, escalation, and cross-team issue resolution.",
+    "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation.",
+    "Executed release readiness testing, deployment validation, post-release health checks, and operational verification."
+  ],
+  "bullets_to_rewrite_or_add": [
+    "Rewrite summary to lead with application/production support before generic BA language.",
+    "Add one bullet explicitly connecting runbooks, incident coordination, and release validation.",
+    "Use production stability, operational readiness, and support documentation language."
+  ],
+  "keywords_to_include": [
+    "requirements",
+    "UAT",
+    "stakeholder communication",
+    "documentation",
+    "data validation",
+    "application support",
+    "production support",
+    "incident management",
+    "runbooks",
+    "release validation",
+    "ServiceNow",
+    "Linux",
+    "Oracle"
+  ],
+  "claims_to_avoid": [
+    "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+    "Do not claim direct ownership of tools/platforms not actually used."
+  ],
+  "cover_letter_angle": "Open with production/application support fit: FRBNY financial systems, incident coordination, release readiness, and runbook-driven operational stability for Support Operations Systems Lead at Cursor.",
+  "interview_story_focus": [
+    "FRBNY production support story: issue detection, log/data validation, escalation, communication, and closure.",
+    "Release readiness story: runbook, deployment validation, post-release health checks, rollback/DR awareness."
+  ],
+  "next_action": "Use this tailoring guidance to update the resume for Cursor — Support Operations Systems Lead."
+}

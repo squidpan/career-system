@@ -1,30 +1,41 @@
----
-type: resume_tailoring
-status: draft
-run_id:
-source: career-system
-company:
-title:
-role_code:
-confidence_score:
-gap_file:
-jd_intelligence_file:
-role_file:
-resume_file:
----
+# Resume Tailoring — {company} — {role}
 
-# Resume Tailoring — {{ company }} — {{ title }}
+## Recommended Resume Family
 
-## Summary
+{resume_family}
 
-## JD Signals Used
+## Summary Direction
 
-## Promote These Themes
+{summary_direction}
 
-## De-Emphasize These Themes
+## Top Resume Themes
 
-## Resume Story Recommendations
+{themes_md}
 
-## Suggested Resume Strategy
+## Bullets To Emphasize
 
-## Notes
+{bullets_emphasize_md}
+
+## Bullets To Rewrite / Add
+
+{bullets_rewrite_md}
+
+## Keywords To Include
+
+{keywords_include_md}
+
+## Claims To Avoid
+
+{claims_avoid_md}
+
+## Cover Letter Angle
+
+{cover_letter_angle}
+
+## Interview Story Focus
+
+{interview_story_focus_md}
+
+## Next Action
+
+{next_action}

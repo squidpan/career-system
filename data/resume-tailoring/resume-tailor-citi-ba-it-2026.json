@@ -1,0 +1,58 @@
+{
+  "company": "Citi",
+  "role": "IT Business Senior Analyst",
+  "role_code": "ba-it",
+  "pursuit_recommendation": "pursue_first",
+  "combined_strategy_score": 95,
+  "recommended_resume_family": "business analyst / business systems analyst",
+  "summary_direction": "Position Paul as a senior BA/BSA with enterprise modernization, requirements, UAT, data validation, Jira/acceptance criteria, stakeholder management, and FRBNY financial systems experience.",
+  "top_resume_themes": [
+    "Requirements analysis and stakeholder communication",
+    "Jira stories and acceptance criteria",
+    "UAT planning and business validation",
+    "Data validation and Oracle/API comparison",
+    "Enterprise modernization and SDLC coordination",
+    "Financial services / regulated enterprise environment"
+  ],
+  "bullets_to_emphasize": [
+    "Collaborated with Product Owners and Scrum Masters to decompose epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+    "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+    "Coordinated UAT planning, test data setup, defect tracking, workflow validation, and business signoff readiness.",
+    "Produced requirements, validation checklists, implementation notes, operational documentation, and stakeholder-facing support materials."
+  ],
+  "bullets_to_rewrite_or_add": [
+    "Rewrite summary to lead with requirements, UAT, stakeholder management, and enterprise modernization.",
+    "Add one bullet connecting Oracle/API validation to business acceptance and migration confidence.",
+    "Use Jira, acceptance criteria, traceability, and business validation language."
+  ],
+  "keywords_to_include": [
+    "requirements",
+    "UAT",
+    "stakeholder communication",
+    "documentation",
+    "data validation",
+    "business analysis",
+    "Jira",
+    "user stories",
+    "acceptance criteria",
+    "SDLC",
+    "Agile",
+    "REST API",
+    "Oracle",
+    "financial services",
+    "regulated environment",
+    "risk",
+    "controls"
+  ],
+  "claims_to_avoid": [
+    "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+    "Do not claim direct ownership of tools/platforms not actually used."
+  ],
+  "cover_letter_angle": "Open with BA/BSA fit: requirements, UAT, data validation, enterprise modernization, and stakeholder communication relevant to IT Business Senior Analyst at Citi.",
+  "interview_story_focus": [
+    "Modernization BA story: legacy/on-prem to AWS-connected services, requirements, testing, and business validation.",
+    "REST API/Oracle validation story: comparing API payloads to source data and supporting migration confidence.",
+    "Stakeholder story: translating business needs across DevOps, QA, operations, and management."
+  ],
+  "next_action": "Use this tailoring guidance to update the resume for Citi — IT Business Senior Analyst."
+}

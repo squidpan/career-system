@@ -1,0 +1,279 @@
+{
+  "source_id": "mrprice",
+  "source_release": "v0.4.1",
+  "source_repository": "mrprice-experience-intelligence",
+  "source_branch": "main",
+
+  "index_type": "resume_evidence_metadata",
+  "content_policy": "metadata_only",
+  "evidence_count": 8,
+
+  "evidence": [
+    {
+      "evidence_id": "mrprice_market_data_platform_support",
+      "asset_id": "mrprice_resume_evidence",
+      "title": "Market Data Platform Support",
+      "summary": "Experience supporting a Central Bank fixed-income market-data pricing platform that normalized, validated, consolidated, and distributed pricing data from multiple vendor feeds.",
+      "skill_ids": [
+        "market_data_platforms",
+        "vendor_normalization",
+        "tick_consolidation",
+        "production_support"
+      ],
+      "resume_families": [
+        "application_support",
+        "production_support",
+        "market_data_support"
+      ],
+      "role_families": [
+        "support",
+        "market_data",
+        "operations"
+      ],
+      "jd_keywords": [
+        "market data",
+        "fixed income",
+        "pricing",
+        "vendor feeds",
+        "production support",
+        "application support"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md",
+      "priority": "critical",
+      "status": "active"
+    },
+
+    {
+      "evidence_id": "mrprice_tick_consolidation_data_quality",
+      "asset_id": "mrprice_resume_evidence",
+      "title": "Tick Consolidation and Data Quality",
+      "summary": "Experience supporting pricing-data quality processes including vendor tick validation, CUSIP alignment, exception review, and consolidated price distribution.",
+      "skill_ids": [
+        "tick_consolidation",
+        "data_quality_validation",
+        "vendor_normalization"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "application_support",
+        "market_data_support"
+      ],
+      "role_families": [
+        "ba",
+        "support",
+        "market_data"
+      ],
+      "jd_keywords": [
+        "data quality",
+        "data validation",
+        "data reconciliation",
+        "CUSIP",
+        "pricing",
+        "root cause analysis"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md",
+      "priority": "high",
+      "status": "active"
+    },
+
+    {
+      "evidence_id": "mrprice_oracle_distribution_consumer_views",
+      "asset_id": "mrprice_resume_evidence",
+      "title": "Oracle Distribution and Consumer Views",
+      "summary": "Experience supporting Oracle-based pricing distribution using master and consumer-specific views that enabled downstream systems to consume validated Treasury pricing data.",
+      "skill_ids": [
+        "oracle_distribution",
+        "data_quality_validation",
+        "rest_api_validation"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "business_systems_analyst",
+        "technical_ba"
+      ],
+      "role_families": [
+        "ba",
+        "bsa",
+        "technical_ba"
+      ],
+      "jd_keywords": [
+        "oracle",
+        "sql",
+        "data access",
+        "views",
+        "data mapping",
+        "consumer requirements"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md",
+      "priority": "high",
+      "status": "active"
+    },
+
+    {
+      "evidence_id": "mrprice_technical_refresh",
+      "asset_id": "mrprice_resume_evidence",
+      "title": "Technical Refresh",
+      "summary": "Experience supporting technical refresh work that reduced custom code, leveraged ACPlus out-of-box functionality, and redesigned legacy shell-based data-load processes.",
+      "skill_ids": [
+        "technical_refresh",
+        "production_support"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "technical_ba",
+        "application_support"
+      ],
+      "role_families": [
+        "ba",
+        "technical_ba",
+        "support"
+      ],
+      "jd_keywords": [
+        "modernization",
+        "technical refresh",
+        "platform migration",
+        "legacy systems",
+        "process improvement",
+        "maintainability"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md",
+      "priority": "critical",
+      "status": "active"
+    },
+
+    {
+      "evidence_id": "mrprice_cloud_migration_oracle_to_rest",
+      "asset_id": "mrprice_resume_evidence",
+      "title": "Cloud Migration and Oracle-to-REST Transition",
+      "summary": "Experience supporting cloud migration and modernization work moving pricing distribution from Oracle consumer views toward REST API payloads and service-based access.",
+      "skill_ids": [
+        "cloud_migration",
+        "rest_api_validation",
+        "oracle_distribution"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "technical_ba",
+        "cloud_migration"
+      ],
+      "role_families": [
+        "ba",
+        "technical_ba",
+        "cloud"
+      ],
+      "jd_keywords": [
+        "cloud migration",
+        "rest api",
+        "api validation",
+        "service-oriented architecture",
+        "oracle",
+        "modernization"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md",
+      "priority": "critical",
+      "status": "active"
+    },
+
+    {
+      "evidence_id": "mrprice_production_support_operations",
+      "asset_id": "mrprice_resume_evidence",
+      "title": "Production Support and Operations",
+      "summary": "Experience providing production support for a Linux/Oracle market-data platform, including feed monitoring, data validation, incident investigation, operational checks, and cross-team escalation.",
+      "skill_ids": [
+        "production_support",
+        "data_quality_validation",
+        "market_data_platforms"
+      ],
+      "resume_families": [
+        "application_support",
+        "production_support",
+        "operations"
+      ],
+      "role_families": [
+        "support",
+        "operations",
+        "market_data"
+      ],
+      "jd_keywords": [
+        "production support",
+        "application support",
+        "incident management",
+        "monitoring",
+        "linux",
+        "oracle",
+        "troubleshooting"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md",
+      "priority": "critical",
+      "status": "active"
+    },
+
+    {
+      "evidence_id": "mrprice_governance_four_eyes_controls",
+      "asset_id": "mrprice_resume_evidence",
+      "title": "Governance and Four-Eyes Controls",
+      "summary": "Experience supporting controlled price-cleansing workflows using four-eyes review, exception queues, and audit-ready approval processes to maintain pricing integrity.",
+      "skill_ids": [
+        "four_eyes_governance",
+        "data_quality_validation"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "application_support",
+        "production_support"
+      ],
+      "role_families": [
+        "ba",
+        "support",
+        "governance"
+      ],
+      "jd_keywords": [
+        "governance",
+        "controls",
+        "audit",
+        "approval workflow",
+        "data quality",
+        "risk"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md",
+      "priority": "high",
+      "status": "active"
+    },
+
+    {
+      "evidence_id": "mrprice_best_reusable_summary",
+      "asset_id": "mrprice_resume_evidence",
+      "title": "Best Reusable MRPrice Summary",
+      "summary": "High-level MRPrice positioning for resumes and cover letters covering technical refresh, production support, Oracle distribution, data validation, and cloud migration.",
+      "skill_ids": [
+        "market_data_platforms",
+        "technical_refresh",
+        "cloud_migration",
+        "production_support",
+        "rest_api_validation"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "application_support",
+        "production_support",
+        "technical_ba"
+      ],
+      "role_families": [
+        "ba",
+        "support",
+        "technical_ba"
+      ],
+      "jd_keywords": [
+        "business analyst",
+        "application support",
+        "production support",
+        "technical modernization",
+        "cloud migration",
+        "data validation"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md",
+      "priority": "critical",
+      "status": "active"
+    }
+  ]
+}

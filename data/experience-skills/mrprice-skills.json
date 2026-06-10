@@ -1,0 +1,165 @@
+{
+"source_id": "mrprice",
+"source_release": "v0.4.1",
+
+"skill_count": 10,
+
+"skills": [
+
+```
+{
+  "skill_id": "market_data_platforms",
+  "name": "Market Data Platforms",
+  "category": "domain",
+  "asset_ids": [
+    "mrprice_vendor_ecosystem",
+    "mrprice_tick_consolidation"
+  ],
+  "jd_keywords": [
+    "market data",
+    "pricing",
+    "fixed income",
+    "vendor feeds"
+  ]
+},
+
+{
+  "skill_id": "vendor_normalization",
+  "name": "Vendor Normalization",
+  "category": "data_integration",
+  "asset_ids": [
+    "mrprice_vendor_normalization"
+  ],
+  "jd_keywords": [
+    "data mapping",
+    "normalization",
+    "transformation",
+    "integration"
+  ]
+},
+
+{
+  "skill_id": "tick_consolidation",
+  "name": "Tick Consolidation",
+  "category": "data_quality",
+  "asset_ids": [
+    "mrprice_tick_consolidation"
+  ],
+  "jd_keywords": [
+    "consolidation",
+    "pricing",
+    "market data",
+    "data quality"
+  ]
+},
+
+{
+  "skill_id": "data_quality_validation",
+  "name": "Data Quality Validation",
+  "category": "quality",
+  "asset_ids": [
+    "mrprice_validation_workflow"
+  ],
+  "jd_keywords": [
+    "data quality",
+    "validation",
+    "exception handling",
+    "root cause analysis"
+  ]
+},
+
+{
+  "skill_id": "oracle_distribution",
+  "name": "Oracle Distribution",
+  "category": "database",
+  "asset_ids": [
+    "mrprice_modernization_journey"
+  ],
+  "jd_keywords": [
+    "oracle",
+    "sql",
+    "database",
+    "data access"
+  ]
+},
+
+{
+  "skill_id": "production_support",
+  "name": "Production Support",
+  "category": "operations",
+  "asset_ids": [
+    "mrprice_stp_batch",
+    "mrprice_validation_workflow"
+  ],
+  "jd_keywords": [
+    "production support",
+    "incident management",
+    "monitoring",
+    "troubleshooting"
+  ]
+},
+
+{
+  "skill_id": "technical_refresh",
+  "name": "Technical Refresh",
+  "category": "modernization",
+  "asset_ids": [
+    "mrprice_modernization_journey"
+  ],
+  "jd_keywords": [
+    "modernization",
+    "technical refresh",
+    "platform migration"
+  ]
+},
+
+{
+  "skill_id": "cloud_migration",
+  "name": "Cloud Migration",
+  "category": "cloud",
+  "asset_ids": [
+    "mrprice_modernization_journey"
+  ],
+  "jd_keywords": [
+    "cloud migration",
+    "aws",
+    "modernization",
+    "migration"
+  ]
+},
+
+{
+  "skill_id": "rest_api_validation",
+  "name": "REST API Validation",
+  "category": "integration",
+  "asset_ids": [
+    "mrprice_modernization_journey"
+  ],
+  "jd_keywords": [
+    "rest api",
+    "api testing",
+    "api validation",
+    "service integration"
+  ]
+},
+
+{
+  "skill_id": "four_eyes_governance",
+  "name": "Four Eyes Governance",
+  "category": "governance",
+  "asset_ids": [
+    "mrprice_four_eyes",
+    "mrprice_validation_workflow"
+  ],
+  "jd_keywords": [
+    "governance",
+    "controls",
+    "audit",
+    "approval workflow"
+  ]
+}
+```
+
+]
+}
+

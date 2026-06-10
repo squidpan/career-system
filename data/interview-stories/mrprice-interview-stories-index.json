@@ -1,0 +1,167 @@
+{
+  "source_id": "mrprice",
+  "source_release": "v0.4.1",
+  "source_repository": "mrprice-experience-intelligence",
+  "source_branch": "main",
+
+  "index_type": "interview_story_metadata",
+  "content_policy": "metadata_only",
+  "story_count": 4,
+
+  "stories": [
+    {
+      "story_id": "mrprice_story_technical_refresh",
+      "asset_id": "mrprice_star_stories",
+      "title": "Technical Refresh Modernization",
+      "story_type": "technical_refresh",
+      "summary": "Supported a multi-year Technical Refresh initiative focused on reducing custom code, adopting ACPlus out-of-box functionality, improving maintainability, and redesigning legacy shell-based processing.",
+      "skill_ids": [
+        "technical_refresh",
+        "production_support"
+      ],
+      "role_families": [
+        "business_analyst",
+        "business_systems_analyst",
+        "technical_ba",
+        "application_support"
+      ],
+      "jd_keywords": [
+        "technical refresh",
+        "modernization",
+        "legacy systems",
+        "platform migration",
+        "process improvement",
+        "stakeholder coordination",
+        "maintainability"
+      ],
+      "interview_themes": [
+        "modernization",
+        "business analysis",
+        "platform transformation",
+        "stakeholder coordination",
+        "technical refresh"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md",
+      "priority": "critical",
+      "status": "active"
+    },
+
+    {
+      "story_id": "mrprice_story_cloud_migration",
+      "asset_id": "mrprice_star_stories",
+      "title": "Cloud Migration Preparation",
+      "story_type": "cloud_migration",
+      "summary": "Supported migration planning and validation work as the platform evolved from Oracle-based consumer views toward service-oriented REST API access.",
+      "skill_ids": [
+        "cloud_migration",
+        "rest_api_validation",
+        "oracle_distribution"
+      ],
+      "role_families": [
+        "business_analyst",
+        "business_systems_analyst",
+        "technical_ba",
+        "cloud_migration"
+      ],
+      "jd_keywords": [
+        "cloud migration",
+        "rest api",
+        "api validation",
+        "service-oriented architecture",
+        "oracle",
+        "data mapping",
+        "consumer readiness",
+        "modernization"
+      ],
+      "interview_themes": [
+        "cloud migration",
+        "REST APIs",
+        "data mapping",
+        "modernization",
+        "business analysis"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md",
+      "priority": "critical",
+      "status": "active"
+    },
+
+    {
+      "story_id": "mrprice_story_pricing_validation_data_quality",
+      "asset_id": "mrprice_star_stories",
+      "title": "Pricing Validation and Data Quality",
+      "story_type": "data_quality",
+      "summary": "Supported pricing validation processes involving missing ticks, stale prices, bid/ask spread exceptions, unusual price movements, and benchmark-validation workflows.",
+      "skill_ids": [
+        "data_quality_validation",
+        "tick_consolidation",
+        "four_eyes_governance"
+      ],
+      "role_families": [
+        "business_analyst",
+        "application_support",
+        "production_support",
+        "market_data_support"
+      ],
+      "jd_keywords": [
+        "data quality",
+        "data validation",
+        "exception handling",
+        "pricing",
+        "root cause analysis",
+        "governance",
+        "controls",
+        "audit"
+      ],
+      "interview_themes": [
+        "data quality",
+        "root cause analysis",
+        "production support",
+        "market data",
+        "problem solving"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md",
+      "priority": "critical",
+      "status": "active"
+    },
+
+    {
+      "story_id": "mrprice_story_production_support_market_data_operations",
+      "asset_id": "mrprice_star_stories",
+      "title": "Production Support and Market Data Operations",
+      "story_type": "production_support",
+      "summary": "Supported mission-critical market-data operations involving vendor feeds, pricing updates, validation processes, Oracle/Linux troubleshooting, and downstream consumer support.",
+      "skill_ids": [
+        "production_support",
+        "market_data_platforms",
+        "data_quality_validation"
+      ],
+      "role_families": [
+        "application_support",
+        "production_support",
+        "market_data_support",
+        "operations"
+      ],
+      "jd_keywords": [
+        "production support",
+        "application support",
+        "incident management",
+        "monitoring",
+        "troubleshooting",
+        "linux",
+        "oracle",
+        "market data",
+        "vendor feeds"
+      ],
+      "interview_themes": [
+        "application support",
+        "production support",
+        "incident management",
+        "market data operations",
+        "troubleshooting"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md",
+      "priority": "critical",
+      "status": "active"
+    }
+  ]
+}

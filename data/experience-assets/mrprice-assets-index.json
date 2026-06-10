@@ -1,0 +1,145 @@
+{
+  "source_id": "mrprice",
+  "source_name": "MRPrice Experience Intelligence",
+  "source_release": "v0.4.1",
+  "source_status": "active",
+
+  "asset_count": 18,
+
+  "assets": [
+
+    {
+      "asset_id": "mrprice_vendor_ecosystem",
+      "asset_type": "deep_architecture_note",
+      "title": "MRPRICE_VENDOR_ECOSYSTEM",
+      "path": "References/mrprice/deep-architecture/MRPRICE_VENDOR_ECOSYSTEM.md",
+      "domains": ["market-data"],
+      "role_families": ["market_data_support", "application_support"],
+      "priority": "high"
+    },
+
+    {
+      "asset_id": "mrprice_vendor_normalization",
+      "asset_type": "deep_architecture_note",
+      "title": "MRPRICE_VENDOR_NORMALIZATION",
+      "path": "References/mrprice/deep-architecture/MRPRICE_VENDOR_NORMALIZATION.md",
+      "domains": ["data-quality", "data-integration"],
+      "role_families": ["business_analyst", "market_data_support"],
+      "priority": "high"
+    },
+
+    {
+      "asset_id": "mrprice_tick_consolidation",
+      "asset_type": "deep_architecture_note",
+      "title": "MRPRICE_TICK_CONSOLIDATION_ENGINE",
+      "path": "References/mrprice/deep-architecture/MRPRICE_TICK_CONSOLIDATION_ENGINE.md",
+      "domains": ["market-data", "data-quality"],
+      "role_families": ["market_data_support", "production_support"],
+      "priority": "high"
+    },
+
+    {
+      "asset_id": "mrprice_validation_workflow",
+      "asset_type": "deep_architecture_note",
+      "title": "MRPRICE_BENCHMARK_VALIDATION_WORKFLOW",
+      "path": "References/mrprice/deep-architecture/MRPRICE_BENCHMARK_VALIDATION_WORKFLOW.md",
+      "domains": ["data-quality", "governance"],
+      "role_families": ["application_support", "production_support"],
+      "priority": "high"
+    },
+
+    {
+      "asset_id": "mrprice_four_eyes",
+      "asset_type": "deep_architecture_note",
+      "title": "MRPRICE_FOUR_EYES_CONTROL_MODEL",
+      "path": "References/mrprice/deep-architecture/MRPRICE_FOUR_EYES_CONTROL_MODEL.md",
+      "domains": ["governance"],
+      "role_families": ["business_analyst", "application_support"],
+      "priority": "medium"
+    },
+
+    {
+      "asset_id": "mrprice_stp_batch",
+      "asset_type": "deep_architecture_note",
+      "title": "MRPRICE_STP_AND_BATCH_PROCESSING",
+      "path": "References/mrprice/deep-architecture/MRPRICE_STP_AND_BATCH_PROCESSING.md",
+      "domains": ["production-support", "operations"],
+      "role_families": ["production_support", "application_support"],
+      "priority": "high"
+    },
+
+    {
+      "asset_id": "mrprice_modernization_journey",
+      "asset_type": "deep_architecture_note",
+      "title": "MRPRICE_MODERNIZATION_JOURNEY",
+      "path": "References/mrprice/deep-architecture/MRPRICE_MODERNIZATION_JOURNEY.md",
+      "domains": ["modernization", "cloud-migration"],
+      "role_families": ["business_analyst", "technical_ba"],
+      "priority": "high"
+    },
+
+    {
+      "asset_id": "mrprice_resume_evidence",
+      "asset_type": "resume_evidence",
+      "title": "MRPRICE_RESUME_EVIDENCE",
+      "path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md",
+      "domains": ["resume"],
+      "role_families": [
+        "business_analyst",
+        "application_support",
+        "production_support",
+        "market_data_support"
+      ],
+      "priority": "critical"
+    },
+
+    {
+      "asset_id": "mrprice_star_stories",
+      "asset_type": "star_story",
+      "title": "MRPRICE_STAR_STORIES",
+      "path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md",
+      "domains": ["interview"],
+      "role_families": [
+        "business_analyst",
+        "application_support",
+        "production_support"
+      ],
+      "priority": "critical"
+    },
+
+    {
+      "asset_id": "mrprice_interview_bank",
+      "asset_type": "interview_bank",
+      "title": "MRPRICE_INTERVIEW_BANK",
+      "path": "References/mrprice/experience/MRPRICE_INTERVIEW_BANK.md",
+      "domains": ["interview"],
+      "role_families": [
+        "business_analyst",
+        "application_support",
+        "production_support",
+        "market_data_support"
+      ],
+      "priority": "critical"
+    },
+
+    {
+      "asset_id": "mrprice_skills_mapping",
+      "asset_type": "skills_mapping",
+      "title": "MRPRICE_SKILLS_MAPPING",
+      "path": "References/mrprice/experience/MRPRICE_SKILLS_MAPPING.md",
+      "domains": ["skills"],
+      "role_families": ["all"],
+      "priority": "critical"
+    },
+
+    {
+      "asset_id": "mrprice_career_system_mapping",
+      "asset_type": "career_system_mapping",
+      "title": "MRPRICE_CAREER_SYSTEM_MAPPING",
+      "path": "References/mrprice/experience/MRPRICE_CAREER_SYSTEM_MAPPING.md",
+      "domains": ["career-system"],
+      "role_families": ["all"],
+      "priority": "critical"
+    }
+  ]
+}

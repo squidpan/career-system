@@ -1,0 +1,45 @@
+{
+  "experience_source_id": "mrprice",
+  "name": "MRPrice Experience Intelligence",
+  "version": "0.4.1",
+  "status": "active",
+  "source_type": "experience_repository",
+
+  "repository": {
+    "name": "mrprice-experience-intelligence",
+    "branch": "main",
+    "release": "v0.4.1"
+  },
+
+  "experience_domains": [
+    "market-data",
+    "production-support",
+    "application-support",
+    "business-analysis",
+    "technical-refresh",
+    "cloud-migration",
+    "data-quality",
+    "oracle",
+    "linux",
+    "rest-api",
+    "governance"
+  ],
+
+  "primary_assets": [
+    "MRPRICE_SKILLS_MAPPING",
+    "MRPRICE_RESUME_EVIDENCE",
+    "MRPRICE_STAR_STORIES",
+    "MRPRICE_INTERVIEW_BANK",
+    "MRPRICE_CAREER_SYSTEM_MAPPING"
+  ],
+
+  "resume_support": true,
+  "interview_support": true,
+  "skill_extraction_support": true,
+
+  "notes": [
+    "Primary experience source for Central Bank market-data platform work",
+    "Supports Business Analyst, Application Support, Production Support, and Market Data roles",
+    "Provides architecture, operations, modernization, and cloud migration evidence"
+  ]
+}

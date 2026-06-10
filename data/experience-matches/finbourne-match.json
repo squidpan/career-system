@@ -1,0 +1,170 @@
+{
+  "jd_path": "data/jds/normalized/jd-finbourne-technology-support-appsupport-2026-v1.md",
+  "source_id": "mrprice",
+  "source_release": "v0.4.1",
+  "extracted_keyword_count": 15,
+  "extracted_keywords": [
+    "application support",
+    "aws",
+    "business analyst",
+    "database",
+    "fixed income",
+    "market data",
+    "monitoring",
+    "operations",
+    "production support",
+    "requirements",
+    "rest api",
+    "sql",
+    "support analyst",
+    "troubleshooting",
+    "views"
+  ],
+  "matched_group_count": 7,
+  "matched_groups": [
+    {
+      "group_id": "production_support",
+      "matched_keywords": [
+        "application support",
+        "monitoring",
+        "production support",
+        "support analyst",
+        "troubleshooting"
+      ],
+      "skill_ids": [
+        "production_support"
+      ],
+      "evidence_ids": [
+        "mrprice_production_support_operations",
+        "mrprice_market_data_platform_support"
+      ],
+      "story_ids": [
+        "mrprice_story_production_support_market_data_operations"
+      ]
+    },
+    {
+      "group_id": "market_data",
+      "matched_keywords": [
+        "fixed income",
+        "market data"
+      ],
+      "skill_ids": [
+        "market_data_platforms",
+        "tick_consolidation"
+      ],
+      "evidence_ids": [
+        "mrprice_market_data_platform_support",
+        "mrprice_tick_consolidation_data_quality"
+      ],
+      "story_ids": [
+        "mrprice_story_production_support_market_data_operations",
+        "mrprice_story_pricing_validation_data_quality"
+      ]
+    },
+    {
+      "group_id": "oracle_sql",
+      "matched_keywords": [
+        "database",
+        "sql",
+        "views"
+      ],
+      "skill_ids": [
+        "oracle_distribution"
+      ],
+      "evidence_ids": [
+        "mrprice_oracle_distribution_consumer_views"
+      ],
+      "story_ids": [
+        "mrprice_story_cloud_migration"
+      ]
+    },
+    {
+      "group_id": "business_analysis",
+      "matched_keywords": [
+        "business analyst",
+        "requirements"
+      ],
+      "skill_ids": [
+        "technical_refresh",
+        "cloud_migration"
+      ],
+      "evidence_ids": [
+        "mrprice_technical_refresh",
+        "mrprice_cloud_migration_oracle_to_rest"
+      ],
+      "story_ids": [
+        "mrprice_story_technical_refresh",
+        "mrprice_story_cloud_migration"
+      ]
+    },
+    {
+      "group_id": "cloud_migration",
+      "matched_keywords": [
+        "aws"
+      ],
+      "skill_ids": [
+        "cloud_migration"
+      ],
+      "evidence_ids": [
+        "mrprice_cloud_migration_oracle_to_rest"
+      ],
+      "story_ids": [
+        "mrprice_story_cloud_migration"
+      ]
+    },
+    {
+      "group_id": "rest_api",
+      "matched_keywords": [
+        "rest api"
+      ],
+      "skill_ids": [
+        "rest_api_validation"
+      ],
+      "evidence_ids": [
+        "mrprice_cloud_migration_oracle_to_rest",
+        "mrprice_oracle_distribution_consumer_views"
+      ],
+      "story_ids": [
+        "mrprice_story_cloud_migration"
+      ]
+    },
+    {
+      "group_id": "linux_operations",
+      "matched_keywords": [
+        "operations"
+      ],
+      "skill_ids": [
+        "production_support"
+      ],
+      "evidence_ids": [
+        "mrprice_production_support_operations"
+      ],
+      "story_ids": [
+        "mrprice_story_production_support_market_data_operations"
+      ]
+    }
+  ],
+  "matched_skill_ids": [
+    "cloud_migration",
+    "market_data_platforms",
+    "oracle_distribution",
+    "production_support",
+    "rest_api_validation",
+    "technical_refresh",
+    "tick_consolidation"
+  ],
+  "matched_evidence_ids": [
+    "mrprice_cloud_migration_oracle_to_rest",
+    "mrprice_market_data_platform_support",
+    "mrprice_oracle_distribution_consumer_views",
+    "mrprice_production_support_operations",
+    "mrprice_technical_refresh",
+    "mrprice_tick_consolidation_data_quality"
+  ],
+  "matched_story_ids": [
+    "mrprice_story_cloud_migration",
+    "mrprice_story_pricing_validation_data_quality",
+    "mrprice_story_production_support_market_data_operations",
+    "mrprice_story_technical_refresh"
+  ]
+}

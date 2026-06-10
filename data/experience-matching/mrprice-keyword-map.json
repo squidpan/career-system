@@ -1,0 +1,232 @@
+{
+  "source_id": "mrprice",
+  "source_release": "v0.4.1",
+  "source_repository": "mrprice-experience-intelligence",
+
+  "mapping_type": "jd_keyword_matching",
+  "mapping_count": 10,
+
+  "keyword_groups": [
+
+    {
+      "group_id": "production_support",
+      "keywords": [
+        "production support",
+        "application support",
+        "incident management",
+        "monitoring",
+        "troubleshooting",
+        "operations support",
+        "support analyst"
+      ],
+      "skill_ids": [
+        "production_support"
+      ],
+      "evidence_ids": [
+        "mrprice_production_support_operations",
+        "mrprice_market_data_platform_support"
+      ],
+      "story_ids": [
+        "mrprice_story_production_support_market_data_operations"
+      ]
+    },
+
+    {
+      "group_id": "market_data",
+      "keywords": [
+        "market data",
+        "pricing",
+        "fixed income",
+        "vendor feeds",
+        "bond pricing",
+        "reference data",
+        "real-time data"
+      ],
+      "skill_ids": [
+        "market_data_platforms",
+        "tick_consolidation"
+      ],
+      "evidence_ids": [
+        "mrprice_market_data_platform_support",
+        "mrprice_tick_consolidation_data_quality"
+      ],
+      "story_ids": [
+        "mrprice_story_production_support_market_data_operations",
+        "mrprice_story_pricing_validation_data_quality"
+      ]
+    },
+
+    {
+      "group_id": "data_quality",
+      "keywords": [
+        "data quality",
+        "data validation",
+        "data reconciliation",
+        "root cause analysis",
+        "exception handling",
+        "controls"
+      ],
+      "skill_ids": [
+        "data_quality_validation",
+        "tick_consolidation"
+      ],
+      "evidence_ids": [
+        "mrprice_tick_consolidation_data_quality",
+        "mrprice_governance_four_eyes_controls"
+      ],
+      "story_ids": [
+        "mrprice_story_pricing_validation_data_quality"
+      ]
+    },
+
+    {
+      "group_id": "oracle_sql",
+      "keywords": [
+        "oracle",
+        "sql",
+        "database",
+        "views",
+        "stored procedures",
+        "query analysis"
+      ],
+      "skill_ids": [
+        "oracle_distribution"
+      ],
+      "evidence_ids": [
+        "mrprice_oracle_distribution_consumer_views"
+      ],
+      "story_ids": [
+        "mrprice_story_cloud_migration"
+      ]
+    },
+
+    {
+      "group_id": "business_analysis",
+      "keywords": [
+        "business analyst",
+        "requirements",
+        "stakeholder management",
+        "process analysis",
+        "functional analysis",
+        "requirements gathering"
+      ],
+      "skill_ids": [
+        "technical_refresh",
+        "cloud_migration"
+      ],
+      "evidence_ids": [
+        "mrprice_technical_refresh",
+        "mrprice_cloud_migration_oracle_to_rest"
+      ],
+      "story_ids": [
+        "mrprice_story_technical_refresh",
+        "mrprice_story_cloud_migration"
+      ]
+    },
+
+    {
+      "group_id": "technical_refresh",
+      "keywords": [
+        "modernization",
+        "technical refresh",
+        "legacy modernization",
+        "platform migration",
+        "technology upgrade"
+      ],
+      "skill_ids": [
+        "technical_refresh"
+      ],
+      "evidence_ids": [
+        "mrprice_technical_refresh"
+      ],
+      "story_ids": [
+        "mrprice_story_technical_refresh"
+      ]
+    },
+
+    {
+      "group_id": "cloud_migration",
+      "keywords": [
+        "cloud migration",
+        "aws",
+        "migration",
+        "service modernization",
+        "platform transformation"
+      ],
+      "skill_ids": [
+        "cloud_migration"
+      ],
+      "evidence_ids": [
+        "mrprice_cloud_migration_oracle_to_rest"
+      ],
+      "story_ids": [
+        "mrprice_story_cloud_migration"
+      ]
+    },
+
+    {
+      "group_id": "rest_api",
+      "keywords": [
+        "rest api",
+        "api testing",
+        "api validation",
+        "service integration",
+        "web services",
+        "api lifecycle"
+      ],
+      "skill_ids": [
+        "rest_api_validation"
+      ],
+      "evidence_ids": [
+        "mrprice_cloud_migration_oracle_to_rest",
+        "mrprice_oracle_distribution_consumer_views"
+      ],
+      "story_ids": [
+        "mrprice_story_cloud_migration"
+      ]
+    },
+
+    {
+      "group_id": "governance_controls",
+      "keywords": [
+        "governance",
+        "audit",
+        "controls",
+        "approval workflow",
+        "risk management",
+        "compliance"
+      ],
+      "skill_ids": [
+        "four_eyes_governance"
+      ],
+      "evidence_ids": [
+        "mrprice_governance_four_eyes_controls"
+      ],
+      "story_ids": [
+        "mrprice_story_pricing_validation_data_quality"
+      ]
+    },
+
+    {
+      "group_id": "linux_operations",
+      "keywords": [
+        "linux",
+        "unix",
+        "shell scripting",
+        "operations",
+        "batch processing",
+        "cron"
+      ],
+      "skill_ids": [
+        "production_support"
+      ],
+      "evidence_ids": [
+        "mrprice_production_support_operations"
+      ],
+      "story_ids": [
+        "mrprice_story_production_support_market_data_operations"
+      ]
+    }
+
+  ]
+}

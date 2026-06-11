@@ -1,0 +1,36 @@
+{
+  "jd_path": "data/jds/normalized/jd-citi-ba-it-2026-v1.md",
+  "source_id": "mrprice",
+  "source_release": "v0.4.1",
+  "extracted_keyword_count": 1,
+  "extracted_keywords": [
+    "operations"
+  ],
+  "matched_group_count": 1,
+  "matched_groups": [
+    {
+      "group_id": "linux_operations",
+      "matched_keywords": [
+        "operations"
+      ],
+      "skill_ids": [
+        "production_support"
+      ],
+      "evidence_ids": [
+        "mrprice_production_support_operations"
+      ],
+      "story_ids": [
+        "mrprice_story_production_support_market_data_operations"
+      ]
+    }
+  ],
+  "matched_skill_ids": [
+    "production_support"
+  ],
+  "matched_evidence_ids": [
+    "mrprice_production_support_operations"
+  ],
+  "matched_story_ids": [
+    "mrprice_story_production_support_market_data_operations"
+  ]
+}

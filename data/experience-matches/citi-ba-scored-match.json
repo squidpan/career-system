@@ -1,0 +1,51 @@
+{
+  "jd_path": "data/jds/normalized/jd-citi-ba-it-2026-v1.md",
+  "source_id": "mrprice",
+  "source_release": "v0.4.1",
+  "scoring_model": "deterministic_v0.5.4",
+  "ranked_skills": [
+    {
+      "skill_id": "production_support",
+      "name": "Production Support",
+      "category": "operations",
+      "score": 28,
+      "hit_count": 1
+    }
+  ],
+  "ranked_evidence": [
+    {
+      "evidence_id": "mrprice_production_support_operations",
+      "title": "Production Support and Operations",
+      "score": 45,
+      "hit_count": 1,
+      "matched_keywords": [
+        "operations"
+      ],
+      "resume_families": [
+        "application_support",
+        "production_support",
+        "operations"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    }
+  ],
+  "ranked_stories": [
+    {
+      "story_id": "mrprice_story_production_support_market_data_operations",
+      "title": "Production Support and Market Data Operations",
+      "score": 45,
+      "hit_count": 1,
+      "matched_keywords": [
+        "operations"
+      ],
+      "interview_themes": [
+        "application support",
+        "production support",
+        "incident management",
+        "market data operations",
+        "troubleshooting"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    }
+  ]
+}

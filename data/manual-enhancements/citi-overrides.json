@@ -1,0 +1,43 @@
+{
+  "target": "citi-ba",
+  "version": "v1",
+  "purpose": "Capture Citi IT Business Senior Analyst manual resume enhancements.",
+
+  "keywords_to_emphasize": [
+    "requirements",
+    "requirements analysis",
+    "requirements gathering",
+    "requirements validation",
+    "business analyst",
+    "business and system requirements",
+    "stakeholders",
+    "stakeholder management",
+    "business stakeholders",
+    "technology stakeholders",
+    "operations stakeholders",
+    "compliance stakeholders",
+    "sdlc",
+    "uat",
+    "business analysis",
+    "system analysis",
+    "workflow analysis",
+    "implementation support",
+    "risk assessment",
+    "impact assessment",
+    "change management",
+    "testing",
+    "quality assurance",
+    "functional specifications",
+    "documentation"
+  ],
+
+  "approved_bullets": [
+    "Supported enterprise modernization initiatives involving requirements analysis, workflow review, platform transformation, testing, and implementation support.",
+    "Elicited, analyzed, documented, and validated business and system requirements while partnering with business, technology, operations, and compliance stakeholders.",
+    "Supported system-change initiatives from requirements through implementation, including workflow analysis, data-load redesign, testing coordination, UAT support, and stakeholder communication.",
+    "Partnered with stakeholders to evaluate business needs, assess risks and impacts, validate proposed solutions, and support delivery across SDLC activities.",
+    "Supported Oracle-based data-distribution models using master and consumer-specific views for downstream applications, reporting platforms, and business consumers.",
+    "Assisted cloud-migration and REST API transition validation by comparing legacy Oracle-based data-access patterns with emerging service-based delivery models.",
+    "Supported semiannual disaster-recovery failover and switchover exercises for mission-critical pricing platforms, validating business continuity, data integrity, and operational readiness."
+  ]
+}

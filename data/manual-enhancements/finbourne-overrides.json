@@ -1,0 +1,40 @@
+{
+  "target": "finbourne",
+  "version": "v1",
+  "purpose": "Capture Finbourne-specific manual resume enhancements.",
+
+  "keywords_to_emphasize": [
+    "streaming",
+    "market data",
+    "fixed income",
+    "vendor feeds",
+    "vendor-feed integration",
+    "linux",
+    "oracle",
+    "production support",
+    "application support",
+    "deployments",
+    "monitoring",
+    "troubleshooting",
+    "incident investigation",
+    "operational readiness",
+    "rest api",
+    "aws",
+    "cloud migration",
+    "disaster recovery",
+    "failover",
+    "switchover",
+    "minimal downtime",
+    "no data loss"
+  ],
+
+  "approved_bullets": [
+    "Supported a fixed-income streaming market-data platform that normalized, validated, consolidated, and distributed pricing data from multiple vendor feeds to downstream consumers.",
+    "Supported market-data workflows involving vendor-feed integration, pricing validation, data-quality controls, and downstream consumer delivery across on-premises and AWS environments.",
+    "Provided application and production support for mission-critical Linux/Oracle market-data platforms, including deployments, monitoring, troubleshooting, incident investigation, operational readiness checks, and cross-team escalation.",
+    "Investigated production issues involving market-data feeds, pricing validation, data-cleansing workflows, application behavior, and downstream consumer impact.",
+    "Supported application modernization and REST API transition initiatives that evolved pricing distribution from Oracle consumer views to service-based API delivery.",
+    "Assisted cloud-migration and API-transition validation by comparing legacy Oracle-based data-access patterns with emerging REST-based service models.",
+    "Supported semiannual disaster-recovery failover and switchover exercises between primary and secondary data centers, validating continuous vendor-feed ingestion, downstream consumer distribution, minimal downtime, and no data loss during planned DR events."
+  ]
+}

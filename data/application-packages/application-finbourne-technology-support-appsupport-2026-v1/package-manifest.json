@@ -1,0 +1,10 @@
+{
+  "application_id": "application-finbourne-technology-support-appsupport-2026-v1",
+  "resume": "resume.md",
+  "application_summary": "application-summary.md",
+  "interview_prep": "interview-prep.md",
+  "cover_letter_notes": "cover-letter-notes.md",
+  "source_resume": "data/generated-resumes/finbourne-resume-tailored-v1.md",
+  "source_resume_recommendation": "data/experience-matches/finbourne-resume-recommendation.json",
+  "source_interview_recommendation": "data/experience-matches/finbourne-interview-recommendation.json"
+}

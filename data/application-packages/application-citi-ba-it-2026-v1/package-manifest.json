@@ -1,0 +1,10 @@
+{
+  "application_id": "application-citi-ba-it-2026-v1",
+  "resume": "resume.md",
+  "application_summary": "application-summary.md",
+  "interview_prep": "interview-prep.md",
+  "cover_letter_notes": "cover-letter-notes.md",
+  "source_resume": "data/generated-resumes/citi-ba-resume-tailored-v1.md",
+  "source_resume_recommendation": "data/experience-matches/citi-ba-resume-recommendation-v2.json",
+  "source_interview_recommendation": "data/experience-matches/citi-ba-interview-recommendation-v2.json"
+}

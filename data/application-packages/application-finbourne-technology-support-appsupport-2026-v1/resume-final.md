@@ -26,7 +26,7 @@ Apr 2017 – Feb 2026
 
 - Supported a fixed-income streaming market-data platform that normalized, validated, consolidated, and distributed pricing data from multiple vendor feeds to downstream consumers.
 - Supported market-data workflows involving vendor-feed integration, pricing validation, data-quality controls, and downstream consumer delivery across on-premises and AWS environments.
-- Provided application and production support for mission-critical Linux/Oracle market-data platforms, including deployments, monitoring, troubleshooting, incident investigation, operational readiness checks, and cross-team escalation.
+- Provided application support and production support for mission-critical Linux/Oracle market-data platforms.
 - Investigated production issues involving market-data feeds, pricing validation, data-cleansing workflows, application behavior, and downstream consumer impact.
 - Supported application modernization and REST API transition initiatives that evolved pricing distribution from Oracle consumer views to service-based API delivery.
 - Assisted cloud-migration and API-transition validation by comparing legacy Oracle-based data-access patterns with emerging REST-based service models.

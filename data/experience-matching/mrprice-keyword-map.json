@@ -227,6 +227,47 @@
         "mrprice_story_production_support_market_data_operations"
       ]
     }
-
+    ,
+    {
+      "group_id": "ba_sdlc_requirements",
+      "keywords": [
+        "business analyst",
+        "business systems analyst",
+        "requirements",
+        "business requirements",
+        "functional requirements",
+        "user stories",
+        "acceptance criteria",
+        "uat",
+        "agile",
+        "scrum",
+        "jira",
+        "confluence",
+        "sdlc",
+        "stakeholder",
+        "stakeholders",
+        "documentation",
+        "workflow",
+        "workflows",
+        "process improvement",
+        "systems analysis",
+        "gap analysis",
+        "functional specifications"
+      ],
+      "skill_ids": [
+        "technical_refresh",
+        "cloud_migration",
+        "oracle_distribution"
+      ],
+      "evidence_ids": [
+        "mrprice_technical_refresh",
+        "mrprice_cloud_migration_oracle_to_rest",
+        "mrprice_oracle_distribution_consumer_views"
+      ],
+      "story_ids": [
+        "mrprice_story_technical_refresh",
+        "mrprice_story_cloud_migration"
+      ]
+    }
   ]
 }

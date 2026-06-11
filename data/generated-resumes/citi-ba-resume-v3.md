@@ -13,19 +13,19 @@ Experience Source: `mrprice`
 
 # Resume Experience Section
 
-## Federal Reserve Bank of New York
+## Federal Reserve Bank of New York (On-Site via Gresham)
 Senior Business Analyst / DevOps Release Coordinator
 Apr 2017 – Feb 2026
 
 ### Relevant Experience
 
-- Supported technical refresh initiative that reduced custom code, improved maintainability, and leveraged platform out-of-box functionality.
-- Participated in modernization activities involving legacy workflow analysis, data-load redesign, testing, and stakeholder coordination.
-- Supported modernization work moving pricing distribution from Oracle consumer views toward REST API payloads and service-based access.
-- Assisted cloud migration validation by comparing legacy Oracle-based data access patterns with emerging REST API delivery models.
-- Supported Oracle-based pricing distribution model using master and consumer-specific views for downstream applications.
-- Analyzed consumer data requirements and Oracle view outputs used by downstream systems.
-
+- Supported enterprise modernization initiatives involving requirements analysis, workflow review, platform transformation, testing, and implementation support.
+- Elicited, analyzed, documented, and validated business and system requirements while partnering with business, technology, operations, and compliance stakeholders.
+- Supported system-change initiatives from requirements through implementation, including workflow analysis, data-load redesign, testing coordination, UAT support, and stakeholder communication.
+- Partnered with stakeholders to evaluate business needs, assess risks and impacts, validate proposed solutions, and support delivery across SDLC activities.
+- Supported Oracle-based data-distribution models using master and consumer-specific views for downstream applications, reporting platforms, and business consumers.
+- Assisted cloud-migration and REST API transition validation by comparing legacy Oracle-based data-access patterns with emerging service-based delivery models.
+- Supported semiannual disaster-recovery failover and switchover exercises for mission-critical pricing platforms, validating business continuity, data integrity, and operational readiness.
 
 ## Resume Evidence Used
 

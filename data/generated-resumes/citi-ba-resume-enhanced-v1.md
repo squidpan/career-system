@@ -4,7 +4,7 @@
 
 # Tailored Resume Draft
 
-Source JD: `data/jds/normalized/jd-citi-ba-it-2026-v2.md`
+Source JD: `data/jds/normalized/jd-citi-ba-it-2026-v1.md`
 Experience Source: `mrprice`
 
 ## Targeted Skills
@@ -13,7 +13,6 @@ Experience Source: `mrprice`
 - Cloud Migration
 - Oracle Distribution
 - Production Support
-- Data Quality Validation
 
 # Resume Experience Section
 

@@ -1,5 +1,5 @@
 ---
-id: jd-raw-citi-it-ba-2026-v1
+id: jd-citi-ba-it-2026-v2
 slug: citi-it-business-senior-analyst-2026
 type:
   - jd
@@ -13,7 +13,7 @@ tags:
   - career
   - jd
   - raw
-status: raw
+status: normalized
 version: v1
 created: 2026-06-05
 last: 2026-06-11
@@ -37,9 +37,9 @@ role_code_confidence: high
 role_summary:
 jd_file_name: jd-citi-ba-it-2026-v2.md
 jd_source_type: manual-cleanup
-jd_text_status: raw
+jd_text_status: normalized
 role_source_type: jd
-normalization_status: pending
+normalization_status: normalized
 normalized_jd_id: jd-citi-ba-it-2026-v2
 ---
 # IT Business Senior Analyst - Citi

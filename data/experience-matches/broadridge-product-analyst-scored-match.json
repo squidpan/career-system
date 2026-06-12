@@ -1,0 +1,236 @@
+{
+  "jd_path": "data/jds/normalized/jd-broadridge-product-analyst-2026-v1.md",
+  "source_id": "mrprice",
+  "source_release": "v0.4.1",
+  "scoring_model": "deterministic_v0.5.4",
+  "ranked_skills": [
+    {
+      "skill_id": "cloud_migration",
+      "name": "Cloud Migration",
+      "category": "cloud",
+      "score": 248,
+      "hit_count": 12
+    },
+    {
+      "skill_id": "technical_refresh",
+      "name": "Technical Refresh",
+      "category": "modernization",
+      "score": 228,
+      "hit_count": 11
+    },
+    {
+      "skill_id": "oracle_distribution",
+      "name": "Oracle Distribution",
+      "category": "database",
+      "score": 208,
+      "hit_count": 10
+    },
+    {
+      "skill_id": "four_eyes_governance",
+      "name": "Four Eyes Governance",
+      "category": "governance",
+      "score": 48,
+      "hit_count": 2
+    },
+    {
+      "skill_id": "production_support",
+      "name": "Production Support",
+      "category": "operations",
+      "score": 28,
+      "hit_count": 1
+    }
+  ],
+  "ranked_evidence": [
+    {
+      "evidence_id": "mrprice_cloud_migration_oracle_to_rest",
+      "title": "Cloud Migration and Oracle-to-REST Transition",
+      "score": 265,
+      "hit_count": 12,
+      "matched_keywords": [
+        "agile",
+        "aws",
+        "business analyst",
+        "business requirements",
+        "confluence",
+        "jira",
+        "requirements",
+        "sdlc",
+        "uat",
+        "user stories"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "technical_ba",
+        "cloud_migration"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_technical_refresh",
+      "title": "Technical Refresh",
+      "score": 245,
+      "hit_count": 11,
+      "matched_keywords": [
+        "agile",
+        "business analyst",
+        "business requirements",
+        "confluence",
+        "jira",
+        "requirements",
+        "sdlc",
+        "uat",
+        "user stories"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "technical_ba",
+        "application_support"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_oracle_distribution_consumer_views",
+      "title": "Oracle Distribution and Consumer Views",
+      "score": 215,
+      "hit_count": 10,
+      "matched_keywords": [
+        "agile",
+        "business analyst",
+        "business requirements",
+        "confluence",
+        "jira",
+        "requirements",
+        "sdlc",
+        "sql",
+        "uat",
+        "user stories"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "business_systems_analyst",
+        "technical_ba"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_governance_four_eyes_controls",
+      "title": "Governance and Four-Eyes Controls",
+      "score": 55,
+      "hit_count": 2,
+      "matched_keywords": [
+        "compliance",
+        "governance"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "application_support",
+        "production_support"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_production_support_operations",
+      "title": "Production Support and Operations",
+      "score": 45,
+      "hit_count": 1,
+      "matched_keywords": [
+        "operations"
+      ],
+      "resume_families": [
+        "application_support",
+        "production_support",
+        "operations"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    }
+  ],
+  "ranked_stories": [
+    {
+      "story_id": "mrprice_story_cloud_migration",
+      "title": "Cloud Migration Preparation",
+      "score": 285,
+      "hit_count": 13,
+      "matched_keywords": [
+        "agile",
+        "aws",
+        "business analyst",
+        "business requirements",
+        "confluence",
+        "jira",
+        "requirements",
+        "sdlc",
+        "sql",
+        "uat",
+        "user stories"
+      ],
+      "interview_themes": [
+        "cloud migration",
+        "REST APIs",
+        "data mapping",
+        "modernization",
+        "business analysis"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_technical_refresh",
+      "title": "Technical Refresh Modernization",
+      "score": 245,
+      "hit_count": 11,
+      "matched_keywords": [
+        "agile",
+        "business analyst",
+        "business requirements",
+        "confluence",
+        "jira",
+        "requirements",
+        "sdlc",
+        "uat",
+        "user stories"
+      ],
+      "interview_themes": [
+        "modernization",
+        "business analysis",
+        "platform transformation",
+        "stakeholder coordination",
+        "technical refresh"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_pricing_validation_data_quality",
+      "title": "Pricing Validation and Data Quality",
+      "score": 65,
+      "hit_count": 2,
+      "matched_keywords": [
+        "compliance",
+        "governance"
+      ],
+      "interview_themes": [
+        "data quality",
+        "root cause analysis",
+        "production support",
+        "market data",
+        "problem solving"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_production_support_market_data_operations",
+      "title": "Production Support and Market Data Operations",
+      "score": 45,
+      "hit_count": 1,
+      "matched_keywords": [
+        "operations"
+      ],
+      "interview_themes": [
+        "application support",
+        "production support",
+        "incident management",
+        "market data operations",
+        "troubleshooting"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    }
+  ]
+}

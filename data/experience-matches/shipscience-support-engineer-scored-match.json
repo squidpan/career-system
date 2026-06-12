@@ -1,0 +1,260 @@
+{
+  "jd_path": "data/jds/normalized/jd-shipscience-support-engineer-2026-v1.md",
+  "source_id": "mrprice",
+  "source_release": "v0.4.1",
+  "scoring_model": "deterministic_v0.5.4",
+  "ranked_skills": [
+    {
+      "skill_id": "oracle_distribution",
+      "name": "Oracle Distribution",
+      "category": "database",
+      "score": 128,
+      "hit_count": 6
+    },
+    {
+      "skill_id": "technical_refresh",
+      "name": "Technical Refresh",
+      "category": "modernization",
+      "score": 128,
+      "hit_count": 6
+    },
+    {
+      "skill_id": "cloud_migration",
+      "name": "Cloud Migration",
+      "category": "cloud",
+      "score": 128,
+      "hit_count": 6
+    },
+    {
+      "skill_id": "production_support",
+      "name": "Production Support",
+      "category": "operations",
+      "score": 108,
+      "hit_count": 5
+    },
+    {
+      "skill_id": "data_quality_validation",
+      "name": "Data Quality Validation",
+      "category": "quality",
+      "score": 28,
+      "hit_count": 1
+    },
+    {
+      "skill_id": "tick_consolidation",
+      "name": "Tick Consolidation",
+      "category": "data_quality",
+      "score": 28,
+      "hit_count": 1
+    }
+  ],
+  "ranked_evidence": [
+    {
+      "evidence_id": "mrprice_technical_refresh",
+      "title": "Technical Refresh",
+      "score": 145,
+      "hit_count": 6,
+      "matched_keywords": [
+        "business analyst",
+        "business systems analyst",
+        "documentation",
+        "workflow",
+        "workflows"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "technical_ba",
+        "application_support"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_cloud_migration_oracle_to_rest",
+      "title": "Cloud Migration and Oracle-to-REST Transition",
+      "score": 145,
+      "hit_count": 6,
+      "matched_keywords": [
+        "business analyst",
+        "business systems analyst",
+        "documentation",
+        "workflow",
+        "workflows"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "technical_ba",
+        "cloud_migration"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_oracle_distribution_consumer_views",
+      "title": "Oracle Distribution and Consumer Views",
+      "score": 135,
+      "hit_count": 6,
+      "matched_keywords": [
+        "business analyst",
+        "business systems analyst",
+        "documentation",
+        "sql",
+        "workflow",
+        "workflows"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "business_systems_analyst",
+        "technical_ba"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_production_support_operations",
+      "title": "Production Support and Operations",
+      "score": 125,
+      "hit_count": 5,
+      "matched_keywords": [
+        "application support",
+        "monitoring",
+        "operations",
+        "support analyst",
+        "troubleshooting"
+      ],
+      "resume_families": [
+        "application_support",
+        "production_support",
+        "operations"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_market_data_platform_support",
+      "title": "Market Data Platform Support",
+      "score": 105,
+      "hit_count": 4,
+      "matched_keywords": [
+        "application support",
+        "monitoring",
+        "support analyst",
+        "troubleshooting"
+      ],
+      "resume_families": [
+        "application_support",
+        "production_support",
+        "market_data_support"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_tick_consolidation_data_quality",
+      "title": "Tick Consolidation and Data Quality",
+      "score": 35,
+      "hit_count": 1,
+      "matched_keywords": [
+        "root cause analysis"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "application_support",
+        "market_data_support"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    },
+    {
+      "evidence_id": "mrprice_governance_four_eyes_controls",
+      "title": "Governance and Four-Eyes Controls",
+      "score": 35,
+      "hit_count": 1,
+      "matched_keywords": [
+        "root cause analysis"
+      ],
+      "resume_families": [
+        "business_analyst",
+        "application_support",
+        "production_support"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_RESUME_EVIDENCE.md"
+    }
+  ],
+  "ranked_stories": [
+    {
+      "story_id": "mrprice_story_cloud_migration",
+      "title": "Cloud Migration Preparation",
+      "score": 165,
+      "hit_count": 7,
+      "matched_keywords": [
+        "business analyst",
+        "business systems analyst",
+        "documentation",
+        "sql",
+        "workflow",
+        "workflows"
+      ],
+      "interview_themes": [
+        "cloud migration",
+        "REST APIs",
+        "data mapping",
+        "modernization",
+        "business analysis"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_technical_refresh",
+      "title": "Technical Refresh Modernization",
+      "score": 145,
+      "hit_count": 6,
+      "matched_keywords": [
+        "business analyst",
+        "business systems analyst",
+        "documentation",
+        "workflow",
+        "workflows"
+      ],
+      "interview_themes": [
+        "modernization",
+        "business analysis",
+        "platform transformation",
+        "stakeholder coordination",
+        "technical refresh"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_production_support_market_data_operations",
+      "title": "Production Support and Market Data Operations",
+      "score": 125,
+      "hit_count": 5,
+      "matched_keywords": [
+        "application support",
+        "monitoring",
+        "operations",
+        "support analyst",
+        "troubleshooting"
+      ],
+      "interview_themes": [
+        "application support",
+        "production support",
+        "incident management",
+        "market data operations",
+        "troubleshooting"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_pricing_validation_data_quality",
+      "title": "Pricing Validation and Data Quality",
+      "score": 45,
+      "hit_count": 1,
+      "matched_keywords": [
+        "root cause analysis"
+      ],
+      "interview_themes": [
+        "data quality",
+        "root cause analysis",
+        "production support",
+        "market data",
+        "problem solving"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    }
+  ]
+}

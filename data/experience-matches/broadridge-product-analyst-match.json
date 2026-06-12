@@ -1,0 +1,153 @@
+{
+  "jd_path": "data/jds/normalized/jd-broadridge-product-analyst-2026-v1.md",
+  "source_id": "mrprice",
+  "source_release": "v0.4.1",
+  "extracted_keyword_count": 14,
+  "extracted_keywords": [
+    "agile",
+    "aws",
+    "business analyst",
+    "business requirements",
+    "compliance",
+    "confluence",
+    "governance",
+    "jira",
+    "operations",
+    "requirements",
+    "sdlc",
+    "sql",
+    "uat",
+    "user stories"
+  ],
+  "matched_group_count": 6,
+  "matched_groups": [
+    {
+      "group_id": "oracle_sql",
+      "matched_keywords": [
+        "sql"
+      ],
+      "skill_ids": [
+        "oracle_distribution"
+      ],
+      "evidence_ids": [
+        "mrprice_oracle_distribution_consumer_views"
+      ],
+      "story_ids": [
+        "mrprice_story_cloud_migration"
+      ]
+    },
+    {
+      "group_id": "business_analysis",
+      "matched_keywords": [
+        "business analyst",
+        "requirements"
+      ],
+      "skill_ids": [
+        "technical_refresh",
+        "cloud_migration"
+      ],
+      "evidence_ids": [
+        "mrprice_technical_refresh",
+        "mrprice_cloud_migration_oracle_to_rest"
+      ],
+      "story_ids": [
+        "mrprice_story_technical_refresh",
+        "mrprice_story_cloud_migration"
+      ]
+    },
+    {
+      "group_id": "cloud_migration",
+      "matched_keywords": [
+        "aws"
+      ],
+      "skill_ids": [
+        "cloud_migration"
+      ],
+      "evidence_ids": [
+        "mrprice_cloud_migration_oracle_to_rest"
+      ],
+      "story_ids": [
+        "mrprice_story_cloud_migration"
+      ]
+    },
+    {
+      "group_id": "governance_controls",
+      "matched_keywords": [
+        "compliance",
+        "governance"
+      ],
+      "skill_ids": [
+        "four_eyes_governance"
+      ],
+      "evidence_ids": [
+        "mrprice_governance_four_eyes_controls"
+      ],
+      "story_ids": [
+        "mrprice_story_pricing_validation_data_quality"
+      ]
+    },
+    {
+      "group_id": "linux_operations",
+      "matched_keywords": [
+        "operations"
+      ],
+      "skill_ids": [
+        "production_support"
+      ],
+      "evidence_ids": [
+        "mrprice_production_support_operations"
+      ],
+      "story_ids": [
+        "mrprice_story_production_support_market_data_operations"
+      ]
+    },
+    {
+      "group_id": "ba_sdlc_requirements",
+      "matched_keywords": [
+        "agile",
+        "business analyst",
+        "business requirements",
+        "confluence",
+        "jira",
+        "requirements",
+        "sdlc",
+        "uat",
+        "user stories"
+      ],
+      "skill_ids": [
+        "technical_refresh",
+        "cloud_migration",
+        "oracle_distribution"
+      ],
+      "evidence_ids": [
+        "mrprice_technical_refresh",
+        "mrprice_cloud_migration_oracle_to_rest",
+        "mrprice_oracle_distribution_consumer_views"
+      ],
+      "story_ids": [
+        "mrprice_story_technical_refresh",
+        "mrprice_story_cloud_migration"
+      ]
+    }
+  ],
+  "matched_skill_ids": [
+    "cloud_migration",
+    "four_eyes_governance",
+    "oracle_distribution",
+    "production_support",
+    "technical_refresh"
+  ],
+  "matched_evidence_ids": [
+    "mrprice_cloud_migration_oracle_to_rest",
+    "mrprice_governance_four_eyes_controls",
+    "mrprice_oracle_distribution_consumer_views",
+    "mrprice_production_support_operations",
+    "mrprice_technical_refresh"
+  ],
+  "matched_story_ids": [
+    "mrprice_story_cloud_migration",
+    "mrprice_story_pricing_validation_data_quality",
+    "mrprice_story_production_support_market_data_operations",
+    "mrprice_story_technical_refresh"
+  ]
+}

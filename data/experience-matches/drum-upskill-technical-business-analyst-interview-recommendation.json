@@ -1,0 +1,138 @@
+{
+  "jd_path": "data/jds/normalized/jd-drum-upskill-technical-business-analyst-2026-v1.md",
+  "source_id": "mrprice",
+  "recommendation_model": "v0.5.6",
+  "recommended_interview_stories": [
+    {
+      "story_id": "mrprice_story_technical_refresh",
+      "title": "Technical Refresh Modernization",
+      "score": 225,
+      "hit_count": 10,
+      "matched_keywords": [
+        "business analyst",
+        "business systems analyst",
+        "jira",
+        "requirements",
+        "stakeholder",
+        "stakeholder management",
+        "stakeholders",
+        "user stories"
+      ],
+      "interview_themes": [
+        "modernization",
+        "business analysis",
+        "platform transformation",
+        "stakeholder coordination",
+        "technical refresh"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_cloud_migration",
+      "title": "Cloud Migration Preparation",
+      "score": 225,
+      "hit_count": 10,
+      "matched_keywords": [
+        "business analyst",
+        "business systems analyst",
+        "jira",
+        "requirements",
+        "stakeholder",
+        "stakeholder management",
+        "stakeholders",
+        "user stories"
+      ],
+      "interview_themes": [
+        "cloud migration",
+        "REST APIs",
+        "data mapping",
+        "modernization",
+        "business analysis"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_production_support_market_data_operations",
+      "title": "Production Support and Market Data Operations",
+      "score": 85,
+      "hit_count": 3,
+      "matched_keywords": [
+        "application support",
+        "operations",
+        "support analyst"
+      ],
+      "interview_themes": [
+        "application support",
+        "production support",
+        "incident management",
+        "market data operations",
+        "troubleshooting"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    }
+  ],
+  "recommended_interview_skills": [
+    {
+      "skill_id": "technical_refresh",
+      "name": "Technical Refresh",
+      "category": "modernization",
+      "score": 208,
+      "hit_count": 10
+    },
+    {
+      "skill_id": "cloud_migration",
+      "name": "Cloud Migration",
+      "category": "cloud",
+      "score": 208,
+      "hit_count": 10
+    },
+    {
+      "skill_id": "oracle_distribution",
+      "name": "Oracle Distribution",
+      "category": "database",
+      "score": 148,
+      "hit_count": 7
+    },
+    {
+      "skill_id": "production_support",
+      "name": "Production Support",
+      "category": "operations",
+      "score": 68,
+      "hit_count": 3
+    }
+  ],
+  "recommended_interview_themes": [
+    {
+      "theme": "modernization",
+      "score": 450
+    },
+    {
+      "theme": "business analysis",
+      "score": 450
+    },
+    {
+      "theme": "platform transformation",
+      "score": 225
+    },
+    {
+      "theme": "stakeholder coordination",
+      "score": 225
+    },
+    {
+      "theme": "technical refresh",
+      "score": 225
+    },
+    {
+      "theme": "cloud migration",
+      "score": 225
+    },
+    {
+      "theme": "REST APIs",
+      "score": 225
+    },
+    {
+      "theme": "data mapping",
+      "score": 225
+    }
+  ]
+}

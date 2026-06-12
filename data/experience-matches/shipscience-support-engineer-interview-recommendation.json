@@ -1,0 +1,142 @@
+{
+  "jd_path": "data/jds/normalized/jd-shipscience-support-engineer-2026-v1.md",
+  "source_id": "mrprice",
+  "recommendation_model": "v0.5.6",
+  "recommended_interview_stories": [
+    {
+      "story_id": "mrprice_story_cloud_migration",
+      "title": "Cloud Migration Preparation",
+      "score": 165,
+      "hit_count": 7,
+      "matched_keywords": [
+        "business analyst",
+        "business systems analyst",
+        "documentation",
+        "sql",
+        "workflow",
+        "workflows"
+      ],
+      "interview_themes": [
+        "cloud migration",
+        "REST APIs",
+        "data mapping",
+        "modernization",
+        "business analysis"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_technical_refresh",
+      "title": "Technical Refresh Modernization",
+      "score": 145,
+      "hit_count": 6,
+      "matched_keywords": [
+        "business analyst",
+        "business systems analyst",
+        "documentation",
+        "workflow",
+        "workflows"
+      ],
+      "interview_themes": [
+        "modernization",
+        "business analysis",
+        "platform transformation",
+        "stakeholder coordination",
+        "technical refresh"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    },
+    {
+      "story_id": "mrprice_story_production_support_market_data_operations",
+      "title": "Production Support and Market Data Operations",
+      "score": 125,
+      "hit_count": 5,
+      "matched_keywords": [
+        "application support",
+        "monitoring",
+        "operations",
+        "support analyst",
+        "troubleshooting"
+      ],
+      "interview_themes": [
+        "application support",
+        "production support",
+        "incident management",
+        "market data operations",
+        "troubleshooting"
+      ],
+      "source_path": "References/mrprice/experience/MRPRICE_STAR_STORIES.md"
+    }
+  ],
+  "recommended_interview_skills": [
+    {
+      "skill_id": "oracle_distribution",
+      "name": "Oracle Distribution",
+      "category": "database",
+      "score": 128,
+      "hit_count": 6
+    },
+    {
+      "skill_id": "technical_refresh",
+      "name": "Technical Refresh",
+      "category": "modernization",
+      "score": 128,
+      "hit_count": 6
+    },
+    {
+      "skill_id": "cloud_migration",
+      "name": "Cloud Migration",
+      "category": "cloud",
+      "score": 128,
+      "hit_count": 6
+    },
+    {
+      "skill_id": "production_support",
+      "name": "Production Support",
+      "category": "operations",
+      "score": 108,
+      "hit_count": 5
+    },
+    {
+      "skill_id": "data_quality_validation",
+      "name": "Data Quality Validation",
+      "category": "quality",
+      "score": 28,
+      "hit_count": 1
+    }
+  ],
+  "recommended_interview_themes": [
+    {
+      "theme": "modernization",
+      "score": 310
+    },
+    {
+      "theme": "business analysis",
+      "score": 310
+    },
+    {
+      "theme": "production support",
+      "score": 170
+    },
+    {
+      "theme": "cloud migration",
+      "score": 165
+    },
+    {
+      "theme": "REST APIs",
+      "score": 165
+    },
+    {
+      "theme": "data mapping",
+      "score": 165
+    },
+    {
+      "theme": "platform transformation",
+      "score": 145
+    },
+    {
+      "theme": "stakeholder coordination",
+      "score": 145
+    }
+  ]
+}

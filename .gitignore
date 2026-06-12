@@ -11,3 +11,4 @@ __pycache__/
 
 # Linux temp files
 *~
+*.pdf

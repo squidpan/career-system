@@ -68,6 +68,11 @@ University of Massachusetts, Amherst
 **Baccalaureat D, Mathematics and Science**  
 Lycée Paul Éluard, France
 
+## Publications
+
+- Rules for an Expert Fixturing System on a CAD Screen using Flexible Fixtures. Journal of Intelligent Manufacturing, March 1990.
+- A Framework for a Rule-based Expert Fixturing System for Face Milling Surfaces on a CAD System using Flexible Fixtures. Journal of Manufacturing Systems, March 1989.
+
 ## Skills
 
 Agile, Application Support, AWS, Business Analysis, Confluence, Excel Power Query, Financial Data, Git, HP PPM, Insurance Systems, Jira, JSON, Linux, Market Data, OpenAPI/Swagger, Oracle, Postman, Production Readiness, Reference Data, Release Coordination, Requirements Analysis, REST API, SDLC, ServiceNow, UAT, Visio, Workflow Analysis

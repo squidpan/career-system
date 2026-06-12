@@ -45,6 +45,7 @@ def main():
     frbny_section = extract_section(frbny_path)
     older_experience = read(Path("data/master-profile/older-experience.md"))
     education = read(Path("data/master-profile/education.md"))
+    publications = read(Path("data/master-profile/publications.md"))
     skills = read(Path("data/master-profile/skills.md"))
 
     lines = [
@@ -63,6 +64,8 @@ def main():
         older_experience,
         "",
         education,
+        "",
+        publications,
         "",
         skills,
         ""

@@ -6,7 +6,10 @@ from pathlib import Path
 
 QUALITY_RULES = {
     "common": {
-        "Federal Reserve Bank of New York": "Federal Reserve Bank of New York (On-Site)",
+        "Federal Reserve Bank of New York": "Federal Reserve Bank of New York (On-Site via Gresham)",
+        "Federal Reserve Bank of New York (On-Site via Gresham) (On-Site via Gresham)": "Federal Reserve Bank of New York (On-Site via Gresham)",
+        "Federal Reserve Bank of New York (On-Site) via Gresham": "Federal Reserve Bank of New York (On-Site via Gresham)",
+        "Federal Reserve Bank of New York (On-Site)": "Federal Reserve Bank of New York (On-Site via Gresham)",
         "market-data platform": "streaming market-data platform",
         "fixed-income market-data platform": "streaming fixed-income market-data platform",
     },
@@ -19,6 +22,7 @@ QUALITY_RULES = {
         "Partnered with stakeholders on modernization activities": "Partnered with stakeholders to analyze requirements and support modernization activities",
         "Supported enterprise modernization initiative": "Supported enterprise modernization initiative involving requirements analysis, workflow review, and platform transformation",
         "Analyzed stakeholder data requirements": "Analyzed stakeholder requirements, data needs, and Oracle view outputs",
+        "Oracle view outputs and Oracle view outputs": "Oracle view outputs",
     },
 }
 

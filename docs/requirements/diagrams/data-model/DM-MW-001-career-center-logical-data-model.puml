@@ -1,0 +1,123 @@
+@startuml
+title Motorweb Career Center - Logical Data Model
+
+left to right direction
+skinparam classAttributeIconSize 0
+hide methods
+
+class JobRole <<DM-MW-001>> {
+  role_id
+  source_role_id
+  company_name
+  title
+  status
+  source
+  created_date
+  updated_date
+}
+
+class JobDescription <<DM-MW-002>> {
+  jd_id
+  role_id
+  source
+  raw_file
+  normalized_file
+  normalized_status
+  created_date
+  updated_date
+}
+
+class ApplicationPackage <<DM-MW-003>> {
+  package_id
+  role_id
+  resume_id
+  cover_letter_id
+  gap_analysis_id
+  package_status
+  package_path
+  created_date
+  updated_date
+}
+
+class TrackerEvent <<DM-MW-004>> {
+  event_id
+  role_id
+  event_type
+  event_date
+  event_source
+  notes
+  created_date
+}
+
+class Resume <<DM-MW-005>> {
+  resume_id
+  role_id
+  resume_family
+  resume_version
+  resume_format
+  file_path
+  ats_safe
+  created_date
+}
+
+class GapAnalysis <<DM-MW-006>> {
+  gap_analysis_id
+  role_id
+  fit_score
+  recommendation
+  effort_estimate
+  strengths
+  gaps
+  created_date
+}
+
+class Application <<Future>> {
+  application_id
+  role_id
+  package_id
+  application_status
+  applied_date
+}
+
+class Outcome <<Future>> {
+  outcome_id
+  application_id
+  outcome_type
+  outcome_date
+  notes
+}
+
+class Evidence <<Future>> {
+  evidence_id
+  source_entity_type
+  source_entity_id
+  evidence_type
+  summary
+  reusable
+}
+
+JobRole "1" -- "0..*" JobDescription : has
+JobRole "1" -- "0..*" TrackerEvent : records
+JobRole "1" -- "0..*" Resume : tailors
+JobRole "1" -- "0..*" GapAnalysis : evaluates
+JobRole "1" -- "0..*" ApplicationPackage : produces
+
+GapAnalysis "0..1" -- "0..*" ApplicationPackage : informs
+Resume "0..1" -- "0..*" ApplicationPackage : included in
+
+ApplicationPackage "1" -- "0..1" Application : submitted as
+Application "1" -- "0..*" Outcome : results in
+
+JobDescription "0..*" ..> Evidence : contributes
+GapAnalysis "0..*" ..> Evidence : contributes
+Application "0..*" ..> Evidence : contributes
+Outcome "0..*" ..> Evidence : contributes
+
+note right of Evidence
+Future learning-system concept.
+Evidence improves future
+gap analysis, resume tailoring,
+and prioritization.
+end note
+
+@enduml

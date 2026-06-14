@@ -1,0 +1,103 @@
+id: DM-MW-001
+name: Motorweb Career Center Logical Data Model
+type: logical-data-model
+status: draft
+
+entities:
+  - id: DM-MW-001
+    name: JobRole
+    fields:
+      - role_id
+      - source_role_id
+      - company_name
+      - title
+      - status
+      - source
+      - created_date
+      - updated_date
+
+  - id: DM-MW-002
+    name: JobDescription
+    fields:
+      - jd_id
+      - role_id
+      - source
+      - raw_file
+      - normalized_file
+      - normalized_status
+      - created_date
+      - updated_date
+
+  - id: DM-MW-003
+    name: ApplicationPackage
+    fields:
+      - package_id
+      - role_id
+      - resume_id
+      - cover_letter_id
+      - gap_analysis_id
+      - package_status
+      - package_path
+      - created_date
+      - updated_date
+
+  - id: DM-MW-004
+    name: TrackerEvent
+    fields:
+      - event_id
+      - role_id
+      - event_type
+      - event_date
+      - event_source
+      - notes
+      - created_date
+
+  - id: DM-MW-005
+    name: Resume
+    fields:
+      - resume_id
+      - role_id
+      - resume_family
+      - resume_version
+      - resume_format
+      - file_path
+      - ats_safe
+      - created_date
+
+  - id: DM-MW-006
+    name: GapAnalysis
+    fields:
+      - gap_analysis_id
+      - role_id
+      - fit_score
+      - recommendation
+      - effort_estimate
+      - strengths
+      - gaps
+      - created_date
+
+relationships:
+  - from: JobRole
+    to: JobDescription
+    cardinality: "1 to 0..*"
+    label: has
+
+  - from: JobRole
+    to: TrackerEvent
+    cardinality: "1 to 0..*"
+    label: records
+
+  - from: JobRole
+    to: Resume
+    cardinality: "1 to 0..*"
+    label: tailors
+
+  - from: JobRole
+    to: GapAnalysis
+    cardinality: "1 to 0..*"
+    label: evaluates
+
+  - from: JobRole
+    to: ApplicationPackage
+    cardinality: "1 to 0..*"
+    label: produces

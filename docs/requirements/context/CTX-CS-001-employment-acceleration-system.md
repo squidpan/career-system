@@ -83,3 +83,43 @@ Career System should reduce wasted effort, improve application quality, and crea
 ## Notes
 
 Career System represents the business layer. Motorweb represents one solution implementation of Career System capabilities.
+
+Learning System Principle
+=========================
+
+Career System is not merely a resume generation system.
+
+Career System is intended to become a learning system
+whose recommendations improve as additional job
+descriptions, applications, resumes, gap analyses,
+interview preparation packages, and hiring outcomes
+are accumulated.
+
+The value of the system should increase over time.
+
+Examples:
+
+More JDs
+→ Better role classification
+
+More applications
+→ Better prioritization
+
+More resumes
+→ Better tailoring
+
+More outcomes
+→ Better fit scoring
+
+More interview preparation
+→ Better recommendations
+
+Knowledge Accumulation
+----------------------
+
+Career System should accumulate reusable knowledge
+from prior job descriptions, resumes, applications,
+interviews, and outcomes.
+
+Knowledge generated for one application should
+improve future applications whenever possible.

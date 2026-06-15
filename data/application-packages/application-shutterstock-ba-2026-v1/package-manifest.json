@@ -1,0 +1,21 @@
+{
+  "application_id": "application-shutterstock-ba-2026-v1",
+  "job_slug": "shutterstock-ba",
+  "package_dir": "data/application-packages/application-shutterstock-ba-2026-v1",
+  "generator": "career-system-v0.9.0",
+  "files": {
+    "resume-recommendation.json": true,
+    "interview-recommendation.json": false,
+    "resume-generated.md": true,
+    "resume-tailored.md": true,
+    "resume-enhanced.md": true,
+    "application-summary.md": true,
+    "full-resume.md": true,
+    "full-resume.html": true,
+    "ats-resume.md": true,
+    "ats-resume.html": true,
+    "ats-resume.txt": true,
+    "submission-notes.md": true,
+    "README.md": true
+  }
+}

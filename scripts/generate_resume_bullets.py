@@ -15,12 +15,12 @@ BULLET_LIBRARY = {
         "Investigated production issues involving market-data feeds, validation workflows, application behavior, and downstream consumer impact."
     ],
     "mrprice_cloud_migration_oracle_to_rest": [
-        "Supported modernization work moving pricing distribution from Oracle consumer views toward REST API payloads and service-based access.",
-        "Assisted cloud migration validation by comparing legacy Oracle-based data access patterns with emerging REST API delivery models."
+    "Supported modernization of a real-time streaming market data pricing platform, transitioning distribution from Oracle consumer views toward REST API payloads and service-based access.",
+    "Assisted cloud migration validation by comparing legacy Oracle-based data access patterns with emerging REST API delivery models."
     ],
-    "mrprice_oracle_distribution_consumer_views": [
-        "Supported Oracle-based pricing distribution model using master and consumer-specific views for downstream applications.",
-        "Analyzed consumer data requirements and Oracle view outputs used by downstream systems."
+"mrprice_oracle_distribution_consumer_views": [
+    "Supported Oracle-based real-time streaming market data pricing distribution using master and consumer-specific views for downstream trading and financial applications.",
+    "Analyzed consumer data requirements and Oracle view outputs used by downstream systems."
     ],
     "mrprice_technical_refresh": [
         "Supported technical refresh initiative that reduced custom code, improved maintainability, and leveraged platform out-of-box functionality.",

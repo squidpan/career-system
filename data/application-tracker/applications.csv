@@ -1,0 +1,14 @@
+application_id,company,role,date_applied,status,source,location,employment_type,resume_package,last_update,notes
+app-2026-001,AEGIS Insurance Services,Senior Business Analyst,,REJECTED,Recruiter/Company,Remote/Virtual,Full Time,,2026-06-16,Interview completed; Interview completed; no response after extended period. Treated as rejected.
+app-2026-002,Citi,IT Business Analyst,2026-06-12,APPLIED,Company Careers Site,New York NY,Full Time,application-citi-ba-it-2026-v1,2026-06-16,Applied; Citi ATS had PDF parsing issue but application was submitted.
+app-2026-003,Broadridge,Product Analyst,2026-06-13,APPLIED,Company/LinkedIn,,Full Time,application-broadridge-product-analyst-2026-v1,2026-06-16,Applied on June 13.
+app-2026-004,ICE,Senior Business Analyst,2026-06-15,APPLIED,Company Careers Site,New York NY,Full Time,application-ice-senior-ba-2026-v1,2026-06-16,Applied manually; site allowed only five professional experiences.
+app-2026-005,QODE,Senior Business Systems Analyst,2026-06-15,APPLIED,LinkedIn/Company,New York NY,Full Time,application-qode-ba-2026-v1,2026-06-16,Applied.
+app-2026-006,Shutterstock,Business Systems Analyst III,2026-06-15,APPLIED,LinkedIn/Company,,Full Time,application-shutterstock-ba-2026-v1,2026-06-16,Applied.
+app-2026-007,New York Life,Senior Associate Technical Business Analyst,2026-06-15,APPLIED,LinkedIn/Company,New York NY,Full Time,application-new-york-life-technical-ba-2026-v1,2026-06-16,Applied.
+app-2026-008,LSEG,Senior Business Analyst Product Development TradeAgent,2026-06-15,APPLIED,LinkedIn/Company,New York NY,Full Time,application-lseg-senior-ba-2026-v1,2026-06-16,Applied.
+app-2026-009,Pico,SRE,,REJECTED,,New York NY,Full Time,application-pico-sre-2026-v1,2026-06-16,Rejected.
+app-2026-010,Amtrak,Lead Business Systems Analyst Integrated Control Systems,,REJECTED,,New York NY,Full Time,,2026-06-16,Applied previously and rejected.
+app-2026-011,UPMC,Systems Analyst Senior,,NOT_PURSUED,,Remote,Contract,application-upmc-systems-analyst-2026-v1,2026-06-16,Not pursued because role was contract at approximately 43.47-66.27 USD per hour.
+app-2026-012,Finbourne,Technology Support / Application Support,,POSITION_CLOSED,,New York NY,Full Time,application-finbourne-technology-support-appsupport-2026-v1,2026-06-16,Position no longer available.
+app-2026-013,DTCC,Lead Business Systems Analyst,,POSITION_CLOSED,,New York NY,Full Time,application-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1,2026-06-16,Position no longer available.

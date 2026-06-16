@@ -258,5 +258,102 @@ Traceability updates
 Validation/test sections
 ```
 
-After that, return to Career System implementation and apply fixes before clipping/processing more JDs.
+After that, return to Career System implementation (see additional notes) and apply fixes before clipping/processing more JDs.
 
+## ADDITIONAL NOTES:
+
+Once above it done, go back to chat, Career Center v0.1 after you finish in the Requirements project Chat.
+
+Think of the workflow like this:
+
+Requirements Chat
+
+Produces:
+
+Epics
+User Stories
+Bug Stories
+Acceptance Criteria
+Validation/Test Cases
+Traceability updates
+Data Model changes
+PostgreSQL POC requirements
+
+This is your planning and requirements authority.
+
+This Chat (Career System Operational / Implementation)
+
+Consumes:
+
+Approved requirements
+Approved bug stories
+Approved Motorweb POC stories
+
+This is where we:
+
+update repo structure
+modify scripts
+fix bugs
+improve resume generation
+improve JD normalization
+implement tracker features
+prepare PostgreSQL loads
+prepare Motorweb handoff artifacts
+
+
+### What to Bring Back to Career Center v0.1 Chat
+
+When you finish in the Requirements chat, bring back:
+
+1. New Epic files
+
+Something like:
+
+EPIC-CS-002
+EPIC-MW-002
+2. New Story list
+
+Something like:
+
+US-CS-041
+US-CS-042
+US-CS-043
+...
+
+US-MW-020
+US-MW-021
+US-MW-022
+...
+3. Bug list
+
+Especially:
+
+BUG-CS-001
+BUG-CS-002
+...
+BUG-CS-008
+4. Prioritization
+
+Most important thing.
+
+Ask the Requirements chat to produce:
+
+Mini-v0.4 Implementation Order
+
+For example:
+
+P0
+BUG-CS-001
+BUG-CS-004
+BUG-CS-006
+
+P1
+US-CS-041
+US-CS-042
+
+P2
+US-MW-020
+US-MW-021
+US-MW-022
+
+That implementation order will drive what we do here.

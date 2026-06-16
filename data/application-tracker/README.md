@@ -13,6 +13,16 @@ This tracker is intended to support:
 * application outcome analysis
 * continuous improvement of resumes and application packages
 
+## Source Of Truth
+
+applications.csv is the authoritative application tracker.
+
+submission-notes.md files are package-level views.
+
+If values differ:
+
+applications.csv wins.
+
 ## Files
 
 | File                            | Purpose                                 |

@@ -1,21 +1,40 @@
 # Submission Notes
 
-## Application Status
-
-Status: Applied
-Date Applied: 2026-06-15
-
-## Submission Details
+## Application Information
 
 Company: LSEG
 Role: Senior Business Analyst – Product Development, TradeAgent
-Method: Company / LinkedIn application
+Date Applied: 2026-06-15
+Application Package:
 
-## Resume Used
+## Status
 
-ATS Resume: ats-resume.html
-Full Resume: full-resume.html
+Status: APPLIED
+
+## Application Method
+
+Source: Company / LinkedIn application
+Company Site:
+Recruiter:
+
+## Artifacts Submitted
+
+Resumes:
+    - ats-resume.html
+    - full-resume.html
+Cover Letters:
+    -
+Other:
+
 
 ## Notes
 
-Application submitted successfully.
+- Application submitted successfully.
+
+## Next Action
+
+-
+
+## Last Updated
+
+2026-06-16

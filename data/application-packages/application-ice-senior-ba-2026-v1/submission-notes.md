@@ -1,25 +1,42 @@
 # Submission Notes
 
-## Application Status
-
-Status: Applied
-Date Applied: 2026-06-15
-
-## Submission Details
+## Application Information
 
 Company: ICE
 Role: Senior Business Analyst
-Method: Company Careers Site
+Date Applied: 2026-06-15
+Application Package:
 
-## Resume Used
+## Status
 
-ATS Resume: ats-resume.html
-Full Resume: full-resume.html
+Status: APPLIED
+
+## Application Method
+
+Source: Company / LinkedIn application
+Company Site:
+Recruiter:
+
+## Artifacts Submitted
+
+Resumes:
+    - ats-resume.html
+    - full-resume.html
+Cover Letter:
+Other:
 
 ## Notes
 
-Applied manually through ICE careers site.
+- Applied manually through ICE careers site.
+- Application required manual entry of employment history.
+- Only five professional experiences could be entered, limiting historical experience visibility.
+- Application submitted successfully.
 
-Application required manual entry of employment history.
+## Next Action
 
-Only five professional experiences could be entered, limiting historical experience visibility.
+-
+
+## Last Updated
+
+2026-06-16
+

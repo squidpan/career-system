@@ -2,7 +2,7 @@
 
 ## Application Status
 
-Status: Not Pursued
+Status: NOT_PURSUED
 Date Closed: 2026-06-15
 
 ## Reason

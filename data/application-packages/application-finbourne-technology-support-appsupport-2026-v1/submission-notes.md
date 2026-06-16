@@ -1,15 +1,35 @@
 # Submission Notes
 
-## Application Status
-
-Status: Position Closed
-Date Updated: 2026-06-15
-
-## Submission Details
+## Application Information
 
 Company: Finbourne
-Role: Technology Support / Application Support
+Role: 
+Application Package:
+Date Applied: 2026-06-13
+
+
+## Status
+
+Status: POSITION_CLOSED
+
+## Application Method
+
+Source: Company / LinkedIn application
+Company Site:
+Recruiter:
+
+## Artifacts Submitted
+
+Resume:
+Cover Letter:
+Other:
 
 ## Notes
 
-Position no longer available.
+- Position no longer available.
+
+## Next Action
+
+## Last Updated
+
+2026-06-15

@@ -2,7 +2,7 @@
 
 ## Application Status
 
-Status: Position Closed
+Status: POSITION_CLOSED
 Date Updated: 2026-06-15
 
 ## Submission Details

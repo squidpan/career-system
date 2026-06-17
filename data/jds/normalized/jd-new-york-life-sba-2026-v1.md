@@ -2,7 +2,7 @@
 id: jd-new-york-life-sba-2026-v1
 slug: new-york-life-sba-2026
 type: jd
-title: **Location Designation:** Hybrid - 3 days per week - New York Life
+title: Senior Associate - Technical Business Analyst - New York Life
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -25,7 +25,7 @@ origin: webclipper
 run_id: run-2026-06-08-jd-normalization-v5
 captured_date: 2026-06-08
 source_title: Senior Associate - Technical Business Analyst
-normalized_title: **Location Designation:** Hybrid - 3 days per week
+normalized_title: Senior Associate - Technical Business Analyst
 role_id: role-new-york-life-sba-2026
 role_family: ba
 role_level: senior

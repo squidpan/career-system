@@ -4,7 +4,7 @@ slug:
 type:
   - "jd"
 title:
-categories:
+normalized_title - company_slug
   - "[[Clippings]]"
   - "[[Careers]]"
   - "[[JDs]]"
@@ -27,7 +27,7 @@ run_id:
 captured_date: 2026-06-12
 source_title:
 normalized_title:
-role_id:
+normalized_title
 role_family:
 role_level:
 role_qualifiers:

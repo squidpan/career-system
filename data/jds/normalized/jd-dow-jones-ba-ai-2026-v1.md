@@ -2,7 +2,7 @@
 id: jd-dow-jones-ba-ai-2026-v1
 slug: dow-jones-ba-ai-2026
 type: jd
-title: **About The Team - Dow Jones
+title: AI Enablement Business Analyst, Senior - Dow Jones
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -25,7 +25,7 @@ origin: webclipper
 run_id: run-2026-06-08-jd-normalization-v5
 captured_date: 2026-06-08
 source_title: AI Enablement Business Analyst, Senior
-normalized_title: **About The Team
+normalized_title: AI Enablement Business Analyst, Senior
 role_id: role-dow-jones-ba-ai-2026
 role_family: ba
 role_level: 

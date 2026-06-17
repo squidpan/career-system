@@ -2,7 +2,7 @@
 id: jd-premera-blue-cross-ba-2026-v1
 slug: premera-blue-cross-ba-2026
 type: jd
-title: Workforce Classification: Telecommuter - Premera Blue Cross
+title: Business Analyst III - Premera Blue Cross
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -25,7 +25,7 @@ origin: webclipper
 run_id: run-2026-06-08-jd-normalization-v5
 captured_date: 2026-06-08
 source_title: Business Analyst III
-normalized_title: Workforce Classification: Telecommuter
+normalized_title: Business Analyst III
 role_id: role-premera-blue-cross-ba-2026
 role_family: ba
 role_level: 

@@ -3,7 +3,7 @@ id: jd-citi-ba-it-2026-v2
 slug: citi-it-business-senior-analyst-2026
 type:
   - jd
-title: "IT Business Senior Analyst - Citi"
+title: "IT Business Senior Analyst" - Citi
 categories:
   - "[[Clippings]]"
   - "[[Careers]]"

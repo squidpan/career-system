@@ -2,7 +2,7 @@
 id: jd-amtrak-bsa-2026-v1
 slug: amtrak-bsa-2026
 type: jd
-title: **Your success is a train ride away! - Amtrak
+title: Lead Business Systems Analyst - Integrated Control Systems - Amtrak
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -25,7 +25,7 @@ origin: webclipper
 run_id: run-2026-06-08-jd-normalization-v5
 captured_date: 2026-06-08
 source_title: Lead Business Systems Analyst - Integrated Control Systems
-normalized_title: **Your success is a train ride away!
+normalized_title: Lead Business Systems Analyst - Integrated Control Systems
 role_id: role-amtrak-bsa-2026
 role_family: bsa
 role_level: lead

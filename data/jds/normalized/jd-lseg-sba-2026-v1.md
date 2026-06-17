@@ -2,7 +2,7 @@
 id: jd-lseg-sba-2026-v1
 slug: lseg-sba-2026
 type: jd
-title: **Role profile: - LSEG
+title: Senior Business Analyst – Product Development, TradeAgent - LSEG
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -25,7 +25,7 @@ origin: webclipper
 run_id: data/jds/raw/jd-raw-new-york-life-senior-associate-technical-business-analyst.md
 captured_date: 2026-06-15
 source_title: Senior Business Analyst – Product Development, TradeAgent
-normalized_title: **Role profile:
+normalized_title: Senior Business Analyst – Product Development, TradeAgent
 role_id: role-lseg-sba-2026
 role_family: ba
 role_level: senior

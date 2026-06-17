@@ -4,6 +4,7 @@
 
 company: Qode
 role: Product Senior Business Systems Analyst
+employment_type: Full Time
 role_id: application-qode-ba-2026-v1
 role_code: 
 role_family: 
@@ -17,8 +18,8 @@ last_update: 2026-06-15
 ## Application Method
 
 source: LinkedIn
-location: Employment Type:
-employment_type: ## Resume
+location: 
+employment_type: 
 
 ## Resumes
 

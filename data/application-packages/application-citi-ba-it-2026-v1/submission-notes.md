@@ -17,7 +17,7 @@ last_update: 2026-06-12
 ## Application Method
 
 source: LinkedIn
-location: Employment Type:Full Time
+location: 
 employment_type: Full Time
 
 ## Resumes

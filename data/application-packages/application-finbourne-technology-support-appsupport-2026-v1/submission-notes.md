@@ -3,7 +3,7 @@
 ## Application
 
 company: Finbourne
-role: Application Package:
+role: Technology Support / Application Support
 role_id: application-finbourne-technology-support-appsupport-2026-v1
 role_code: 
 role_family: 
@@ -17,7 +17,7 @@ last_update: 2026-06-13
 ## Application Method
 
 source: LinkedIn
-location: Employment Type: Full Time
+location: 
 employment_type: Full Time
 
 ## Resumes

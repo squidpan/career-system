@@ -4,6 +4,7 @@
 
 company: DTCC
 role: Lead Business Systems Analyst
+employment_type: Full Time
 role_id: application-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
 role_code: 
 role_family: 

@@ -2,8 +2,9 @@
 
 ## Application
 
-company: 
-role: 
+company: UPMC 
+role: Systems Analyst Senior
+employment_type: Contract
 role_id: application-upmc-systems-analyst-2026-v1
 role_code: 
 role_family: 

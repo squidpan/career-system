@@ -17,8 +17,8 @@ last_update: 2026-04-28
 ## Application Method
 
 source: LinkedIn
-location: Employment Type:
-employment_type: ## Resume:
+location: 
+employment_type: 
 
 ## Resumes
 

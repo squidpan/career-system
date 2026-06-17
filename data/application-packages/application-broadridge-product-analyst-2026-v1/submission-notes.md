@@ -4,38 +4,29 @@
 
 Company: Broadridge
 Role: Product Analyst
-Date Applied: 2026-06-13
+
 Application Package:
 
 ## Status
 
 Status: APPLIED
+Date Applied: 2026-06-13
+Last Update: 2026-06-13
 
 ## Application Method
 
-Source: Company / LinkedIn application
-Company Site:
-Recruiter:
+Location:
+Employment Type: Full Time
 
 ## Artifacts Submitted
 
-Resumes:
-    - ats-resume.html
-    - full-resume.html
-Cover Letters:
-    -
-Other:
+## Resumes
+- ats-resume.html
+- full-resume.html
 
+## Cover Letter
+    -
 
 ## Notes
 
 - Application submitted successfully.
-
-## Next Action
-
--
-
-## Last Updated
-
-2026-06-16
-

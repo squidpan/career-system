@@ -4,16 +4,16 @@
 
 Company: New York Life
 Role: Technical Business Analyst
-Date Applied: 2026-06-15
-Application Package:
 
 ## Status
 
 Status: APPLIED
+Date Applied: 2026-06-15
+Last Update: 2026-06-15
 
 ## Application Method
 
-Source: Company / LinkedIn application
+Source: LinkedIn
 Company Site:
 Recruiter:
 
@@ -23,17 +23,7 @@ Resumes:
     - ats-resume.html
     - full-resume.html
 Cover Letters:
-Other:
-
 
 ## Notes
 
 - Application submitted successfully.
-
-## Next Action
-
--
-
-## Last Updated
-
-2026-06-16

@@ -4,24 +4,23 @@
 
 Company: Citi
 Role: IT Business Senior Analyst
-Application Package:
-Date Applied: 2026-06-12
+
 
 ## Status
 
 Status: APPLIED
+Date Applied: 2026-06-12
+Last Update: 2026-06-12
 
 ## Application Method
 
-Source: Company / LinkedIn application
-Company Site:https://citi.wd5.myworkdayjobs.com/en-US/2/userHome
-Recruiter:
+Source: LinkedIn
+Location:
+Employment Type:Full Time
 
-## Artifacts Submitted
-
-Resumes:
-    - ats-resume.html
-    - resume-upload.pdf
+## Resume:
+- ats-resume.html
+- resume-upload.pdf
 
 
 ## Notes
@@ -32,11 +31,3 @@ Resumes:
 - Future improvement: generate ATS-safe DOCX/plain-text resume in addition to HTML/PDF.
 - Resume generated from Career System v0.7.x pipeline.
 - Tailored for Citi IT Business Analyst role.
-
-## Next Action
-
--
-
-## Last Updated
-
-2026-06-16

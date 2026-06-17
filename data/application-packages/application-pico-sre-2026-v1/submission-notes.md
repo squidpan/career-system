@@ -4,37 +4,30 @@
 
 Company: Pico
 Role: Site Reliability Engineer / SRE
-Date Applied: 2026-04-21
+
 Application Package:
 
 ## Status
 
 Status: REJECTED
+Date Applied: 2026-04-21
+Last Update: 2026-04-28
 
 ## Application Method
 
-Source: Company / LinkedIn application
-Company Site:
-Recruiter:
+Source: LinkedIn
+Location:
+Employment Type:
 
-## Artifacts Submitted
 
-Resumes:
-    - ats-resume.html
-    - full-resume.html
-Cover Letters:
+## Resume:
+- ats-resume.html
+- full-resume.html
+
+## Cover Letters
     -
-Other:
-
 
 ## Notes
 
 - Application submitted previously.
 - Received rejection notification.
-## Next Action
-
--
-
-## Last Updated
-
-2026-06-16

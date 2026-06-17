@@ -1,28 +1,29 @@
 # Submission Notes
 
-## Application Information
+## Application
 
 Company: Shutterstock
 Role: Product Analyst
-Date Applied: 2026-06-15
+
 Application Package:
 
 ## Status
 
 Status: APPLIED
+Date Applied: 2026-06-15
+Last Update: 2026-06-15
 
 ## Application Method
 
-Source: Company / LinkedIn application
-Company Site:
-Recruiter:
+Source: LinkedIn
+Location: New York NY
+Employment Type: Full Time
 
-## Artifacts Submitted
+## Resume:
+- ats-resume.txt
 
-Resumes:
-    - ats-resume.txt
-Cover Letters:
-    -
+## Cover Letter
+- none
 Other:
 
 

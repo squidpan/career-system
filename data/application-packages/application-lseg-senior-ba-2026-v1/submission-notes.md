@@ -4,37 +4,29 @@
 
 Company: LSEG
 Role: Senior Business Analyst – Product Development, TradeAgent
-Date Applied: 2026-06-15
+
 Application Package:
 
 ## Status
 
 Status: APPLIED
+Date Applied: 2026-06-15
+Last Update: 2026-06-15
 
 ## Application Method
 
-Source: Company / LinkedIn application
-Company Site:
-Recruiter:
+Source: LinkedIn
+Location:
+Employment Type:
 
-## Artifacts Submitted
 
-Resumes:
-    - ats-resume.html
-    - full-resume.html
-Cover Letters:
+## Resume:
+- ats-resume.html
+- full-resume.html
+
+## Cover Letters:
     -
-Other:
-
 
 ## Notes
 
 - Application submitted successfully.
-
-## Next Action
-
--
-
-## Last Updated
-
-2026-06-16

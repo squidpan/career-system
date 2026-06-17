@@ -2,9 +2,8 @@
 
 ## Application
 
-company: UPMC 
+company: UPMC
 role: Systems Analyst Senior
-employment_type: Contract
 role_id: application-upmc-systems-analyst-2026-v1
 role_code: 
 role_family: 
@@ -19,7 +18,7 @@ last_update: 2026-06-17
 
 source: 
 location: 
-employment_type: 
+employment_type: Contract
 
 ## Resumes
 

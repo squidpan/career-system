@@ -4,7 +4,6 @@
 
 company: LSEG
 role: Senior Business Analyst – Product Development, TradeAgent
-employment_type: Full Time
 role_id: application-lseg-senior-ba-2026-v1
 role_code: 
 role_family: 
@@ -19,7 +18,7 @@ last_update: 2026-06-15
 
 source: LinkedIn
 location: 
-employment_type: 
+employment_type: Full Time
 
 ## Resumes
 

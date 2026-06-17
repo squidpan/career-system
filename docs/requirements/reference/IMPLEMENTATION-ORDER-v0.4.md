@@ -18,7 +18,7 @@ updated: 2026-06-14
 - [[BUG-CS-006 JD normalizer creates unknown-company unknown-role normalized files]]
 - [[BUG-CS-008 Application package generated from wrong source artifact type]]
 
-## P1 - Stabilize Career System Operational Tracker
+## P1 - COMPLETED - Stabilize Career System Operational Tracker
 
 - [[US-CS-041 Application Tracker Foundation]]
 - [[US-CS-042 Standardize Submission Notes Format]]

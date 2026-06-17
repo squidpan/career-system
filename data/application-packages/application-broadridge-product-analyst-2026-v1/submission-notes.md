@@ -1,32 +1,37 @@
 # Submission Notes
 
-## Application Information
+## Application
 
-Company: Broadridge
-Role: Product Analyst
-
-Application Package:
+company: Broadridge
+role: Product Analyst
+role_id: application-broadridge-product-analyst-2026-v1
+role_code: 
+role_family: 
 
 ## Status
 
-Status: APPLIED
-Date Applied: 2026-06-13
-Last Update: 2026-06-13
+status: APPLIED
+date_applied: 2026-06-13
+last_update: 2026-06-13
 
 ## Application Method
 
-Location:
-Employment Type: Full Time
-
-## Artifacts Submitted
+source: LinkedIn
+location: Employment Type: Full Time
+employment_type: Full Time
 
 ## Resumes
+
+resumes:
 - ats-resume.html
 - full-resume.html
 
-## Cover Letter
-    -
+## Cover Letters
+
+cover_letters:
+- none
 
 ## Notes
 
+notes:
 - Application submitted successfully.

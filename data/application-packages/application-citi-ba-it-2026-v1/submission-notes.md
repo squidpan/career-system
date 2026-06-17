@@ -1,29 +1,39 @@
 # Submission Notes
 
-## Application Information
+## Application
 
-Company: Citi
-Role: IT Business Senior Analyst
-
+company: Citi
+role: IT Business Senior Analyst
+role_id: application-citi-ba-it-2026-v1
+role_code: 
+role_family: 
 
 ## Status
 
-Status: APPLIED
-Date Applied: 2026-06-12
-Last Update: 2026-06-12
+status: APPLIED
+date_applied: 2026-06-12
+last_update: 2026-06-12
 
 ## Application Method
 
-Source: LinkedIn
-Location:
-Employment Type:Full Time
+source: LinkedIn
+location: Employment Type:Full Time
+employment_type: Full Time
 
-## Resume:
+## Resumes
+
+resumes:
 - ats-resume.html
-- resume-upload.pdf
+- full-resume.html
 
+## Cover Letters
+
+cover_letters:
+- none
 
 ## Notes
+
+notes:
 - Citi site could not parse uploaded PDF successfully.
 - Application form still opened with basic profile fields populated.
 - Resume was attached manually.

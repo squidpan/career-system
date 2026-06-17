@@ -1,34 +1,39 @@
 # Submission Notes
 
-## Application Information
+## Application
 
-Company: ICE
-Role: Senior Business Analyst
-
-Application Package:
+company: ICE
+role: Senior Business Analyst
+role_id: application-ice-senior-ba-2026-v1
+role_code: 
+role_family: 
 
 ## Status
 
-Status: APPLIED
-Date Applied: 2026-06-15
-Last Update: 2026-06-15
+status: APPLIED
+date_applied: 2026-06-15
+last_update: 2026-06-15
 
 ## Application Method
 
-Source: LinkedIn
-Location:
-Employment Type:
+source: LinkedIn
+location: Employment Type: Full Time
+employment_type: Full Time
 
+## Resumes
 
-## Resume:
+resumes:
 - ats-resume.html
 - full-resume.html
 
-## Cover Letter:
-    -
+## Cover Letters
+
+cover_letters:
+- none
 
 ## Notes
 
+notes:
 - Applied manually through ICE careers site.
 - Application required manual entry of employment history.
 - Only five professional experiences could be entered, limiting historical experience visibility.

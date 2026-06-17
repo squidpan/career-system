@@ -1,32 +1,36 @@
 # Submission Notes
 
-## Application Information
+## Application
 
-Company: Qode
-Role: Product Senior Business Systems Analyst
-
-Application Package:
+company: Qode
+role: Product Senior Business Systems Analyst
+role_id: application-qode-ba-2026-v1
+role_code: 
+role_family: 
 
 ## Status
 
-Status: APPLIED
-Date Applied: 2026-06-15
-Last Update: 2026-06-15
+status: APPLIED
+date_applied: 2026-06-15
+last_update: 2026-06-15
 
 ## Application Method
 
-Source: LinkedIn
-Location:
-Employment Type:
+source: LinkedIn
+location: Employment Type:
+employment_type: ## Resume
 
+## Resumes
 
-## Resume
+resumes:
 - ats-resume.txt
 
 ## Cover Letters
-    -
+
+cover_letters:
+- none
 
 ## Notes
 
+notes:
 - Application submitted successfully.
-

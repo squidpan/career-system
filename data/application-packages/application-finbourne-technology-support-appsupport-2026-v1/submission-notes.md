@@ -1,35 +1,37 @@
 # Submission Notes
 
-## Application Information
+## Application
 
-Company: Finbourne
-Role: 
-Application Package:
-Date Applied: 2026-06-13
-
+company: Finbourne
+role: Application Package:
+role_id: application-finbourne-technology-support-appsupport-2026-v1
+role_code: 
+role_family: 
 
 ## Status
 
-Status: POSITION_CLOSED
+status: POSITION_CLOSED
+date_applied: 2026-06-13
+last_update: 2026-06-13
 
 ## Application Method
 
-Source: Company / LinkedIn application
-Company Site:
-Recruiter:
+source: LinkedIn
+location: Employment Type: Full Time
+employment_type: Full Time
 
-## Artifacts Submitted
+## Resumes
 
-Resume:
-Cover Letter:
-Other:
+resumes:
+- ats-resume.html
+- full-resume.html
+
+## Cover Letters
+
+cover_letters:
+- none
 
 ## Notes
 
+notes:
 - Position no longer available.
-
-## Next Action
-
-## Last Updated
-
-2026-06-15

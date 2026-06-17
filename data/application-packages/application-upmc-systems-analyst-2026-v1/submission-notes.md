@@ -1,19 +1,37 @@
 # Submission Notes
 
-## Application Status
+## Application
 
-Status: NOT_PURSUED
-Date Closed: 2026-06-15
+company: 
+role: 
+role_id: application-upmc-systems-analyst-2026-v1
+role_code: 
+role_family: 
 
-## Reason
+## Status
 
-Contract position.
+status: NOT_PURSUED
+date_applied: 
+last_update: 2026-06-17
 
-Compensation range was approximately $43.47-$66.27/hour.
+## Application Method
 
-Current job search strategy is focused on permanent full-time positions with benefits and healthcare coverage.
+source: 
+location: 
+employment_type: 
+
+## Resumes
+
+resumes:
+- ats-resume.html
+- full-resume.html
+
+## Cover Letters
+
+cover_letters:
+- none
 
 ## Notes
 
-No application submitted.
-Position reviewed and intentionally closed.
+notes:
+- 

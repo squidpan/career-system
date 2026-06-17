@@ -1,29 +1,37 @@
 # Submission Notes
 
-## Application Information
+## Application
 
-Company: New York Life
-Role: Technical Business Analyst
+company: New York Life
+role: Technical Business Analyst
+role_id: application-new-york-life-technical-ba-2026-v1
+role_code: 
+role_family: 
 
 ## Status
 
-Status: APPLIED
-Date Applied: 2026-06-15
-Last Update: 2026-06-15
+status: APPLIED
+date_applied: 2026-06-15
+last_update: 2026-06-15
 
 ## Application Method
 
-Source: LinkedIn
-Company Site:
-Recruiter:
+source: LinkedIn
+location: Employment Type: Full Time
+employment_type: Full Time
 
-## Artifacts Submitted
+## Resumes
 
-Resumes:
-    - ats-resume.html
-    - full-resume.html
-Cover Letters:
+resumes:
+- ats-resume.html
+- full-resume.html
+
+## Cover Letters
+
+cover_letters:
+- none
 
 ## Notes
 
+notes:
 - Application submitted successfully.

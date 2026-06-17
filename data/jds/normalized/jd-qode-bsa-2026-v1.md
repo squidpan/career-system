@@ -2,7 +2,7 @@
 id: jd-qode-bsa-2026-v1
 slug: qode-bsa-2026
 type: jd
-title: **Position:** Senior Business Systems Analyst - QODE
+title: Senior Business Systems Analyst - QODE
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -25,7 +25,7 @@ origin: webclipper
 run_id: data/jds/raw/jd-raw-new-york-life-senior-associate-technical-business-analyst.md
 captured_date: 2026-06-15
 source_title: Senior Business Systems Analyst
-normalized_title: **Position:** Senior Business Systems Analyst
+normalized_title: Senior Business Systems Analyst
 role_id: role-qode-bsa-2026
 role_family: bsa
 role_level: senior

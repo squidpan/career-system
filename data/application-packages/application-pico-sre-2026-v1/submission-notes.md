@@ -4,9 +4,9 @@
 
 company: Pico
 role: Site Reliability Engineer / SRE
-role_id: application-pico-sre-2026-v1
-role_code: 
-role_family: 
+role_id: role-pico-sre-2026
+role_code: sre
+role_family: sre
 
 ## Status
 

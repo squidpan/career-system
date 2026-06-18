@@ -4,9 +4,9 @@
 
 company: Citi
 role: IT Business Senior Analyst
-role_id: application-citi-ba-it-2026-v1
-role_code: 
-role_family: 
+role_id: role-citi-ba-it-2026
+role_code: ba-it
+role_family: ba
 
 ## Status
 

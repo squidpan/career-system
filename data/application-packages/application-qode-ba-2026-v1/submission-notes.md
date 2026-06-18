@@ -4,9 +4,9 @@
 
 company: Qode
 role: Product Senior Business Systems Analyst
-role_id: application-qode-ba-2026-v1
-role_code: 
-role_family: 
+role_id: role-qode-bsa-2026
+role_code: bsa
+role_family: bsa
 
 ## Status
 

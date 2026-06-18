@@ -4,9 +4,9 @@
 
 company: LSEG
 role: Senior Business Analyst – Product Development, TradeAgent
-role_id: application-lseg-senior-ba-2026-v1
-role_code: 
-role_family: 
+role_id: role-lseg-sba-2026
+role_code: sba
+role_family: ba
 
 ## Status
 

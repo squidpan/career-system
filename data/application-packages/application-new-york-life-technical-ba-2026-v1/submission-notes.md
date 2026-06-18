@@ -4,9 +4,9 @@
 
 company: New York Life
 role: Technical Business Analyst
-role_id: application-new-york-life-technical-ba-2026-v1
-role_code: 
-role_family: 
+role_id: role-new-york-life-sba-2026
+role_code: sba
+role_family: ba
 
 ## Status
 

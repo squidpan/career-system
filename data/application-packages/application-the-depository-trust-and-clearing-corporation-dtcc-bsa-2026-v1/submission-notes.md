@@ -4,9 +4,9 @@
 
 company: DTCC
 role: Lead Business Systems Analyst
-role_id: application-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1
-role_code: 
-role_family: 
+role_id: role-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026
+role_code: bsa
+role_family: ba
 
 ## Status
 

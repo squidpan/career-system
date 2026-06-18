@@ -4,9 +4,9 @@
 
 company: Finbourne
 role: Technology Support / Application Support
-role_id: application-finbourne-technology-support-appsupport-2026-v1
-role_code: 
-role_family: 
+role_id: role-finbourne-technology-support-appsupport-2026
+role_code: support-appsupport
+role_family: support
 
 ## Status
 

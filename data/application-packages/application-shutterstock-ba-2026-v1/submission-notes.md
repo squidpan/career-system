@@ -4,9 +4,9 @@
 
 company: Shutterstock
 role: Product Analyst
-role_id: application-shutterstock-ba-2026-v1
-role_code: 
-role_family: 
+role_id: role-shutterstock-bsa-2026
+role_code: bsa
+role_family: bsa
 
 ## Status
 

@@ -1,6 +1,14 @@
 # BUG-CS-009 JD Normalizer Extracts Marketing Headers Instead Of Job Title
 
-Status: In Progress
+Status: Closed
+
+Resolution:
+- Rebuilt normalized titles from source_title metadata
+- Corrected affected normalized JDs
+- Validation completed
+
+Closed: 2026-06-18
+
 
 ## Problem
 

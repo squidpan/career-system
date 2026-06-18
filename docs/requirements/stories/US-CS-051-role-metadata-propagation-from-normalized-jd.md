@@ -1,6 +1,15 @@
 # US-CS-051 Role Metadata Propagation From Normalized JD
 
-Status: Planned
+Status: Done
+
+Implementation Status:
+- Role metadata propagated from normalized JDs
+- role_id populated
+- role_family populated
+- role_code populated
+- Validation: 11 of 11 applications contain role metadata
+
+Completed: 2026-06-18
 
 ## Business Context
 

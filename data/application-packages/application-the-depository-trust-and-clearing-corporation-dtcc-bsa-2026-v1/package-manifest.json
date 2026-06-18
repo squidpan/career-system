@@ -1,0 +1,9 @@
+{
+  "application_id": "application-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1",
+  "job_slug": "the-depository-trust-and-clearing-corporation-dtcc-bsa",
+  "package_dir": "data/application-packages/application-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1",
+  "generator": "career-system-v0.9.0",
+  "files": {
+    "submission-notes.md": true
+  }
+}

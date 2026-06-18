@@ -35,3 +35,5 @@ cover_letters:
 
 notes:
 - Application submitted successfully.
+- 2026-06-18: Recruiter Joshua Stalsworth requested follow-up screening details covering work authorization, availability, salary expectations, location preference, money movement exposure, SDLC/UAT experience, and financial-services stakeholder experience.
+- 2026-06-18: Response sent confirming U.S. citizenship, availability, target compensation within posted range, location flexibility, financial-systems background, MRPrice/market-data modernization experience, and willingness to ramp on ACH/wires/cash-management workflows.

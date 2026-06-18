@@ -1,0 +1,9 @@
+{
+  "application_id": "application-pico-sre-2026-v1",
+  "job_slug": "pico-sre",
+  "package_dir": "data/application-packages/application-pico-sre-2026-v1",
+  "generator": "career-system-v0.9.0",
+  "files": {
+    "submission-notes.md": true
+  }
+}

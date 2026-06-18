@@ -4,9 +4,9 @@
 
 company: Broadridge
 role: Product Analyst
-role_id: application-broadridge-product-analyst-2026-v1
-role_code: 
-role_family: 
+role_id: role-broadridge-product-analyst-2026
+role_code: product-analyst
+role_family: product
 
 ## Status
 

@@ -4,9 +4,9 @@
 
 company: UPMC
 role: Systems Analyst Senior
-role_id: application-upmc-systems-analyst-2026-v1
-role_code: 
-role_family: 
+role_id: role-upmc-systems-analyst-2026
+role_code: systems-analyst
+role_family: systems-analyst
 
 ## Status
 

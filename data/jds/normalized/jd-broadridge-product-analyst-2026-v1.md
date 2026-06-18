@@ -1,10 +1,9 @@
 ---
-id:
-slug:
-type:
-  - "jd"
-title:
-normalized_title - company_slug
+id: jd-broadridge-product-analyst-2026-v1
+slug: broadridge-product-analyst-2026
+type: jd
+title: Product Analyst - Broadridge
+categories:
   - "[[Clippings]]"
   - "[[Careers]]"
   - "[[JDs]]"
@@ -12,34 +11,35 @@ tags:
   - "clippings"
   - "career"
   - "jd"
-  - "raw"
-status: "raw"
+  - "normalized"
+status: "normalized"
 version: "v1"
 created: 2026-06-12
 last: 2026-06-12
-company:
-company_slug:
+company: Broadridge
+company_slug: broadridge
 source_system: "teal"
 source_file:
 source_url: "https://www.linkedin.com/jobs/view/4427113299/?trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4427113299_ssid_8576426658_fmid_12492~mqayu3gg~tw&refId=7YoT%2FjibdaocNHsbGi26%2Fg%3D%3D&trackingId=bTi15SeghoG9YEfXHHpxfA%3D%3D"
 origin: "webclipper"
 run_id:
 captured_date: 2026-06-12
-source_title:
-normalized_title:
-normalized_title
-role_family:
-role_level:
+source_title: Product Analyst
+normalized_title: Product Analyst
+role_id: role-broadridge-product-analyst-2026
+role_family: product
+role_level: analyst
 role_qualifiers:
-role_code:
-role_code_confidence:
-role_summary:
-jd_file_name:
+  - financial-services
+role_code: product-analyst
+role_code_confidence: high
+role_summary: Product analyst role supporting financial-services product analysis, requirements, delivery coordination, and stakeholder communication.
+jd_file_name: jd-broadridge-product-analyst-2026-v1.md
 jd_source_type: "clipped"
-jd_text_status: "raw"
+jd_text_status: "normalized"
 role_source_type: "jd"
-normalization_status: "pending"
-normalized_jd_id:
+normalization_status: "normalized"
+normalized_jd_id: jd-broadridge-product-analyst-2026-v1
 ---
 # Raw JD Capture
 

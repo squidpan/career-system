@@ -25,15 +25,16 @@ source_url: "https://app.tealhq.com/job-tracker/2592c475-33ea-4a91-8df5-b2eb0541
 origin: "webclipper"
 run_id:
 captured_date: 2026-06-12
-source_title:
-normalized_title:
-normalized_title
-role_family:
-role_level:
+source_title: Systems Analyst Senior
+normalized_title: Systems Analyst Senior
+role_id: role-upmc-systems-analyst-2026
+role_family: systems-analyst
+role_level: senior
 role_qualifiers:
-role_code:
-role_code_confidence:
-role_summary:
+  - contract
+role_code: systems-analyst
+role_code_confidence: high
+role_summary: Senior systems analyst role; not pursued because the opportunity was contract-based.
 jd_file_name:
 jd_source_type: "clipped"
 jd_text_status: "raw"

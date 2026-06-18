@@ -4,9 +4,9 @@
 
 company: ICE
 role: Senior Business Analyst
-role_id: application-ice-senior-ba-2026-v1
-role_code: 
-role_family: 
+role_id: role-ice-ba-2026
+role_code: ba-market-data
+role_family: ba
 
 ## Status
 

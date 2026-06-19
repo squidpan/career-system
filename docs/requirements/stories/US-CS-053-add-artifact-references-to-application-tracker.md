@@ -1,6 +1,6 @@
 # US-CS-053 Add Artifact References to Application Tracker
 
-Status: Draft
+Status: Done
 
 ## User Story
 

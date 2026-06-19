@@ -1,6 +1,6 @@
 # US-CS-054 Application Artifact Metadata Propagation
 
-Status: Draft
+Status: Done
 
 ## User Story
 

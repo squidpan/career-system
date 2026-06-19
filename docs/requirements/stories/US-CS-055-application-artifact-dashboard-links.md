@@ -1,6 +1,6 @@
 # US-CS-055 Application Artifact Dashboard Links
 
-Status: Draft
+Status: Done
 
 ## User Story
 

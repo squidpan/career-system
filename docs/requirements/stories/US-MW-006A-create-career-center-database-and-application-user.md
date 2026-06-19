@@ -1,6 +1,6 @@
 # US-MW-006A Create career_center Database and Application User
 
-Status: Draft
+Status: Done
 
 ## User Story
 

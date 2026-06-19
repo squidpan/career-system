@@ -44,6 +44,20 @@ PACKAGE_TO_NORMALIZED_JD = {
     "application-upmc-systems-analyst-2026-v1": "data/jds/normalized/jd-upmc-systems-analyst-2026-v1.md",
 }
 
+PACKAGE_TO_RAW_JD = {
+    "application-broadridge-product-analyst-2026-v1": "data/jds/raw/jd-raw-broadridge-product-analyst.md",
+    "application-citi-ba-it-2026-v1": "data/jds/raw/jd-raw-citi-it-ba.md",
+    "application-finbourne-technology-support-appsupport-2026-v1": "data/jds/raw/jd-raw-finbourne-appsupport-api.md",
+    "application-ice-senior-ba-2026-v1": "data/jds/raw/jd-raw-ice-ba.md",
+    "application-lseg-senior-ba-2026-v1": "data/jds/raw/jd-raw-lseg-ba-product-development-tradeagent.md",
+    "application-new-york-life-technical-ba-2026-v1": "data/jds/raw/jd-raw-new-york-life-senior-associate-technical-business-analyst.md",
+    "application-pico-sre-2026-v1": "data/jds/raw/jd-raw-pico-sre.md",
+    "application-qode-ba-2026-v1": "data/jds/raw/jd-raw-qode-ba.md",
+    "application-shutterstock-ba-2026-v1": "data/jds/raw/jd-raw-shutterstock-ba.md",
+    "application-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026-v1": "data/jds/raw/jd-raw-dtcc-lead-bsa.md",
+    "application-upmc-systems-analyst-2026-v1": "data/jds/raw/jd-raw-upmc-systems-analyst.md",
+}
+
 def parse_note(path: Path) -> dict:
     data = {field: "" for field in FIELDS}
     data["application_package_id"] = path.parent.name
@@ -115,6 +129,10 @@ def find_normalized_jd(application_id: str, role_id: str) -> str:
     return ""
 
 def find_raw_jd(application_id: str) -> str:
+    mapped = PACKAGE_TO_RAW_JD.get(application_id)
+    if mapped and Path(mapped).exists():
+        return mapped
+
     app_stem = application_id.removeprefix("application-")
     candidates = [
         JD_RAW / f"jd-raw-{app_stem}.md",
@@ -130,7 +148,6 @@ def find_raw_jd(application_id: str) -> str:
         return str(matches[0])
 
     return ""
-
 
 def find_final_resume(package_dir: Path, resumes_value: str) -> str:
     resume_names = [r.strip() for r in resumes_value.split("|") if r.strip()]

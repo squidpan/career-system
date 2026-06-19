@@ -16,8 +16,22 @@ COLUMNS = [
     "source",
 ]
 
+
 def clean(value: str) -> str:
     return (value or "").replace("|", "\\|").strip()
+
+
+def md_link(path_value: str, label: str) -> str:
+    path_value = (path_value or "").strip()
+    if not path_value:
+        return ""
+
+    path = Path(path_value)
+    display = label
+
+    # Markdown link works in GitHub, VS Code, and Obsidian.
+    return f"[{display}]({path_value})"
+
 
 def main():
     rows = list(csv.DictReader(CSV_PATH.open(newline="", encoding="utf-8")))
@@ -47,18 +61,26 @@ def main():
 
     lines.append("## Applications")
     lines.append("")
-    lines.append("| Company | Role | Status | Date Applied | Last Update | Role Code | Source |")
-    lines.append("|---|---|---|---|---|---|---|")
+    lines.append(
+        "| Company | Role | Status | Date Applied | Last Update | Role Code | Source | Normalized JD | Raw JD | Resume | Package |"
+    )
+    lines.append("|---|---|---|---|---|---|---|---|---|---|---|")
 
     for r in rows:
-        lines.append(
-            "| "
-            + " | ".join(clean(r.get(c, "")) for c in COLUMNS)
-            + " |"
-        )
+        base_values = [clean(r.get(c, "")) for c in COLUMNS]
+
+        artifact_values = [
+            md_link(r.get("normalized_jd_file", ""), "Normalized JD"),
+            md_link(r.get("raw_jd_file", ""), "Raw JD"),
+            md_link(r.get("final_resume_file", ""), "Resume"),
+            md_link(r.get("application_package_path", ""), "Package"),
+        ]
+
+        lines.append("| " + " | ".join(base_values + artifact_values) + " |")
 
     OUT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Wrote {OUT_PATH} with {len(rows)} rows")
+
 
 if __name__ == "__main__":
     main()

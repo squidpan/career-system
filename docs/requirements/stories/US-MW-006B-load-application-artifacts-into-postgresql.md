@@ -1,6 +1,6 @@
 # US-MW-006B Load Application Artifacts into PostgreSQL
 
-Status: Draft
+Status: Done
 
 ## User Story
 

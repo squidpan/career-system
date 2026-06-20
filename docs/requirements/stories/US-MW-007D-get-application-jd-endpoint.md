@@ -1,6 +1,6 @@
 # US-MW-007D GET /applications/{application_id}/jd Endpoint
 
-Status: Draft
+Status: Done
 
 ## User Story
 

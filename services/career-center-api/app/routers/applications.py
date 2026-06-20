@@ -87,3 +87,36 @@ def get_application(application_id: str):
         "application_package_path": row[15],
         "notes": row[16],
         }
+
+@router.get("/applications/{application_id}/jd")
+def get_application_jd(application_id: str):
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                select
+                    jd_type,
+                    file_path,
+                    content_text
+                from career.job_description
+                where application_id = %s
+                order by jd_type
+                """,
+                (application_id,)
+            )
+            rows = cur.fetchall()
+
+    if not rows:
+        raise HTTPException(status_code=404, detail="Job descriptions not found")
+
+    return {
+        "application_id": application_id,
+        "job_descriptions": [
+            {
+                "jd_type": r[0],
+                "file_path": r[1],
+                "content_text": r[2],
+            }
+            for r in rows
+        ],
+    }

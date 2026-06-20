@@ -5,28 +5,22 @@ Status: Draft
 ## User Story
 
 As a Motorweb Career Center API user,
-I want REST endpoints that expose application summaries and related artifact details,
-so that applications, JDs, resumes, and notes can be consumed by UI dashboards or other tools.
+I want read-only REST endpoints for applications, JDs, and artifacts,
+so that dashboards and tools can retrieve Career System data from PostgreSQL through a stable API contract.
 
-## Proposed Endpoints
+## Scope
 
 - GET /applications
 - GET /applications/{application_id}
 - GET /applications/{application_id}/jd
-- GET /applications/{application_id}/resume
-- GET /applications/{application_id}/notes
+- GET /applications/{application_id}/artifacts
 
 ## Acceptance Criteria
 
-- `/applications` returns summary application rows.
-- `/applications/{application_id}` returns application metadata.
-- JD endpoint returns normalized JD text where available.
-- Resume endpoint returns final resume text where available.
-- Notes endpoint returns submission notes or related application notes.
-- Missing artifacts return a clear empty/null response rather than failing unexpectedly.
-
-## Implementation Notes
-
-Initial implementation may be read-only.
-
-OpenAPI should be treated as the contract for future UI and integration work.
+- API contract is defined in OpenAPI.
+- Endpoints are read-only.
+- API reads from PostgreSQL, not the filesystem.
+- Application summary endpoint returns 11 rows.
+- Detail endpoint returns one application by ID.
+- JD endpoint returns normalized and raw JD text.
+- Artifacts endpoint returns final resume and submission notes where available.

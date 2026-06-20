@@ -1,0 +1,180 @@
+openapi: 3.0.3
+info:
+  title: Career Center API
+  version: 1.0.0
+  description: Read-only API for Career System application tracking data.
+
+servers:
+  - url: http://localhost:8000
+    description: Local development server
+
+paths:
+  /applications:
+    get:
+      summary: List applications
+      operationId: listApplications
+      responses:
+        "200":
+          description: Application summary list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ApplicationSummary"
+
+  /applications/{application_id}:
+    get:
+      summary: Get application detail
+      operationId: getApplication
+      parameters:
+        - $ref: "#/components/parameters/ApplicationId"
+      responses:
+        "200":
+          description: Application detail
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApplicationDetail"
+        "404":
+          description: Application not found
+
+  /applications/{application_id}/jd:
+    get:
+      summary: Get application job descriptions
+      operationId: getApplicationJd
+      parameters:
+        - $ref: "#/components/parameters/ApplicationId"
+      responses:
+        "200":
+          description: Normalized and raw JD content
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApplicationJobDescriptions"
+        "404":
+          description: Application not found
+
+  /applications/{application_id}/artifacts:
+    get:
+      summary: Get application artifacts
+      operationId: getApplicationArtifacts
+      parameters:
+        - $ref: "#/components/parameters/ApplicationId"
+      responses:
+        "200":
+          description: Application artifacts
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApplicationArtifacts"
+        "404":
+          description: Application not found
+
+components:
+  parameters:
+    ApplicationId:
+      name: application_id
+      in: path
+      required: true
+      schema:
+        type: string
+      example: application-broadridge-product-analyst-2026-v1
+
+  schemas:
+    ApplicationSummary:
+      type: object
+      properties:
+        application_id:
+          type: string
+        company:
+          type: string
+        role:
+          type: string
+        status:
+          type: string
+        last_update:
+          type: string
+          format: date
+        role_code:
+          type: string
+
+    ApplicationDetail:
+      allOf:
+        - $ref: "#/components/schemas/ApplicationSummary"
+        - type: object
+          properties:
+            role_id:
+              type: string
+            role_family:
+              type: string
+            date_applied:
+              type: string
+              format: date
+              nullable: true
+            source:
+              type: string
+              nullable: true
+            location:
+              type: string
+              nullable: true
+            employment_type:
+              type: string
+              nullable: true
+            normalized_jd_file:
+              type: string
+              nullable: true
+            raw_jd_file:
+              type: string
+              nullable: true
+            final_resume_file:
+              type: string
+              nullable: true
+            application_package_path:
+              type: string
+              nullable: true
+            notes:
+              type: string
+              nullable: true
+
+    JobDescription:
+      type: object
+      properties:
+        jd_type:
+          type: string
+          enum: [normalized, raw]
+        file_path:
+          type: string
+        content_text:
+          type: string
+
+    ApplicationJobDescriptions:
+      type: object
+      properties:
+        application_id:
+          type: string
+        job_descriptions:
+          type: array
+          items:
+            $ref: "#/components/schemas/JobDescription"
+
+    Artifact:
+      type: object
+      properties:
+        artifact_type:
+          type: string
+          enum: [final_resume, submission_notes]
+        file_path:
+          type: string
+        content_text:
+          type: string
+
+    ApplicationArtifacts:
+      type: object
+      properties:
+        application_id:
+          type: string
+        artifacts:
+          type: array
+          items:
+            $ref: "#/components/schemas/Artifact"

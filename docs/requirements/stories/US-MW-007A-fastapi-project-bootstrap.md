@@ -1,6 +1,6 @@
 # US-MW-007A FastAPI Project Bootstrap
 
-Status: Draft
+Status: Done
 
 ## User Story
 

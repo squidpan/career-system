@@ -1,6 +1,6 @@
 # US-MW-007B GET /applications Endpoint
 
-Status: Draft
+Status: Done
 
 ## User Story
 

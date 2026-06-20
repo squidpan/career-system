@@ -1,6 +1,6 @@
 # US-MW-007C GET /applications/{application_id} Endpoint
 
-Status: Draft
+Status: Done
 
 ## User Story
 

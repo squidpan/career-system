@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from ..db import get_connection
 
 router = APIRouter(tags=["applications"])
@@ -33,3 +33,57 @@ def get_applications():
         }
         for r in rows
     ]
+
+@router.get("/applications/{application_id}")
+def get_application(application_id: str):
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                select
+                    application_id,
+                    company,
+                    role,
+                    role_id,
+                    role_code,
+                    role_family,
+                    status,
+                    date_applied,
+                    last_update,
+                    source,
+                    location,
+                    employment_type,
+                    normalized_jd_file,
+                    raw_jd_file,
+                    final_resume_file,
+                    application_package_path,
+                    notes
+                from career.job_application
+                where application_id = %s
+                """,
+                (application_id,)
+            )
+            row = cur.fetchone()
+
+    if row is None:
+        raise HTTPException(status_code=404, detail="Application not found")
+
+    return {
+        "application_id": row[0],
+        "company": row[1],
+        "role": row[2],
+        "role_id": row[3],
+        "role_code": row[4],
+        "role_family": row[5],
+        "status": row[6],
+        "date_applied": row[7],
+        "last_update": row[8],
+        "source": row[9],
+        "location": row[10],
+        "employment_type": row[11],
+        "normalized_jd_file": row[12],
+        "raw_jd_file": row[13],
+        "final_resume_file": row[14],
+        "application_package_path": row[15],
+        "notes": row[16],
+        }

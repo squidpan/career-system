@@ -120,3 +120,45 @@ def get_application_jd(application_id: str):
             for r in rows
         ],
     }
+
+
+@router.get("/applications/{application_id}/artifacts")
+def get_application_artifacts(application_id: str):
+
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+
+            cur.execute(
+                """
+                select
+                    artifact_type,
+                    file_path,
+                    content_text
+                from career.application_artifact
+                where application_id = %s
+                order by artifact_type
+                """,
+                (application_id,)
+            )
+
+            rows = cur.fetchall()
+
+    if not rows:
+        raise HTTPException(
+            status_code=404,
+            detail="Artifacts not found"
+        )
+
+    return {
+        "application_id": application_id,
+        "artifacts": [
+            {
+                "artifact_type": r[0],
+                "file_path": r[1],
+                "content_text": r[2],
+            }
+            for r in rows
+        ]
+    }
+
+

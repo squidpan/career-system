@@ -1,6 +1,6 @@
 # US-MW-007E GET /applications/{application_id}/artifacts Endpoint
 
-Status: Draft
+Status: Done
 
 ## User Story
 

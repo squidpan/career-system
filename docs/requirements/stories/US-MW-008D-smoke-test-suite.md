@@ -1,6 +1,6 @@
 # US-MW-008D Smoke Test Suite
 
-Status: Draft
+Status: Done
 
 ## User Story
 

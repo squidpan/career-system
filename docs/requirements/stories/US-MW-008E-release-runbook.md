@@ -1,6 +1,6 @@
 # US-MW-008E Release Runbook
 
-Status: Draft
+Status: Done
 
 ## User Story
 

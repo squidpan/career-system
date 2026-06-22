@@ -1,6 +1,6 @@
 # US-MW-008C Automated API Deployment
 
-Status: Draft
+Status: Done
 
 ## User Story
 

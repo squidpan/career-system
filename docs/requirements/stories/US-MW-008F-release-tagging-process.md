@@ -1,6 +1,6 @@
 # US-MW-008F Release Tagging Process
 
-Status: Draft
+Status: Done
 
 ## User Story
 

@@ -1,6 +1,6 @@
 # US-MW-008A Deploy Career Center on ted
 
-Status: Draft
+Status: Done
 
 ## User Story
 

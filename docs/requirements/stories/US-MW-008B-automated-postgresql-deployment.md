@@ -1,6 +1,6 @@
 # US-MW-008B Automated PostgreSQL Deployment
 
-Status: Draft
+Status: Done
 
 ## User Story
 

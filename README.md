@@ -11,22 +11,37 @@ The long-term purpose is architectural: start with simple Markdown, JSON, CSV, a
 ## Current Version
 
 ```text
-Career System v0.2.2
-Focus: Resume system foundation
+Career System v0.12.0
+
+Current Focus:
+Operational Hardening and Career Center Foundation
+
+Latest Release:
+v0.11.1-deployment-prep
+
+Current Major Capabilities:
+
+- Resume System
+- Application Package Generation
+- JD Normalization
+- Requirements Framework
+- PostgreSQL Career Center
+- FastAPI Career Center
+- Deployment Automation
+- Smoke Testing
+- Release Management
 ```
 
-This version adds the first structured resume layer:
+Current release stream focuses on:
 
 ```text
-Master BA Resume
-Master SRE Resume
-Role-specific resume versions
-Cover letter masters
-Role-specific cover letters
-Thank-you letters
-Resume templates
-Obsidian-friendly mirrors
-Source resume archive
+- Operational hardening
+- PostgreSQL deployment automation
+- FastAPI deployment automation
+- Startup validation
+- Smoke testing
+- Release management
+- Multi-user deployment validation
 ```
 
 ---
@@ -121,39 +136,196 @@ Linux / Oracle / AWS familiarity
 
 ---
 
+## Current Platform Capabilities
+
+Career System now provides:
+
+* Resume system
+* Application package generation
+* JD normalization
+* Application tracker generation
+* Requirements and story management
+* Sprint planning and closeout tracking
+* PostgreSQL Career Center database
+* FastAPI Career Center API
+* OpenAPI contracts
+* Deployment automation
+* Smoke testing
+* Release tagging and release notes
+
+---
+
+## Career Center PostgreSQL
+
+Career Center includes a local PostgreSQL deployment.
+
+Primary objects:
+
+* Database: `career_center`
+* Role: `career_app`
+* Schema: `career`
+
+Core tables:
+
+* `career.job_application`
+* `career.job_description`
+* `career.application_artifact`
+
+Deployment:
+
+```bash
+./bin/setup-career-center-postgres.sh
+```
+
+Data loading:
+
+```bash
+./bin/load-applications-to-postgres.sh
+./bin/load-application-artifacts-to-postgres.sh
+```
+
+---
+
+## Career Center FastAPI
+
+Career Center includes a FastAPI backend service.
+
+Current endpoints:
+
+* `GET /health`
+* `GET /applications`
+* `GET /applications/{id}`
+* `GET /applications/{id}/jd`
+* `GET /applications/{id}/artifacts`
+
+Service location:
+
+```text
+services/career-center-api/
+```
+
+Startup:
+
+```bash
+CAREER_DB_PASSWORD='career_app_dev_password' \
+./bin/run-career-center-api.sh
+```
+
+---
+
+## Deployment and Operations
+
+Deployment validation has been completed using:
+
+* pl
+* ted
+
+Operational assets include:
+
+* Deployment runbook
+* PostgreSQL setup automation
+* API setup automation
+* Smoke tests
+* Startup validation checks
+
+Primary documentation:
+
+```text
+docs/operations/deploy/
+```
+
+---
+
+## Requirements and Sprint Workflow
+
+Career System uses Markdown-based requirements management.
+
+Primary areas:
+
+```text
+docs/requirements/epics/
+docs/requirements/stories/
+docs/requirements/context/
+docs/requirements/data-model/
+docs/requirements/sprints/
+```
+
+Workflow:
+
+```text
+Story
+→ Feature Branch
+→ Implementation
+→ Validation
+→ Merge
+→ Sprint Closeout
+→ Release Tag
+```
+
+---
+
+## Release Management
+
+Current release tags include:
+
+* v0.11.0-postgres-api-foundation
+* v0.11.1-deployment-prep
+
+Release documentation:
+
+```text
+docs/releases/
+```
+
+Release process:
+
+```text
+Development
+→ Validation
+→ Release Notes
+→ Git Tag
+→ Deployment
+```
+
+---
+
+## Linux Dev Environment Alignment
+
+Career System is generating reusable Linux standards.
+
+Current lessons learned:
+
+* Multi-user GitHub SSH setup
+* Service-local Python virtual environments
+* Deployment-user validation
+* PostgreSQL deployment practices
+* Release management workflow
+
+Alignment backlog:
+
+```text
+docs/reference/LINUX_DEV_ENV_ALIGNMENT_BACKLOG.md
+```
+
+---
+
 ## Repository Structure
 
 ```text
 career-system/
-├── README.md
-├── INSTALL_FROM_ZIP.md
-├── README_RESUME_OVERLAY.md
-├── install-overlay.sh
-│
-├── docs/
-│   └── resume-system/
-│       ├── RESUME_SYSTEM_README.md
-│       ├── RESUME_VERSIONING.md
-│       ├── RESUME_MASTER_STRATEGY.md
-│       ├── RESUME_TO_JOB_WORKFLOW.md
-│       └── COMMUNICATIONS_WORKFLOW.md
-│
+├── bin/
 ├── data/
-│   ├── resume-masters/
-│   ├── resume-versions/
-│   ├── cover-letter-masters/
-│   ├── cover-letter-versions/
-│   ├── thank-you-letters/
-│   ├── source-resumes/
-│   └── resume-system-manifest.json
-│
+├── docs/
+│   ├── requirements/
+│   ├── releases/
+│   ├── standards/
+│   └── reference/
+├── services/
+│   └── career-center-api/
+├── sql/
+│   └── postgres/
 ├── templates/
-│   ├── resumes/
-│   └── communications/
-│
 └── obsidian/
-    ├── Resumes/
-    └── Communications/
 ```
 
 ---
@@ -230,15 +402,14 @@ Follow-up email
 Recruiter message draft
 Interview recap
 ```
-
-For v0.2.2, the communication layer includes:
+Current communication artifacts include:
 
 ```text
-Cover Master BA
-Cover Master SRE
-AEGIS Cover Letter v1
-Pico Cover Letter v1
-AEGIS Thank You 2026-05-18
+Cover letter masters
+Role-specific cover letters
+Thank-you letters
+Recruiter follow-ups
+Application communications
 ```
 
 ---
@@ -302,61 +473,88 @@ FastAPI CRUD
 Motorweb Job Application Platform UI
 ```
 
-Do not overbuild yet. v0.2.2 is intentionally file-first.
+Career System remains file-first for many artifacts while progressively adding PostgreSQL and API capabilities.
 
 ---
 
 ## Current Non-Goals
 
-For this version, do not build yet:
+For the current release stream, do not build yet:
 
 ```text
-PostgreSQL
-FastAPI
 Authentication
-Web UI
+Authorization
+React UI
+HTTPS
+Containers
+Kubernetes
+Cloud deployment
 Vector database
-Full AI automation
+Production AI automation
 Complex resume scoring
 ```
 
-The current goal is clean structure and useful artifacts.
+The current focus is:
+
+```text
+Operational hardening
+Dashboard API foundation
+Deployment consistency
+Developer onboarding
+Motorweb alignment
+```
 
 ---
 
 ## Installation Summary
 
-Use the safe `/tmp` overlay pattern:
+Clone the repository:
 
 ```bash
-mkdir -p ~/pjs/repos/career-system
-cd ~/pjs/repos/career-system
-
-git init
-git branch -M main
-
-rm -rf /tmp/career-system-overlay
-mkdir -p /tmp/career-system-overlay
-
-unzip ~/Downloads/career-system-v0.2.2-resume-overlay.zip \
-  -d /tmp/career-system-overlay
-
-cp -R /tmp/career-system-overlay/career-system-v0.2.2-resume-overlay/* .
-
-tree -L 3
-
-git add .
-git commit -m "Initial Career System v0.2.2 resume foundation"
+git clone git@github-squidpan:squidpan/career-system.git
+cd career-system
 ```
 
-Then create an empty GitHub repo named `career-system` and push:
+Setup PostgreSQL:
 
 ```bash
-git remote add origin git@github-squidpan:squidpan/career-system.git
-git push -u origin main
+./bin/setup-career-center-postgres.sh
 ```
 
-See `INSTALL_FROM_ZIP.md` for the detailed A-Z install flow.
+Load data:
+
+```bash
+PGPASSWORD='career_app_dev_password' \
+./bin/load-applications-to-postgres.sh
+
+PGPASSWORD='career_app_dev_password' \
+./bin/load-application-artifacts-to-postgres.sh
+```
+
+Setup API:
+
+```bash
+./bin/setup-career-center-api.sh
+```
+
+Start API:
+
+```bash
+CAREER_DB_PASSWORD='career_app_dev_password' \
+./bin/run-career-center-api.sh
+```
+
+Validate:
+
+```bash
+./bin/smoke-test-career-center-api.sh
+```
+
+Detailed deployment instructions:
+
+```text
+docs/operations/deploy/
+```
 
 ---
 
@@ -365,6 +563,11 @@ See `INSTALL_FROM_ZIP.md` for the detailed A-Z install flow.
 After installing, review these first:
 
 ```text
+sql/postgres/
+services/career-center-api/
+docs/requirements/
+docs/releases/
+docs/standards/python/
 data/resume-masters/master-ba-resume.md
 data/resume-masters/master-sre-resume.md
 data/resume-versions/svitla/resume-svitla-senior-ba-v1.md
@@ -377,14 +580,11 @@ obsidian/Resumes/Masters/Master SRE Resume.md
 
 ## Next Recommended Version
 
-Suggested v0.3 scope:
+Suggested v0.12.x Scope
 
-```text
-Job description storage
-Role records
-Application tracker events
-Resume-version-to-role linking
-Source system standards: LinkedIn, Indeed, Dice, Monster, ZipRecruiter, recruiter, referral
-ID generation utility scripts
-```
-
+- Operational hardening completion
+- Dashboard summary APIs
+- OpenAPI / Swagger exposure
+- Developer bootstrap standards
+- Motorweb Career Center alignment
+- PostgreSQL and API operational maturity

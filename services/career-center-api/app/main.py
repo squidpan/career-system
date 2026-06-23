@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from .db import get_connection
 from .routers import applications
+from app.routers import dashboard
 
 app = FastAPI(
     title="Career Center API",
@@ -8,6 +9,7 @@ app = FastAPI(
 )
 
 app.include_router(applications.router)
+app.include_router(dashboard.router)
 
 
 @app.get("/health")

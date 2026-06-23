@@ -91,6 +91,21 @@ This standard should be adopted by:
 * Linux Dev Environment standards
 * Future Python microservices
 
+## Multi-User Validation
+
+This standard was validated using:
+
+- pl (primary developer account)
+- ted (deployment validation account)
+
+Future validation should include:
+
+- bas (standard developer account)
+
+Each user should create and manage their own service-local virtual environments.
+
+Virtual environments should never be shared between Linux users.
+
 ## Lessons Learned
 
 During ted deployment validation, a repository-level virtual environment was initially created.

@@ -10,7 +10,12 @@ from ..models import (
 router = APIRouter(tags=["applications"])
 
 
-@router.get("/applications", response_model=list[ApplicationSummary])
+@router.get(
+    "/applications",
+    response_model=list[ApplicationSummary],
+    summary="Application List",
+    description="Returns Career Center applications sorted by most recent update.",
+)
 def get_applications():
     with get_connection() as conn:
         with conn.cursor() as cur:
@@ -40,7 +45,12 @@ def get_applications():
         for r in rows
     ]
 
-@router.get("/applications/{application_id}", response_model=ApplicationDetail)
+@router.get(
+    "/applications/{application_id}",
+    response_model=ApplicationDetail,
+    summary="Application Detail",
+    description="Returns detailed metadata for a single Career Center application.",
+)
 def get_application(application_id: str):
     with get_connection() as conn:
         with conn.cursor() as cur:
@@ -94,7 +104,12 @@ def get_application(application_id: str):
         "notes": row[16],
         }
 
-@router.get("/applications/{application_id}/jd", response_model=ApplicationJobDescriptions)
+@router.get(
+    "/applications/{application_id}/jd",
+    response_model=ApplicationJobDescriptions,
+    summary="Application Job Descriptions",
+    description="Returns raw and normalized job description records for an application.",
+)
 def get_application_jd(application_id: str):
     with get_connection() as conn:
         with conn.cursor() as cur:
@@ -128,7 +143,12 @@ def get_application_jd(application_id: str):
     }
 
 
-@router.get("/applications/{application_id}/artifacts", response_model=ApplicationArtifacts)
+@router.get(
+    "/applications/{application_id}/artifacts",
+    response_model=ApplicationArtifacts,
+    summary="Application Artifacts",
+    description="Returns generated application artifacts such as resumes, cover letters, and packages.",
+)
 def get_application_artifacts(application_id: str):
 
     with get_connection() as conn:

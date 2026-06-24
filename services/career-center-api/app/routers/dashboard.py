@@ -1,5 +1,11 @@
 from fastapi import APIRouter
 from ..db import get_connection
+from ..models import (
+    DashboardRecentApplications,
+    DashboardRoleCounts,
+    DashboardStatusCounts,
+    DashboardSummary,
+)
 
 router = APIRouter(tags=["dashboard"])
 
@@ -62,7 +68,7 @@ def fetch_recent_applications(limit: int = 10):
     ]
 
 
-@router.get("/dashboard/summary")
+@router.get("/dashboard/summary", response_model=DashboardSummary)
 def get_dashboard_summary():
     with get_connection() as conn:
         with conn.cursor() as cur:
@@ -77,21 +83,21 @@ def get_dashboard_summary():
     }
 
 
-@router.get("/dashboard/statuses")
+@router.get("/dashboard/statuses", response_model=DashboardStatusCounts)
 def get_dashboard_statuses():
     return {
         "counts_by_status": fetch_counts_by_status()
     }
 
 
-@router.get("/dashboard/roles")
+@router.get("/dashboard/roles", response_model=DashboardRoleCounts)
 def get_dashboard_roles():
     return {
         "counts_by_role_code": fetch_counts_by_role_code()
     }
 
 
-@router.get("/dashboard/recent")
+@router.get("/dashboard/recent", response_model=DashboardRecentApplications)
 def get_dashboard_recent():
     return {
         "recent_applications": fetch_recent_applications()

@@ -1,10 +1,16 @@
 from fastapi import APIRouter, HTTPException
 from ..db import get_connection
+from ..models import (
+    ApplicationArtifacts,
+    ApplicationDetail,
+    ApplicationJobDescriptions,
+    ApplicationSummary,
+)
 
 router = APIRouter(tags=["applications"])
 
 
-@router.get("/applications")
+@router.get("/applications", response_model=list[ApplicationSummary])
 def get_applications():
     with get_connection() as conn:
         with conn.cursor() as cur:
@@ -34,7 +40,7 @@ def get_applications():
         for r in rows
     ]
 
-@router.get("/applications/{application_id}")
+@router.get("/applications/{application_id}", response_model=ApplicationDetail)
 def get_application(application_id: str):
     with get_connection() as conn:
         with conn.cursor() as cur:
@@ -88,7 +94,7 @@ def get_application(application_id: str):
         "notes": row[16],
         }
 
-@router.get("/applications/{application_id}/jd")
+@router.get("/applications/{application_id}/jd", response_model=ApplicationJobDescriptions)
 def get_application_jd(application_id: str):
     with get_connection() as conn:
         with conn.cursor() as cur:
@@ -122,7 +128,7 @@ def get_application_jd(application_id: str):
     }
 
 
-@router.get("/applications/{application_id}/artifacts")
+@router.get("/applications/{application_id}/artifacts", response_model=ApplicationArtifacts)
 def get_application_artifacts(application_id: str):
 
     with get_connection() as conn:

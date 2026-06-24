@@ -2,7 +2,7 @@
 
 Career System is a personal job-search operating system for managing job opportunities, job descriptions, resumes, cover letters, thank-you letters, interview notes, tracker events, and reusable career knowledge.
 
-The immediate purpose is practical: help Paul apply to jobs faster, keep each application organized, and turn every job description into better resumes, better interview preparation, and better Obsidian notes.
+The immediate purpose is practical: help ME apply to jobs faster, keep each application organized, and turn every job description into better resumes, better interview preparation, and better Obsidian notes.
 
 The long-term purpose is architectural: start with simple Markdown, JSON, CSV, and file folders, then evolve toward the Motorweb Job Application Platform with PostgreSQL, FastAPI CRUD services, REST APIs, and eventually a web UI.
 

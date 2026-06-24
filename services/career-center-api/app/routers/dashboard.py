@@ -68,7 +68,12 @@ def fetch_recent_applications(limit: int = 10):
     ]
 
 
-@router.get("/dashboard/summary", response_model=DashboardSummary)
+@router.get(
+    "/dashboard/summary",
+    response_model=DashboardSummary,
+    summary="Dashboard Summary",
+    description="Returns total application count, counts by status, counts by role code, and recent applications.",
+)
 def get_dashboard_summary():
     with get_connection() as conn:
         with conn.cursor() as cur:
@@ -83,21 +88,36 @@ def get_dashboard_summary():
     }
 
 
-@router.get("/dashboard/statuses", response_model=DashboardStatusCounts)
+@router.get(
+    "/dashboard/statuses",
+    response_model=DashboardStatusCounts,
+    summary="Dashboard Status Counts",
+    description="Returns application counts grouped by application status.",
+)
 def get_dashboard_statuses():
     return {
         "counts_by_status": fetch_counts_by_status()
     }
 
 
-@router.get("/dashboard/roles", response_model=DashboardRoleCounts)
+@router.get(
+    "/dashboard/roles",
+    response_model=DashboardRoleCounts,
+    summary="Dashboard Role Counts",
+    description="Returns application counts grouped by role code.",
+)
 def get_dashboard_roles():
     return {
         "counts_by_role_code": fetch_counts_by_role_code()
     }
 
 
-@router.get("/dashboard/recent", response_model=DashboardRecentApplications)
+@router.get(
+    "/dashboard/recent",
+    response_model=DashboardRecentApplications,
+    summary="Dashboard Recent Applications",
+    description="Returns the most recent Career Center applications for dashboard display.",
+)
 def get_dashboard_recent():
     return {
         "recent_applications": fetch_recent_applications()

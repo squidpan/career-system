@@ -1,0 +1,41 @@
+@startuml
+title Engineering Knowledge Framework - Overview
+
+skinparam componentStyle rectangle
+
+package "Engineering Operating System (EOS)" {
+  [Engineering Workflow] as EOSWorkflow
+  [Engineering Principles] as EOSPrinciples
+  [Continuous Improvement] as EOSImprovement
+}
+
+package "Engineering Knowledge Framework (EKF)" {
+  [Authoring System] as Authoring
+  [Knowledge Repository] as Repository
+  [Knowledge Lifecycle] as Lifecycle
+  [Standards] as Standards
+  [Templates] as Templates
+  [Validation] as Validation
+  [Adapters] as Adapters
+}
+
+package "Knowledge Platforms" {
+  [Obsidian] as Obsidian
+  [Static Site] as StaticSite
+  [AI Exports] as AIExports
+}
+
+EOSWorkflow --> Authoring
+EOSPrinciples --> Standards
+Authoring --> Templates
+Templates --> Repository
+Repository --> Validation
+Validation --> Adapters
+Lifecycle --> Repository
+Lifecycle --> Standards : improves
+Adapters --> Obsidian
+Adapters --> StaticSite
+Adapters --> AIExports
+EOSImprovement --> Lifecycle
+
+@enduml

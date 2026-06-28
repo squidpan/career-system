@@ -1,0 +1,48 @@
+@startuml
+title Engineering Knowledge Framework - Authoring Pipeline
+
+skinparam componentStyle rectangle
+
+actor Engineer
+
+rectangle "Authoring System" {
+  [Template] as Template
+  [Draft Artifact] as Draft
+  [Validation] as Validation
+  [Canonical Markdown Artifact] as Canonical
+}
+
+database "Git Repository" as Git
+
+rectangle "Knowledge Platform Adapter" {
+  [Obsidian Adapter] as ObsidianAdapter
+  [Static Site Adapter] as StaticAdapter
+  [AI Export Adapter] as AIAdapter
+}
+
+rectangle "Published Knowledge Views" {
+  [Obsidian References] as ObsidianRefs
+  [Bases] as Bases
+  [Canvas] as Canvas
+  [Generated SVG] as SVG
+  [Static Site Page] as StaticPage
+  [AI Context Bundle] as AIBundle
+}
+
+Engineer --> Template
+Template --> Draft
+Draft --> Validation
+Validation --> Canonical
+Canonical --> Git
+Git --> ObsidianAdapter
+Git --> StaticAdapter
+Git --> AIAdapter
+
+ObsidianAdapter --> ObsidianRefs
+ObsidianAdapter --> Bases
+ObsidianAdapter --> Canvas
+ObsidianAdapter --> SVG
+StaticAdapter --> StaticPage
+AIAdapter --> AIBundle
+
+@enduml

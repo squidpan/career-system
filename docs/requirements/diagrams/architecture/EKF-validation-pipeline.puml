@@ -1,0 +1,45 @@
+@startuml
+title Engineering Knowledge Framework - Validation Pipeline
+
+skinparam componentStyle rectangle
+
+[Draft Artifact] as Draft
+
+rectangle "Validation Rules" {
+  [Identifier Validation] as IdValidation
+  [Filename Validation] as FilenameValidation
+  [YAML Metadata Validation] as MetadataValidation
+  [Category Validation] as CategoryValidation
+  [Status Validation] as StatusValidation
+  [Section Validation] as SectionValidation
+  [Link Validation] as LinkValidation
+  [Diagram Validation] as DiagramValidation
+}
+
+[Validation Report] as Report
+[Canonical Markdown Artifact] as Canonical
+[Git Repository] as Git
+
+Draft --> IdValidation
+Draft --> FilenameValidation
+Draft --> MetadataValidation
+Draft --> CategoryValidation
+Draft --> StatusValidation
+Draft --> SectionValidation
+Draft --> LinkValidation
+Draft --> DiagramValidation
+
+IdValidation --> Report
+FilenameValidation --> Report
+MetadataValidation --> Report
+CategoryValidation --> Report
+StatusValidation --> Report
+SectionValidation --> Report
+LinkValidation --> Report
+DiagramValidation --> Report
+
+Report --> Canonical : pass
+Report --> Draft : fail / revise
+Canonical --> Git
+
+@enduml

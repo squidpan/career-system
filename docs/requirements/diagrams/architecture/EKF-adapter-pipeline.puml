@@ -1,0 +1,60 @@
+@startuml
+title Engineering Knowledge Framework - Adapter Pipeline
+
+skinparam componentStyle rectangle
+
+database "Git Repository\nCanonical Markdown" as Git
+
+rectangle "Adapter Layer" {
+  [Obsidian Adapter] as ObsidianAdapter
+  [Static Site Adapter] as StaticAdapter
+  [AI Export Adapter] as AIAdapter
+  [Diagram Adapter] as DiagramAdapter
+}
+
+rectangle "Obsidian Targets" {
+  [References/] as References
+  [Templates/] as Templates
+  [Templates/Bases/] as Bases
+  [Canvas Files] as Canvas
+}
+
+rectangle "Static Site Targets" {
+  [HTML Pages] as Html
+  [Navigation Indexes] as Nav
+  [Public Assets] as Assets
+}
+
+rectangle "AI Targets" {
+  [Context Bundles] as ContextBundles
+  [Summaries] as Summaries
+  [Retrieval Units] as RetrievalUnits
+}
+
+rectangle "Diagram Targets" {
+  [SVG Files] as SVG
+  [Embedded Image References] as ImageRefs
+}
+
+Git --> ObsidianAdapter
+Git --> StaticAdapter
+Git --> AIAdapter
+Git --> DiagramAdapter
+
+ObsidianAdapter --> References
+ObsidianAdapter --> Templates
+ObsidianAdapter --> Bases
+ObsidianAdapter --> Canvas
+
+StaticAdapter --> Html
+StaticAdapter --> Nav
+StaticAdapter --> Assets
+
+AIAdapter --> ContextBundles
+AIAdapter --> Summaries
+AIAdapter --> RetrievalUnits
+
+DiagramAdapter --> SVG
+DiagramAdapter --> ImageRefs
+
+@enduml

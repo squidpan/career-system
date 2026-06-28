@@ -1,0 +1,82 @@
+@startuml
+title Engineering Knowledge Framework - Meta Model
+
+skinparam classAttributeIconSize 0
+
+class EngineeringArtifact {
+  id
+  type
+  status
+  summary
+  categories
+  tags
+  created
+  updated
+  content
+}
+
+class ArtifactType {
+  name
+  prefix
+  purpose
+  typical_folder
+  template
+}
+
+class ArtifactRelationship {
+  source_artifact
+  target_artifact
+  relationship_type
+  description
+}
+
+class KnowledgeRepository {
+  name
+  repo_type
+  local_path
+  remote_url
+  status
+}
+
+class PublicationTarget {
+  name
+  target_type
+  local_path
+  public_url
+  visibility
+  status
+}
+
+class PublicationView {
+  target_path
+  view_type
+  generated
+  public
+  last_generated
+}
+
+class KnowledgePlatform {
+  name
+  platform_type
+}
+
+EngineeringArtifact "*" --> "1" ArtifactType : has type
+EngineeringArtifact "1" --> "*" ArtifactRelationship : source
+ArtifactRelationship "*" --> "1" EngineeringArtifact : target
+KnowledgeRepository "1" --> "*" EngineeringArtifact : owns
+EngineeringArtifact "1" --> "*" PublicationView : has views
+PublicationView "*" --> "1" PublicationTarget : published to
+PublicationTarget "*" --> "1" KnowledgePlatform : belongs to
+
+note bottom of EngineeringArtifact
+Canonical source artifact.
+Usually Markdown in Git.
+end note
+
+note bottom of PublicationView
+View generated or adapted from source.
+Examples: Obsidian note, Base row,
+Canvas node, SVG, static site page.
+end note
+
+@enduml

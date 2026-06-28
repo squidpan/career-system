@@ -1,0 +1,43 @@
+@startuml
+title Engineering Knowledge Framework - Knowledge Lifecycle
+
+skinparam componentStyle rectangle
+
+[*] --> Idea
+
+Idea --> Context : capture why
+Context --> Requirements : define outcomes
+Requirements --> Architecture : design solution
+Architecture --> Implementation : build/change
+Implementation --> Validation : test/check
+Validation --> Release : approve
+Release --> Operations : run/support
+Operations --> Learning : capture lessons
+Learning --> FrameworkImprovement : improve EKF
+FrameworkImprovement --> Idea : next iteration
+
+state Idea
+state Context
+state Requirements
+state Architecture
+state Implementation
+state Validation
+state Release
+state Operations
+state Learning
+state FrameworkImprovement as "Framework Improvement"
+
+note right of Learning
+Learning is a first-class
+engineering deliverable.
+end note
+
+note right of FrameworkImprovement
+Completed work improves:
+- product
+- documentation
+- framework
+- engineer
+end note
+
+@enduml

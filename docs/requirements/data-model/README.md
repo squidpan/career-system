@@ -22,13 +22,14 @@ Provide a central location for data model artifacts.
 - [[DM-CS-002-engineering-artifact-relationship-model]]
 - [[DM-CS-003-repository-and-publication-view-model]]
 - [[DM-CS-004-artifact-type-model]]
+- [[DM-CS-005-ekf-validation-result-model]]
 
 ---
 
 # Diagrams
 
 - [[ekf-meta-model]]
-
+- [[ekf-validation-result-model]]
 ---
 
 # Notes

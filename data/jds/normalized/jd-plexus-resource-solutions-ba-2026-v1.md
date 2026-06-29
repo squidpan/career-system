@@ -1,0 +1,302 @@
+---
+id: jd-plexus-resource-solutions-ba-2026-v1
+slug: plexus-resource-solutions-ba-2026
+type: jd
+title: Business Analyst - Plexus Resource Solutions
+categories:
+  - [[Clippings]]
+  - [[Careers]]
+  - [[JDs]]
+tags:
+  - clippings
+  - career
+  - jd
+  - raw
+status: normalized
+version: v1
+created: 2026-06-27
+last: 2026-06-27
+company: Plexus Resource Solutions
+company_slug: plexus-resource-solutions
+source_system: teal
+source_file: 
+source_url: https://www.linkedin.com/jobs/view/4430289830/?trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4430289830_ssid_8576426658_fmid_12492~mqwiq769~f6&refId=qX%2F%2Fpi8BMuhzas3uweV5zw%3D%3D&trackingId=ceKLwaHjnYjGxL%2BIf2JLwg%3D%3D
+origin: webclipper
+run_id: run-2026-06-29-jd-normalize-remaining-imported-v1
+captured_date: 2026-06-27
+source_title: Business Analyst
+normalized_title: Business Analyst
+role_id: role-plexus-resource-solutions-ba-2026
+role_family: ba
+role_level: 
+role_qualifiers:
+role_code: ba
+role_code_confidence: high
+role_summary: 
+jd_file_name: jd-plexus-resource-solutions-ba-2026-v1.md
+jd_source_type: clipped
+jd_text_status: normalized
+role_source_type: jd
+normalization_status: normalized
+normalized_jd_id: jd-plexus-resource-solutions-ba-2026-v1
+---
+
+# Business Analyst - Plexus Resource Solutions
+
+## Capture Metadata
+
+- Source URL: https://www.linkedin.com/jobs/view/4430289830/?trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4430289830_ssid_8576426658_fmid_12492~mqwiq769~f6&refId=qX%2F%2Fpi8BMuhzas3uweV5zw%3D%3D&trackingId=ceKLwaHjnYjGxL%2BIf2JLwg%3D%3D
+- Captured Date: 2026-06-27
+- Browser Page Title: Business Analyst | Plexus Resource Solutions
+- Source System: teal
+
+## Clipped Content
+
+Business Analyst
+
+New York City Metropolitan Area · 1 day ago · Over 100 applicants
+
+Promoted by hirer · **Company review time is typically 1 week**
+
+## Use AI to assess how you fit
+
+## About the job
+
+Plexus is partnering with a well-funded technology company building next-generation financial infrastructure. Working at the intersection of fintech and emerging technologies, they're developing products that are transforming how financial institutions operate.
+
+They're looking for a Business Analyst to work closely with product, engineering and business teams, translating complex requirements into clear, actionable solutions.
+
+What You'll Do
+
+- Gather and document business requirements
+- Create user stories and functional specifications
+- Collaborate with Product Managers and Engineers throughout delivery
+- Analyze and improve business processes
+- Support product testing and stakeholder communication
+
+What We're Looking For
+
+- 3+ years' experience as a Business Analyst or Product Analyst
+- Background in fintech, financial services or a technology company
+- Strong analytical and stakeholder management skills
+- Experience writing user stories and process documentation
+- Exposure to Agile environments
+
+What's On Offer
+
+- Up to $170k + equity
+- High-impact role with real ownership
+- Join an experienced, collaborative team
+- Office-based in New York (3 day's onsite)
+
+## Set alert for similar jobs
+
+Business Analyst, New York City Metropolitan Area
+
+Off 
+
+## Put your best foot forward with your application
+
+Hire a resume writer
+
+[Get a resume review](https://www.linkedin.com/service-marketplace/create-project/?legoTrackingToken=0NfmlWqldVomNMsSBA9z0Kc3RBsCZzkTsCfn9xk6NBkDsCfmhLjmNBkDsCcjRApnhPpnlNpl9JtmUCjkZ4jA5ifnB2sClAsAZQpmtAqnsCrSRLsD1vsClArCBCrT9MnTdIqm5QpmhvoCZGgjcBsS9LqzRAinhBpShFtOoMfmVLqnhFsSZgt6lDp6BT9z0Kc3RBsCZzkT9D9zROol1Ipl9OpOoZp6Zdr6lisCsCd3RKrSBQqndLk71RrT9D9zkZp6lQsSlRsmlirnles7lLsCsCc39Kqj5vsClArCBCrT9Mfmh9s7lLsCsCjAZ9l4BjjR0Zuk9OpmhOrOpQr7lxpClAfmh9t6VBrmtBsOpIr6lPs7lvrnlFrmlOs3RAinhLr7cCt6NRompBp3RAinhRrTBxr2pPr6Bxt6lAnS9LqBYPs6BEsStxr6pvp3RBrm5epmtxs2pyrSEZp4BMs64CcPAVejwOfmh9rCZFsT9BtyoUcPgUdPsNfmh9tipBomkVe3oUpmoRemkJoPAPoiQSdzsQbmcRozoJoj0Uem8Rc3oZp4BQu6lQrCZz&trk=profinder_neptune_jobdetails_rotation_with_premium&careerCoaching=true)
+
+Job search faster with Premium
+
+Access company insights like strategic priorities, headcount trends, and more
+
+Chris and millions of other members use Premium
+
+[Try Premium for $0](https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=hqlvU9sdRpuT0X0iOmiXFw%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC)
+
+1-month free trial. Easy to cancel. We’ll remind you 7 days before your trial ends.
+
+## About the company
+
+Staffing and Recruiting
+
+•
+
+11-50 employees
+
+•
+
+54 on LinkedIn
+
+Since 2017, we’ve been helping Web3 founders build teams fast. From our bases in London and Miami, our 45-person crew makes 300+ crypto hires a year. We're big enough to deliver but small enough to care.  
+  
+Scaling fast?  
+We can spin up delivery squads, share shortlists in days and fill multiple roles at once, all without lowering the bar. With 600k blockchain pros already mapped and 100+ live vacancies at any one time, we know who’s ready to move.  
+  
+Deep specialists  
+Every consultant here owns a single vertical. That means if you’re after Rust engineers for Solana, a DeFi BD lead in the US or a founding marketer for a ZK rollup, you’ll speak to someone who gets it and knows the tech, the top 200 candidates and the market rates.  
+  
+One point of contact  
+You’ll still have one consultant running with you from first chat to signed offer. They’ll guide you on comp, equity splits, location… while the wider Plexus team takes care of sourcing, vetting and scheduling in the background.  
+  
+Trusted across Web3  
+We’ve helped teams like zkSync, Lido, Celestia, Filecoin, dYdX Foundation, Frax, Maple, Berachain, Sophon, Omni, Plume, The Sandbox (and plenty more) hire across DeFi, Layer 1s, Layer 2s, ZK, GameFi, RWAs and everything in between.  
+  
+No nonsense  
+Our technical interviews, onchain checks and culture screens filter out fake CVs and cloned GitHubs before they ever land in your inbox.  
+  
+🌎 Hiring in crypto?  
+Drop us a DM or book a call at www.plexusrs.com  
+  
+And if you want to keep up with the market, follow us on Twitter: @PlexusRS… more
+
+Interested in working with us in the future?[Members who share that they’re interested in a company may be 2x as likely to get a message from a recruiter than those who don’t.](https://www.linkedin.com/help/linkedin/answer/a1380509/) [**Learn more**](https://www.linkedin.com/help/linkedin/answer/a1380509/)
+
+---
+
+[Show more](https://www.linkedin.com/company/plexus-resource-solutions/life/)
+
+## More jobs[New York Life Insurance Company](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=r76yE%2BGtp%2Bs6U2jVsoNS9w%3D%3D&currentJobId=4420635693&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XYzQUJeseuAKC3wmNLtfAQRbnX88Z_Mt6tYbHb1mkT0sivG_5uHhb8TYm4uqA6cvbxELScFxix63JNBqxVwplLbe9f-4_Hz3BixJ10Z9oRsJqV6miv34bpPFf9FF3c-myrP827Tnn0ici7JURnaI52uu1g6do_x_yAtGKud5rfUfpdXaRjI3v4uALzAn6Le-cJSm9ojcAhi2ttkSga-Ns0vVWtHrRWWel5uct5GUF-HTNHUmx6lCZ3krRAmviSAP1sUgNNZnTU_VwokRgxYQTbZGSxgSs6e1G13uW0SXWot7r6eIPrpSjEwY9JkndOiie1VVDTR7mi67841A-AU98rPaponqZz6uXqG44A4bzHAvQZOKZWa2rA9_ZAag39FgyDvlXaugyhLRM86wavRoP7PrLb7pS8oKW9FDA2RRHGvhYDsKhvP1lrQDXTt6uERy_GHwPzgqYZRXBqbdFST6WdD2RNbw&originToLandingJobPostings=4420635693)
+
+[
+
+New York, NY
+
+1 benefit
+
+74 school alumni work here
+
+Posted 1 week ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=r76yE%2BGtp%2Bs6U2jVsoNS9w%3D%3D&currentJobId=4420635693&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XYzQUJeseuAKC3wmNLtfAQRbnX88Z_Mt6tYbHb1mkT0sivG_5uHhb8TYm4uqA6cvbxELScFxix63JNBqxVwplLbe9f-4_Hz3BixJ10Z9oRsJqV6miv34bpPFf9FF3c-myrP827Tnn0ici7JURnaI52uu1g6do_x_yAtGKud5rfUfpdXaRjI3v4uALzAn6Le-cJSm9ojcAhi2ttkSga-Ns0vVWtHrRWWel5uct5GUF-HTNHUmx6lCZ3krRAmviSAP1sUgNNZnTU_VwokRgxYQTbZGSxgSs6e1G13uW0SXWot7r6eIPrpSjEwY9JkndOiie1VVDTR7mi67841A-AU98rPaponqZz6uXqG44A4bzHAvQZOKZWa2rA9_ZAag39FgyDvlXaugyhLRM86wavRoP7PrLb7pS8oKW9FDA2RRHGvhYDsKhvP1lrQDXTt6uERy_GHwPzgqYZRXBqbdFST6WdD2RNbw&originToLandingJobPostings=4420635693)[Barclays](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=upM4r%2BJd0T%2Fy9xlsTnd1IQ%3D%3D&currentJobId=4430695123&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY_DyZtXPDM2walo-8yxBXbHqx9y7oR80EsE8bxoir_3l4wxmnvuWLm_t0SKNjPrJZzYcSwpF_6_6o5zye7xnrpK6En7-WnAKkEVCLa9oynWcxrMdc8xCsn8ZgmWB_ghQsmIp2Tadw9_00RMoMxSo3pUvv1YuopYHr_ith_N_MtoRqPHsXKBC2ojhGw_5w6iXqZpVdWRVYMR_CW6dD5337yp5La0FiXSIck_qBIArIDiYikGrM65VweckI-BW9yafuo6AUsiABT40JnESix5l3tXq7QgddMQDxcVoLrkGMa2BRMCfudZwttAfPlrlPQ-QTp_k3J9-JbncOOPn1t7AzUxw1LTu3SYM5LANtNG06mGi7F41ZNzii5u-pURe0YgaEh9Zox_Qga7tT96wfK1mhI-0InuU30dbHl6MnlkjgaCl37kPkCWXnVGTY5wAnFzSa6uC8A&originToLandingJobPostings=4430695123)
+
+[
+
+New York, NY
+
+22 school alumni work here
+
+Posted 7 hours ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=upM4r%2BJd0T%2Fy9xlsTnd1IQ%3D%3D&currentJobId=4430695123&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY_DyZtXPDM2walo-8yxBXbHqx9y7oR80EsE8bxoir_3l4wxmnvuWLm_t0SKNjPrJZzYcSwpF_6_6o5zye7xnrpK6En7-WnAKkEVCLa9oynWcxrMdc8xCsn8ZgmWB_ghQsmIp2Tadw9_00RMoMxSo3pUvv1YuopYHr_ith_N_MtoRqPHsXKBC2ojhGw_5w6iXqZpVdWRVYMR_CW6dD5337yp5La0FiXSIck_qBIArIDiYikGrM65VweckI-BW9yafuo6AUsiABT40JnESix5l3tXq7QgddMQDxcVoLrkGMa2BRMCfudZwttAfPlrlPQ-QTp_k3J9-JbncOOPn1t7AzUxw1LTu3SYM5LANtNG06mGi7F41ZNzii5u-pURe0YgaEh9Zox_Qga7tT96wfK1mhI-0InuU30dbHl6MnlkjgaCl37kPkCWXnVGTY5wAnFzSa6uC8A&originToLandingJobPostings=4430695123)[The Depository Trust & Clearing Corporation (DTCC)](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=ayKM7xvy9H1zfLFg2Cz9Vw%3D%3D&currentJobId=4366776955&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY4OdufhXt0km11O0Tbr9TpGQaRvyJouBO9MJsIbmqqU7GHZWn-3ayo0Xt4Ej26kSkvRIMXuExdVi4d_HrJo7TzCwE8S3y0dsSjtNs8VYlfUR2DxccZ37hSDFX8FMjHyj2l0uiAMRj0zjgeuMgQOcXnTrDbh1DtzeFaIG2GUO6S0wRCKRnJ49mhI_zFrOsU6VqYfSRVZSeWmj_GmNAvoBwQuL8go8WFqjhCUfosiCc9uyJpntKvhlC0tYdqk5jf3QLl3KK67NOM5eJTmX7KNJXSLiwOSjNYVB9-xIBTfxbED5msPPOSxZtik9hrgdggSYmUPPFHfmiZ-QVxwf4A_aSs3_7mAsFoHPPdk08yYp26XcNmM79HAPcT05p-ixSme3uu31nuovA8asm1AzOgSLxedaAgVYnpg0UAlFJqiumMv9TV9yxafwsEU_uLQTNfZ6rCO8AiAs1868YIGx-jVbuUwxCcu-O-7xfws&originToLandingJobPostings=4366776955)
+
+[
+
+Jersey City, NJ
+
+25 school alumni work here
+
+Posted 1 hour ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=ayKM7xvy9H1zfLFg2Cz9Vw%3D%3D&currentJobId=4366776955&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY4OdufhXt0km11O0Tbr9TpGQaRvyJouBO9MJsIbmqqU7GHZWn-3ayo0Xt4Ej26kSkvRIMXuExdVi4d_HrJo7TzCwE8S3y0dsSjtNs8VYlfUR2DxccZ37hSDFX8FMjHyj2l0uiAMRj0zjgeuMgQOcXnTrDbh1DtzeFaIG2GUO6S0wRCKRnJ49mhI_zFrOsU6VqYfSRVZSeWmj_GmNAvoBwQuL8go8WFqjhCUfosiCc9uyJpntKvhlC0tYdqk5jf3QLl3KK67NOM5eJTmX7KNJXSLiwOSjNYVB9-xIBTfxbED5msPPOSxZtik9hrgdggSYmUPPFHfmiZ-QVxwf4A_aSs3_7mAsFoHPPdk08yYp26XcNmM79HAPcT05p-ixSme3uu31nuovA8asm1AzOgSLxedaAgVYnpg0UAlFJqiumMv9TV9yxafwsEU_uLQTNfZ6rCO8AiAs1868YIGx-jVbuUwxCcu-O-7xfws&originToLandingJobPostings=4366776955)[Fletcher Spaght, Inc.](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=TvV7Bk7zT8ld2TxlvKBlYw%3D%3D&currentJobId=4427718843&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY4aF2CpaJtFrZFEkCkoGbwENELpMWc-1rg_8Zec7Os5Zo3XY7juni8tNo_z-h3IUaZZ0F_Fxo1HftXGIyW0w4ZHWVT1TILO7QXg_MDWi6VwVcVu4NAWt604j9OhI8j2y2EoWfUVyieyrqWDl1R8ZUTgRbgYOfCQXPdxPJ9f9A3UYrtXMpGxW1S6Sccl09SxTl3mvdv-s5XDsjXLKimsgIciKqXHr-MwJbXV8xg6Z1n03-tIzKzGKllsAUgl1YY790DOCFqp8DspjR1X6bRNL2wrGFNTusp6DmPUAOuocagrFWVKPXTVpHkZy77VSa-yICXn6OCge9pknw8l7RfKjSB-I9Uxo1n6RE7N5oIlqb3RYpRmvJtWA-DTViSypUcOT2oYIx-IG8M8GF9GKoa8KselUddnVcpL3C_qAfGqo-vK7IFsiDUH_NvhwpU0CUVZHCRd00DJGRgkvqYQzoTNPv9xNoZaQ_w&originToLandingJobPostings=4427718843)
+
+[Boston, MA (Remote)](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=TvV7Bk7zT8ld2TxlvKBlYw%3D%3D&currentJobId=4427718843&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY4aF2CpaJtFrZFEkCkoGbwENELpMWc-1rg_8Zec7Os5Zo3XY7juni8tNo_z-h3IUaZZ0F_Fxo1HftXGIyW0w4ZHWVT1TILO7QXg_MDWi6VwVcVu4NAWt604j9OhI8j2y2EoWfUVyieyrqWDl1R8ZUTgRbgYOfCQXPdxPJ9f9A3UYrtXMpGxW1S6Sccl09SxTl3mvdv-s5XDsjXLKimsgIciKqXHr-MwJbXV8xg6Z1n03-tIzKzGKllsAUgl1YY790DOCFqp8DspjR1X6bRNL2wrGFNTusp6DmPUAOuocagrFWVKPXTVpHkZy77VSa-yICXn6OCge9pknw8l7RfKjSB-I9Uxo1n6RE7N5oIlqb3RYpRmvJtWA-DTViSypUcOT2oYIx-IG8M8GF9GKoa8KselUddnVcpL3C_qAfGqo-vK7IFsiDUH_NvhwpU0CUVZHCRd00DJGRgkvqYQzoTNPv9xNoZaQ_w&originToLandingJobPostings=4427718843)
+
+[
+
+1 school alumni works here
+
+Posted 1 week ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=TvV7Bk7zT8ld2TxlvKBlYw%3D%3D&currentJobId=4427718843&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY4aF2CpaJtFrZFEkCkoGbwENELpMWc-1rg_8Zec7Os5Zo3XY7juni8tNo_z-h3IUaZZ0F_Fxo1HftXGIyW0w4ZHWVT1TILO7QXg_MDWi6VwVcVu4NAWt604j9OhI8j2y2EoWfUVyieyrqWDl1R8ZUTgRbgYOfCQXPdxPJ9f9A3UYrtXMpGxW1S6Sccl09SxTl3mvdv-s5XDsjXLKimsgIciKqXHr-MwJbXV8xg6Z1n03-tIzKzGKllsAUgl1YY790DOCFqp8DspjR1X6bRNL2wrGFNTusp6DmPUAOuocagrFWVKPXTVpHkZy77VSa-yICXn6OCge9pknw8l7RfKjSB-I9Uxo1n6RE7N5oIlqb3RYpRmvJtWA-DTViSypUcOT2oYIx-IG8M8GF9GKoa8KselUddnVcpL3C_qAfGqo-vK7IFsiDUH_NvhwpU0CUVZHCRd00DJGRgkvqYQzoTNPv9xNoZaQ_w&originToLandingJobPostings=4427718843)[Morgan Stanley](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=mDUqp4Z5WC%2FTF%2FesS3yOrw%3D%3D&currentJobId=4423236259&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XYw3onDcUfwxL6ZefusbHkHgD2LmlcpT_vyiEelm6h2Pc5F3u2mNJvXYtkUWAMb2mi2oHsztIant4I9JqEi68F0-ohThgljRJ2QwgridZHRQuckimJHdePPa0pYHe2Rs_jDoIqiDnHGGbKJFxqUUfEL0u1owmg4j22KNG3U8QeAKqRqU98Q64cvL3ccJFSI3S0aegFPjPmvHyVEyeO7_NuzJSQnGRThIKffPUWZD9xTvT9wq8goOfpoXsQjWzHYfXaGrvVgLevc4GJWrJOXxB00ctH6-aUkB_cYXOMQ-OH3ljuwxiOl9w_kxgl6n8Nvc9e--HFLFYIlr8v2pkV-I8Kpjwi-bQYjZzZVn_AqY6_cXHQrRKWpvvNryxJcJqtOdcIQZGmSZYEqFi6EUehF8MOT4xVI1O2GW969q7Kb9hJQCkbsksmhdsi0TXZPnu9hI_9XfBUkTNWPcEOGeD26p_xDJJ-Y5CA80AvU8nIA&originToLandingJobPostings=4423236259)
+
+[
+
+New York, NY
+
+135 school alumni work here
+
+Posted 4 days ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=mDUqp4Z5WC%2FTF%2FesS3yOrw%3D%3D&currentJobId=4423236259&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XYw3onDcUfwxL6ZefusbHkHgD2LmlcpT_vyiEelm6h2Pc5F3u2mNJvXYtkUWAMb2mi2oHsztIant4I9JqEi68F0-ohThgljRJ2QwgridZHRQuckimJHdePPa0pYHe2Rs_jDoIqiDnHGGbKJFxqUUfEL0u1owmg4j22KNG3U8QeAKqRqU98Q64cvL3ccJFSI3S0aegFPjPmvHyVEyeO7_NuzJSQnGRThIKffPUWZD9xTvT9wq8goOfpoXsQjWzHYfXaGrvVgLevc4GJWrJOXxB00ctH6-aUkB_cYXOMQ-OH3ljuwxiOl9w_kxgl6n8Nvc9e--HFLFYIlr8v2pkV-I8Kpjwi-bQYjZzZVn_AqY6_cXHQrRKWpvvNryxJcJqtOdcIQZGmSZYEqFi6EUehF8MOT4xVI1O2GW969q7Kb9hJQCkbsksmhdsi0TXZPnu9hI_9XfBUkTNWPcEOGeD26p_xDJJ-Y5CA80AvU8nIA&originToLandingJobPostings=4423236259)[City of Philadelphia](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=M79s6XSGmEOrQul8ifIQpA%3D%3D&currentJobId=4431739560&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY1atNmdI5KtoaekqoQsj2woP9YADD5LJXF5tH-j7IoontM1TzZAIOqTrk4s9YKXOgIOkWUiia3kLAMZezSCYOfWqYtMR_b7lG-Jesqs2yUtbFTbz9_I9e4-kN9lLAvBlWxVY7p2tDmJ8CLkI-73jCT307tTevxeuoIH3SX1r_nGU6p5Tb1KeVfMItw20jx5tqlSMR18kWUEl5DYYW6k__pMSkn0IpSk1ZUQ9nvqe1lK8xOhzrVZEkNB182fuo9UK_V_Kaob38m86T0suH8ObF1K2RD3ETWr_qFAva_YScrRUGrXmnJ9FJzhEZ2nf0VscD_UIej5Gzu3c8uJnD1KUecxtV9go98_InzcE9WmLJbjoVwsOcL_w8A3M6zgPoL2oNpOmXb--u2AteD_f9F08qdIKdk_1TGDB84UnFIHKUm_ueUgx9x_Osy7P2vLZwxnQkTjezVx2Ocol5vqUxpJJJ0Fc3QQiu9mDt1I&originToLandingJobPostings=4431739560)
+
+[
+
+Philadelphia, PA (On-site)
+
+6 school alumni work here
+
+Posted 4 days ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=M79s6XSGmEOrQul8ifIQpA%3D%3D&currentJobId=4431739560&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY1atNmdI5KtoaekqoQsj2woP9YADD5LJXF5tH-j7IoontM1TzZAIOqTrk4s9YKXOgIOkWUiia3kLAMZezSCYOfWqYtMR_b7lG-Jesqs2yUtbFTbz9_I9e4-kN9lLAvBlWxVY7p2tDmJ8CLkI-73jCT307tTevxeuoIH3SX1r_nGU6p5Tb1KeVfMItw20jx5tqlSMR18kWUEl5DYYW6k__pMSkn0IpSk1ZUQ9nvqe1lK8xOhzrVZEkNB182fuo9UK_V_Kaob38m86T0suH8ObF1K2RD3ETWr_qFAva_YScrRUGrXmnJ9FJzhEZ2nf0VscD_UIej5Gzu3c8uJnD1KUecxtV9go98_InzcE9WmLJbjoVwsOcL_w8A3M6zgPoL2oNpOmXb--u2AteD_f9F08qdIKdk_1TGDB84UnFIHKUm_ueUgx9x_Osy7P2vLZwxnQkTjezVx2Ocol5vqUxpJJJ0Fc3QQiu9mDt1I&originToLandingJobPostings=4431739560)[Starr Companies](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=oszHfMMWjOu2UwjiYtcIBA%3D%3D&currentJobId=4420266461&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY-rR_d491PIjscIS6ixYWJLCRZGBAcwvjVVf7VWq2TpuQSiOavWzsg4bNDhTa5j7M-_r-Fk4TlddvP9ewdNTq6YFOWP8h2YH-gkvCLRurzlj_NqJ8eHqd0Izc7R5nzAwekalaxwpOXNL5kgROQjDFPLVpORpSL0AdYw9KsYvLt04HsIzIjJIqnG53nRjHbJPppsKhWj3-dU322roFPSwFX7q-NERsI1eyjOuWipgfztQAv6jhLnGR3kFfRi9TG1ZNrmbTq1Mt7ZcKBtHpUJu9e4Jy2TVv9bS3o-zPDpvuvd6jr6qCq2McoXE4zbjcH_7y2Lh_W7E2cJelt396JNRGeRXmJM6HWHRDmKP1m1q31E9pLTvHgExTQNS2JICM_5hKF6i7lEMmQdCid1W-N4dEtJbwlTbtacXJ0KaSXLBkamhnVG1IeVoyicSfrYBhJPHSIzeNhuKTjQ7A4j3auXP84RrAK12PldN&originToLandingJobPostings=4420266461)
+
+[
+
+New York, NY
+
+4 school alumni work here
+
+Posted 1 week ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=oszHfMMWjOu2UwjiYtcIBA%3D%3D&currentJobId=4420266461&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY-rR_d491PIjscIS6ixYWJLCRZGBAcwvjVVf7VWq2TpuQSiOavWzsg4bNDhTa5j7M-_r-Fk4TlddvP9ewdNTq6YFOWP8h2YH-gkvCLRurzlj_NqJ8eHqd0Izc7R5nzAwekalaxwpOXNL5kgROQjDFPLVpORpSL0AdYw9KsYvLt04HsIzIjJIqnG53nRjHbJPppsKhWj3-dU322roFPSwFX7q-NERsI1eyjOuWipgfztQAv6jhLnGR3kFfRi9TG1ZNrmbTq1Mt7ZcKBtHpUJu9e4Jy2TVv9bS3o-zPDpvuvd6jr6qCq2McoXE4zbjcH_7y2Lh_W7E2cJelt396JNRGeRXmJM6HWHRDmKP1m1q31E9pLTvHgExTQNS2JICM_5hKF6i7lEMmQdCid1W-N4dEtJbwlTbtacXJ0KaSXLBkamhnVG1IeVoyicSfrYBhJPHSIzeNhuKTjQ7A4j3auXP84RrAK12PldN&originToLandingJobPostings=4420266461)[Symetra Life Insurance Company](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=SUGvFnZa53S1Xr1nCp01GQ%3D%3D&currentJobId=4429772296&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY8FP9jIve9vvNdQtawB9Vo7HQlO7x4k8S3qYGajLPQSRMRj67ZvAA7-wZ2wOVEP4owK-86PH85lU1cfsLYcLAq4SZLpBsB_MoUN-P3sxFNo-IjRY2A5PD4ctrqxOEB-uEOYYcC52FqtaHYKGcfWY6GsKb6v1pRLDXev1VyQMhF3bwn8cd8Ux6UKD-g2TN5zQwb67XnkOmEGk-XOsmVD9LDn-zdE8226asAzEusZPmgYT8DRCX62lO0DqJ0i1TmNohs51VFQz90aUqIxNgtFBXFpbcog82bbhp_VAFYGT0uy_nl6g86oCsQrVS0w40KANOS5oRNNWgDi7-WaPWuc-osJRfYqboOZmpd0qCs4mN8QjQbZZvNRAOkf15U_irtiCEzQ5F-GheAyzN8zu8qthsP-8XBfkelsXwpIN6AeO3rrS1jnq9xR1K27jeAQOhliATRuUiGdl-1-298hMUT20TFJa4Zu6Hp0EAlrQOw&originToLandingJobPostings=4429772296)
+
+[
+
+United States (Remote)
+
+401(k) benefit
+
+11 school alumni work here
+
+Posted 1 week ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=SUGvFnZa53S1Xr1nCp01GQ%3D%3D&currentJobId=4429772296&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY8FP9jIve9vvNdQtawB9Vo7HQlO7x4k8S3qYGajLPQSRMRj67ZvAA7-wZ2wOVEP4owK-86PH85lU1cfsLYcLAq4SZLpBsB_MoUN-P3sxFNo-IjRY2A5PD4ctrqxOEB-uEOYYcC52FqtaHYKGcfWY6GsKb6v1pRLDXev1VyQMhF3bwn8cd8Ux6UKD-g2TN5zQwb67XnkOmEGk-XOsmVD9LDn-zdE8226asAzEusZPmgYT8DRCX62lO0DqJ0i1TmNohs51VFQz90aUqIxNgtFBXFpbcog82bbhp_VAFYGT0uy_nl6g86oCsQrVS0w40KANOS5oRNNWgDi7-WaPWuc-osJRfYqboOZmpd0qCs4mN8QjQbZZvNRAOkf15U_irtiCEzQ5F-GheAyzN8zu8qthsP-8XBfkelsXwpIN6AeO3rrS1jnq9xR1K27jeAQOhliATRuUiGdl-1-298hMUT20TFJa4Zu6Hp0EAlrQOw&originToLandingJobPostings=4429772296)[BNY](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=X0Z%2BRNY0obSRJAIEwTeAFw%3D%3D&currentJobId=4432650783&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY5UOVcW9vFR65rO3aKC5LQSatUfmm3BQDg-bbPfSLJ-dnU-FvfDM0yokuOzeff-0t225-Gw9Oic6tKF3JwdfHdSEuNv0lDqb0YXjgGAsybaSajwP9sp-RM117Jj9-sw9uBGhKyGjpJayPMukXDOsyFXE-ZVUjoTVl3X_Kzc95fqWquJXGK1qMfkKISrXIGrsGK6bLzr2eMYIYe6oGPCZbIyDHi2_GjWAvMDHKvZsVk9Xa-yeWxWAAWPYnfi3521jZm7TMU55wGrPhYjjdPmL_Us3jZbfAzH_pCGOrD74HZ_SmGFSftlaF2RM3H4Odi_HOZ2Xcd9qn9AjuwcpKeywKPEj4DaP5ZGbWakdkKFptG841mprlyXbm2XJ2NUgfJgeygr7uqP125_uEIZfXc2M2HN0n5f6B87BTWHrrjwqIcaSmZ4PemLn4IPi5vE8pEaJ_CGN836YqLvGjPGpfWJ6ZKrjT8cBtmbg&originToLandingJobPostings=4432650783)
+
+[
+
+New York City Metropolitan Area (Hybrid)
+
+$113.60/hr - $142/hr
+
+•
+
+4 benefits
+
+126 school alumni work here
+
+Posted 2 days ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=X0Z%2BRNY0obSRJAIEwTeAFw%3D%3D&currentJobId=4432650783&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY5UOVcW9vFR65rO3aKC5LQSatUfmm3BQDg-bbPfSLJ-dnU-FvfDM0yokuOzeff-0t225-Gw9Oic6tKF3JwdfHdSEuNv0lDqb0YXjgGAsybaSajwP9sp-RM117Jj9-sw9uBGhKyGjpJayPMukXDOsyFXE-ZVUjoTVl3X_Kzc95fqWquJXGK1qMfkKISrXIGrsGK6bLzr2eMYIYe6oGPCZbIyDHi2_GjWAvMDHKvZsVk9Xa-yeWxWAAWPYnfi3521jZm7TMU55wGrPhYjjdPmL_Us3jZbfAzH_pCGOrD74HZ_SmGFSftlaF2RM3H4Odi_HOZ2Xcd9qn9AjuwcpKeywKPEj4DaP5ZGbWakdkKFptG841mprlyXbm2XJ2NUgfJgeygr7uqP125_uEIZfXc2M2HN0n5f6B87BTWHrrjwqIcaSmZ4PemLn4IPi5vE8pEaJ_CGN836YqLvGjPGpfWJ6ZKrjT8cBtmbg&originToLandingJobPostings=4432650783)[Morgan, Lewis & Bockius LLP](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=qDbO9ee1Ha6vphrqqpVQOw%3D%3D&currentJobId=4421193638&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY0JYj9m9fcyLgwIRXgfheUntnHKN94afdZfy9o5ZzSwLCm0cWwOXYgHZVeDAMHuiwmj1F3QR2OF5LSsqJGkPUxIGXg5POhn1OcG9DF57O4qgoN8wCoFYUenMMawohloqx1YGvMIUS712AmzeSOm5SS76_5KTaBvSZt8G8mfrlcTM1wS25I0mxQQfS2Eija8U53_H9REv768cGBpEkO0KdQKvw8c4kJP7DOWCXl3l7KakBywZn6RD8LZ9VoNWlmCswojV_HQ5OidT2GIvpKpjsLOMha415eIHnk4dLefzr9jFvS_5d2WpNxmYC1TDKpJ3CpOZfWxJo9ZtbV5bsrMZ5YxgaQnJqFFR_Zjp_JkFaTrFuS6kbPsmA0jvdJGbR6-APGKpKe1NHZKaZTvNTU4bZBiR2q5liiBxRRnaBqWEGI3qRcqIebnlK2fvxXNmXsgRzejkIjHcute7KIR4-t-oxmC_IW3vvOgJckfQLw&originToLandingJobPostings=4421193638)
+
+[
+
+New York, NY (Hybrid)
+
+14 school alumni work here
+
+Posted 6 hours ago
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=qDbO9ee1Ha6vphrqqpVQOw%3D%3D&currentJobId=4421193638&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY0JYj9m9fcyLgwIRXgfheUntnHKN94afdZfy9o5ZzSwLCm0cWwOXYgHZVeDAMHuiwmj1F3QR2OF5LSsqJGkPUxIGXg5POhn1OcG9DF57O4qgoN8wCoFYUenMMawohloqx1YGvMIUS712AmzeSOm5SS76_5KTaBvSZt8G8mfrlcTM1wS25I0mxQQfS2Eija8U53_H9REv768cGBpEkO0KdQKvw8c4kJP7DOWCXl3l7KakBywZn6RD8LZ9VoNWlmCswojV_HQ5OidT2GIvpKpjsLOMha415eIHnk4dLefzr9jFvS_5d2WpNxmYC1TDKpJ3CpOZfWxJo9ZtbV5bsrMZ5YxgaQnJqFFR_Zjp_JkFaTrFuS6kbPsmA0jvdJGbR6-APGKpKe1NHZKaZTvNTU4bZBiR2q5liiBxRRnaBqWEGI3qRcqIebnlK2fvxXNmXsgRzejkIjHcute7KIR4-t-oxmC_IW3vvOgJckfQLw&originToLandingJobPostings=4421193638)[Incedo Inc.](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=jGr4cPsID0pzPbMvmTrXiQ%3D%3D&currentJobId=4431751114&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY1ZyRL3v7MVolhlIj213AheYlea1oj-G-_iL35ro_sbW_pM2ujvUkk-YvnUZt0D1XSeaJ2HvW-JT2qsgoiaZz9S2lRRHAuMyXchUrp2nQqLdp8nUWQpX2rm8YxZsWUJdt9U1DhZUM8SaSpUCDmE5JMp-R0t-tlrIPJUcnl2gV5W05nSqbQpAPM58Z_A32QcJdIGNmoLc8m4c2qLNKcd1d6KIUOvc-lrkGt0yBm6VIUyz_-R4LXPIu-YzmV9nIqre4QTtcDqdr30ZldCUxM7REUyZpeq-ELyEbmQKR9eHj24M0Fr4gO10I-xhCfwW7xExa27TRNNdSHOsFDiF5lVPYmr0iT5cLBSxkbszS29DATHEkGMksKHbNfEsCQNYf6KWYCGE5DnbY65Avh37FT9Anj4WqLxrGr2Pf3AwNstj5o1bmirzCJiN51MOgwCbSQqmgSQs6woQHcjF_5s59-L2AX5RF7rYng&originToLandingJobPostings=4431751114)
+
+[Jersey City, NJ (On-site)](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=jGr4cPsID0pzPbMvmTrXiQ%3D%3D&currentJobId=4431751114&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY1ZyRL3v7MVolhlIj213AheYlea1oj-G-_iL35ro_sbW_pM2ujvUkk-YvnUZt0D1XSeaJ2HvW-JT2qsgoiaZz9S2lRRHAuMyXchUrp2nQqLdp8nUWQpX2rm8YxZsWUJdt9U1DhZUM8SaSpUCDmE5JMp-R0t-tlrIPJUcnl2gV5W05nSqbQpAPM58Z_A32QcJdIGNmoLc8m4c2qLNKcd1d6KIUOvc-lrkGt0yBm6VIUyz_-R4LXPIu-YzmV9nIqre4QTtcDqdr30ZldCUxM7REUyZpeq-ELyEbmQKR9eHj24M0Fr4gO10I-xhCfwW7xExa27TRNNdSHOsFDiF5lVPYmr0iT5cLBSxkbszS29DATHEkGMksKHbNfEsCQNYf6KWYCGE5DnbY65Avh37FT9Anj4WqLxrGr2Pf3AwNstj5o1bmirzCJiN51MOgwCbSQqmgSQs6woQHcjF_5s59-L2AX5RF7rYng&originToLandingJobPostings=4431751114)
+
+[
+
+4 benefits
+
+Actively reviewing applicants
+
+Posted 5 days ago
+
+·
+
+Easy Apply
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=jGr4cPsID0pzPbMvmTrXiQ%3D%3D&currentJobId=4431751114&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XY1ZyRL3v7MVolhlIj213AheYlea1oj-G-_iL35ro_sbW_pM2ujvUkk-YvnUZt0D1XSeaJ2HvW-JT2qsgoiaZz9S2lRRHAuMyXchUrp2nQqLdp8nUWQpX2rm8YxZsWUJdt9U1DhZUM8SaSpUCDmE5JMp-R0t-tlrIPJUcnl2gV5W05nSqbQpAPM58Z_A32QcJdIGNmoLc8m4c2qLNKcd1d6KIUOvc-lrkGt0yBm6VIUyz_-R4LXPIu-YzmV9nIqre4QTtcDqdr30ZldCUxM7REUyZpeq-ELyEbmQKR9eHj24M0Fr4gO10I-xhCfwW7xExa27TRNNdSHOsFDiF5lVPYmr0iT5cLBSxkbszS29DATHEkGMksKHbNfEsCQNYf6KWYCGE5DnbY65Avh37FT9Anj4WqLxrGr2Pf3AwNstj5o1bmirzCJiN51MOgwCbSQqmgSQs6woQHcjF_5s59-L2AX5RF7rYng&originToLandingJobPostings=4431751114)[Plan2Placement, Inc](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=9tzpvcEn0eKAGhM8drqFNg%3D%3D&currentJobId=4424490014&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XYy01dcU_EU9kgHmeH51rhOYoZ-J2Ypg2nAl2r4HqpT8pHC_ll6TEmp4pvAFyD3ddgwRmeKImyMk71BG_-PFQrslfp8IV7FkGbkGssirj9NHxuM4LXUNJXgZob3UJ5Agbm9ZXCPEzpsBiJsiqhgGw-_ZsPS79GeEceFlGe3Tb9Bh9bQvAaKIPdZKDZglPVnVhMHpCGqJgTrzomLRXgI2UWmKu-m-OHGPn6SwKH4DZQf_yP6SH9QiyyetHB04QD1Oe4TXarOp35BBdSb_uSxwQXjz6SLlKd7VVPGiamyeH3CDsDIRsp8WL8IefbX1_a8rbKIegANrKcYhtETxiqsXjdiFvGfwCc6uWNDosPK50ijdYOBv8LQra1kjwEVGupLT0rZYUyoQiYsl2lgWowzZjoc-WuIlhLMO_7l7c_VL-RAh1Puw40UGX-vyY8f3ueYeQ4DPE68xcyCszXHIxn2ZbJ2yP3iImRKMcxezR3UtB&originToLandingJobPostings=4424490014)
+
+[
+
+Glendale, CA (Remote)
+
+$125K/yr - $150K/yr
+
+•
+
+Medical, Vision, Dental, 401(k)
+
+Actively reviewing applicants
+
+Posted 3 weeks ago
+
+·
+
+Easy Apply
+
+](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&trackingId=9tzpvcEn0eKAGhM8drqFNg%3D%3D&currentJobId=4424490014&refId=4VcMb8n1MUS7KqaITdJ%2FeA%3D%3D&eBP=CwEAAAGfCf6XYy01dcU_EU9kgHmeH51rhOYoZ-J2Ypg2nAl2r4HqpT8pHC_ll6TEmp4pvAFyD3ddgwRmeKImyMk71BG_-PFQrslfp8IV7FkGbkGssirj9NHxuM4LXUNJXgZob3UJ5Agbm9ZXCPEzpsBiJsiqhgGw-_ZsPS79GeEceFlGe3Tb9Bh9bQvAaKIPdZKDZglPVnVhMHpCGqJgTrzomLRXgI2UWmKu-m-OHGPn6SwKH4DZQf_yP6SH9QiyyetHB04QD1Oe4TXarOp35BBdSb_uSxwQXjz6SLlKd7VVPGiamyeH3CDsDIRsp8WL8IefbX1_a8rbKIegANrKcYhtETxiqsXjdiFvGfwCc6uWNDosPK50ijdYOBv8LQra1kjwEVGupLT0rZYUyoQiYsl2lgWowzZjoc-WuIlhLMO_7l7c_VL-RAh1Puw40UGX-vyY8f3ueYeQ4DPE68xcyCszXHIxn2ZbJ2yP3iImRKMcxezR3UtB&originToLandingJobPostings=4424490014)
+
+[See more jobs like this](https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4430289830&currentJobId=4430289830)

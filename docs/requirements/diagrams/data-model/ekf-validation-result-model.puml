@@ -1,0 +1,61 @@
+@startuml
+title EKF Validation Result Model
+
+skinparam classAttributeIconSize 0
+
+class ValidationRun {
+  run_id
+  started_at
+  completed_at
+  repository
+  path_scanned
+  files_scanned
+  artifacts_found
+  errors
+  warnings
+  info
+  status
+}
+
+class ValidationFinding {
+  finding_id
+  artifact_id
+  file_path
+  rule_id
+  severity
+  message
+  fix_hint
+  line_number
+  status
+}
+
+class ValidationRule {
+  rule_id
+  rule_type
+  name
+  description
+  severity
+  applies_to
+  enabled
+}
+
+class EngineeringArtifact {
+  id
+  type
+  status
+  summary
+}
+
+class ArtifactType {
+  name
+  prefix
+  purpose
+}
+
+ValidationRun "1" --> "*" ValidationFinding : contains
+ValidationFinding "*" --> "1" ValidationRule : evaluated by
+ValidationFinding "*" --> "0..1" EngineeringArtifact : references
+ValidationRule "*" --> "*" ArtifactType : applies to
+EngineeringArtifact "*" --> "1" ArtifactType : has type
+
+@enduml

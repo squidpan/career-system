@@ -1,0 +1,25 @@
+@startuml
+title Engineering Operating System - Overview
+
+skinparam componentStyle rectangle
+
+package "Engineering Operating System" {
+
+  [Principles\nPR] as Principles
+  [Context\nCTX] as Context
+  [Planning\nEPIC / US / AC] as Planning
+  [Design\nARCH / ADR / DM / OpenAPI / PlantUML] as Design
+  [Implementation\nCode / Tests / Git] as Implementation
+  [Operations\nRunbooks / Standards / UAT / Bugs / Releases] as Operations
+  [Learning\nGlossary / Reference / Lessons] as Learning
+}
+
+Principles --> Context
+Context --> Planning
+Planning --> Design
+Design --> Implementation
+Implementation --> Operations
+Operations --> Learning
+Learning --> Principles : improve framework
+
+@enduml

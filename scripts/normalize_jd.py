@@ -231,6 +231,15 @@ def normalize_file(path: Path, output_dir: Path, run_id: str, refs_dir: Path) ->
         "jd-raw-makai-ba-ai": ("Makai Labs", "Business Analyst", "ba-ai"),
         "jd-raw-pico-sre": ("Pico", "Site Reliability Engineer", "sre"),
         "jd-raw-tata-ba-ai": ("Tata Consultancy Services", "Business Analyst -Artificial Intelligence", "ba-ai"),
+        "jd-raw-marketaxess-senior-product-analyst": ("MarketAxess", "Senior Product Analyst", "product"),
+        "jd-raw-tiaa-senior-business-systems-analyst": ("TIAA", "Senior Business Systems Analyst", "bsa"),
+        "jd-raw-langchain-technical-support-engineer": ("LangChain", "Technical Support Engineer", "support-appsupport"),
+        "jd-raw-blackrock-associate": ("BlackRock", "Associate", "ops"),
+        "jd-raw-clearwater-analytics-oems-ba": ("Clearwater Analytics", "OEMS Business Analyst", "ba"),
+        "jd-raw-plexus-resource-solutions-ba": ("Plexus Resource Solutions", "Business Analyst", "ba"),
+        "jd-raw-pri-technology-ba-genai": ("PRI Technology", "AI Business Analyst", "ba-ai"),
+        "jd-raw-experis-ba-pn-genai-technology-program": ("Experis", "Business Analyst - GenAI Technology Program", "ba-ai"),
+        "jd-raw-raas-infotek-llc-ba": ("Raas Infotek LLC", "Business Analyst", "ba"),
     }
 
     if file_key in filename_pairs:

@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-30-candidate-matching-new-jds-v1",
+  "source": "career-system",
+  "company": "PRI Technology",
+  "title": "AI Business Analyst",
+  "source_title": "AI Business Analyst",
+  "role_code": "ba-ai",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "business analyst",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "monitoring",
+    "release",
+    "requirements",
+    "runbook"
+  ],
+  "gaps": [],
+  "source_file": "/tmp/career-jd-intelligence-new-jds/jd-intelligence-pri-technology-ba-ai-2026.json"
+}

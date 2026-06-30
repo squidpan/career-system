@@ -1,0 +1,26 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-30-candidate-matching-new-jds-v1",
+  "source": "career-system",
+  "company": "Experis",
+  "title": "Business Analyst - GenAI Technology Program",
+  "source_title": "Business Analyst - GenAI Technology Program",
+  "role_code": "ba-ai",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "api",
+    "application support",
+    "business analyst",
+    "monitoring",
+    "requirements",
+    "rest",
+    "runbook",
+    "uat",
+    "workflow"
+  ],
+  "gaps": [],
+  "source_file": "/tmp/career-jd-intelligence-new-jds/jd-intelligence-experis-ba-ai-2026.json"
+}

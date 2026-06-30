@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-30-candidate-matching-new-jds-v1",
+  "source": "career-system",
+  "company": "TIAA",
+  "title": "Senior Business Systems Analyst",
+  "source_title": "Senior Business Systems Analyst",
+  "role_code": "bsa",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "api",
+    "application support",
+    "aws",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "jira",
+    "linux",
+    "monitoring"
+  ],
+  "gaps": [],
+  "source_file": "/tmp/career-jd-intelligence-new-jds/jd-intelligence-tiaa-bsa-2026.json"
+}

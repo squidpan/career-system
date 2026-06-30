@@ -1,0 +1,30 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-30-candidate-matching-new-jds-v1",
+  "source": "career-system",
+  "company": "LangChain",
+  "title": "Technical Support Engineer",
+  "source_title": "Technical Support Engineer",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "api",
+    "application support",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "market data",
+    "monitoring",
+    "production support",
+    "release"
+  ],
+  "gaps": [
+    "hris",
+    "workday"
+  ],
+  "source_file": "/tmp/career-jd-intelligence-new-jds/jd-intelligence-langchain-support-appsupport-2026.json"
+}

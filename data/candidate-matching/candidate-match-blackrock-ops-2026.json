@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-30-candidate-matching-new-jds-v1",
+  "source": "career-system",
+  "company": "BlackRock",
+  "title": "Associate",
+  "source_title": "Associate",
+  "role_code": "ops",
+  "resume_family": "ops",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "deployment",
+    "devops",
+    "incident",
+    "linux",
+    "monitoring",
+    "production support",
+    "release",
+    "requirements",
+    "runbook"
+  ],
+  "gaps": [],
+  "source_file": "/tmp/career-jd-intelligence-new-jds/jd-intelligence-blackrock-ops-2026.json"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-30-candidate-matching-new-jds-v1",
+  "source": "career-system",
+  "company": "Clearwater Analytics",
+  "title": "OEMS Business Analyst",
+  "source_title": "OEMS Business Analyst",
+  "role_code": "ba",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "api",
+    "application support",
+    "business analyst",
+    "data validation",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "jira",
+    "monitoring"
+  ],
+  "gaps": [
+    "hris",
+    "workday"
+  ],
+  "source_file": "/tmp/career-jd-intelligence-new-jds/jd-intelligence-clearwater-analytics-ba-2026.json"
+}

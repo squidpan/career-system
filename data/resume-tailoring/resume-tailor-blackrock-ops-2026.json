@@ -1,0 +1,47 @@
+{
+  "company": "BlackRock",
+  "role": "Associate",
+  "role_code": "ops",
+  "pursuit_recommendation": "apply_this_week",
+  "combined_strategy_score": 86,
+  "recommended_resume_family": "operations / application-support hybrid",
+  "summary_direction": "Position Paul as an operations/application-support hybrid with process discipline, data validation, stakeholder coordination, production readiness, and enterprise systems support.",
+  "top_resume_themes": [
+    "Operations support and process execution",
+    "Cross-functional coordination",
+    "Data quality and reporting",
+    "Workflow analysis",
+    "Operational readiness"
+  ],
+  "bullets_to_emphasize": [
+    "Coordinated operational readiness, validation, issue follow-up, and cross-functional execution across enterprise systems teams.",
+    "Supported reporting, workflow validation, data quality, and stakeholder communication for business and technology operations.",
+    "Used Excel/Power Query-style analysis and structured documentation to support operational decisions."
+  ],
+  "bullets_to_rewrite_or_add": [
+    "Rewrite summary to bridge BA/application support into operations execution.",
+    "Add one bullet emphasizing process discipline, data validation, and cross-functional follow-through."
+  ],
+  "keywords_to_include": [
+    "requirements",
+    "UAT",
+    "stakeholder communication",
+    "documentation",
+    "data validation",
+    "operations",
+    "process improvement",
+    "workflow",
+    "reporting",
+    "cross-functional coordination"
+  ],
+  "claims_to_avoid": [
+    "Do not overstate hands-on Python experience; present as learning/ramp-up unless project evidence is included.",
+    "Do not claim direct ownership of tools/platforms not actually used."
+  ],
+  "cover_letter_angle": "Open with operations/support hybrid fit: workflow execution, data quality, operational readiness, and cross-functional coordination for Associate at BlackRock.",
+  "interview_story_focus": [
+    "Operational readiness story: process discipline, handoffs, validation, and issue follow-through.",
+    "Reporting/data story: Excel/Power Query, data quality, and operational decision support."
+  ],
+  "next_action": "Use this tailoring guidance to update the resume for BlackRock — Associate."
+}

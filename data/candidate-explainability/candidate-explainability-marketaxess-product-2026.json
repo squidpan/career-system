@@ -1,0 +1,25 @@
+{
+  "company": "MarketAxess",
+  "role": "Senior Product Analyst",
+  "role_code": "product",
+  "resume_family": "ba",
+  "technical_match_score": 89,
+  "personal_strategy_score": 78,
+  "combined_strategy_score": 84,
+  "pursuit_recommendation": "apply_selectively",
+  "explanation": "MarketAxess — Senior Product Analyst is marked `apply_selectively` because it combines a technical match score of 89 with a personal strategy score of 78, producing a combined score of 84. The role code `product` maps to Paul's current positioning around BA/BSA, application support, production readiness, regulated enterprise environments, and practical AI-assisted workflow interest where relevant.",
+  "why_attractive": [
+    "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience."
+  ],
+  "risk_flags": [
+    "No major deterministic risk flags detected; review manually before applying."
+  ],
+  "resume_focus": [
+    "Use BA/application support general positioning."
+  ],
+  "interview_story_focus": [
+    "Use a concise enterprise application support / BA story grounded in FRBNY and prior consulting experience."
+  ],
+  "application_priority": "Selective: apply if benefits, commute, and role details remain attractive.",
+  "next_action": "Apply if benefits, commute, and fit remain attractive."
+}

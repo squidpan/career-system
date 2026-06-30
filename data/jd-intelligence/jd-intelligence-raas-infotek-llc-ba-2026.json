@@ -1,0 +1,52 @@
+{
+  "run_id": "run-2026-06-30-jd-intelligence-new-jds-v2",
+  "company": "Raas Infotek LLC",
+  "title": "Business Analyst",
+  "role_code": "ba",
+  "source_file": "/tmp/career-normalized-new-jds/jd-raas-infotek-llc-ba-2026-v1.md",
+  "intelligence": {
+    "tools": [
+      "confluence",
+      "excel",
+      "jira",
+      "rest api",
+      "sql"
+    ],
+    "platforms": [
+      "enterprise applications"
+    ],
+    "products": [],
+    "domains": [
+      "enterprise application support",
+      "financial services",
+      "geospatial",
+      "healthcare",
+      "insurance"
+    ],
+    "methodologies": [
+      "agile",
+      "documentation",
+      "release management",
+      "requirements analysis",
+      "risk assessment",
+      "stakeholder communication",
+      "uat"
+    ]
+  },
+  "jd_aware_questions": [
+    "How would you validate REST API output against a source system?",
+    "How do you create support documentation that is usable during incidents and releases?",
+    "How do you assess risk and business impact during a production issue?",
+    "How do you evaluate production risk before or after an application release?",
+    "How do you communicate technical issues to non-technical business users?",
+    "How do you coordinate users, vendors, internal technology teams, and management during an escalation?"
+  ],
+  "story_mapping": [
+    "documentation: Runbooks, support documentation, release procedures, and UAT evidence",
+    "financial services: FRBNY fixed-income pricing and financial application support",
+    "release management: Deployment runbooks, release validation, and health checks",
+    "rest api: REST API validation against Oracle/legacy data sources",
+    "risk assessment: Release readiness, impact analysis, production risk review, and escalation judgment",
+    "stakeholder communication: BA/application support communication across business users, DevOps, QA, and management"
+  ]
+}

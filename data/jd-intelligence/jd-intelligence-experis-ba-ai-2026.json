@@ -1,0 +1,24 @@
+{
+  "run_id": "run-2026-06-30-jd-intelligence-new-jds-v2",
+  "company": "Experis",
+  "title": "Business Analyst - GenAI Technology Program",
+  "role_code": "ba-ai",
+  "source_file": "/tmp/career-normalized-new-jds/jd-experis-ba-ai-2026-v1.md",
+  "intelligence": {
+    "tools": [],
+    "platforms": [],
+    "products": [],
+    "domains": [],
+    "methodologies": [
+      "monitoring"
+    ]
+  },
+  "jd_aware_questions": [
+    "What are the most important systems or workflows this role supports?",
+    "What would you do in the first 30 days to understand the platform?",
+    "How would you validate requirements and confirm business readiness?"
+  ],
+  "story_mapping": [
+    "Use FRBNY modernization, REST API validation, runbooks, UAT, and enterprise application support stories."
+  ]
+}

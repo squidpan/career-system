@@ -1,0 +1,177 @@
+{
+  "type": "candidate_strategy_report",
+  "run_id": "run-2026-06-30-candidate-strategy-new-jds-v1",
+  "candidate_count": 9,
+  "strategies": [
+    {
+      "company": "PRI Technology",
+      "role": "AI Business Analyst",
+      "role_code": "ba-ai",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 89,
+      "combined_strategy_score": 93,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "AI appears as an interest/learning signal; position as BA/support workflow exposure, not AI engineering."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "Plexus Resource Solutions",
+      "role": "Business Analyst",
+      "role_code": "ba",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 86,
+      "combined_strategy_score": 92,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "BA/BSA role family aligns with strongest recent positioning."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "Raas Infotek LLC",
+      "role": "Business Analyst",
+      "role_code": "ba",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 86,
+      "combined_strategy_score": 92,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "BA/BSA role family aligns with strongest recent positioning."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "TIAA",
+      "role": "Senior Business Systems Analyst",
+      "role_code": "bsa",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 86,
+      "combined_strategy_score": 92,
+      "pursuit_recommendation": "pursue_first",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "BA/BSA role family aligns with strongest recent positioning."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+    },
+    {
+      "company": "LangChain",
+      "role": "Technical Support Engineer",
+      "role_code": "support-appsupport",
+      "resume_family": "support",
+      "technical_match_score": 96,
+      "personal_strategy_score": 82,
+      "combined_strategy_score": 90,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use application-support / production-support resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "Application/production support role family aligns with FRBNY runbook, incident, release, and support background."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "Clearwater Analytics",
+      "role": "OEMS Business Analyst",
+      "role_code": "ba",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 81,
+      "combined_strategy_score": 89,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+        "BA/BSA role family aligns with strongest recent positioning."
+      ],
+      "risk_flags": [
+        "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "Experis",
+      "role": "Business Analyst - GenAI Technology Program",
+      "role_code": "ba-ai",
+      "resume_family": "ba",
+      "technical_match_score": 96,
+      "personal_strategy_score": 81,
+      "combined_strategy_score": 89,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use BA/BSA resume variant.",
+      "reasons": [
+        "BA/BSA role family aligns with strongest recent positioning.",
+        "AI appears as an interest/learning signal; position as BA/support workflow exposure, not AI engineering."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "BlackRock",
+      "role": "Associate",
+      "role_code": "ops",
+      "resume_family": "ops",
+      "technical_match_score": 96,
+      "personal_strategy_score": 74,
+      "combined_strategy_score": 86,
+      "pursuit_recommendation": "apply_this_week",
+      "resume_strategy": "Use operations/support hybrid resume variant.",
+      "reasons": [
+        "Operations role is adjacent to BA/support experience, but may need careful resume positioning."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Apply this week after tailoring the summary and top bullets."
+    },
+    {
+      "company": "MarketAxess",
+      "role": "Senior Product Analyst",
+      "role_code": "product",
+      "resume_family": "ba",
+      "technical_match_score": 89,
+      "personal_strategy_score": 78,
+      "combined_strategy_score": 84,
+      "pursuit_recommendation": "apply_selectively",
+      "resume_strategy": "Use BA/application-support general resume variant and tailor manually.",
+      "reasons": [
+        "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience."
+      ],
+      "risk_flags": [
+        "No major deterministic risk flags detected; review manually before applying."
+      ],
+      "next_action": "Apply if benefits, commute, and fit remain attractive."
+    }
+  ]
+}

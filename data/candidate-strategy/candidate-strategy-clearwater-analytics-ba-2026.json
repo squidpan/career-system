@@ -1,0 +1,19 @@
+{
+  "company": "Clearwater Analytics",
+  "role": "OEMS Business Analyst",
+  "role_code": "ba",
+  "resume_family": "ba",
+  "technical_match_score": 96,
+  "personal_strategy_score": 81,
+  "combined_strategy_score": 89,
+  "pursuit_recommendation": "apply_this_week",
+  "resume_strategy": "Use BA/BSA resume variant.",
+  "reasons": [
+    "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+    "BA/BSA role family aligns with strongest recent positioning."
+  ],
+  "risk_flags": [
+    "Specialized platform/domain appears; tailor carefully and avoid overstating direct hands-on experience."
+  ],
+  "next_action": "Apply this week after tailoring the summary and top bullets."
+}

@@ -1,0 +1,19 @@
+{
+  "company": "Raas Infotek LLC",
+  "role": "Business Analyst",
+  "role_code": "ba",
+  "resume_family": "ba",
+  "technical_match_score": 96,
+  "personal_strategy_score": 86,
+  "combined_strategy_score": 92,
+  "pursuit_recommendation": "pursue_first",
+  "resume_strategy": "Use BA/BSA resume variant.",
+  "reasons": [
+    "Domain overlap with FRBNY, financial data, market data, or insurance/business systems experience.",
+    "BA/BSA role family aligns with strongest recent positioning."
+  ],
+  "risk_flags": [
+    "No major deterministic risk flags detected; review manually before applying."
+  ],
+  "next_action": "Prioritize this role first. Tailor resume and apply promptly."
+}

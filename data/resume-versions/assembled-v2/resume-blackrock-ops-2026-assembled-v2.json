@@ -1,0 +1,15 @@
+{
+  "run_id": "run-2026-06-30-employer-aware-resume-assembly-new-jds-v1",
+  "company": "BlackRock",
+  "title": "blackrock-ops-2026",
+  "role_code": "ops",
+  "slug": "blackrock-ops-2026",
+  "ranking_file": "/tmp/career-bullet-ranking-new-jds/bullet-ranking-blackrock-ops-2026.json",
+  "tailoring_file": "data/resume-tailoring/resume-tailor-blackrock-ops-2026.json",
+  "source_resume_file": "data/resume-versions/generated/resume-blackrock-ops-2026-v1.md",
+  "assembled_resume_file": "ops/runs/run-2026-06-30-employer-aware-resume-assembly-new-jds-v1/output/resume-blackrock-ops-2026-assembled-v2.md",
+  "employer_blocks_count": 1,
+  "primary_bullets_count": 3,
+  "supporting_bullets_count": 3,
+  "compressed_bullets_count": 2
+}

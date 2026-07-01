@@ -1,0 +1,15 @@
+{
+  "run_id": "run-2026-06-30-employer-aware-resume-assembly-new-jds-v1",
+  "company": "Experis",
+  "title": "experis-ba-ai-2026",
+  "role_code": "ba-ai",
+  "slug": "experis-ba-ai-2026",
+  "ranking_file": "/tmp/career-bullet-ranking-new-jds/bullet-ranking-experis-ba-ai-2026.json",
+  "tailoring_file": "data/resume-tailoring/resume-tailor-experis-ba-ai-2026.json",
+  "source_resume_file": "data/resume-versions/generated/resume-experis-ba-ai-2026-v1.md",
+  "assembled_resume_file": "ops/runs/run-2026-06-30-employer-aware-resume-assembly-new-jds-v1/output/resume-experis-ba-ai-2026-assembled-v2.md",
+  "employer_blocks_count": 1,
+  "primary_bullets_count": 2,
+  "supporting_bullets_count": 2,
+  "compressed_bullets_count": 4
+}

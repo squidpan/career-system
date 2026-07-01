@@ -1,0 +1,202 @@
+{
+  "run_id": "run-2026-06-30-resume-bullet-ranking-new-jds-v2",
+  "company": "TIAA",
+  "title": "tiaa-bsa-2026",
+  "role_code": "bsa",
+  "tailoring_file": "/tmp/career-resume-bullet-ranking-new-jds/resume-tailoring-tiaa-bsa-2026.md",
+  "resume_file": "data/resume-versions/generated/resume-tiaa-bsa-2026-v1.md",
+  "ranked_count": 16,
+  "action_counts": {
+    "promote": 2,
+    "keep": 2,
+    "compress": 4,
+    "remove": 8
+  },
+  "promote": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Produced operational runbooks, deployment procedures, troubleshooting guides, validation checklists, and support documentation for mission-critical financial systems.",
+      "score": 59,
+      "matched_terms": [
+        "deployment",
+        "documentation",
+        "financial",
+        "operational",
+        "runbook",
+        "runbooks",
+        "support",
+        "troubleshooting",
+        "validation"
+      ],
+      "action": "promote"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Coordinated release readiness, deployment validation, and production cutover activities across Development, QA, UAT, and Production environments.",
+      "score": 50,
+      "matched_terms": [
+        "deployment",
+        "environment",
+        "production",
+        "qa",
+        "readiness",
+        "release",
+        "uat",
+        "validation"
+      ],
+      "action": "promote"
+    }
+  ],
+  "keep": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Validated REST API pricing payloads against Oracle data sources during migration from legacy on-premise services to AWS-hosted microservices.",
+      "score": 37,
+      "matched_terms": [
+        "api",
+        "aws",
+        "data",
+        "oracle",
+        "rest",
+        "validate"
+      ],
+      "action": "keep"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Supported resiliency planning and disaster recovery readiness activities for primary, secondary, and cloud-connected service environments.",
+      "score": 27,
+      "matched_terms": [
+        "cloud",
+        "environment",
+        "readiness",
+        "resiliency",
+        "support"
+      ],
+      "action": "keep"
+    }
+  ],
+  "compress": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data to downstream consumer platforms.",
+      "score": 22,
+      "matched_terms": [
+        "data",
+        "financial",
+        "market",
+        "support"
+      ],
+      "action": "compress"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Collaborated with Product Owners and Scrum Masters to decompose Epics into Jira user stories, acceptance criteria, and implementation-ready requirements.",
+      "score": 17,
+      "matched_terms": [
+        "acceptance",
+        "jira",
+        "requirements"
+      ],
+      "action": "compress"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Partnered with enterprise architects and engineering teams to document cloud migration architecture for legacy AC Plus pricing services and AWS-hosted OPS360 microservices.",
+      "score": 11,
+      "matched_terms": [
+        "aws",
+        "cloud"
+      ],
+      "action": "compress"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services & Enterprise Financial Applications",
+      "bullet": "Worked closely with QA, DevOps,",
+      "score": 10,
+      "matched_terms": [
+        "devops",
+        "qa"
+      ],
+      "action": "compress"
+    }
+  ],
+  "remove": [
+    {
+      "section": "Source Master Resume Excerpt",
+      "company": "",
+      "bullet": "Resume_paullyu_SeniorBA_AEGIS_2026_0515_PDF.pdf",
+      "score": 8,
+      "matched_terms": [
+        "gis"
+      ],
+      "action": "remove"
+    },
+    {
+      "section": "Resume Version Summary",
+      "company": "",
+      "bullet": "Resume master file: data/resume-masters/master-ba-resume.md",
+      "score": 3,
+      "matched_terms": [
+        "data"
+      ],
+      "action": "remove"
+    },
+    {
+      "section": "Resume Version Summary",
+      "company": "",
+      "bullet": "Role ID: role-tiaa-bsa-2026",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Resume Version Summary",
+      "company": "",
+      "bullet": "JD ID: jd-tiaa-bsa-2026-v1",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Resume Version Summary",
+      "company": "",
+      "bullet": "Resume master: resume-master-ba-v1",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Source Master Resume Excerpt",
+      "company": "",
+      "bullet": "resume_paullyu_BA_current_SVITLA.pdf",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Source Master Resume Excerpt",
+      "company": "",
+      "bullet": "Resume_BA_Indeed_2026_may14_PDF.pdf",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Source Master Resume Excerpt",
+      "company": "",
+      "bullet": "Master-Resume-draft-2026-0603.pdf",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    }
+  ]
+}

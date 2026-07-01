@@ -1,0 +1,202 @@
+{
+  "run_id": "run-2026-06-30-resume-bullet-ranking-new-jds-v2",
+  "company": "BlackRock",
+  "title": "blackrock-ops-2026",
+  "role_code": "ops",
+  "tailoring_file": "/tmp/career-resume-bullet-ranking-new-jds/resume-tailoring-blackrock-ops-2026.md",
+  "resume_file": "data/resume-versions/generated/resume-blackrock-ops-2026-v1.md",
+  "ranked_count": 15,
+  "action_counts": {
+    "promote": 3,
+    "keep": 3,
+    "compress": 2,
+    "remove": 7
+  },
+  "promote": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported enterprise financial applications delivering fixed-income pricing, reference data, and streaming market data across Linux, Oracle, OpenShift, and AWS-connected infrastructure.",
+      "score": 49,
+      "matched_terms": [
+        "aws",
+        "data",
+        "financial",
+        "infrastructure",
+        "linux",
+        "market",
+        "oracle",
+        "support"
+      ],
+      "action": "promote"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Maintained runbooks, deployment procedures, troubleshooting guides, validation checklists, implementation notes, and support documentation.",
+      "score": 48,
+      "matched_terms": [
+        "deployment",
+        "documentation",
+        "runbook",
+        "runbooks",
+        "support",
+        "troubleshooting",
+        "validation"
+      ],
+      "action": "promote"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported incident-oriented troubleshooting by coordinating log review, environment checks, data validation, escalation, and cross-team issue resolution.",
+      "score": 45,
+      "matched_terms": [
+        "checks",
+        "data",
+        "environment",
+        "escalation",
+        "incident",
+        "support",
+        "troubleshooting",
+        "validation"
+      ],
+      "action": "promote"
+    }
+  ],
+  "keep": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Executed environment readiness testing, deployment validation, post-release health checks, and operational verification procedures.",
+      "score": 44,
+      "matched_terms": [
+        "checks",
+        "deployment",
+        "environment",
+        "health",
+        "operational",
+        "readiness",
+        "release",
+        "validation"
+      ],
+      "action": "keep"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Validated REST API pricing payloads against Oracle data sources to support migration from legacy on-premise services to AWS-hosted microservices.",
+      "score": 43,
+      "matched_terms": [
+        "api",
+        "aws",
+        "data",
+        "oracle",
+        "rest",
+        "support",
+        "validate"
+      ],
+      "action": "keep"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Coordinated deployment readiness and production validation across Development, QA, UAT, and Production environments.",
+      "score": 43,
+      "matched_terms": [
+        "deployment",
+        "environment",
+        "production",
+        "qa",
+        "readiness",
+        "uat",
+        "validation"
+      ],
+      "action": "keep"
+    }
+  ],
+  "compress": [
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Supported disaster recovery and resiliency rea",
+      "score": 12,
+      "matched_terms": [
+        "resiliency",
+        "support"
+      ],
+      "action": "compress"
+    },
+    {
+      "section": "Professional Experience",
+      "company": "Financial Services Production Support & Application Modernization",
+      "bullet": "Partnered with enterprise architects and engineering teams to document cloud migration architecture and resiliency patterns for legacy AC Plus and OPS360-based services.",
+      "score": 11,
+      "matched_terms": [
+        "cloud",
+        "resiliency"
+      ],
+      "action": "compress"
+    }
+  ],
+  "remove": [
+    {
+      "section": "Resume Version Summary",
+      "company": "",
+      "bullet": "Resume master file: data/resume-masters/master-sre-resume.md",
+      "score": 3,
+      "matched_terms": [
+        "data"
+      ],
+      "action": "remove"
+    },
+    {
+      "section": "Resume Version Summary",
+      "company": "",
+      "bullet": "Role ID: role-blackrock-ops-2026",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Resume Version Summary",
+      "company": "",
+      "bullet": "JD ID: jd-blackrock-ops-2026-v1",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Resume Version Summary",
+      "company": "",
+      "bullet": "Resume master: resume-master-sre-v1",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Source Master Resume Excerpt",
+      "company": "",
+      "bullet": "resume_paullyu_sre_current_PICO.pdf",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Source Master Resume Excerpt",
+      "company": "",
+      "bullet": "coverletter_paullyu_pico_sitereliableengineer_2026_0408_PDF.pdf",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    },
+    {
+      "section": "Source Master Resume Excerpt",
+      "company": "",
+      "bullet": "Master-Resume-draft-2026-0603.pdf",
+      "score": 0,
+      "matched_terms": [],
+      "action": "remove"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+@startuml
+title Career System — JD to Application Package Flow
+
+start
+
+:Raw JD;
+:Normalize JD;
+:Generate Role;
+:Generate Resume Version;
+:Generate JD Intelligence;
+:Generate Candidate Match;
+:Generate Candidate Strategy;
+:Generate Candidate Explainability;
+:Generate Resume Tailoring;
+:Generate Resume Bullet Ranking;
+
+partition "Missing Bridge" {
+  :Generate Application Summary;
+  :Generate Targeted FRBNY Resume Section;
+}
+
+:Generate ATS Resume;
+:Generate Full Resume;
+:Export HTML;
+:Export ATS TXT;
+:Build Application Package;
+:Update Submission Notes;
+:Application Tracker / CSV / Postgres;
+
+stop
+@enduml

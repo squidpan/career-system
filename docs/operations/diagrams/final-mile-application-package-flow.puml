@@ -1,0 +1,38 @@
+@startuml
+title Career System — Final-Mile Application Package Flow
+
+start
+
+:application-summary.md;
+:frbny-section.md;
+
+:run-full-resume-generator.sh;
+note right
+scripts/assemble_full_resume.py
+end note
+
+:full-resume.md;
+
+:run-ats-resume-generator.sh;
+note right
+scripts/assemble_ats_resume.py
+end note
+
+:ats-resume.md;
+
+:run-resume-html-export.sh;
+:full-resume.html;
+:ats-resume.html;
+
+:run-ats-text-export.sh;
+:ats-resume.txt;
+
+:run-application-package.sh;
+note right
+scripts/build_application_package.py
+end note
+
+:application-packages/application-<job>-2026-v1/;
+
+stop
+@enduml

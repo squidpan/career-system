@@ -1,0 +1,49 @@
+@startuml
+title EFK / EOS — Engineering Operating System Overview
+
+actor User
+
+rectangle "Career System" {
+  component "JD Pipeline"
+  component "Resume Pipeline"
+  component "Application Package Pipeline"
+}
+
+rectangle "Motorweb Career Center" {
+  component "FastAPI"
+  database "PostgreSQL"
+  component "Dashboard"
+}
+
+rectangle "Engineering Knowledge Framework" {
+  component "Standards"
+  component "ADRs"
+  component "Templates"
+  component "Validation"
+  component "Obsidian Publish"
+}
+
+rectangle "Observability / EFK" {
+  component "Structured Logs"
+  component "Collector"
+  database "Elastic/OpenSearch"
+  component "Dashboards"
+}
+
+User --> "Career System"
+"Career System" --> "PostgreSQL"
+"FastAPI" --> "PostgreSQL"
+"Dashboard" --> "FastAPI"
+
+"Career System" --> "Structured Logs"
+"FastAPI" --> "Structured Logs"
+"Structured Logs" --> "Collector"
+"Collector" --> "Elastic/OpenSearch"
+"Elastic/OpenSearch" --> "Dashboards"
+
+"Career System" --> "Standards"
+"Motorweb Career Center" --> "Standards"
+"Standards" --> "Validation"
+"Templates" --> "Obsidian Publish"
+
+@enduml

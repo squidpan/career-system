@@ -230,3 +230,131 @@ Next:
 
 Phase 1 — Final-Mile Regression Validation
 
+
+---
+
+# Recovery Day 1 — Phase 1
+
+## Objective
+
+Validate that the known-good final-mile workflow still produces exact,
+submission-ready resume artifacts when supplied with valid application
+summary and targeted FRBNY section inputs.
+
+## Regression Method
+
+Created an isolated detached Git worktree at:
+
+    /tmp/career-system-final-mile-regression-20260713
+
+The canonical working repository remained on:
+
+    ops/recover-ats-html-workflow
+
+Regression execution used the production wrappers:
+
+- bin/run-full-resume-generator.sh
+- bin/run-ats-resume-generator.sh
+- bin/run-resume-html-export.sh
+- bin/run-ats-text-export.sh
+- bin/run-application-package.sh
+
+PDF files were excluded from regression validation.
+
+## LSEG Result
+
+Regression package:
+
+    application-lseg-senior-ba-2026-v1
+
+Verified required package files:
+
+- application-summary.md
+- ats-resume.md
+- ats-resume.html
+- ats-resume.txt
+- full-resume.md
+- full-resume.html
+- package-manifest.json
+- README.md
+- submission-notes.md
+
+The following core artifacts matched the canonical package byte-for-byte
+using SHA-256 checksums and unified diffs:
+
+- application-summary.md
+- ats-resume.md
+- ats-resume.html
+- ats-resume.txt
+- full-resume.md
+- full-resume.html
+
+Result:
+
+PASS — exact regression match.
+
+## Broadridge Result
+
+Regression package:
+
+    application-broadridge-product-analyst-2026-v1
+
+Verified required package files:
+
+- application-summary.md
+- ats-resume.md
+- ats-resume.html
+- ats-resume.txt
+- full-resume.md
+- full-resume.html
+- package-manifest.json
+- README.md
+- submission-notes.md
+
+The following core artifacts matched the canonical package byte-for-byte
+using SHA-256 checksums and unified diffs:
+
+- application-summary.md
+- ats-resume.md
+- ats-resume.html
+- ats-resume.txt
+- full-resume.md
+- full-resume.html
+
+Result:
+
+PASS — exact regression match.
+
+## Findings
+
+- The final-mile workflow is functional.
+- The final-mile workflow is deterministic for both regression baselines.
+- The final-mile scripts are not the current recovery defect.
+- The application-package builder successfully assembles the required final
+  ATS and narrative resume artifacts.
+- The main working repository remained unchanged during regression testing.
+- No Git stashes were created.
+
+The confirmed recovery gap is upstream:
+
+    modern JD pipeline
+    → application summary
+    → targeted FRBNY section
+    → proven final-mile workflow
+
+## Phase 1 Result
+
+PASS
+
+## Next Phase
+
+Phase 2 — Missing Bridge Contract and Recovery
+
+Objectives:
+
+1. Compare LSEG and Broadridge application-summary structures.
+2. Compare LSEG and Broadridge targeted FRBNY-section structures.
+3. Identify the modern-pipeline artifacts that contain the required source
+   information.
+4. Define deterministic generation contracts for both bridge artifacts.
+5. Implement the bridge without changing the validated final-mile scripts.

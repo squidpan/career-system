@@ -44,8 +44,8 @@ type: Runbook
 status: Draft
 
 categories:
-  - "[[Runbooks]]"
-  - "[[Operations]]"
+  - [[Runbooks]]
+  - [[Operations]]
 
 tags:
 
@@ -96,8 +96,8 @@ References
     status: Draft
 
     categories:
-      - "[[Runbooks]]"
-      - "[[Operations]]"
+      - [[Runbooks]]
+      - [[Operations]]
 
     tags:
 

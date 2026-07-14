@@ -44,8 +44,8 @@ type: Data Model
 status: Draft
 
 categories:
-  - "[[Data Models]]"
-  - "[[Architectures]]"
+  - [[Data Models]]
+  - [[Architectures]]
 
 tags:
 
@@ -95,8 +95,8 @@ References
     status: Draft
 
     categories:
-      - "[[Data Models]]"
-      - "[[Architectures]]"
+      - [[Data Models]]
+      - [[Architectures]]
 
     tags:
 

@@ -44,8 +44,8 @@ type: Glossary Term
 status: Active
 
 categories:
-  - "[[Glossaries]]"
-  - "[[References]]"
+  - [[Glossaries]]
+  - [[References]]
 
 tags:
 
@@ -90,8 +90,8 @@ References
     status: Active
 
     categories:
-      - "[[Glossaries]]"
-      - "[[References]]"
+      - [[Glossaries]]
+      - [[References]]
 
     tags:
 

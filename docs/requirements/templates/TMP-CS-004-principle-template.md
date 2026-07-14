@@ -44,8 +44,8 @@ type: Principle
 status: Active
 
 categories:
-  - "[[Principles]]"
-  - "[[Frameworks]]"
+  - [[Principles]]
+  - [[Frameworks]]
 
 tags:
 
@@ -90,8 +90,8 @@ References
     status: Active
 
     categories:
-      - "[[Principles]]"
-      - "[[Frameworks]]"
+      - [[Principles]]
+      - [[Frameworks]]
 
     tags:
 

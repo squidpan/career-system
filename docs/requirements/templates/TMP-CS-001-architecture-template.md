@@ -44,8 +44,8 @@ type: Architecture
 status: Draft
 
 categories:
-  - "[[Architectures]]"
-  - "[[Frameworks]]"
+  - [[Architectures]]
+  - [[Frameworks]]
 
 tags:
 
@@ -100,8 +100,8 @@ type: Architecture
 status: Draft
 
 categories:
-  - "[[Architectures]]"
-  - "[[Frameworks]]"
+  - [[Architectures]]
+  - [[Frameworks]]
 
 tags:
 

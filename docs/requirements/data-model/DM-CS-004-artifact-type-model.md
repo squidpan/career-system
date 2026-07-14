@@ -98,8 +98,8 @@ Examples:
 
 ```yaml
 categories:
-  - "[[Architectures]]"
-  - "[[Frameworks]]"
+  - [[Architectures]]
+  - [[Frameworks]]
 ```
 
 Common mappings:

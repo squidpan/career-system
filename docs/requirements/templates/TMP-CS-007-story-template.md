@@ -44,8 +44,8 @@ type: Story
 status: Draft
 
 categories:
-  - "[[Stories]]"
-  - "[[Requirements]]"
+  - [[Stories]]
+  - [[Requirements]]
 
 tags:
 
@@ -98,8 +98,8 @@ References
     status: Draft
 
     categories:
-      - "[[Stories]]"
-      - "[[Requirements]]"
+      - [[Stories]]
+      - [[Requirements]]
 
     tags:
 

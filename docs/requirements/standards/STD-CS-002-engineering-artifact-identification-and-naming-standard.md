@@ -180,8 +180,8 @@ type: Architecture
 status: Draft
 
 categories:
-  - "[[Architectures]]"
-  - "[[Frameworks]]"
+  - [[Architectures]]
+  - [[Frameworks]]
 
 tags:
   - ekf
@@ -214,8 +214,8 @@ Example:
 
 ```yaml
 categories:
-  - "[[Architectures]]"
-  - "[[Frameworks]]"
+  - [[Architectures]]
+  - [[Frameworks]]
 ```
 
 ---

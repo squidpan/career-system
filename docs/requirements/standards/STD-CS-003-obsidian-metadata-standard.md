@@ -94,8 +94,8 @@ Example:
 
 ```yaml
 categories:
-  - "[[Architectures]]"
-  - "[[Frameworks]]"
+  - [[Architectures]]
+  - [[Frameworks]]
 ```
 
 ---

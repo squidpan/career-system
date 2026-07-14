@@ -44,8 +44,8 @@ type: Context
 status: Draft
 
 categories:
-  - "[[Contexts]]"
-  - "[[Requirements]]"
+  - [[Contexts]]
+  - [[Requirements]]
 
 tags:
 
@@ -94,8 +94,8 @@ References
     status: Draft
 
     categories:
-      - "[[Contexts]]"
-      - "[[Requirements]]"
+      - [[Contexts]]
+      - [[Requirements]]
 
     tags:
 

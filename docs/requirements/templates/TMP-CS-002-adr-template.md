@@ -44,8 +44,8 @@ type: ADR
 status: Proposed
 
 categories:
-  - "[[Decisions]]"
-  - "[[Architectures]]"
+  - [[Decisions]]
+  - [[Architectures]]
 
 tags:
 
@@ -95,8 +95,8 @@ References
     status: Proposed
 
     categories:
-      - "[[Decisions]]"
-      - "[[Architectures]]"
+      - [[Decisions]]
+      - [[Architectures]]
 
     tags:
 

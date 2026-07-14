@@ -44,8 +44,8 @@ type: Epic
 status: Draft
 
 categories:
-  - "[[Epics]]"
-  - "[[Requirements]]"
+  - [[Epics]]
+  - [[Requirements]]
 
 tags:
 
@@ -96,8 +96,8 @@ References
     status: Draft
 
     categories:
-      - "[[Epics]]"
-      - "[[Requirements]]"
+      - [[Epics]]
+      - [[Requirements]]
 
     tags:
 

@@ -44,8 +44,8 @@ type: Standard
 status: Draft
 
 categories:
-  - "[[Standards]]"
-  - "[[Frameworks]]"
+  - [[Standards]]
+  - [[Frameworks]]
 
 tags:
 
@@ -93,8 +93,8 @@ References
     status: Draft
 
     categories:
-      - "[[Standards]]"
-      - "[[Frameworks]]"
+      - [[Standards]]
+      - [[Frameworks]]
 
     tags:
 

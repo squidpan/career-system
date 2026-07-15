@@ -3,6 +3,7 @@
 import argparse
 import json
 import shutil
+import sys
 from pathlib import Path
 
 
@@ -53,7 +54,6 @@ def main() -> None:
         / "data/application-packages"
         / application_id
     )
-    package_dir.mkdir(parents=True, exist_ok=True)
 
     sources = {
         "resume_recommendation": input_root / f"data/experience-matches/{job_slug}-resume-recommendation.json",
@@ -68,6 +68,30 @@ def main() -> None:
         "ats_resume_html": input_root / f"data/full-resumes/{job_slug}-ats-resume-v1.html",
         "ats_resume_txt": input_root / f"data/ats-exports/{job_slug}-ats-resume-v1.txt",
     }
+
+    required_sources = {
+        "application-summary.md": sources["summary"],
+        "full-resume.md": sources["full_resume"],
+        "full-resume.html": sources["full_resume_html"],
+        "ats-resume.md": sources["ats_resume"],
+        "ats-resume.html": sources["ats_resume_html"],
+        "ats-resume.txt": sources["ats_resume_txt"],
+    }
+
+    missing_required = [
+        f"{name}: {source}"
+        for name, source in required_sources.items()
+        if not source.is_file() or source.stat().st_size == 0
+    ]
+
+    if missing_required:
+        details = "\n".join(f"- {item}" for item in missing_required)
+        raise FileNotFoundError(
+            "Required Application Package source files are missing or empty:\n"
+            + details
+        )
+
+    package_dir.mkdir(parents=True, exist_ok=True)
 
     copied = {}
 
@@ -87,22 +111,22 @@ def main() -> None:
         sources["enhanced_resume"], package_dir / "resume-enhanced.md"
     )
     copied["application-summary.md"] = copy_if_exists(
-        sources["summary"], package_dir / "application-summary.md"
+        sources["summary"], package_dir / "application-summary.md", required=True
     )
     copied["full-resume.md"] = copy_if_exists(
-        sources["full_resume"], package_dir / "full-resume.md"
+        sources["full_resume"], package_dir / "full-resume.md", required=True
     )
     copied["full-resume.html"] = copy_if_exists(
-        sources["full_resume_html"], package_dir / "full-resume.html"
+        sources["full_resume_html"], package_dir / "full-resume.html", required=True
     )
     copied["ats-resume.md"] = copy_if_exists(
-        sources["ats_resume"], package_dir / "ats-resume.md"
+        sources["ats_resume"], package_dir / "ats-resume.md", required=True
     )
     copied["ats-resume.html"] = copy_if_exists(
-        sources["ats_resume_html"], package_dir / "ats-resume.html"
+        sources["ats_resume_html"], package_dir / "ats-resume.html", required=True
     )
     copied["ats-resume.txt"] = copy_if_exists(
-        sources["ats_resume_txt"], package_dir / "ats-resume.txt"
+        sources["ats_resume_txt"], package_dir / "ats-resume.txt", required=True
     )
 
     submission_notes = package_dir / "submission-notes.md"
@@ -189,4 +213,8 @@ PDF files may be stored locally in this folder but are ignored by Git.
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except FileNotFoundError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        raise SystemExit(1)

@@ -53,6 +53,16 @@ Repository reconnaissance completed on 2026-07-14 confirmed that sufficient engi
 
 ---
 
+# Problem Statement
+
+The Career System contains mature implementations of individual pipeline stages, but the end-to-end workflow no longer operates as a fully connected, validated system.
+
+Manual reconstruction is currently required to generate complete application packages.
+
+This recovery effort reconnects the existing pipeline, restores validated operational behavior, and establishes a repeatable engineering baseline for future enhancements.
+
+---
+
 # Current State
 
 The repository currently contains mature implementations of many individual pipeline stages, including JD normalization, candidate analysis, resume generation, and application packaging.

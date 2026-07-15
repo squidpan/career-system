@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
+import argparse
 import json
 import shutil
-import sys
 from pathlib import Path
 
 
@@ -24,28 +24,49 @@ def write_text(path: Path, text: str) -> None:
 
 
 def main() -> None:
-    if len(sys.argv) != 3:
-        print("Usage: build_application_package.py <job-slug> <application-id>")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description="Build a Career System Application Package."
+    )
+    parser.add_argument("job_slug")
+    parser.add_argument("application_id")
+    parser.add_argument(
+        "--input-root",
+        type=Path,
+        default=Path("."),
+        help="Root containing source data directories.",
+    )
+    parser.add_argument(
+        "--output-root",
+        type=Path,
+        default=Path("."),
+        help="Root under which the Application Package is written.",
+    )
+    args = parser.parse_args()
 
-    job_slug = sys.argv[1].strip()
-    application_id = sys.argv[2].strip()
+    job_slug = args.job_slug.strip()
+    application_id = args.application_id.strip()
+    input_root = args.input_root
+    output_root = args.output_root
 
-    package_dir = Path("data/application-packages") / application_id
+    package_dir = (
+        output_root
+        / "data/application-packages"
+        / application_id
+    )
     package_dir.mkdir(parents=True, exist_ok=True)
 
     sources = {
-        "resume_recommendation": Path(f"data/experience-matches/{job_slug}-resume-recommendation.json"),
-        "interview_recommendation": Path(f"data/experience-matches/{job_slug}-interview-recommendation.json"),
-        "generated_resume": Path(f"data/generated-resumes/{job_slug}-resume-v1.md"),
-        "tailored_resume": Path(f"data/generated-resumes/{job_slug}-resume-tailored-v1.md"),
-        "enhanced_resume": Path(f"data/generated-resumes/{job_slug}-resume-enhanced-v1.md"),
-        "summary": Path(f"data/application-summaries/{job_slug}-summary-v1.md"),
-        "full_resume": Path(f"data/full-resumes/{job_slug}-full-resume-v1.md"),
-        "full_resume_html": Path(f"data/full-resumes/{job_slug}-full-resume-v1.html"),
-        "ats_resume": Path(f"data/full-resumes/{job_slug}-ats-resume-v1.md"),
-        "ats_resume_html": Path(f"data/full-resumes/{job_slug}-ats-resume-v1.html"),
-        "ats_resume_txt": Path(f"data/ats-exports/{job_slug}-ats-resume-v1.txt"),
+        "resume_recommendation": input_root / f"data/experience-matches/{job_slug}-resume-recommendation.json",
+        "interview_recommendation": input_root / f"data/experience-matches/{job_slug}-interview-recommendation.json",
+        "generated_resume": input_root / f"data/generated-resumes/{job_slug}-resume-v1.md",
+        "tailored_resume": input_root / f"data/generated-resumes/{job_slug}-resume-tailored-v1.md",
+        "enhanced_resume": input_root / f"data/generated-resumes/{job_slug}-resume-enhanced-v1.md",
+        "summary": input_root / f"data/application-summaries/{job_slug}-summary-v1.md",
+        "full_resume": input_root / f"data/full-resumes/{job_slug}-full-resume-v1.md",
+        "full_resume_html": input_root / f"data/full-resumes/{job_slug}-full-resume-v1.html",
+        "ats_resume": input_root / f"data/full-resumes/{job_slug}-ats-resume-v1.md",
+        "ats_resume_html": input_root / f"data/full-resumes/{job_slug}-ats-resume-v1.html",
+        "ats_resume_txt": input_root / f"data/ats-exports/{job_slug}-ats-resume-v1.txt",
     }
 
     copied = {}

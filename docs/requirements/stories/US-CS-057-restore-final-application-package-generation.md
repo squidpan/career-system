@@ -5,8 +5,8 @@ type: user-story
 status: draft
 
 categories:
-  - [[Stories]]
-  - [[Requirements]]
+  - "[[Stories]]"
+  - "[[Requirements]]"
 
 tags:
   - recovery
@@ -100,7 +100,7 @@ Successful restoration will:
 # Dependencies
 
 - [[EPIC-CS-003-career-system-functional-recovery-and-pipeline-validation]]
-- [[US-CS-056]]
+- [[US-CS-056-restore-end-to-end-workflow-orchestration]]
 - [[US-CS-RECOVERY-001-reconnect-new-pipeline-to-application-package]]
 
 ---
@@ -183,8 +183,8 @@ Candidate EFK improvements:
 # Related Artifacts
 
 - [[EPIC-CS-003-career-system-functional-recovery-and-pipeline-validation]]
-- [[US-CS-056]]
-- [[US-CS-058]]
+- [[US-CS-056-restore-end-to-end-workflow-orchestration]]
+- [[US-CS-058-regression-validation-against-historical-application-packages]]
 
 ---
 

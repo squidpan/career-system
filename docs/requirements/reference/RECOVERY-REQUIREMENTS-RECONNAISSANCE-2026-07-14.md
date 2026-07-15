@@ -5,9 +5,9 @@ type: note
 status: completed
 
 categories:
-  - [[Recovery]]
-  - [[Requirements]]
-  - [[Planning]]
+  - "[[Recovery]]"
+  - "[[Requirements]]"
+  - "[[Planning]]"
 
 tags:
   - recovery

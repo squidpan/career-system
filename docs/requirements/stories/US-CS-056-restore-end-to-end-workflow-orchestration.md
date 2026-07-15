@@ -5,8 +5,8 @@ type: user-story
 status: draft
 
 categories:
-  - [[Stories]]
-  - [[Requirements]]
+  - "[[Stories]]"
+  - "[[Requirements]]"
 
 tags:
   - recovery

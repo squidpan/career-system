@@ -5,8 +5,8 @@ type: user-story
 status: draft
 
 categories:
-  - [[Stories]]
-  - [[Requirements]]
+  - "[[Stories]]"
+  - "[[Requirements]]"
 
 tags:
   - recovery
@@ -92,8 +92,8 @@ Regression validation will:
 # Dependencies
 
 - [[EPIC-CS-003-career-system-functional-recovery-and-pipeline-validation]]
-- [[US-CS-056]]
-- [[US-CS-057]]
+- [[US-CS-056-restore-end-to-end-workflow-orchestration]]
+- [[US-CS-057-restore-final-application-package-generation]]
 
 ---
 

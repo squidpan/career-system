@@ -5,8 +5,8 @@ type: epic
 status: draft
 
 categories:
-  - [[Epics]]
-  - [[Requirements]]
+  - "[[Epics]]"
+  - "[[Requirements]]"
 
 tags:
   - career-system
@@ -179,11 +179,12 @@ These risks will be managed without expanding project scope.
 
 The following recovery stories are planned:
 
-- [[US-CS-056]]
-- [[US-CS-057]]
-- [[US-CS-058]]
-- [[US-CS-059]]
-- [[US-CS-060]]
+- [[US-CS-056-restore-end-to-end-workflow-orchestration]]
+- [[US-CS-057-restore-final-application-package-generation]]
+- [[US-CS-058-regression-validation-against-historical-application-packages]]
+- [[US-CS-059-operational-verification-and-recovery-runbook]]
+- [[US-CS-060-recovery-traceability-and-implementation-updates]]
+
 
 Additional stories may be introduced as recovery progresses.
 

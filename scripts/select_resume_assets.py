@@ -10,6 +10,7 @@ from pathlib import Path
 PROFILE_MAP = {
     "ba": "ba",
     "bsa": "ba",
+    "product": "product",
     "support": "support",
 }
 

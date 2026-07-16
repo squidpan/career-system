@@ -4,10 +4,10 @@ type: resume-asset
 status: approved
 
 asset_type: frbny
-content_profile: ba
+content_profile: product
 content_status: role-specific
 content_origin: approved-human
-source_role: lseg-senior-ba
+source_role: broadridge-product-analyst
 version: v1
 
 categories:
@@ -17,12 +17,12 @@ categories:
 tags:
   - resume
   - frbny
-  - ba
+  - product
   - role-specific
   - approved-human
   - streaming-market-data
 
-description: Business Analyst FRBNY experience section using the validated LSEG Business Analyst baseline.
+description: Approved FRBNY experience section for Product Analyst roles.
 
 created: 2026-07-15
 updated: 2026-07-15
@@ -36,9 +36,9 @@ Apr 2017 – Feb 2026
 
 ### Relevant Experience
 
-- Supported modernization of a real-time streaming market data pricing platform, transitioning distribution from Oracle consumer views toward REST API payloads and service-based access.
+- Supported business and technology modernization work moving pricing distribution from Oracle consumer views toward REST API payloads and service-based access.
 - Assisted cloud migration validation by comparing legacy Oracle-based data access patterns with emerging REST API delivery models.
 - Supported enterprise modernization initiative involving requirements analysis, workflow review, and platform transformation that reduced custom code, improved maintainability, and leveraged platform out-of-box functionality.
 - Partnered with stakeholders to analyze requirements and support modernization activities involving legacy workflow analysis, data-load redesign, testing, and stakeholder coordination.
-- Supported Oracle-based real-time streaming market data pricing distribution using master and consumer-specific views for downstream trading and financial applications.
+- Supported Oracle-based pricing distribution model using master and consumer-specific views for downstream applications.
 - Analyzed stakeholder requirements, data needs, and Oracle view outputs used by downstream systems.

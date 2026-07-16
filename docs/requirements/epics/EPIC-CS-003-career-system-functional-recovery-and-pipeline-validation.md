@@ -2,7 +2,7 @@
 id: EPIC-CS-003
 project: career-system
 type: epic
-status: draft
+status: completed
 
 categories:
   - "[[Epics]]"
@@ -18,24 +18,25 @@ tags:
 description: Restore the Career System JD-to-Application Package workflow and establish a verified operational baseline.
 
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-16
 ---
 
 # EPIC-CS-003 Career System Functional Recovery and Pipeline Validation
 
 ## TL;DR
 
-- Restore the complete Career System operational workflow.
-- Reconnect all pipeline stages from imported Job Description through final Application Package.
-- Re-establish LSEG and Broadridge as regression baselines.
-- Produce a repeatable, validated operational workflow.
-- Capture engineering knowledge discovered during recovery for future EFK adoption.
+- Functional recovery from normalized JD through Application Package is complete.
+- Deterministic Resume Asset selection now supplies the validated final-mile generators.
+- LSEG and Broadridge reproduce all six core artifacts byte-for-byte.
+- Operational procedures and failure safeguards are documented.
+- Traceability, Implementation Order, and sprint closeout are complete.
+- Engineering knowledge discovered during recovery remains queued for separate EFK review.
 
 ---
 
 # Purpose
 
-Restore Career System to a fully operational state capable of producing complete, validated application packages from imported job descriptions while preserving the quality achieved by previous successful application workflows.
+Restore Career System to a fully operational state capable of producing complete, validated Application Packages from normalized Job Descriptions while preserving the quality achieved by previous successful application workflows.
 
 This Epic defines the overall recovery effort, its scope, planning, validation strategy, and relationship to future Engineering Knowledge Framework (EFK) improvements.
 
@@ -65,13 +66,39 @@ This recovery effort reconnects the existing pipeline, restores validated operat
 
 # Current State
 
-The repository currently contains mature implementations of many individual pipeline stages, including JD normalization, candidate analysis, resume generation, and application packaging.
+Functional recovery is complete for the validated operational boundary:
 
-However, the complete operational workflow is not yet functioning as a single validated pipeline.
+    normalized JD
+        to deterministic Resume Asset selection
+        to Full Resume generation
+        to ATS Resume generation
+        to HTML and ATS text export
+        to complete Application Package
 
-Historical application packages remain available and provide the regression baseline for recovery.
+The existing final-mile generators were preserved and reconnected through
+approved role-family Resume Assets.
 
-Repository reconnaissance completed on 2026-07-14 confirmed that recovery can proceed using the existing engineering artifacts without requiring additional discovery work.
+Validated content profiles currently include:
+
+- BA
+- Product
+- Support
+- Default fallback
+
+LSEG and Broadridge were regenerated in isolated output roots. For each
+role, all six core artifacts matched the existing validated package
+byte-for-byte.
+
+Application Package generation now validates required inputs before
+creating the package directory. Missing required inputs produce a
+nonzero failure and no partial package.
+
+Raw JD capture, JD normalization, candidate analysis, and other upstream
+decision-support stages remain separate capabilities outside the recovered
+final orchestration command.
+
+Traceability synchronization, Implementation Order updates, stash
+disposition, and sprint closeout are complete.
 
 ---
 
@@ -115,42 +142,78 @@ The recovery effort follows these principles:
 
 ## Included
 
+- deterministic Resume Asset selection from normalized JD metadata
+- Professional Summary bridge-artifact publication
+- FRBNY experience bridge-artifact publication
+- Full Resume Markdown generation
+- Full Resume HTML generation
+- ATS Resume Markdown generation
+- ATS Resume HTML generation
+- ATS text generation
+- complete Application Package generation
+- required-input preflight validation
+- partial-package prevention
+- isolated-output support
+- LSEG and Broadridge regression validation
+- operational recovery documentation
+- recovery runbook updates
+- recovery traceability and closeout updates
+
+## Existing Upstream Capabilities
+
+The repository retains separate upstream capabilities including:
+
+- raw JD capture
 - JD normalization
-- Candidate intelligence
-- Resume recommendation
-- Resume tailoring
-- Resume enhancement
-- Application summary generation
-- ATS resume generation
-- Full resume generation
-- Application package generation
-- Operational validation
-- Regression testing
-- Recovery planning artifacts
-- Recovery runbooks
-- Traceability updates
+- role generation
+- candidate intelligence
+- candidate matching
+- candidate strategy
+- candidate explainability
+- resume tailoring guidance
+- resume bullet ranking
+
+These capabilities were not all incorporated into the recovered final
+orchestration command.
 
 ## Excluded
 
-- Major architectural redesign
-- Repository-wide identifier renumbering
-- Repository-wide metadata normalization
-- Broad EFK refactoring
-- New product features unrelated to operational recovery
+- orchestration from raw clipped JD
+- automatic JD normalization inside the recovered final command
+- broad candidate-decision pipeline redesign
+- dynamic AI generation of Resume Assets
+- major architectural redesign
+- repository-wide identifier renumbering
+- repository-wide metadata normalization
+- broad EFK refactoring
+- new product features unrelated to operational recovery
 
 ---
 
 # Success Criteria
 
-Recovery is complete when:
+Functional recovery criteria:
 
-- New job descriptions successfully produce complete application packages.
-- LSEG application package can be regenerated.
-- Broadridge application package can be regenerated.
-- Generated outputs match validated historical quality.
-- Pipeline execution becomes repeatable.
-- Recovery documentation is complete.
-- Validation procedures are documented.
+- normalized JDs produce complete Application Packages — PASS
+- deterministic role-family Resume Asset selection operates — PASS
+- required Full Resume and ATS Resume artifacts are generated — PASS
+- required Application Package files are present and non-empty — PASS
+- missing required inputs cause detectable failure — PASS
+- missing-input failure creates no partial package — PASS
+- LSEG Application Package is regenerated — PASS
+- Broadridge Application Package is regenerated — PASS
+- LSEG six-artifact regression comparison passes — PASS
+- Broadridge six-artifact regression comparison passes — PASS
+- isolated execution preserves repository state — PASS
+- operational procedures are documented — PASS
+
+Epic closeout criteria:
+
+- Implementation Order is synchronized — PASS
+- recovery traceability is finalized — PASS
+- US-CS-060 is completed — PASS
+- sprint closeout artifact is completed — PASS
+- remaining stashes are explicitly carried forward or resolved — PASS
 
 ---
 
@@ -177,75 +240,130 @@ These risks will be managed without expanding project scope.
 
 # Story Breakdown
 
-The following recovery stories are planned:
+Recovery story status:
 
-- [[US-CS-056-restore-end-to-end-workflow-orchestration]]
-- [[US-CS-057-restore-final-application-package-generation]]
-- [[US-CS-058-regression-validation-against-historical-application-packages]]
-- [[US-CS-059-operational-verification-and-recovery-runbook]]
-- [[US-CS-060-recovery-traceability-and-implementation-updates]]
+- [[US-CS-056-restore-end-to-end-workflow-orchestration]] — completed
+- [[US-CS-057-restore-final-application-package-generation]] — completed
+- [[US-CS-058-regression-validation-against-historical-application-packages]] — completed
+- [[US-CS-059-operational-verification-and-recovery-runbook]] — completed
+- [[US-CS-060-recovery-traceability-and-implementation-updates]] — completed
 
+Functional implementation and operational verification are complete.
 
-Additional stories may be introduced as recovery progresses.
+The final story synchronized traceability, implementation planning,
+Epic status, sprint closeout, and carried-forward recovery artifacts.
 
 ---
 
 # Recovery Phases
 
-## Phase 1
+## Phase 1 — Recovery Planning
 
-Recovery planning
+Status: completed
 
-## Phase 2
+Recovery scope, regression anchors, and supporting stories were defined.
 
-Pipeline restoration
+## Phase 2 — Pipeline Restoration
 
-## Phase 3
+Status: completed
 
-Regression validation
+Deterministic Resume Asset selection, final-mile orchestration, and
+Application Package generation were restored.
 
-## Phase 4
+## Phase 3 — Regression Validation
 
-Operational hardening
+Status: completed
 
-## Phase 5
+LSEG and Broadridge each matched six validated core artifacts
+byte-for-byte.
 
-Recovery completion
+## Phase 4 — Operational Hardening
+
+Status: completed
+
+Required-input preflight validation, partial-package prevention, isolated
+output support, and the operational runbook were completed.
+
+## Phase 5 — Recovery Closeout
+
+Status: completed
+
+Completed work:
+
+- completed US-CS-060
+- synchronized Implementation Order
+- finalized RTM-CS-002 recovery traceability
+- created the sprint closeout artifact
+- removed the superseded recovery Epic draft stash
+- explicitly carried forward the Resume Asset standard draft for EFK review
+- updated this Epic to completed
 
 ---
 
 # Validation Strategy
 
-Recovery validation will use:
+Recovery validation used:
 
-- LSEG Senior Business Analyst package
-- Broadridge Product Analyst package
+- LSEG Senior Business Analyst
+- Broadridge Product Analyst
+- Citi Application and Production Support
 
-Validation includes:
+Validation included:
 
-- artifact completeness
-- document structure
-- generated HTML
-- ATS text
-- metadata
-- package manifests
-- submission notes
-- regression comparisons
+- deterministic role-family routing
+- bridge-artifact generation
+- Full Resume Markdown and HTML generation
+- ATS Resume Markdown, HTML, and text generation
+- required Application Package completeness
+- manifest and submission-notes presence
+- isolated-output execution
+- missing-required-input failure behavior
+- partial-package prevention
+- byte-for-byte regression comparison
+
+Results:
+
+- LSEG: 6 of 6 core artifacts matched — PASS
+- Broadridge: 6 of 6 core artifacts matched — PASS
+- missing ATS text negative test — PASS
+- no partial package after failure — PASS
+
+Detailed evidence:
+
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
+- [[RECOVERY-ATS-APPLICATION-PACKAGE-WORKFLOW-2026-07-01]]
 
 ---
 
 # Deliverables
 
-Successful completion of this Epic will produce:
+Completed deliverables:
 
-- A validated end-to-end JD-to-Application Package workflow
-- A complete Recovery Planning Package
-- Recovery Epic and supporting stories
-- Updated implementation roadmap
-- Updated traceability
-- Recovery validation procedures
-- Operational runbooks
-- Verified regression results
+- validated normalized-JD-to-Application-Package workflow
+- approved BA, Product, Support, and Default Resume Assets
+- deterministic Resume Asset selector
+- final-mile orchestration wrapper
+- JD-to-Application Package orchestration wrapper
+- isolated Application Package generation
+- required-input preflight validation
+- partial-package prevention
+- LSEG and Broadridge regression evidence
+- recovery validation report
+- recovery architecture document
+- recovery journal
+- operational recovery runbook
+- completed US-CS-056 through US-CS-059
+
+Completed closeout deliverables:
+
+- completed US-CS-060
+- updated Implementation Order
+- finalized RTM-CS-002 recovery traceability
+- completed sprint closeout artifact
+- explicit stash disposition
+- completed Epic status
 
 ---
 
@@ -284,6 +402,15 @@ These improvements are intentionally outside the scope of this Epic.
 
 - [[CTX-CS-001-employment-acceleration-system]]
 - [[RECOVERY-REQUIREMENTS-RECONNAISSANCE-2026-07-14]]
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
+- [[RECOVERY-ATS-APPLICATION-PACKAGE-WORKFLOW-2026-07-01]]
+- [[US-CS-056-restore-end-to-end-workflow-orchestration]]
+- [[US-CS-057-restore-final-application-package-generation]]
+- [[US-CS-058-regression-validation-against-historical-application-packages]]
+- [[US-CS-059-operational-verification-and-recovery-runbook]]
+- [[US-CS-060-recovery-traceability-and-implementation-updates]]
 - [[US-CS-RECOVERY-001-reconnect-new-pipeline-to-application-package]]
 - [[ARCH-CS-001-engineering-operating-system]]
 
@@ -291,9 +418,13 @@ These improvements are intentionally outside the scope of this Epic.
 
 # References
 
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
+- [[RECOVERY-ATS-APPLICATION-PACKAGE-WORKFLOW-2026-07-01]]
+- [[IMPLEMENTATION-ORDER-v0.4]]
 - LSEG regression package
 - Broadridge regression package
-- Recovery validation findings
 - Recovery operational branch
 
 ---

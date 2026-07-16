@@ -2,7 +2,7 @@
 id: US-CS-058
 project: career-system
 type: user-story
-status: draft
+status: completed
 
 categories:
   - "[[Stories]]"
@@ -17,7 +17,7 @@ tags:
 description: Validate recovered Career System output against historical production-quality application packages.
 
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # US-CS-058 Regression Validation Against Historical Application Packages
@@ -116,9 +116,29 @@ Regression validation will:
 
 # Implementation Notes
 
-For unchanged regression inputs and validated final-mile scripts, the core generated artifacts should match the canonical LSEG and Broadridge baselines byte-for-byte.
+Regression validation was implemented using isolated generation roots under
+`/tmp` so the repository baselines remained unchanged during testing.
 
-The core comparison set is:
+The recovered workflow regenerated complete Application Packages from the
+normalized JDs for:
+
+- LSEG Senior Business Analyst
+- Broadridge Product Analyst
+
+Initial validation identified intentional content differences caused by
+default-derived Resume Assets.
+
+Those differences were reviewed and resolved by promoting the validated
+historical content into role-family assets:
+
+- LSEG content became the validated BA profile
+- Broadridge content became the validated Product profile
+- Eclaro-derived content remained the validated Support profile
+
+The selector was updated to route Product roles to Product assets rather
+than the Default profile.
+
+The core comparison set was:
 
 - `application-summary.md`
 - `ats-resume.md`
@@ -127,9 +147,14 @@ The core comparison set is:
 - `full-resume.md`
 - `full-resume.html`
 
-When recovery intentionally changes an upstream bridge artifact, any resulting difference must be reviewed, documented, and classified as an approved improvement or a regression.
+Core artifacts were compared using byte-for-byte file comparison.
 
-Package metadata and operational files that are expected to change between executions should be validated by structure, required content, and completeness rather than checksum alone.
+Package metadata and operational files were validated by structure,
+required content, non-empty status, and manifest completeness.
+
+Primary implementation commit:
+
+- `8c5ef6b` — Add validated BA and Product Resume Asset profiles
 
 ---
 
@@ -137,32 +162,65 @@ Package metadata and operational files that are expected to change between execu
 
 ## Manual Validation
 
-Review:
+Generated packages were reviewed for:
 
 - package structure
-- resume quality
-- application summary
-- manifest
-- submission notes
+- Professional Summary content
+- FRBNY experience content
+- ATS and Full Resume generation
+- manifest presence
+- submission-notes presence
+- role-family routing
+
+Routing results:
+
+- LSEG: `role_family: ba`, `content_profile: ba`, no fallback
+- Broadridge: `role_family: product`, `content_profile: product`, no fallback
 
 ## Programmatic Validation
 
-Verify:
+Both generated packages contained all nine required package files:
 
-- required files
-- directory structure
-- manifest entries
-- artifact counts
-- required metadata
+- `application-summary.md`
+- `full-resume.md`
+- `full-resume.html`
+- `ats-resume.md`
+- `ats-resume.html`
+- `ats-resume.txt`
+- `submission-notes.md`
+- `README.md`
+- `package-manifest.json`
+
+Validation also confirmed:
+
+- expected directory structure
+- non-empty required artifacts
+- successful orchestration completion
+- clean repository state after isolated generation
+- concise failure reporting for a missing required source
+- no partial package directory after preflight failure
 
 ## Regression Validation
 
-Compare regenerated packages against:
+The six core artifacts for each regenerated package were compared
+byte-for-byte against the existing validated baselines.
 
-- LSEG Senior Business Analyst
-- Broadridge Product Analyst
+Results:
 
-Document all intentional differences.
+- LSEG: 6 of 6 matched — PASS
+- Broadridge: 6 of 6 matched — PASS
+- remaining LSEG differences: none
+- remaining Broadridge differences: none
+- missing ATS text negative test: PASS
+- partial-package prevention: PASS
+
+Recovery regression criteria are satisfied.
+
+Detailed evidence is recorded in:
+
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
 
 ---
 
@@ -195,22 +253,36 @@ Potential future EFK improvements:
 # Related Artifacts
 
 - [[EPIC-CS-003-career-system-functional-recovery-and-pipeline-validation]]
-- [[US-CS-056]]
-- [[US-CS-057]]
-- [[US-CS-059]]
+- [[US-CS-056-restore-end-to-end-workflow-orchestration]]
+- [[US-CS-057-restore-final-application-package-generation]]
+- [[US-CS-059-operational-verification-and-recovery-runbook]]
 
 ---
 
 # References
 
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
 - LSEG application package
 - Broadridge application package
-- Recovery validation documentation
 
 ---
 
 # Notes
 
-Regression validation defines the completion criteria for operational recovery.
+Regression validation defined the objective completion criterion for the
+functional recovery.
 
-Future enhancements should extend this regression suite rather than replacing it.
+Completion status:
+
+- LSEG package regenerated successfully
+- Broadridge package regenerated successfully
+- package completeness validated
+- deterministic role-family routing validated
+- 12 of 12 core artifact comparisons passed
+- failure-path behavior validated
+- no unexplained differences remain
+
+Future enhancements should extend this regression suite rather than
+replacing the LSEG and Broadridge baselines.

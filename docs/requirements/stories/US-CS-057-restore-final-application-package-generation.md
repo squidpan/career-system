@@ -2,7 +2,7 @@
 id: US-CS-057
 project: career-system
 type: user-story
-status: draft
+status: completed
 
 categories:
   - "[[Stories]]"
@@ -17,7 +17,7 @@ tags:
 description: Restore generation of complete validated Career System Application Packages.
 
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-16
 ---
 
 # US-CS-057 Restore Final Application Package Generation
@@ -122,9 +122,43 @@ Successful restoration will:
 
 # Implementation Notes
 
-Focus on restoring the bridge into the validated final-mile workflow and enforcing required package completeness before introducing enhancements.
+The final-mile bridge was restored using approved Resume Assets selected
+deterministically from normalized JD role-family metadata.
 
-Historical application packages remain the regression baseline.
+The selector publishes the legacy-compatible bridge artifacts consumed by
+the existing final-mile generators:
+
+- `data/application-summaries/<job-slug>-summary-v1.md`
+- `data/resume-sections/<job-slug>-frbny-section.md`
+
+The first artifact remains named `application-summary.md` inside the
+Application Package for compatibility, although its resume-content meaning
+is Professional Summary.
+
+Application Package generation was updated to support isolated input and
+output roots and to validate all required source artifacts before package
+creation.
+
+Implemented components:
+
+- `scripts/select_resume_assets.py`
+- `bin/run-resume-asset-selection.sh`
+- `bin/run-resume-final-mile-from-jd.sh`
+- `scripts/build_application_package.py`
+- `bin/run-application-package.sh`
+- `bin/run-jd-to-application-package.sh`
+
+Required package source artifacts are validated before the package
+directory is created.
+
+Primary implementation commits:
+
+- `e3d2194` — Add deterministic Resume Asset selector
+- `467c514` — Add Resume Asset selection wrapper
+- `4b1e45c` — Add final-mile resume orchestration from normalized JD
+- `9799cd0` — Support isolated Application Package generation
+- `97c4bd9` — Require complete Application Package inputs
+- `8530621` — Add JD-to-Application Package orchestration
 
 ---
 
@@ -132,25 +166,51 @@ Historical application packages remain the regression baseline.
 
 ## Manual Validation
 
-Generate packages for:
+Complete Application Packages were generated in isolated `/tmp` roots for:
 
 - LSEG Senior Business Analyst
 - Broadridge Product Analyst
+- Citi Application and Production Support
 
-Confirm package completeness.
+Each generated package contained the required core files:
+
+- `application-summary.md`
+- `full-resume.md`
+- `full-resume.html`
+- `ats-resume.md`
+- `ats-resume.html`
+- `ats-resume.txt`
+- `submission-notes.md`
+- `README.md`
+- `package-manifest.json`
 
 ## Programmatic Validation
 
-Verify:
+Validation confirmed:
 
-- expected files
-- expected directory layout
-- manifest integrity
-- artifact counts
+- required files were present and non-empty
+- expected package directory structure was produced
+- package manifest recorded copied and optional artifacts
+- isolated input and output roots worked correctly
+- missing required sources caused a nonzero exit status
+- no partial package directory was created after preflight failure
 
 ## Regression Validation
 
-Compare generated packages with previously validated historical packages.
+The six core resume artifacts generated for LSEG and Broadridge were
+compared byte-for-byte with their existing validated Application Packages.
+
+Results:
+
+- LSEG: 6 of 6 matched — PASS
+- Broadridge: 6 of 6 matched — PASS
+- missing ATS text preflight test — PASS
+- partial-package prevention — PASS
+
+Detailed evidence is recorded in:
+
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
 
 ---
 
@@ -190,6 +250,9 @@ Candidate EFK improvements:
 
 # References
 
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
 - LSEG regression package
 - Broadridge regression package
 - Existing Application Package documentation
@@ -198,6 +261,19 @@ Candidate EFK improvements:
 
 # Notes
 
-This story restores the operational deliverable produced by Career System.
+This story restored the complete operational deliverable produced by
+Career System.
 
-Completion of this story establishes the foundation for formal regression validation in the following recovery story.
+Completion status:
+
+- legacy-compatible bridge restored
+- Full Resume generation complete
+- ATS Resume generation complete
+- HTML and ATS text export complete
+- required package validation complete
+- incomplete-package protection complete
+- isolated package generation complete
+- regression evidence documented
+
+Optional recommendation and interview artifacts remain optional and do
+not prevent generation of the required core Application Package.

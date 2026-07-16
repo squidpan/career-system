@@ -2,7 +2,7 @@
 id: US-CS-060
 project: career-system
 type: user-story
-status: draft
+status: completed
 
 categories:
   - "[[Stories]]"
@@ -17,7 +17,7 @@ tags:
 description: Update implementation planning, traceability, and recovery documentation following operational recovery.
 
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # US-CS-060 Recovery Traceability and Implementation Updates
@@ -54,9 +54,21 @@ This ensures future maintenance, onboarding, and enhancement work begins from an
 
 # Current State
 
-Recovery planning has produced a reconnaissance note, a recovery Epic, and supporting recovery stories.
+Functional recovery implementation and operational validation are complete.
 
-Implementation will introduce changes that must be reflected throughout the engineering documentation.
+The repository now includes:
+
+- completed recovery stories US-CS-056 through US-CS-059
+- an updated operational recovery runbook
+- synchronized EPIC-CS-003 recovery scope and status
+- an updated Implementation Order
+- a dedicated Functional Recovery traceability matrix
+- recovery architecture, journal, and validation evidence
+
+Recovery closeout is complete.
+
+The sprint closeout artifact records validation results, traceability,
+remaining work outside the sprint, and explicit disposition of every stash.
 
 ---
 
@@ -101,20 +113,34 @@ This story will:
 
 # Acceptance Criteria
 
-- Recovery stories reflect implementation status.
-- Implementation Order is updated.
-- Traceability artifacts reference completed recovery work.
-- Cross-document links are valid.
-- Recovery planning accurately represents implemented functionality.
-- Future implementation work begins from an up-to-date engineering baseline.
+- [x] Recovery stories reflect implementation status.
+- [x] Implementation Order is updated.
+- [x] Traceability artifacts reference completed recovery work.
+- [x] Recovery Epic reflects the recovered operational boundary.
+- [x] Recovery planning accurately represents implemented functionality.
+- [x] Engineering evidence is linked from the traceability matrix.
+- [x] Cross-document references have been manually reviewed.
+- [x] Sprint closeout artifact is completed.
+- [x] All git stashes are explicitly resolved or carried forward.
+- [x] US-CS-060, RTM-CS-002, and EPIC-CS-003 are marked completed.
 
 ---
 
 # Implementation Notes
 
-Recovery planning artifacts should remain synchronized with implementation progress.
+Completed synchronization work:
 
-Planning documentation should evolve with the repository rather than becoming historical snapshots.
+- US-CS-056 through US-CS-059 updated to completed
+- EPIC-CS-003 updated with recovered scope, validation results, phases, and deliverables
+- IMPLEMENTATION-ORDER-v0.4 updated with a Functional Recovery checkpoint
+- RTM-CS-002 created as a lightweight engineering-evidence traceability matrix
+- operational recovery runbook updated
+- recovery architecture, journal, and validation report linked as objective evidence
+
+The traceability matrix intentionally remains separate from the existing
+Career System / Motorweb traceability artifacts.
+
+Motorweb prototype work is outside the scope of this recovery.
 
 ---
 
@@ -122,15 +148,38 @@ Planning documentation should evolve with the repository rather than becoming hi
 
 ## Manual Validation
 
-Review implementation planning documents and verify consistency.
+Confirmed:
+
+- US-CS-056 through US-CS-059 show completed implementation and validation
+- EPIC-CS-003 matches the normalized-JD-to-Application-Package boundary
+- IMPLEMENTATION-ORDER-v0.4 contains the recovery checkpoint
+- RTM-CS-002 links stories to implementation, validation, and operational evidence
+- Motorweb traceability remains separate
 
 ## Programmatic Validation
 
-Verify document references and required artifacts where automation is available.
+Completed:
+
+- `git diff --check` passes
+- required recovery files exist
+- recovery identifiers and links are present in the synchronized documents
+- the new RTM is tracked as a separate Career System recovery artifact
 
 ## Traceability Validation
 
-Confirm recovery stories, Epic, and supporting artifacts remain linked and current.
+The evidence chain is now:
+
+    EPIC-CS-003
+        to US-CS-056 through US-CS-060
+        to implementation
+        to regression validation
+        to operational runbook
+        to RTM-CS-002
+
+Final validation completed after sprint closeout and stash disposition.
+
+Result: PASS
+
 
 ---
 
@@ -164,19 +213,37 @@ Potential future EFK improvements:
 # Related Artifacts
 
 - [[EPIC-CS-003-career-system-functional-recovery-and-pipeline-validation]]
+- [[US-CS-056-restore-end-to-end-workflow-orchestration]]
+- [[US-CS-057-restore-final-application-package-generation]]
+- [[US-CS-058-regression-validation-against-historical-application-packages]]
+- [[US-CS-059-operational-verification-and-recovery-runbook]]
+- [[RTM-CS-002-functional-recovery]]
+- [[IMPLEMENTATION-ORDER-v0.4]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ATS-APPLICATION-PACKAGE-WORKFLOW-2026-07-01]]
 - [[RECOVERY-REQUIREMENTS-RECONNAISSANCE-2026-07-14]]
-- [[US-CS-059]]
 
 ---
 
 # References
 
-- Implementation Order
-- Recovery planning package
-- Traceability documentation
+- [[IMPLEMENTATION-ORDER-v0.4]]
+- [[RTM-CS-002-functional-recovery]]
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
+- [[RECOVERY-ATS-APPLICATION-PACKAGE-WORKFLOW-2026-07-01]]
 
 ---
 
 # Notes
 
-Completion of this story closes the Recovery Planning Package and establishes the engineering baseline for recovery implementation.
+Recovery documentation synchronization and closeout are complete.
+
+The Resume Asset standard draft remains explicitly carried forward for EFK
+review. The superseded recovery Epic draft was inspected and removed.
+
+Completion establishes the verified engineering baseline for future Career
+System enhancement work.

@@ -2,7 +2,7 @@
 id: US-CS-059
 project: career-system
 type: user-story
-status: draft
+status: completed
 
 categories:
   - "[[Stories]]"
@@ -17,7 +17,7 @@ tags:
 description: Verify that Career System can be operated end-to-end using documented recovery procedures.
 
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # US-CS-059 Operational Verification and Recovery Runbook
@@ -109,9 +109,29 @@ Operational verification will:
 
 # Implementation Notes
 
-Operational verification should be performed using the same procedures that future users or maintainers will follow.
+The existing recovery workflow document was converted into the current
+operational runbook:
 
-The goal is to validate the documentation as well as the software.
+- [[RECOVERY-ATS-APPLICATION-PACKAGE-WORKFLOW-2026-07-01]]
+
+The runbook now documents:
+
+- repository safety checks
+- normalized-JD entry boundary
+- primary orchestration command
+- isolated `/tmp` validation
+- expected bridge and final-mile artifacts
+- required Application Package files
+- completion verification
+- LSEG and Broadridge regression comparison
+- missing-input failure behavior
+- partial-package prevention
+- production-regeneration safeguards
+- known operational limitations
+- operational exit criteria
+
+The implemented workflow remains intentionally bounded at normalized JD
+input. Raw capture and normalization remain documented upstream steps.
 
 ---
 
@@ -119,31 +139,62 @@ The goal is to validate the documentation as well as the software.
 
 ## Manual Validation
 
-Execute the complete recovery workflow using only the documented runbooks.
+The documented orchestration procedure was exercised using isolated
+output roots for:
+
+- LSEG Senior Business Analyst
+- Broadridge Product Analyst
+- Citi Application and Production Support
+
+The procedure generated complete Application Packages without modifying
+the repository baselines.
 
 ## Programmatic Validation
 
-Verify required artifacts, logs, and validation outputs are generated.
+Validation confirmed:
+
+- required bridge artifacts were generated
+- Full Resume and ATS Resume artifacts were generated
+- HTML and ATS text exports were generated
+- all nine required package files were present and non-empty
+- missing required input produced a nonzero exit status
+- missing input was identified clearly
+- no partial package directory was created
+- isolated validation left the repository unchanged
 
 ## Operational Validation
 
-Confirm that recovery can be repeated without undocumented intervention.
+The operational runbook now contains the commands, safeguards, expected
+outputs, failure behavior, and verification steps required to repeat the
+normalized-JD-to-Application-Package workflow.
+
+Operational result:
+
+- documented workflow execution: PASS
+- regression validation: PASS
+- failure-path validation: PASS
+- partial-package prevention: PASS
+- operational documentation: COMPLETE
 
 ---
 
 # Operational Exit Criteria
 
-Operational recovery is considered complete only when all of the following are true:
+Operational recovery exit criteria were evaluated as follows:
 
-- The complete JD-to-Application Package workflow executes successfully.
-- US-CS-058 regression validation has passed.
-- Required recovery runbooks accurately describe the implemented workflow.
-- No undocumented manual recovery steps remain.
-- Recovery stories have been completed or explicitly deferred.
-- Recovery implementation artifacts have been updated.
-- The recovery implementation can be repeated on a clean repository state.
+- normalized-JD-to-Application-Package workflow executes successfully — PASS
+- US-CS-058 regression validation passed — PASS
+- recovery runbook describes the implemented workflow — PASS
+- final-mile manual reconstruction is no longer required — PASS
+- required recovery implementation artifacts are documented — PASS
+- isolated execution preserves repository state — PASS
+- failure behavior is documented and validated — PASS
 
-Completion of this story represents operational acceptance rather than feature completion.
+Upstream raw JD capture and normalization remain separate documented
+workflow stages rather than undocumented recovery steps.
+
+Completion of this story represents operational acceptance rather than
+new feature completion.
 
 ---
 
@@ -183,12 +234,25 @@ Potential future EFK improvements:
 
 # References
 
-- Recovery runbooks
-- Recovery validation documentation
+- [[RECOVERY-ATS-APPLICATION-PACKAGE-WORKFLOW-2026-07-01]]
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
 - Operational branch history
 
 ---
 
 # Notes
 
-Completion of this story marks the successful operational verification of the recovery effort and prepares the project for implementation closeout.
+Completion status:
+
+- functional workflow verified
+- operational runbook completed
+- isolated execution verified
+- package completeness verified
+- regression validation verified
+- failure behavior verified
+- production safeguards documented
+
+This story completes operational verification and prepares the recovery
+effort for traceability and sprint closeout.

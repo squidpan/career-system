@@ -2,14 +2,68 @@
 id: IMPLEMENTATION-ORDER-v0.4
 type: implementation-order
 project: career-system
-status: draft
+status: in-progress
 priority: high
 tags: [requirements, implementation-order]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-07-16
 ---
 
 # Mini-v0.4 Implementation Order
+
+## Recovery Checkpoint — Functional Recovery Completed
+
+Epic:
+
+- [[EPIC-CS-003-career-system-functional-recovery-and-pipeline-validation]] — completed
+
+Completed recovery stories:
+
+- [[US-CS-056-restore-end-to-end-workflow-orchestration]]
+- [[US-CS-057-restore-final-application-package-generation]]
+- [[US-CS-058-regression-validation-against-historical-application-packages]]
+- [[US-CS-059-operational-verification-and-recovery-runbook]]
+- [[US-CS-060-recovery-traceability-and-implementation-updates]]
+
+Recovered operational boundary:
+
+    normalized JD
+        to deterministic Resume Asset selection
+        to Full Resume and ATS Resume generation
+        to HTML and ATS text export
+        to complete Application Package
+
+Validation status:
+
+- LSEG six-artifact regression — PASS
+- Broadridge six-artifact regression — PASS
+- required-input failure validation — PASS
+- partial-package prevention — PASS
+- operational runbook — complete
+
+Recovery evidence:
+
+- [[RECOVERY-VALIDATION-ATS-PIPELINE-2026-07]]
+- [[RECOVERY-ARCHITECTURE]]
+- [[RECOVERY-JOURNAL]]
+- [[RECOVERY-ATS-APPLICATION-PACKAGE-WORKFLOW-2026-07-01]]
+
+Recovery closeout status:
+
+- US-CS-060 — completed
+- RTM-CS-002 — completed
+- sprint closeout — completed
+- superseded recovery Epic draft stash — removed
+- Resume Asset standard draft — explicitly carried forward for EFK review
+- EPIC-CS-003 — completed
+
+Recovery closeout evidence:
+
+- [[RTM-CS-002-functional-recovery]]
+- [[SPRINT-2026-07-functional-recovery-closeout]]
+
+Resume work from the existing active quality and operational priorities
+below.
 
 ## P0 - Fix Application Package Quality Defects
 
